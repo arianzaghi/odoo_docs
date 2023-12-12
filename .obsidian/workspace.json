@@ -8,75 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71badb4f6cb3a72b",
+            "id": "7caa1ea159caf339",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Completar campo related.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0437597270a2374e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "stock.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc8b2576bdce13a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "stock.move.lines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85ebf9f717fca9ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "xpath.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ef429d2248d2af6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Odoo MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ad119efae438bde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campos relacionales.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -145,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Completar campo related.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Completar campo related.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Completar campo related.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -207,10 +139,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "71badb4f6cb3a72b",
+  "active": "7caa1ea159caf339",
   "lastOpenFiles": [
+    "stock.picking.md",
+    "One2many.md",
     "Campos relacionales.md",
+    "Many2one.md",
+    "modificar vista A que esta siendo modificada por vista B.md",
+    "domain.md",
+    "Templates/Basic Template.md",
+    "xml generic record.md",
+    "Campos.md",
+    "Campos basicos.md",
+    "Tree view groupby.md",
     "Completar campo related.md",
+    "|Back.md",
     "Pasted image 20231212161609.png",
     "Pasted image 20231212161526.png",
     "Pasted image 20231212161220.png",
@@ -218,18 +161,12 @@
     "stock.md",
     "stock.move.lines.md",
     "xpath.md",
-    "Tree view groupby.md",
     "<attributes>.md",
     "Odoo MOC.md",
-    "Campos.md",
     "Campos avanzados.md",
-    "Campos basicos.md",
-    "One2many.md",
     "Inverse field.md",
     "related.md",
-    "Templates/Basic Template.md",
     "Odoo Models.md",
-    "stock.picking.md",
     "Methods.md",
     "Odoo server.conf.md",
     "README.md"

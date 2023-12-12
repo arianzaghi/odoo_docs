@@ -4,7 +4,7 @@
 		title = await tp.system.prompt("Title");
 		await tp.file.rename(title);
 	}
-%>> [[|Back]]
+%>> [[Back]]
 
 Tags: 
 Status: 

@@ -1,7 +1,7 @@
 >[[Campos relacionales|Back]]
 
 Tags: 
-Related: 
+Related: [[Many2one]]
 
 ___
 

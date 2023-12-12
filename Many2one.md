@@ -59,7 +59,7 @@ En este ejemplo, el modelo `ChildModel` tiene un campo `Many2one` (`parent_id`) 
 - **comodel_name:**
 	  Nombre del modelo objetivo. Obligatorio excepto para campos relacionados o extendidos.
 
-- **domain:**
+- **[[domain]]:**
 	  Un dominio opcional para establecer en los valores candidatos en el lado del cliente (dominio o cadena).
 
 - **context (dict):**
