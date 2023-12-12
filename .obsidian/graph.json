@@ -6,17 +6,25 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "file:MOC",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.6,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 2.80520833333333,
   "collapse-forces": false,
-  "centerStrength": 0.354166666666667,
+  "centerStrength": 0.260416666666667,
   "repelStrength": 13.2291666666667,
-  "linkStrength": 0.661458333333333,
+  "linkStrength": 0.572916666666667,
   "linkDistance": 214,
-  "scale": 0.4444444444444444,
+  "scale": 0.32837593465656134,
   "close": false
 }

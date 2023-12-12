@@ -1,6 +1,11 @@
-Tags:
-Links:
-## Odoo setup
+Tags: 
+Status: 
+Related: 
+
+___
+# Odoo MOC
+
+## Entorno
 [[Odoo server.conf]]
 [[Odoo clonar cliente]]
 
@@ -10,5 +15,6 @@ Links:
 [[Odoo Traducciones|Translations]]
 [[Odoo Models|Models]]
 [[Methods]]
-[[Campos relacionales]]
+[[Campos]]
+
 

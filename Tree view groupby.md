@@ -1,3 +1,13 @@
+> [[|Back]]
+
+Tags: 
+Status: 
+Related: 
+
+___
+
+# Tree view groupby
+
 ```python
 <group string="Group By" name="groupby">  
     <filter name="user_id_groupby" string ="User" context="{'group_by': 'user_id'}"/>  
@@ -5,4 +15,4 @@
 </group>
 ```
 
-Agrupamos los resultados de la busqueda en la vista List
+Agrupamos los resultados de la búsqueda en la vista List
