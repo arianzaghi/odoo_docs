@@ -11,8 +11,24 @@
             "id": "7caa1ea159caf339",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "@api.on_change.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bf072eb2cb8dabc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Completar campo related.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "@api.on_change.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "@api.on_change.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "@api.on_change.md"
+              }
             }
           }
         ]
@@ -141,6 +161,10 @@
   },
   "active": "7caa1ea159caf339",
   "lastOpenFiles": [
+    "@api.depends.md",
+    "Completar campo related.md",
+    "self.ensure_one().md",
+    "xml generic record structure.md",
     "stock.picking.md",
     "One2many.md",
     "Campos relacionales.md",
@@ -148,11 +172,9 @@
     "modificar vista A que esta siendo modificada por vista B.md",
     "domain.md",
     "Templates/Basic Template.md",
-    "xml generic record.md",
     "Campos.md",
     "Campos basicos.md",
     "Tree view groupby.md",
-    "Completar campo related.md",
     "|Back.md",
     "Pasted image 20231212161609.png",
     "Pasted image 20231212161526.png",
@@ -168,7 +190,6 @@
     "related.md",
     "Odoo Models.md",
     "Methods.md",
-    "Odoo server.conf.md",
-    "README.md"
+    "Odoo server.conf.md"
   ]
 }

@@ -11,8 +11,12 @@ ___
 1. Identificamos los modelos que queremos vincular (A y B).
 2. Navegamos dentro de Odoo a los campos del modelo A.
 3. **Técnico > Estructura de la base de datos > Modelos > A**
-	1. Buscamos [[Campos relacionales]] que vinculen con el modelo B.
+	1. Buscamos [[Many2one|un campo Many2one]] que vincule con el modelo B.
 	2. Utilzamos la conexión entre modelos a través de estos campos para obtener datos del modelo B en el modelo A.
+
+> [!NOTE]
+> Si utilizamos un campo One2may o Many2many, recibiriamos en lugar de 1 valor, una lista de valores procedentes del lado "many" de la relación.
+
 
 ## Ejemplo
 
@@ -43,7 +47,7 @@ product_packaging_id = fields.Many2one(
 ![[Pasted image 20231212161005.png]]
 ![[Pasted image 20231212161220.png]]
 
-> [!NOTE]
+> [!NOTE] Nota
 > El campo relacional que vincula el modelo A con el B, no aparecerá en el listado de campos del modelo B.
 
 
@@ -62,5 +66,5 @@ product_packaging_id = fields.Many2one(
 )
 ```
 
->[!WARNING]
+>[!WARNING] Cuidado!
 >Es importante añadir en el `depends` de nuestro módulo de odoo, todos los modelos por los que hayamos pasado para hacer la conexión entre A y B.
