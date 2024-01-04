@@ -8,7 +8,7 @@ ___
 
 # Campos básicos
 
-1. fields.Boolean
-2. fields.Char
-3. fields.Float
-4. fields.Integer
+1. Checkbox - [[fields.Boolean|Boolean]]
+2. Text - [[fields.Char|Char]]
+3. Decimal - [[fields.Float|Float]]
+4. Integer - [[fields.Integer|Integer]]

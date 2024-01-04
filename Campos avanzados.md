@@ -8,11 +8,11 @@ ___
 
 # Campos avanzados
 
-1. fields.Binary
-2. fields.Html
-3. fields.Image
-4. fields.Monetary
-5. fields.Selection
-6. fields.Text
-7. fields.Date
-8. fields.Datetime
+1. File, Image, Sign  - [[fields.Binary|Binary]]
+4. Monetary - [[fields.Monetary|Monetary]]
+5. Dropdown - [[fields.Selection|Selection]]
+6. Multiline Text - [[fields.Text|Text]]
+7. Date - [[fields.Date|Date]]
+8. Datetime - [[fields.Datetime|Datetime]]
+9. Dropdown, Rating - [[fields.Selection|Selection]]
+10. Html - [[fields.html|Html]]

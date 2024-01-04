@@ -8,7 +8,13 @@ ___
 
 # Campos
 
-## [[Campos basicos]]
-## [[Campos relacionales]]
-## [[Campos avanzados]]
+## Tipos de campos
+
+### [[Campos basicos]]
+### [[Campos relacionales]]
+### [[Campos avanzados]]
+
+## Propiedades de campos
+
+### [[Propiedades de campos|Propiedades]]
 

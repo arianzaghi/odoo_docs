@@ -10,7 +10,7 @@ ___
 
 1. Identificamos los modelos que queremos vincular (A y B).
 2. Navegamos dentro de Odoo a los campos del modelo A.
-3. **Técnico > Estructura de la base de datos > Modelos > A**
+3. **Ajustes > Técnico > Estructura de la base de datos > Modelos > A**
 	1. Buscamos [[Many2one|un campo Many2one]] que vincule con el modelo B.
 	2. Utilzamos la conexión entre modelos a través de estos campos para obtener datos del modelo B en el modelo A.
 
