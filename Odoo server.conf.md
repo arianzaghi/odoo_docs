@@ -17,11 +17,15 @@
 -u MODULE_NAME
 ```
 - Force update translations
+
 ```
 --i18n-overwrite
 ```
+
+^b8e9b7
+
  - Update xml view
 ```
 --dev xml
 ```
-^757c4c
+

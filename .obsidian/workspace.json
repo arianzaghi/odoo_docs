@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "0d46db50f56be9c4",
+            "id": "0db247e391a0583a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actions - Botón Acción.md",
+                "file": "fields.Selection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,12 +31,12 @@
             }
           },
           {
-            "id": "9352acdb7e12388c",
+            "id": "c4edeaa22bd1d400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "<attributes>.md",
+                "file": "Campo auxiliar como filtro para domain.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Actions - Botón Acción.md",
+                "file": "Campo auxiliar como filtro para domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Actions - Botón Acción.md",
+                "file": "Campo auxiliar como filtro para domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Actions - Botón Acción.md"
+                "file": "Campo auxiliar como filtro para domain.md"
               }
             }
           }
@@ -174,12 +174,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d46db50f56be9c4",
+  "active": "c4edeaa22bd1d400",
   "lastOpenFiles": [
+    "fields.Selection.md",
+    "Campo auxiliar como filtro para domain.md",
+    "mapped().md",
+    "Odoo clonar cliente.md",
+    "Odoo server.conf.md",
+    "search_count().md",
+    "Odoo Traducciones.md",
+    "Search filter tree view.md",
+    "xml generic record structure.md",
+    "Report Actions.md",
+    "Pasted image 20240108090828.png",
+    "Actions - Botón Acción.md",
     "<attributes>.md",
     "@api.depends.md",
-    "Odoo server.conf.md",
-    "Odoo Traducciones.md",
     "docker container stop postgres.md",
     "Completar campo related.md",
     "Odoo MOC.md",
@@ -187,21 +197,12 @@
     "Group by - Agrupar por.md",
     "Many2one.md",
     "Odoo Views.md",
-    "Odoo clonar cliente.md",
-    "Actions - Botón Acción.md",
     "Back.md",
     "Campos.md",
     "Campos basicos.md",
     "Campos avanzados.md",
     "Campos relacionales.md",
     "related.md",
-    "Traducir campo del core.md",
-    "modificar vista A que esta siendo modificada por vista B.md",
-    "@api.on_change.md",
-    "self.ensure_one().md",
-    "xml generic record structure.md",
-    "stock.picking.md",
-    "One2many.md",
     "Pasted image 20231212161609.png",
     "Pasted image 20231212161526.png",
     "Pasted image 20231212161220.png",
