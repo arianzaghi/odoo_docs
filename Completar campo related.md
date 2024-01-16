@@ -1,4 +1,4 @@
-> [[|Back]]
+> [[related|Back]]
 
 Tags: 
 Status: 

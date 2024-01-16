@@ -14,5 +14,5 @@ ___
 6. Multiline Text - [[fields.Text|Text]]
 7. Date - [[fields.Date|Date]]
 8. Datetime - [[fields.Datetime|Datetime]]
-9. Dropdown, Rating - [[fields.Selection|Selection]]
+9. Selection, Dropdown, Rating - [[fields.Selection|Selection]]
 10. Html - [[fields.html|Html]]

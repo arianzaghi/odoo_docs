@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "0db247e391a0583a",
+            "id": "a3da9e316200152d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fields.Selection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4edeaa22bd1d400",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campo auxiliar como filtro para domain.md",
+                "file": "Descargar bbdd con attatchments.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Campo auxiliar como filtro para domain.md",
+                "file": "Descargar bbdd con attatchments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Campo auxiliar como filtro para domain.md",
+                "file": "Descargar bbdd con attatchments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Campo auxiliar como filtro para domain.md"
+                "file": "Descargar bbdd con attatchments.md"
               }
             }
           }
@@ -174,35 +161,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c4edeaa22bd1d400",
+  "active": "a3da9e316200152d",
   "lastOpenFiles": [
-    "fields.Selection.md",
-    "Campo auxiliar como filtro para domain.md",
-    "mapped().md",
-    "Odoo clonar cliente.md",
-    "Odoo server.conf.md",
-    "search_count().md",
-    "Odoo Traducciones.md",
-    "Search filter tree view.md",
-    "xml generic record structure.md",
-    "Report Actions.md",
-    "Pasted image 20240108090828.png",
-    "Actions - Botón Acción.md",
-    "<attributes>.md",
-    "@api.depends.md",
-    "docker container stop postgres.md",
-    "Completar campo related.md",
-    "Odoo MOC.md",
-    "Hooks.md",
-    "Group by - Agrupar por.md",
-    "Many2one.md",
-    "Odoo Views.md",
-    "Back.md",
-    "Campos.md",
-    "Campos basicos.md",
-    "Campos avanzados.md",
-    "Campos relacionales.md",
+    "Pasted image 20240116115647.png",
+    "Pasted image 20240116115541.png",
+    "Selection de todos los idiomas.md",
+    "Descargar bbdd con attatchments.md",
+    "@nostrum - vista mal cargada.md",
     "related.md",
+    "Completar campo related.md",
+    "modificar vista A que esta siendo modificada por vista B.md",
+    "Group by - Agrupar por.md",
+    "Templates/Basic Template.md",
+    "Encontrar clase original.md",
+    "report_pnt.md",
+    "Selection de idiomas activos.md",
+    "Propiedades de campos.md",
+    "Back.md",
+    "Actions - Botón Acción.md",
+    "Campo auxiliar como filtro para domain.md",
+    "Search View.md",
+    "Campos.md",
+    "Odoo server.conf.md",
+    "Odoo Traducciones.md",
+    "fields.Selection.md",
+    "Campos avanzados.md",
+    "Untitled.md",
+    "Campos basicos.md",
+    "Search filter tree view.md",
+    "Odoo MOC.md",
+    "Pasted image 20240108090828.png",
     "Pasted image 20231212161609.png",
     "Pasted image 20231212161526.png",
     "Pasted image 20231212161220.png",

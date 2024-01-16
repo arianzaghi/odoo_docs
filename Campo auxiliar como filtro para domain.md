@@ -11,6 +11,7 @@ ___
 - Guardamos en el campo `pnt_driver_ids` todos los drivers disponibles en el modelo y que pertenecen a una agencia en concreto (campo compute)
 - Usamos `pnt_driver_id` para seleccionar uno de los drivers ya filtrados
 
+> [`stock_picking.py`](https://github.com/puntsistemes/aditivos_odoo/commit/9a2b9d9dda3fa93629090910fb2a17ebf1d2f873)
 
 ```python
 pnt_driver_id = fields.Many2one(
@@ -34,4 +35,3 @@ def _compute_drivers(self):
 			self.pnt_driver_id = False
 		picking.pnt_driver_ids = picking.pnt_agency.pnt_driver_ids
 ```
-
