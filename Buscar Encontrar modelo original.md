@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Encontrar clase original
+# Buscar Encontrar modelo original
 
 >`res_partner`
 

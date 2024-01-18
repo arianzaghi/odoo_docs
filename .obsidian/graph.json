@@ -21,10 +21,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 2.80520833333333,
   "collapse-forces": false,
-  "centerStrength": 0.244791666666667,
+  "centerStrength": 0.182291666666667,
   "repelStrength": 9.89583333333333,
   "linkStrength": 0.578125,
   "linkDistance": 74,
-  "scale": 0.27639649844067904,
+  "scale": 0.4145947476610184,
   "close": false
 }

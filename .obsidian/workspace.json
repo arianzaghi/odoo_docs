@@ -18,20 +18,33 @@
             }
           },
           {
-            "id": "a3da9e316200152d",
+            "id": "585b9c25e68a312b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Descargar bbdd con attatchments.md",
+                "file": "Buscar Encontrar modelo original.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bbde1ffc45426c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacer campo compute modificable.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Descargar bbdd con attatchments.md",
+                "file": "Hacer campo compute modificable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Descargar bbdd con attatchments.md",
+                "file": "Hacer campo compute modificable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Descargar bbdd con attatchments.md"
+                "file": "Hacer campo compute modificable.md"
               }
             }
           }
@@ -161,20 +174,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a3da9e316200152d",
+  "active": "2bbde1ffc45426c2",
   "lastOpenFiles": [
+    "Buscar Encontrar modelo original.md",
+    "Hacer campo compute modificable.md",
+    "Descargar bbdd con attatchments.md",
+    "report_pnt.md",
     "Pasted image 20240116115647.png",
     "Pasted image 20240116115541.png",
     "Selection de todos los idiomas.md",
-    "Descargar bbdd con attatchments.md",
     "@nostrum - vista mal cargada.md",
     "related.md",
     "Completar campo related.md",
     "modificar vista A que esta siendo modificada por vista B.md",
     "Group by - Agrupar por.md",
     "Templates/Basic Template.md",
-    "Encontrar clase original.md",
-    "report_pnt.md",
     "Selection de idiomas activos.md",
     "Propiedades de campos.md",
     "Back.md",
