@@ -1,30 +1,22 @@
 {
-  "collapse-filter": false,
-  "search": "",
-  "showTags": true,
+  "collapse-filter": true,
+  "search": "-path:Templates  ",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "file:MOC",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    }
-  ],
-  "collapse-display": true,
+  "colorGroups": [],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.6,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 2.80520833333333,
+  "textFadeMultiplier": -2.2,
+  "nodeSizeMultiplier": 1.325,
+  "lineSizeMultiplier": 1.784375,
   "collapse-forces": false,
-  "centerStrength": 0.182291666666667,
-  "repelStrength": 9.89583333333333,
-  "linkStrength": 0.578125,
-  "linkDistance": 74,
-  "scale": 0.4145947476610184,
+  "centerStrength": 0.234375,
+  "repelStrength": 16.25,
+  "linkStrength": 0.416666666666667,
+  "linkDistance": 201,
+  "scale": 0.1228428881958569,
   "close": false
 }

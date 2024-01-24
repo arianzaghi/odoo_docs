@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "585b9c25e68a312b",
+            "id": "18df983a09580f64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Buscar Encontrar modelo original.md",
+                "file": "Report Actions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,20 +31,84 @@
             }
           },
           {
-            "id": "2bbde1ffc45426c2",
+            "id": "8681c7c51dc4c84f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacer campo compute modificable.md",
-                "mode": "preview",
+                "file": "Workflow Punt MOC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "743b112820ab5e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker container stop postgres.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2be334beda70e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computed field.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c83d9a6a16f48839",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@api.depends.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28e0be1d145b99b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computed field.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "791abad5adf10127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "search_count().md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +154,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +175,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hacer campo compute modificable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +191,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hacer campo compute modificable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,17 +212,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hacer campo compute modificable.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,36 +232,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2bbde1ffc45426c2",
+  "active": "ad4344b658faa89a",
   "lastOpenFiles": [
-    "Buscar Encontrar modelo original.md",
+    "Report Actions.md",
+    "Workflow Punt MOC.md",
+    "docker container stop postgres.md",
+    "search_count().md",
+    "Computed field.md",
+    "@api.depends.md",
+    "xpath.md",
+    "Tree view groupby.md",
+    "<attributes>.md",
+    "xml generic record structure.md",
+    "<field>.md",
+    "Search filter tree view.md",
     "Hacer campo compute modificable.md",
+    "Actions - Botón Acción.md",
+    "Group by - Agrupar por.md",
     "Descargar bbdd con attatchments.md",
+    "Añadir boton con emoji.md",
+    "modificar vista A que esta siendo modificada por vista B.md",
+    "Templates/Basic Template.md",
     "report_pnt.md",
+    "Search View.md",
+    "ORM Methods.md",
+    "ORM Methods.md",
+    "Odoo MOC.md",
+    "account.move.md",
+    "Odoo Models.md",
     "Pasted image 20240116115647.png",
     "Pasted image 20240116115541.png",
-    "Selection de todos los idiomas.md",
-    "@nostrum - vista mal cargada.md",
-    "related.md",
-    "Completar campo related.md",
-    "modificar vista A que esta siendo modificada por vista B.md",
-    "Group by - Agrupar por.md",
-    "Templates/Basic Template.md",
-    "Selection de idiomas activos.md",
-    "Propiedades de campos.md",
-    "Back.md",
-    "Actions - Botón Acción.md",
-    "Campo auxiliar como filtro para domain.md",
-    "Search View.md",
-    "Campos.md",
-    "Odoo server.conf.md",
-    "Odoo Traducciones.md",
-    "fields.Selection.md",
-    "Campos avanzados.md",
-    "Untitled.md",
-    "Campos basicos.md",
-    "Search filter tree view.md",
-    "Odoo MOC.md",
     "Pasted image 20240108090828.png",
     "Pasted image 20231212161609.png",
     "Pasted image 20231212161526.png",

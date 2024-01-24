@@ -10,3 +10,4 @@ ___
 
 [[stock]]
 [[sale]]
+[[account.move]]

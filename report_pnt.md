@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Odoo Models|Back]]
 
 Tags: 
 Status: 

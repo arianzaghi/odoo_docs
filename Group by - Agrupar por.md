@@ -1,6 +1,6 @@
-> [[Back]]
+> [[Odoo Views|Back]]
 
-Tags: 
+Tags: #xml
 Status: 
 Related: 
 

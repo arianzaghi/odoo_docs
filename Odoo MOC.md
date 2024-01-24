@@ -8,13 +8,12 @@ ___
 ## Entorno
 [[Odoo server.conf]]
 [[Odoo clonar cliente]]
-
+[[Buscar elementos]]
 
 ## Desarrollo
 [[Odoo Views|Views]]
-[[Odoo Traducciones|Translations]]
 [[Odoo Models|Models]]
-[[Methods]]
+[[ORM Methods]]
 [[Campos]]
 
 

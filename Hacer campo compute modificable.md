@@ -1,4 +1,4 @@
-> 
+> [[Computed field|Back]]
 
 Tags: 
 Status: 
@@ -28,7 +28,7 @@ shipping_weight = fields.Float(
 	   compute='_compute_shipping_weight')
 ```
 
-## 1 Redefinimos la clase y sustituimos el campo `shipping_weight` con las siguientes modificaciones
+## 1. Redefinimos la clase y sustituimos el campo `shipping_weight` con las siguientes modificaciones
    
    - Añadimos `readonly=False` para hacer que el campo sea modificable
    - Añadimos `store=True` para poder guardar en base de datos un valor

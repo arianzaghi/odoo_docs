@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Campos relacionales]]
 
 Tags: 
 Status: 
@@ -8,3 +8,4 @@ ___
 
 # domain
 
+## [[Campo auxiliar como filtro para domain]]

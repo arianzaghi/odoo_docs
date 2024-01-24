@@ -1,14 +1,12 @@
-> [[Campos avanzados|Back]]
+> [[fields.Selection|Back]]
 
 Tags: 
 Status: 
-Related: 
+Related: [[fields.Selection]]
 
 ___
 
-# fields.Selection
-
-### Ejemplo 1
+# Selection usando una función
 
 > Campo selection usando una función
 
@@ -28,8 +26,3 @@ class ResPartner(models.Model):
         string='test',  
     )
 ```
-
-### Ejemplo 2
-
-[[Selection de todos los idiomas]]
-[[Selection de idiomas activos]]

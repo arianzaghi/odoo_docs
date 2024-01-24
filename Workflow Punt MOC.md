@@ -13,4 +13,5 @@ ___
 ## Metodologías
 
 - [[Subir HU a prod]]
+- [[docker container stop postgres]]
 
