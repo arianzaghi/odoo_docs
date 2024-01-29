@@ -1,3 +1,5 @@
+> [[ORM Methods|Back]]
+
 Links: 
 Tags: #metodo
 

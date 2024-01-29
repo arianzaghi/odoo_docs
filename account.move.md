@@ -1,6 +1,6 @@
 > [[Odoo Models|Back]]
 
-Tags: 
+Tags: #modelo 
 Status: 
 Related: [[account.move.line]]
 

@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "18df983a09580f64",
+            "id": "6860348a49f39461",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Report Actions.md",
+                "file": "010 - Odoo HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,12 +31,12 @@
             }
           },
           {
-            "id": "8681c7c51dc4c84f",
+            "id": "d83b467b35f6eb65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflow Punt MOC.md",
+                "file": "010 - Odoo HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "743b112820ab5e23",
+            "id": "c6281f3cdc57efbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker container stop postgres.md",
+                "file": "Campos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,12 +57,12 @@
             }
           },
           {
-            "id": "e2be334beda70e8d",
+            "id": "0137f072b4b700c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computed field.md",
+                "file": "Campos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,12 +70,12 @@
             }
           },
           {
-            "id": "c83d9a6a16f48839",
+            "id": "2f99c6ea2bc825e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@api.depends.md",
+                "file": "Propiedades de campos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,12 +83,12 @@
             }
           },
           {
-            "id": "28e0be1d145b99b2",
+            "id": "2d28bc4854f1c086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computed field.md",
+                "file": "Odoo Views Vistas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,19 +96,20 @@
             }
           },
           {
-            "id": "791abad5adf10127",
+            "id": "1ad815e408750eff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "search_count().md",
+                "file": "Herencia.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -175,6 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "010 - Odoo HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "010 - Odoo HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,14 +216,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "010 - Odoo HOME.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,34 +239,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad4344b658faa89a",
+  "active": "6860348a49f39461",
   "lastOpenFiles": [
-    "Report Actions.md",
-    "Workflow Punt MOC.md",
-    "docker container stop postgres.md",
-    "search_count().md",
+    "010 - Odoo HOME.md",
+    "Herencia.md",
+    "Odoo Views Vistas.md",
+    "Reportes o Informes.md",
+    "Informes XLM.md",
+    "Informes XLSX.md",
+    "Campos.md",
+    "Propiedades de campos.md",
     "Computed field.md",
-    "@api.depends.md",
-    "xpath.md",
-    "Tree view groupby.md",
-    "<attributes>.md",
-    "xml generic record structure.md",
-    "<field>.md",
-    "Search filter tree view.md",
-    "Hacer campo compute modificable.md",
-    "Actions - Botón Acción.md",
-    "Group by - Agrupar por.md",
-    "Descargar bbdd con attatchments.md",
-    "Añadir boton con emoji.md",
-    "modificar vista A que esta siendo modificada por vista B.md",
-    "Templates/Basic Template.md",
-    "report_pnt.md",
-    "Search View.md",
+    "Campos basicos.md",
+    "fields.Boolean.md",
     "ORM Methods.md",
-    "ORM Methods.md",
-    "Odoo MOC.md",
-    "account.move.md",
+    "search_count().md",
+    "mapped().md",
+    "self.ensure_one().md",
     "Odoo Models.md",
+    "custom_pnt.md",
+    "report_pnt.md",
+    "account.move.md",
+    "stock.md",
+    "Campos relacionales.md",
+    "Many2one.md",
+    "related.md",
+    "Completar campo related.md",
+    "@api.on_change.md",
+    "Mostrar datos bancarios cliente en informe.md",
+    "Pasted image 20240126075424.png",
     "Pasted image 20240116115647.png",
     "Pasted image 20240116115541.png",
     "Pasted image 20240108090828.png",

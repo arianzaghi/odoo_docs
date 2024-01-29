@@ -1,4 +1,4 @@
-> [[Campos avanzados|Back]]
+> [[Propiedades de campos|Back]]
 
 Tags: 
 Status: 

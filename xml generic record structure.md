@@ -1,4 +1,4 @@
-> [[Odoo Views|Back]]
+> [[Odoo Views Vistas|Back]]
 
 Tags: #snippet #xml
 Status: 
@@ -10,12 +10,14 @@ ___
 
 
 ```xml
-<record id="" model="ir.ui.view">  
-    <field name="name">name</field>  
-    <field name="model">model.name</field>  
-    <field name="arch" type="xml">  
-         
-    </field>  
+<record id="MODEL_view_TYPE" model="ir.ui.view">
+  <field name="name">NAME</field>
+  <field name="model">MODEL</field>
+  <field name="arch" type="xml">
+    <VIEW_TYPE>
+      <VIEW_SPECIFICATIONS/>
+    </VIEW_TYPE>
+  </field>
 </record>
 ```
 

@@ -1,4 +1,4 @@
-> [[Odoo MOC|Back]]
+> [[010 - Odoo HOME|Back]]
 ## Pycharm Run/Debug Configurations
 
 - **script:** /opt/sources/odooXXX/src/core/odoo-bin

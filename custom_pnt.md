@@ -6,18 +6,18 @@ Related:
 
 ___
 
-# report_pnt
+# custom_pnt
 
 > [!Crear nuevo módulo]
-> Duplicamos `dev-tools/scaffolding/report_pnt` en la carpera de nuestro cliente
+> Duplicamos `dev-tools/scaffolding/custom_pnt` en la carpera de nuestro cliente
 
 > [!ERROR] IMPORTANTE
 > Después de crear un nuevo módulo, es imprescindible instalarlo desde odoo
 > 
-> 	`Ajustes > Aplicaciones > report_pnt > instalar`
+> 	`Ajustes > Aplicaciones > custom_pnt > instalar`
 ## Modelos
 
-Los modelos que se crean dentro de `report_pnt` extienden clases existentes o crean nuevas y tienen como función ampliar o alterar el funcionamiento de las clases. 
+Los modelos que se crean dentro de `custom_pnt` extienden clases existentes o crean nuevas y tienen como función ampliar o alterar el funcionamiento de las clases. 
 
 ### Nomenclaturas
 

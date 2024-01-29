@@ -1,4 +1,8 @@
 {
-  "readableLineLength": true,
-  "alwaysUpdateLinks": true
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": false,
+  "focusNewTab": true,
+  "showLineNumber": false,
+  "rightToLeft": false
 }

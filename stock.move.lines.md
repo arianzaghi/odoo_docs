@@ -1,6 +1,6 @@
 > [[stock|Back]]
 
-Tags: 
+Tags: #modelo
 Status: 
 Related: [[stock.picking]]
 

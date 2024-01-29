@@ -1,4 +1,4 @@
-> [[Odoo Views|Back]]
+> [[Odoo Views Vistas|Back]]
 
 Tags: #xml
 Links: 
@@ -16,8 +16,29 @@ The basic syntax of the `<field>` tag is `<field>value</field>`. It encapsulates
 
 The `<field>` tag may have attributes to provide additional information. Common attributes include:
 
-- **name:** Specifies the name of the field.
-- **type:** Defines the data type of the field (e.g., string, integer).
+- `name` (mandatory) [`Char`](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/orm.html#odoo.fields.Char "odoo.fields.Char")
+    
+    Only useful as a mnemonic/description of the view when looking for one in a list of some sort.
+    
+- `model` [`Char`](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/orm.html#odoo.fields.Char "odoo.fields.Char")
+    
+    The model linked to the view, if applicable.
+    
+- `priority` [`Integer`](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/orm.html#odoo.fields.Integer "odoo.fields.Integer")
+    
+    When a view is requested by `(model, type)`, the view matching the model and the type, with the lowest priority will be returned (it is the default view).
+    
+    It also defines the order of views application during [view inheritance](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/views.html#reference-views-inheritance).
+    
+- `groups_id` [`Many2many`](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/orm.html#odoo.fields.Many2many "odoo.fields.Many2many") -> `odoo.addons.base.models.res_users.Groups`
+    
+    The groups allowed to use/access the current view.
+    
+    If the view extends an existing view, the extension will only be applied for a given user if the user has access to the provided `groups_id`.
+    
+- `arch` [`Text`](https://www.odoo.com/documentation/16.0/es/developer/reference/backend/orm.html#odoo.fields.Text "odoo.fields.Text")
+    
+    The description of the view layout.
 
 ## 4. Example Usage
 

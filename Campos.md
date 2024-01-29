@@ -1,4 +1,4 @@
-> [[Odoo MOC|Back]]
+> [[010 - Odoo HOME|Back]]
 
 Tags: 
 Status: 
@@ -13,6 +13,7 @@ ___
 ### [[Campos basicos]]
 ### [[Campos relacionales]]
 ### [[Campos avanzados]]
+
 
 ## Propiedades de campos
 

@@ -1,4 +1,4 @@
-> [[Odoo Views]]
+> [[Odoo Views Vistas]]
 
 Tags: #xml 
 Status: 
