@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[List o Tree]]
 
 Tags: #xml 
 Status: 
@@ -7,7 +7,6 @@ Related:
 ___
 
 # Search filter tree view
-
 
 ```python
 <record id="view_helpdesk_ticker_search" model="ir.ui.view">  
@@ -36,3 +35,6 @@ ___
 ```
 
 
+## Ejemplos
+
+[[Añadir filtro de referencia de cliente]]

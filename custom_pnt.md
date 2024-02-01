@@ -1,4 +1,4 @@
-> [[Odoo Models|Back]]
+> [[Odoo Modelos|Back]]
 
 Tags: #modelo
 Status: 
@@ -19,19 +19,6 @@ ___
 
 Los modelos que se crean dentro de `custom_pnt` extienden clases existentes o crean nuevas y tienen como función ampliar o alterar el funcionamiento de las clases. 
 
-### Nomenclaturas
-
-- **Ficheros**
-	Aplica tanto para vistas como clases
-	
-	- Herencia de clases existentes
-		`sale_order.py`
-	- Ficheros de clases nuevas
-		`pnt_mi_clase_nueva.py`
-
-- **Variables**
-	`pnt_variable_nueva`
-	
 
 ### Ejemplo
 

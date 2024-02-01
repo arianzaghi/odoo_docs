@@ -8,8 +8,9 @@ ___
 
 # Buscar Encontrar modelo original
 
->`res_partner`
+> Ctrl+F: `_name = "model.name"` 
 
+>`res_partner`
 ```python
 class Partner(models.Model):  
     _description = 'Contact'  
@@ -19,4 +20,3 @@ class Partner(models.Model):
     _rec_names_search = ['display_name', 'email', 'ref', 'vat', 'company_registry']
 ```
 
-Ctrl+F: `_name = "model.name"` 

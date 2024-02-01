@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME|Back]]
+> [[Odoo Views Vistas|Back]]
 
 Tags: 
 Status: 

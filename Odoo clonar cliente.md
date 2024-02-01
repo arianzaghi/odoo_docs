@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME|Back]]
+> [[Workflow Punt MOC|Back]]
 # Pasos para la configuración del Odoo de un cliente en nuestro equipo local
 
 

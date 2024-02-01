@@ -1,8 +1,19 @@
 > [[010 - Odoo HOME|Back]]
-## Pycharm Run/Debug Configurations
 
-- **script:** /opt/sources/odooXXX/src/core/odoo-bin
-  <br>
+Tags: 
+Status: 
+Related: 
+
+___
+
+# Pycharm Run/Debug Configurations
+
+> [!EJEMPLO]
+> **script**: `/opt/sources/odooXXX/src/core/odoo-bin`
+> **parametros**: `-c /opt/sources/odooXXX/conf/cliente.conf -d CLIENTE_PRO`
+
+<br>
+## Parametros adicionales  
 
 - Config file
 ```

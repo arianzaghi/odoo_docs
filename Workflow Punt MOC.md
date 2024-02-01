@@ -1,3 +1,5 @@
+> [[010 - Odoo HOME]]
+
 Tags: 
 Status: 
 Related: 
@@ -14,4 +16,5 @@ ___
 
 - [[Subir HU a prod]]
 - [[docker container stop postgres]]
+- [[Odoo clonar cliente]]
 

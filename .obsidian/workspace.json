@@ -4,104 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "9619d7aaa18ac69a",
+        "id": "fff52c59132e8ca4",
         "type": "tabs",
         "children": [
           {
-            "id": "ad4344b658faa89a",
+            "id": "089a6ac3e2d83fb2",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
             }
           },
           {
-            "id": "6860348a49f39461",
+            "id": "99ca096f5278d46c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dev-tools MOC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93f9a5241007075c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash y scripts.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08298f921cdbe1a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "010 - Odoo HOME.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d83b467b35f6eb65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "010 - Odoo HOME.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6281f3cdc57efbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0137f072b4b700c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f99c6ea2bc825e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Propiedades de campos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d28bc4854f1c086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Odoo Views Vistas.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ad815e408750eff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Herencia.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -155,13 +101,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 421.5124969482422
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -177,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "010 - Odoo HOME.md",
+                "file": "dev-tools MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "010 - Odoo HOME.md",
+                "file": "dev-tools MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "010 - Odoo HOME.md"
+                "file": "dev-tools MOC.md"
               }
             }
           }
@@ -239,41 +183,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6860348a49f39461",
+  "active": "99ca096f5278d46c",
   "lastOpenFiles": [
+    "Bash y scripts.md",
+    "dev-tools MOC.md",
+    "Configurar y ejecutar Odoo server.md",
     "010 - Odoo HOME.md",
-    "Herencia.md",
-    "Odoo Views Vistas.md",
-    "Reportes o Informes.md",
-    "Informes XLM.md",
-    "Informes XLSX.md",
-    "Campos.md",
-    "Propiedades de campos.md",
-    "Computed field.md",
-    "Campos basicos.md",
-    "fields.Boolean.md",
-    "ORM Methods.md",
-    "search_count().md",
-    "mapped().md",
-    "self.ensure_one().md",
-    "Odoo Models.md",
+    "Odoo clonar cliente.md",
+    "Workflow Punt MOC.md",
+    "install_development.sh.md",
     "custom_pnt.md",
-    "report_pnt.md",
-    "account.move.md",
+    "BBDD.md",
+    "Cambiar la bbdd que se usa en el docker.md",
+    "Buscar modelo original.md",
+    "Etiquetas XML.md",
+    "Odoo Modelos.md",
     "stock.md",
-    "Campos relacionales.md",
-    "Many2one.md",
-    "related.md",
-    "Completar campo related.md",
-    "@api.on_change.md",
-    "Mostrar datos bancarios cliente en informe.md",
-    "Pasted image 20240126075424.png",
-    "Pasted image 20240116115647.png",
-    "Pasted image 20240116115541.png",
-    "Pasted image 20240108090828.png",
-    "Pasted image 20231212161609.png",
-    "Pasted image 20231212161526.png",
-    "Pasted image 20231212161220.png",
-    "Pasted image 20231212161005.png"
+    "sale.md",
+    "Buscar elementos.md",
+    "Buscar informe por nombre.md",
+    "Lote o Nº de serie.md",
+    "Stat button (botón emoji).md",
+    "Odoo Views Vistas.md",
+    "Formularios.md",
+    "Group by - Agrupar por.md",
+    "Search filter tree view.md",
+    "List o Tree.md",
+    "Tree view groupby.md",
+    "<xpath>.md",
+    "Static/Pasted image 20231212161005.png",
+    "Static",
+    "Static/Pasted image 20240126075424.png",
+    "Static/Pasted image 20240116115647.png",
+    "Static/Pasted image 20240116115541.png",
+    "Static/Pasted image 20240108090828.png",
+    "Static/Pasted image 20231212161609.png",
+    "Static/Pasted image 20231212161526.png",
+    "Static/Pasted image 20231212161220.png"
   ]
 }

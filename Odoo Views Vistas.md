@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME|Back]]
+> [[Etiquetas XML|Back]]> [[010 - Odoo HOME|Back]]
 
 Tags: #xml
 Status: 
@@ -8,17 +8,15 @@ ___
 
 # Odoo Views
 
-## Etiquetas XML
+## [[Etiquetas XML]]
 
-- [[<attributes>]]
-- [[<field>]]
-- [[<t>]]
-- [[xpath]]
-- [[xml generic record structure]]
+## [[Herencia]]
 
-## Reportes o Informes
+## [[Formularios]]
 
-- [[Tree view groupby]]
+## [[List o Tree]]
+
+## [[Reportes o Informes]]
 
 ## Actions
 
@@ -26,12 +24,10 @@ ___
 - [[Report Actions]]
 
 
-- [[Group by - Agrupar por]]
-- [[Stat button]]
+- [[Stat button (botón emoji)]]
 
-- [[Search filter tree view]]
 - [[Search View]]
+- [[xml generic record structure]]
   
 - [[modificar vista A que esta siendo modificada por vista B]]
 
-## [[Herencia]]

@@ -1,8 +1,8 @@
-> [[Odoo Models|Back]]
+> [[Odoo Modelos|Back]]
 
 Tags: #modelo
 Status: 
-Related: [[stock.picking]], [[stock.move.lines]]
+Related: [[stock.picking]], [[stock.move.lines]], [[stock.move]]
 
 ___
 

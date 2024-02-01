@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[Etiquetas XML|Back]]
 
 Tags: #xml
 Status: 
@@ -11,6 +11,12 @@ ___
 ## **Descripción**
 
 XPath is a query language that enables the selection of nodes in an XML document. In Odoo, XML is extensively used for defining views, reports, and data structures.
+
+## Escapar comillas
+
+```xml
+expr='//t[@t-if="move_line.picking_id.state != &apos;done&apos;"]'
+```
 
 ## Sintaxis
 
@@ -37,3 +43,11 @@ XPath is a query language that enables the selection of nodes in an XML document
     
 - **Conditional Rendering:** Applies a widget when the state is 'done'
     `//field[@name='state'][('state','=','done')]/widget`
+
+## Ejemplo Xpath
+
+```xml
+<xpath expr="//field[@name='date_order']" position="after">
+	<field name="client_order_ref" readonly="1"/>
+</xpath>
+```

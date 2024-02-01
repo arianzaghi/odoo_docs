@@ -13,4 +13,4 @@ Usando PoEdit o manualmente, añadimos las traducciones que faltan
 
 1. Cambiar oldPo por newPo, o copiar>pegar para evitar hacer git add .
 
-2. [[Odoo server.conf#^b8e9b7|Force update translations]]] ^757c4c
+2. [[Configurar y ejecutar Odoo server#^b8e9b7|Force update translations]]] ^757c4c

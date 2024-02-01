@@ -5,14 +5,11 @@ Status:
 Related: 
 
 ___
-
 # Herencia
-
-## Herencia
 
 Podemos utilizar 3 formas para heredar de una vista para modificarla:
 
-- Elemento `xpath` con atributo [[expr=""|expr]] aplicado al template correspondiente
+- Elemento `xpath` con atributo `expr` aplicado al template correspondiente
 ```xml
 <xpath expr="page[@name='pg']/group[@name='gp']/field" position="inside">
   <field name="description"/>
@@ -47,4 +44,6 @@ Podemos utilizar 3 formas para heredar de una vista para modificarla:
 	El contenido de la herencia se añade antes del elemento buscado
 
 - `attributes`
-	El contenido de la herencia deberia ser un elemento `attribute` con atributo `name` y un cuerpo opcional
+	El contenido de la herencia debería ser un elemento `attribute` con atributo `name` y un cuerpo opcional
+	- Si `attribute` tiene contenido, se crea un nuevo atributo con el nombre indicado por su `name` en el nodo coincidente, y se le asigna el texto del elemento `attribute` como valor.
+	- Si el elemento `attribute` no tiene contenido, el atributo con el nombre indicado por su `name` se elimina del nodo coincidente. Si dicho atributo no existe, se genera un error.

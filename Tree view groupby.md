@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[List o Tree|Back]]
 
 Tags: #xml
 Status: 
