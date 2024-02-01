@@ -38,6 +38,6 @@ ___
 </odoo>
 ```
 
-## Sencillos
+## Wizard Sencillo
 - [[popup confirmación]]
 

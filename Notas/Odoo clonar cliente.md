@@ -63,6 +63,8 @@ git pull
 
 ### 2.3 Fichero de configuración de Odoo
 
+^d519ad
+
 11. Creamos fichero conf del cliente duplicando 'odoo.conf'
 ```
 	cp conf/odoo.conf conf/client.conf

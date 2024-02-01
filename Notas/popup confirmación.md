@@ -1,4 +1,4 @@
-> [[Wizards]]
+> [[<button>#^882255]]
 
 Tags: 
 Status: 

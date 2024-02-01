@@ -17,4 +17,4 @@ ___
 - [[Subir HU a prod]]
 - [[docker container stop postgres]]
 - [[Odoo clonar cliente]]
-
+- [[Añadir nuevas versiones de odoo]]

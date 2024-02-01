@@ -1,1 +1,10 @@
-{}
+{
+  "templater-obsidian:Templates/Basic Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ]
+}
