@@ -8,8 +8,6 @@ ___
 
 # fields.Selection
 
-### Ejemplo 1
-
 > Campo selection usando una función
 
 ```python
@@ -29,7 +27,14 @@ class ResPartner(models.Model):
     )
 ```
 
-### Ejemplo 2
+## Recuperar el valor en lugar de la clave
+Útil cuando tenemos un selection y queremos mostrar la opción por pantalla o en un informe.
+Asi podemos mostrar el valor (Mayor puntuación) en lugar de la clave (pnt_highest_score)
 
-[[Selection de todos los idiomas]]
-[[Selection de idiomas activos]]
+`dict(self_fields[nombre del campo], description_selection(self.env))).get(objeto_modelo_capo)`
+
+
+### Ejemplos
+
+### [[Selection de todos los idiomas]]
+### [[Selection de idiomas activos]]

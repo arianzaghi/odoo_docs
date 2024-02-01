@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "089a6ac3e2d83fb2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "99ca096f5278d46c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dev-tools MOC.md",
+                "file": "Odoo Views Vistas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,7 +21,20 @@
             }
           },
           {
-            "id": "93f9a5241007075c",
+            "id": "59c9d74f7328812f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Etiquetas XML.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b00bfb27f80836fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,12 +47,12 @@
             }
           },
           {
-            "id": "08298f921cdbe1a5",
+            "id": "93f9a5241007075c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "010 - Odoo HOME.md",
+                "file": "install_development.sh.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dev-tools MOC.md",
+                "file": "install_development.sh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dev-tools MOC.md",
+                "file": "install_development.sh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dev-tools MOC.md"
+                "file": "install_development.sh.md"
               }
             }
           }
@@ -183,20 +188,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "99ca096f5278d46c",
+  "active": "93f9a5241007075c",
   "lastOpenFiles": [
     "Bash y scripts.md",
-    "dev-tools MOC.md",
-    "Configurar y ejecutar Odoo server.md",
+    "install_development.sh.md",
     "010 - Odoo HOME.md",
+    "Untitled.md",
+    "Configurar y ejecutar Odoo server.md",
+    "Odoo Views Vistas.md",
+    "Etiquetas XML.md",
+    "<button>.md",
+    "Wizards.md",
+    "popup confirmación.md",
+    "Formularios.md",
+    "dev-tools MOC.md",
+    "fields.Selection.md",
     "Odoo clonar cliente.md",
     "Workflow Punt MOC.md",
-    "install_development.sh.md",
     "custom_pnt.md",
     "BBDD.md",
     "Cambiar la bbdd que se usa en el docker.md",
     "Buscar modelo original.md",
-    "Etiquetas XML.md",
     "Odoo Modelos.md",
     "stock.md",
     "sale.md",
@@ -204,13 +216,6 @@
     "Buscar informe por nombre.md",
     "Lote o Nº de serie.md",
     "Stat button (botón emoji).md",
-    "Odoo Views Vistas.md",
-    "Formularios.md",
-    "Group by - Agrupar por.md",
-    "Search filter tree view.md",
-    "List o Tree.md",
-    "Tree view groupby.md",
-    "<xpath>.md",
     "Static/Pasted image 20231212161005.png",
     "Static",
     "Static/Pasted image 20240126075424.png",

@@ -1,4 +1,4 @@
-> [[Etiquetas XML|Back]]> [[010 - Odoo HOME|Back]]
+> [[010 - Odoo HOME|Back]]
 
 Tags: #xml
 Status: 
@@ -7,6 +7,8 @@ Related:
 ___
 
 # Odoo Views
+
+- [[xml generic record structure]]
 
 ## [[Etiquetas XML]]
 
@@ -23,11 +25,8 @@ ___
 - [[Actions - Boton Accion]]
 - [[Report Actions]]
 
-
+- [[Search View]]
+- [[modificar vista A que esta siendo modificada por vista B]]
 - [[Stat button (botón emoji)]]
 
-- [[Search View]]
-- [[xml generic record structure]]
-  
-- [[modificar vista A que esta siendo modificada por vista B]]
-
+[[Wizards]]

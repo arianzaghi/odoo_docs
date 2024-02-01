@@ -8,7 +8,7 @@ ___
 
 ## Añadir nuevo alias para clonar bbdd
 
-`dev-tools > helpers > .bash_aliases`
+> `dev-tools > helpers > .bash_aliases`
 
 1. Copiamos una entrada existente (estan en el final del fichero) y modificamos los parametros acorde al cliente.
 	`alias joares_pro='_get_client_db joares 5432 PRO JOARES_PRO 14'`
@@ -23,5 +23,5 @@ ___
 
 ## Añadir alias para hacer ssh a servidor cliente
 
-## Bash y scripts
-[[Bash y scripts]]
+
+## [[Bash y scripts]]
