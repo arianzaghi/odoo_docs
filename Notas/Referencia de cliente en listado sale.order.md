@@ -43,4 +43,6 @@ ___
 </odoo>
 ```
 
+![[Pasted image 20240202094257.png]]
+
 [[Añadir filtro de referencia de cliente]]

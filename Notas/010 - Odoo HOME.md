@@ -21,18 +21,16 @@ Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
 - [ ] Nuevo bash aliases > ssh o ddbb clone
 - [ ] restaurar bbdd
 - [ ] Template para docker
-- [ ] Cambiar bbdd del docker --> 
-- [ ] Ejemplo de fichero config
-
-
-## Entorno
-### [[Configurar y ejecutar Odoo server]]
-
-### [[Buscar elementos]]
+- [x] Cambiar bbdd del docker --> 
+- [ ] Ejemplo de fichero odoo.conf
 
 
 ## Desarrollo
-### [[Odoo Views Vistas|Views]]
-### [[Odoo Modelos|Modelos]]
-### [[ORM Methods]]
-### [[Campos]]
+### [[Odoo Views Vistas|Views]]￼￼
+
+### [[Python framework]]
+
+## Entorno
+### [[Workflow Punt]]
+### [[Buscar elementos]]
+

@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME|Back]]
+> [[Workflow Punt|Back]]
 
 Tags: 
 Status: 
@@ -10,7 +10,7 @@ ___
 
 > [!EJEMPLO]
 > **script**: `/opt/sources/odooXXX/src/core/odoo-bin`
-> **parametros**: `-c /opt/sources/odooXXX/conf/cliente.conf -d CLIENTE_PRO`
+> **parametros**: `-c /opt/sources/odooXXX/conf/cliente.conf -d CLIENTE_PRO -u custom_pnt --dev xml`
 
 <br>
 ## Parametros adicionales  

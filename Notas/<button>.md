@@ -69,6 +69,7 @@ La etiqueta XML `button` en Odoo proporciona desencadena acciones, llama a méto
     args="['arg1', 'arg2']"
     attrs="{'invisible': [('campo', '=', False)]}"
     estados="borrador,confirmado"
-    contexto="{'clave': 'valor'}"
+    contexto="{'clave': 'valor'}",
+    confirm = '¿Estas seguro que deseas continuar?'
 />
 ```

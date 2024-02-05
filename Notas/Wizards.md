@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+ > [[Odoo Views Vistas]]
 
 Tags: 
 Status: 

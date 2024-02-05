@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b74274f0bed358d",
+            "id": "99ca096f5278d46c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,12 @@
             }
           },
           {
-            "id": "8c593cfedcb02431",
+            "id": "73a8cfa6d5eb213b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/dev-tools MOC.md",
+                "file": "Notas/Workflow Punt.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,12 +29,12 @@
             }
           },
           {
-            "id": "1e35695e58f13007",
+            "id": "1380a5ee38739857",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/install_development.sh.md",
+                "file": "Notas/Odoo clonar cliente.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,20 +42,19 @@
             }
           },
           {
-            "id": "bc29e8400c20d8d9",
+            "id": "5a43d70ba5fb7222",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/install_development.sh.md",
+                "file": "Notas/Configurar y ejecutar Odoo server.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/dev-tools MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/dev-tools MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +157,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notas/dev-tools MOC.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,95 +178,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "floating": {
-    "id": "ed679795dbc493dd",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e40aded4c5bc2a46",
-        "type": "window",
-        "children": [
-          {
-            "id": "d7610d34ac6754a6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "99ca096f5278d46c",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              },
-              {
-                "id": "6a37d88bd10d083d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/010 - Odoo HOME.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a58bf471d7e336f6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/dev-tools MOC.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 2343,
-        "y": 45,
-        "width": 600,
-        "height": 600,
-        "maximize": true,
-        "zoom": -1
-      }
-    ]
-  },
-  "active": "8c593cfedcb02431",
+  "active": "99ca096f5278d46c",
   "lastOpenFiles": [
-    "Notas/Workflow Punt MOC.md",
-    "Notas/Odoo clonar cliente.md",
-    "Notas/dev-tools MOC.md",
-    "Notas/Añadir nuevas versiones de odoo.md",
-    "Notas/Untitled.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/install_development.sh.md",
-    "Notas/Back.md",
-    "Notas/Bash y scripts.md",
-    "Notas/Configurar y ejecutar Odoo server.md",
-    "Notas/Wizards.md",
+    "Notas/Añadir filtro de referencia de cliente.md",
+    "Notas/Computed field.md",
+    "Notas/Referencia de cliente en listado sale.order.md",
+    "Pasted image 20240202094257.png",
     "Notas/Odoo Views Vistas.md",
+    "Notas/Wizards.md",
     "Notas/popup confirmación.md",
     "Notas/<button>.md",
     "Notas/Etiquetas XML.md",
-    "Notas/@api.depends.md",
-    "README.md",
-    "Notas/zzzzawdaw.md",
-    "Untitled.md",
-    "Notas",
+    "Notas/List o Tree.md",
+    "Notas/Plantillas para crear docker  en github cliente.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Workflow Punt.md",
+    "Notas/Configurar y ejecutar Odoo server.md",
+    "Notas/Odoo clonar cliente.md",
+    "Notas/Añadir alias para hacer ssh a servidor cliente.md",
+    "Notas/dev-tools MOC.md",
+    "Notas/Añadir nuevo bash alias para clonar bbdd.md",
+    "Notas/Añadir nuevas versiones de odoo.md",
+    "Notas/Gonzalo.md",
+    "Notas/docker container stop postgres.md",
+    "Notas/install_development.sh.md",
+    "Notas/Lote o Nº de serie.md",
+    "Notas/Informe de medicinas XLSX.md",
+    "Notas/Informes XLSX (Excel).md",
+    "Notas/Reportes o Informes.md",
     "Notas/Formularios.md",
-    "Notas/fields.Selection.md",
-    "Notas/custom_pnt.md",
-    "Notas/BBDD.md",
-    "Notas/Cambiar la bbdd que se usa en el docker.md",
-    "Notas/Buscar modelo original.md",
-    "Notas/Odoo Modelos.md",
+    "Notas",
     "Static/Pasted image 20231212161005.png",
     "Static",
     "Static/Pasted image 20240126075424.png",

@@ -1,4 +1,4 @@
-> [[Informes XLSX|Back]]
+> [[Informes XLSX (Excel)|Back]]
 
 Tags: 
 Status: 
