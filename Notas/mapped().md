@@ -5,7 +5,7 @@ Status:
 Related: 
 
 ___
-
+https://www.odoo.com/documentation/15.0/es/developer/reference/backend/orm.html?highlight=search#environment
 # mapped()
 
 ### Definition

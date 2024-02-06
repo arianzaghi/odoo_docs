@@ -1,13 +1,18 @@
-> [[Odoo Views Vistas|Back]]
+> [[Actions|Back]]
 
 Tags: 
 Status: 
 Related: 
 
 ___
-> ir.actions.act.report
-# Añadir nuevo botón imprimir reporte
 
+# Report Actions
+Botones que nos permiten imprimir [[Reportes o Informes]]
+
+> [!MODELO] 
+> `ir.actions.report`
+
+# Añadir nuevo Report Action (imprimir reporte)
 Queremos añadir un nuevo botón para imprimir un reporte como el que vemos a continuación:
 
 ![[Pasted image 20240108090828.png]]
@@ -45,3 +50,4 @@ Impresión de documento pdf.
     <field name="paperformat_id" ref="report_pnt.paperformat_report_urban_structure"/>
 </record>
 ```
+

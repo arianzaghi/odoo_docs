@@ -12,7 +12,14 @@ En Odoo, las relaciones "many2many" te permiten establecer una conexión de much
 ## **Syntax:**
 
 ```python
-field_name = fields.Many2many('related.model', 'relation_table', 'column1', 'column2', string='Field Label', [optional_parameters])
+field_name = fields.Many2many(
+	'related.model',
+	'relation_table',
+	'column1',
+	'column2',
+	string='Field Label',
+	[optional_parameters]
+)
 ```
 
 - `field_name`: El nombre del campo en el modelo actual. (Many)
@@ -30,6 +37,7 @@ field_name = fields.Many2many('related.model', 'relation_table', 'column1', 'col
 class Employee(models.Model):
     _name = 'hr.employee'
     name = fields.Char(string='Employee Name')
+    
     projects = fields.Many2many(
 	    'project.project',
 	    'employee_project_rel',
@@ -43,8 +51,6 @@ En este ejemplo, la relación many2many se establece entre los modelos `hr.emplo
 ### Example 2
 
 Supongamos que tenemos dos modelos, `Student` y `Course`, y queremos crear una relación de muchos a muchos:
-
-pythonCopy code
 
 ```python
 class Student(models.Model):

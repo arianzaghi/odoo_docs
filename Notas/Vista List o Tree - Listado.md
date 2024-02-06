@@ -1,12 +1,12 @@
 > [[Odoo Views Vistas]]
 
-Tags: 
+Tags: #todo
 Status: 
 Related: 
 
 ___
 
-# List
+# Vista List o Tree - Listado
 
 [[Referencia de cliente en listado sale.order]]
 [[Search filter tree view]]

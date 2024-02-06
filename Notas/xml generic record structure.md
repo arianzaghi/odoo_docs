@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[Etiquetas XML|Back]]
 
 Tags: #snippet #xml
 Status: 

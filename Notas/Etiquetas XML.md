@@ -8,6 +8,8 @@ ___
 
 # Etiquetas XML
 
+- [[xml generic record structure]]
+
 - [[<attributes>]]
 - [[<field>]]
 - [[<t>]]

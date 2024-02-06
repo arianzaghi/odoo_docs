@@ -18,7 +18,7 @@ Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
 - [ ] Related cuando no hay many2one
 - [ ] Cuando usar comodel
 - [ ] Informe XLSX
-- [ ] Nuevo bash aliases > ssh o ddbb clone
+- [x] Nuevo bash aliases > ssh o ddbb clone
 - [ ] restaurar bbdd
 - [ ] Template para docker
 - [x] Cambiar bbdd del docker --> 
@@ -26,9 +26,9 @@ Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
 
 
 ## Desarrollo
-### [[Odoo Views Vistas|Views]]￼￼
-
+### [[Odoo Views Vistas|Views]]
 ### [[Python framework]]
+
 
 ## Entorno
 ### [[Workflow Punt]]

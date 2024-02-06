@@ -1,4 +1,4 @@
-> [[Propiedades de campos|Back]]
+> [[Campos|Back]]
 
 Tags: 
 Status: 
@@ -6,7 +6,7 @@ Related: [[@api.depends]]
 
 ___
 
-# Computed field
+# Campo Computed
 
 To create a computed field, create a field and set its attribute `compute` to the name of a method. The computation method should set the value of the computed field for every record in `self`
 

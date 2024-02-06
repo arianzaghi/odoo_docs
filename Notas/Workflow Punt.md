@@ -9,15 +9,19 @@ ___
 # Workflow Punt
 
 ## Herramientas
-
 - [[dev-tools MOC]]
 
 ## Metodologías
-- [[Configurar y ejecutar Odoo server]]
+### Clientes
 - [[Subir HU a prod]]
-- [[docker container stop postgres]]
 - [[Odoo clonar cliente]]
-- [[Añadir nuevas versiones de odoo]]
+- 
 - [[Configurar y ejecutar Odoo server]]
+
+### BBDD
+- [[docker container stop postgres]]
+
+### Dev-tools
+- [[Añadir nuevas versiones de odoo]]
 - [[Añadir alias para hacer ssh a servidor cliente]]
-- [[Añadir alias para hacer ssh a servidor cliente]]
+- [[Añadir nuevo bash alias para clonar bbdd]]

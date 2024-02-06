@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[Vista Form - Formulario]]
 
 Tags: 
 Status: 
@@ -6,9 +6,7 @@ Related:
 
 ___
 
-# Fromularios
-
-## Componentes estructurales
+# Componentes estructurales xml form
 
 ### notebook
 Define una sección con pestañas. Cada pestaña se define como una `page` nueva.
@@ -32,3 +30,4 @@ can be used as a direct child to `form` for a narrower and more responsive for
 ### header
 
 combined with `sheet`, provides a full-width location above the sheet itself, generally used to display workflow buttons and status widgets
+

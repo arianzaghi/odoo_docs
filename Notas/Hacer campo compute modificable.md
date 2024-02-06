@@ -1,4 +1,4 @@
-> [[Computed field|Back]]
+> [[Campo Computed|Back]]
 
 Tags: 
 Status: 

@@ -30,6 +30,7 @@ ___
 
 [[report_pnt]]
 [[custom_pnt]]
+[[Modelo Mantenimiento]]
 
 ## Modulos core de odoo
 

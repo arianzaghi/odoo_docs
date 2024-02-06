@@ -9,7 +9,7 @@ ___
 # Stat button
 
 ![[Pasted image 20240126075424.png]]
-
+> [Docs reference](https://www.odoo.com/documentation/15.0/es/developer/tutorials/getting_started/12_sprinkles.html?highlight=buttons#stat-buttons)
 
 # Añadir Stat button
 

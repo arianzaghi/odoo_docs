@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME|Back]]
+[[010 - Odoo HOME|Back]]
 
 Tags: #xml
 Status: 
@@ -8,25 +8,21 @@ ___
 
 # Odoo Views
 
-- [[xml generic record structure]]
+## Interfaz 
+### 1. [[Menu Item]]
+### 1. [[Actions]]
+### 2. [[Stat button]]
 
-## [[Etiquetas XML]]
 
-## [[Herencia]]
+## Vistas
+### 1. [[Vista Form - Formulario]]
+### 2. [[Vista List o Tree - Listado]]
+## 3. [[Reportes o Informes]]
+## 4. [[Wizards]]
 
-## [[Formularios]]
 
-## [[List o Tree]]
+## Desarrollo
+### [[Etiquetas XML]]
+### [[Herencia]]
 
-## [[Reportes o Informes]]
-
-## Actions
-
-- [[Actions - Boton Accion]]
-- [[Report Actions]]
-
-- [[Search View]]
-- [[modificar vista A que esta siendo modificada por vista B]]
-- [[Stat button (botón emoji)]]
-
-## [[Wizards]]
+## Otros
