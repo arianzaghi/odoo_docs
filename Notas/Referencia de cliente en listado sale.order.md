@@ -1,12 +1,14 @@
 > [[Vista List o Tree - Listado]]
 
-Tags: 
+Tags: #todo
 Status: 
 Related: 
 
 ___
 
 # Referencia de cliente en listado sale.order
+
+#todo FALTA LINK DE LA HISTORIA (encarna)
 
 > Añadimos la referencia del cliente en `sale.order` dentro de:
 > 	- Presupuestos

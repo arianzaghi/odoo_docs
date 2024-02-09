@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d200d66462862a91",
+            "id": "2698cc4c744d0a28",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,12 +16,103 @@
             }
           },
           {
-            "id": "854d6c1a2626d0b5",
+            "id": "b317b58f081a3e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/May2many.md",
+                "file": "Notas/Odoo Views Vistas.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c5b5504ab52d2a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Wizards.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "953cc01e9a75689e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Vista List o Tree - Listado.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e439a966cbea8dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Añadir filtro de referencia de cliente.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31e0efe090b6d66f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Actions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6c1a6af22c99809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Report Actions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28a910b3e0dea008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Imprimir informe desde varios modelos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d7bda61645c85ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/git_clean_branches.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/May2many.md",
+                "file": "Notas/Wizards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/May2many.md",
+                "file": "Notas/Wizards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/May2many.md"
+                "file": "Notas/Wizards.md"
               }
             }
           }
@@ -144,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,129 +246,42 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "1b774246e422ba26",
-    "type": "floating",
-    "children": [
-      {
-        "id": "de669c3b07defaf7",
-        "type": "window",
-        "children": [
-          {
-            "id": "6eaf467aca9810aa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "06563adc946ec822",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/010 - Odoo HOME.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "043f599971d65e9a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/Python framework.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "50584e0d1a538db9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/Odoo Modelos.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "73750276c66939cb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/Modelo Mantenimiento.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4dc58c1e0235f8f8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Notas/Modelo Mantenimiento.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "vertical",
-        "x": 590,
-        "y": 566,
-        "width": 1440,
-        "height": 810,
-        "maximize": false,
-        "zoom": -1
-      }
-    ]
-  },
-  "active": "854d6c1a2626d0b5",
+  "active": "0c5b5504ab52d2a0",
   "lastOpenFiles": [
-    "Notas/Menu Item.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Python framework.md",
-    "Notas/010 - Odoo HOME.md",
     "Notas/Odoo Views Vistas.md",
-    "Pasted image 20240206112319.png",
-    "Notas/Workflow Punt.md",
-    "Notas/Añadir nuevo bash alias para clonar bbdd.md",
-    "Notas/Gonzalo.md",
-    "Notas/Plantillas para crear docker  en github cliente.md",
-    "Notas/Añadir alias para hacer ssh a servidor cliente.md",
-    "Notas/Environment.md",
+    "Notas/Wizards.md",
+    "Excalidraw/Diagrama vista Form.md",
+    "Notas/Imprimir informe desde varios modelos.md",
     "Notas/Vista List o Tree - Listado.md",
-    "Notas/ORM Methods.md",
-    "Notas/Informes XLM.md",
-    "Notas/Reportes o Informes.md",
-    "Notas/Stat button.md",
+    "Notas/Referencia de cliente en listado sale.order.md",
+    "Notas/Añadir filtro de referencia de cliente.md",
     "Notas/Vista Form - Formulario.md",
-    "Notas/Search domains.md",
-    "Notas/model.browse().md",
-    "Notas/mapped().md",
-    "Notas/self.ensure_one().md",
-    "Notas/Campos.md",
-    "Notas/Campo Computed.md",
-    "Notas/Propiedades de campos.md",
-    "Notas/Campos relacionales.md",
+    "Notas/Componentes estructurales xml form.md",
+    "Notas/Ocultar chatter para un grupo.md",
+    "Notas/Chatter.md",
+    "Notas/Stat button.md",
+    "Notas/Actions.md",
+    "Notas/Report Actions.md",
+    "Notas/Reportes o Informes.md",
+    "Notas/Menu Item.md",
+    "Notas/Informes XLM.md",
+    "Notas/Informes XLSX (Excel).md",
+    "Notas/Informe de medicinas XLSX.md",
+    "Notas/Mostrar datos bancarios cliente en informe.md",
+    "Notas/git_clean_branches.md",
+    "Notas/__init__.py.md",
+    "Excalidraw/Estructura informes avanzada diagrama.md",
+    "Notas/Clonar la bbdd del docker de github.md",
+    "Notas/@api.on_change.md",
+    "Notas/chatt.md",
+    "Pasted Image 20240209100446_382.png",
+    "Excalidraw",
+    "Pasted image 20240207090824.png",
+    "Pasted image 20240206112319.png",
     "Pasted image 20240205174931.png",
     "Static/Pasted image 20240205094339.png",
     "Static/Pasted image 20240205093330.png",
@@ -285,8 +290,6 @@
     "Static/Pasted image 20240205092700.png",
     "Static/Pasted image 20240202094257.png",
     "Notas",
-    "Static/Pasted image 20231212161005.png",
-    "Static",
-    "Static/Pasted image 20240126075424.png"
+    "Static"
   ]
 }

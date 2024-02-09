@@ -8,7 +8,8 @@ ___
 
 # Python framework
 
-### [[Odoo Modelos|Modelos]]https://www.odoo.com/documentation/16.0/es/developer/howtos/website_themes/navigation.html?highlight=menu%20item#menu-item> 
+### [[Odoo Modelos|Modelos]]
+
 ### [[Transient Model]]
 ### [[ORM Methods]]
 ### [[Environment]]

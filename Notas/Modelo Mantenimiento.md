@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Odoo Modelos]]
 
 Tags: 
 Status: 
@@ -8,9 +8,32 @@ ___
 
 # Modelo Mantenimiento
 
-Modelo nuevo que permite a los usuarios crear nuevos registros para asignarselo a otros modelos.
+Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos.
 
 
+#### Clase "Hobbies". Almacena el nombre, el partner y el color.
+```python
+from odoo import models, fields, api
+from random import randint
+from odoo.exceptions import ValidationError
+
+
+class PntResPartnerHobbies(models.Model):
+    _description = "Partner hobbies and skills"
+    _name = "pnt.res.partner.hobbies"
+    _order = "pnt_name"
+    _rec_name = "pnt_name"
+
+	# Generador de colores para las etiquetas
+    def _get_default_color(self):
+        return randint(1, 11)
+
+    pnt_name = fields.Char(string="Hobby or skill", required=True, translate=True)
+    partner_ids = fields.Many2many("res.partner", string="Partners")
+    pnt_color = fields.Integer(string="Color", default=_get_default_color)
+```
+
+Vista **FORM** para crear y editar hobbies y skills.
 ```python
 <record id="pnt_res_partner_hobbies_view_form" model="ir.ui.view">  
 	<field name="name">pnt.res.partner.hobbies.view.form</field>  
@@ -25,6 +48,7 @@ Modelo nuevo que permite a los usuarios crear nuevos registros para asignarselo 
 </record>
 ```
 
+Vista **LIST** para crear y editar hobbies y skills.
 ```python  
 <record id="pnt_res_partner_hobbies_view_tree" model="ir.ui.view">  
 	<field name="name">pnt.res.partner.hobbies.view.tree</field>  
@@ -36,6 +60,7 @@ Modelo nuevo que permite a los usuarios crear nuevos registros para asignarselo 
 	</field>  
 </record>
 ```
+
 
 ```python
 <record id="pnt_res_partner_hobbies_action" model="ir.actions.act_window">  
@@ -79,3 +104,7 @@ Modelo nuevo que permite a los usuarios crear nuevos registros para asignarselo 
 
 ### 1. Bonagent - Hobbies y Skills
 [Github](https://github.com/puntsistemes/bona-gent_odoo/pull/44/commits/8378d1e09d1d3c4e87bd098ae3f39e6e1860696e#diff-8b857d45237d44ffe08a8959e63446c96c803486e5256a39dd6be3b994280403)
+
+### 2. Franja95 - Alérgenos
+
+

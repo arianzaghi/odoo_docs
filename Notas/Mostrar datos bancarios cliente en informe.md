@@ -1,6 +1,6 @@
 > [[Informes XLM|Back]]
 
-Tags: #informe
+Tags: #informe #todo 
 Status: 
 Related: 
 

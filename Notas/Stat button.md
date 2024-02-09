@@ -1,6 +1,6 @@
 > [[Odoo Views Vistas|Back]]
 
-Tags: #xml
+Tags: #xml #todo 
 Status: 
 Related: 
 

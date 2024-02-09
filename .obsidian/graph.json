@@ -1,14 +1,14 @@
 {
   "collapse-filter": false,
-  "search": "-path:Templates ",
-  "showTags": false,
+  "search": "-path: Templates tag:#todo  ",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:related",
+      "query": "file: domain",
       "color": {
         "a": 1,
         "rgb": 16711680
@@ -21,10 +21,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.481213307240705,
+  "centerStrength": 0.287084148727984,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5832220551566767,
+  "scale": 0.3888147034377834,
   "close": false
 }

@@ -1,6 +1,6 @@
 > [[Search filter tree view]]
 
-Tags: 
+Tags: #todo
 Status: 
 Related: 
 

@@ -41,3 +41,56 @@ shipping_weight = fields.Float(
    readonly=False,
 )
 ```
+
+
+## Ejemplo 2
+
+[`disclima`](https://github.com/puntsistemes/distech_odoo/pull/9/commits/58fb1f3a798af4cd31405238f39104e13857a908#diff-8f4223269b93d45f51d8bdd02a0810cbc4668201ac204eae30e9e4a16447cabb)
+
+![[Pasted image 20240207090824.png]]
+
+```pyhton
+class SaleOrderLine(models.Model):  
+    _inherit = "sale.order.line"  
+  
+    pnt_delivery_date = fields.Date(  
+        string="Delivery date",  
+        help="Delivery date of the products to the customer",  
+        compute="_compute_delivery_date",  
+        store=False,  
+        readonly=False,  
+    )  
+  
+    @api.depends('customer_lead')  
+    def _compute_delivery_date(self):  
+        for line in self:  
+            if line.customer_lead:  
+                delta = timedelta(days=line.customer_lead)  
+                line.pnt_delivery_date = datetime.now() + delta  
+            else:  
+                line.pnt_delivery_date = False  
+  
+    @api.depends('pnt_delivery_date')  
+    def _compute_customer_lead(self):  
+        super()._compute_customer_lead()  
+  
+        for line in self:  
+            delta = timedelta(days=line.customer_lead)  
+            fecha_supuesta = datetime.now() + delta  
+            fecha_entrega = line.pnt_delivery_date  
+  
+            if fecha_entrega:  
+                day_difference = (  
+                        fecha_entrega - fecha_supuesta.date()).days  
+            else:  
+                day_difference = (  
+                    datetime.now().date() - fecha_supuesta.date()).days  
+  
+            if day_difference != 0:  
+                line.customer_lead = float(day_difference)
+```
+
+- El campo plazo de entrega calcula el numero de días hasta la entrega
+- El campo Fecha de entrega calcula la fecha usando el número de días que quedan
+
+Queremos poder actualizar tanto la fecha, como el número de días.

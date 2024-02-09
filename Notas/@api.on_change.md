@@ -21,3 +21,13 @@ Cuando se modifica un campo incluido en el decorador, se invoca el método asoci
 def onchange_field_name(self):
     self.driver_name = False
 ```
+
+
+Solo pensado para campos en el propio modelo en el que estamos, ni create ni write
+
+**Example ERRONEO**
+```python
+@api.onchange('driver_id')
+def onchange_field_name(self):
+    self.driver_id.name = "BLA BLA"
+```
