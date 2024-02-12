@@ -1,18 +1,20 @@
 > [[Vista List o Tree - Listado]]
 
-Tags: #todo
+Tags:
 Status: 
-Related: 
+Related: [[Añadir filtro de referencia de cliente]]
 
 ___
 
 # Referencia de cliente en listado sale.order
 
-#todo FALTA LINK DE LA HISTORIA (encarna)
+![[Pasted image 20240202094257.png]]
 
+
+>[JM_Distech_47585]()
 > Añadimos la referencia del cliente en `sale.order` dentro de:
-> 	- Presupuestos
-> 	- Pedidos de venta
+> - Presupuestos
+> - Pedidos de venta
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -45,6 +47,5 @@ ___
 </odoo>
 ```
 
-![[Pasted image 20240202094257.png]]
 
-[[Añadir filtro de referencia de cliente]]
+

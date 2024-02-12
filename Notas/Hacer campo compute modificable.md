@@ -8,12 +8,19 @@ ___
 
 # Hacer campo compute modificable
 
+## Ejemplo 1
+
 [`stock.picking.py`(core)](https://github.com/OCA/OCB/blob/16.0/addons/delivery/models/stock_picking.py)
 
 ```python
 @api.depends('move_line_ids.result_package_id',
 			 'move_line_ids.result_package_id.shipping_weight',
-			 'weight_bulk')  
+			 'weight_bulk')
+
+shipping_weight = fields.Float(
+	   "Weight for Shipping",
+	   compute='_compute_shipping_weight')
+
 def _compute_shipping_weight(self):  
     for picking in self:    
         picking.shipping_weight = 
@@ -23,12 +30,9 @@ def _compute_shipping_weight(self):
 			pack.weight 
 			for pack in picking.package_ids])
 
-shipping_weight = fields.Float(
-	   "Weight for Shipping",
-	   compute='_compute_shipping_weight')
 ```
 
-## 1. Redefinimos la clase y sustituimos el campo `shipping_weight` con las siguientes modificaciones
+### Redefinimos la clase y sustituimos el campo `shipping_weight` con las siguientes modificaciones
    
    - Añadimos `readonly=False` para hacer que el campo sea modificable
    - Añadimos `store=True` para poder guardar en base de datos un valor
@@ -45,14 +49,19 @@ shipping_weight = fields.Float(
 
 ## Ejemplo 2
 
-[`disclima`](https://github.com/puntsistemes/distech_odoo/pull/9/commits/58fb1f3a798af4cd31405238f39104e13857a908#diff-8f4223269b93d45f51d8bdd02a0810cbc4668201ac204eae30e9e4a16447cabb)
+>[Disclima_47585](https://github.com/puntsistemes/distech_odoo/pull/9/commits/58fb1f3a798af4cd31405238f39104e13857a908#diff-8f4223269b93d45f51d8bdd02a0810cbc4668201ac204eae30e9e4a16447cabb)
+>Si cambiamos `Fecha de entrega` manualmente, `Plazo de entrega` debe actualizarse para que ambos datos coincidan.
+>
+>- `Plazo de entrega` calcula el numero de días hasta la entrega
+>- `Fecha de entrega` calcula la fecha usando el número de días que quedan
+
 
 ![[Pasted image 20240207090824.png]]
 
-```pyhton
+```python
 class SaleOrderLine(models.Model):  
     _inherit = "sale.order.line"  
-  
+    
     pnt_delivery_date = fields.Date(  
         string="Delivery date",  
         help="Delivery date of the products to the customer",  
@@ -60,7 +69,7 @@ class SaleOrderLine(models.Model):
         store=False,  
         readonly=False,  
     )  
-  
+    
     @api.depends('customer_lead')  
     def _compute_delivery_date(self):  
         for line in self:  
@@ -69,28 +78,23 @@ class SaleOrderLine(models.Model):
                 line.pnt_delivery_date = datetime.now() + delta  
             else:  
                 line.pnt_delivery_date = False  
-  
+                
     @api.depends('pnt_delivery_date')  
     def _compute_customer_lead(self):  
         super()._compute_customer_lead()  
-  
+        
         for line in self:  
             delta = timedelta(days=line.customer_lead)  
             fecha_supuesta = datetime.now() + delta  
             fecha_entrega = line.pnt_delivery_date  
-  
+            
             if fecha_entrega:  
                 day_difference = (  
                         fecha_entrega - fecha_supuesta.date()).days  
             else:  
                 day_difference = (  
                     datetime.now().date() - fecha_supuesta.date()).days  
-  
+                    
             if day_difference != 0:  
                 line.customer_lead = float(day_difference)
 ```
-
-- El campo plazo de entrega calcula el numero de días hasta la entrega
-- El campo Fecha de entrega calcula la fecha usando el número de días que quedan
-
-Queremos poder actualizar tanto la fecha, como el número de días.

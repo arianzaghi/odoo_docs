@@ -1,6 +1,6 @@
  > [[Odoo Views Vistas]]
 
-Tags: 
+Tags: #todo 
 Status: 
 Related: 
 

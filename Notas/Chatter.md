@@ -16,4 +16,11 @@ ___
 </div>
 ```
 
-[[Ocultar chatter para un grupo]]
+> [!IMPORTANT] Importante
+> El modelo en el que insertemos el `chatter` debe de heredar de:
+> ```python
+> _inherit = ['mail.thread', 'mail.activity.mixin']
+> ```
+
+## Actividades con chatter
+- [[Ocultar chatter para un grupo]]

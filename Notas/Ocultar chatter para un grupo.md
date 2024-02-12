@@ -8,7 +8,7 @@ ___
 
 # Ocultar chatter para un grupo
 
-### 1. Heredamos en nuestra vista el chatter para cambiarle la clase y ponerlo en envisible
+### 1. Heredamos en nuestra vista el chatter para cambiarle la clase y ponerlo en invisible
 ```python
 <record id="pnt_hr_employee_form_view" model="ir.ui.view">  
     <field name="name">pnt.hr.employee.form.view</field>  

@@ -16,7 +16,7 @@
             }
           },
           {
-            "id": "b317b58f081a3e19",
+            "id": "9c32bb4734a73357",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,33 +29,7 @@
             }
           },
           {
-            "id": "0c5b5504ab52d2a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Wizards.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "953cc01e9a75689e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Vista List o Tree - Listado.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e439a966cbea8dcc",
+            "id": "4bcad5ae653fc6fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,12 +42,12 @@
             }
           },
           {
-            "id": "31e0efe090b6d66f",
+            "id": "68aaecd8517e9ff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Actions.md",
+                "file": "Notas/Search filter tree view.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -81,38 +55,12 @@
             }
           },
           {
-            "id": "d6c1a6af22c99809",
+            "id": "e9553949a14e77c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Report Actions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28a910b3e0dea008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Imprimir informe desde varios modelos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d7bda61645c85ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/git_clean_branches.md",
+                "file": "Notas/Añadir filtro de referencia de cliente.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -120,7 +68,8 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 2,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -187,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Añadir filtro de referencia de cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Añadir filtro de referencia de cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Wizards.md"
+                "file": "Notas/Añadir filtro de referencia de cliente.md"
               }
             }
           }
@@ -250,34 +199,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0c5b5504ab52d2a0",
+  "active": "4bcad5ae653fc6fb",
   "lastOpenFiles": [
+    "Notas/Referencia de cliente en listado sale.order.md",
+    "Notas/Vista List o Tree - Listado.md",
     "Notas/Odoo Views Vistas.md",
+    "Notas/Añadir filtro de referencia de cliente.md",
+    "Notas/Search filter tree view.md",
+    "Notas/Python framework.md",
+    "Notas/ORM Methods.md",
+    "Notas/Hacer campo compute modificable.md",
+    "Notas/Chatter.md",
+    "Notas/Lote o Nº de serie.md",
+    "Notas/Mostrar datos bancarios cliente en informe.md",
+    "Notas/Clonar la bbdd del docker de github.md",
+    "Notas/Stat button.md",
+    "Notas/Informes XLM.md",
+    "Notas/Imprimir informe desde varios modelos.md",
+    "Notas/Ocultar chatter para un grupo.md",
+    "Notas/Configurar y ejecutar Odoo server.md",
     "Notas/Wizards.md",
     "Excalidraw/Diagrama vista Form.md",
-    "Notas/Imprimir informe desde varios modelos.md",
-    "Notas/Vista List o Tree - Listado.md",
-    "Notas/Referencia de cliente en listado sale.order.md",
-    "Notas/Añadir filtro de referencia de cliente.md",
     "Notas/Vista Form - Formulario.md",
     "Notas/Componentes estructurales xml form.md",
-    "Notas/Ocultar chatter para un grupo.md",
-    "Notas/Chatter.md",
-    "Notas/Stat button.md",
     "Notas/Actions.md",
     "Notas/Report Actions.md",
     "Notas/Reportes o Informes.md",
     "Notas/Menu Item.md",
-    "Notas/Informes XLM.md",
     "Notas/Informes XLSX (Excel).md",
-    "Notas/Informe de medicinas XLSX.md",
-    "Notas/Mostrar datos bancarios cliente en informe.md",
-    "Notas/git_clean_branches.md",
-    "Notas/__init__.py.md",
-    "Excalidraw/Estructura informes avanzada diagrama.md",
-    "Notas/Clonar la bbdd del docker de github.md",
-    "Notas/@api.on_change.md",
-    "Notas/chatt.md",
     "Pasted Image 20240209100446_382.png",
     "Excalidraw",
     "Pasted image 20240207090824.png",

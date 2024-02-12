@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "-path: Templates tag:#todo  ",
-  "showTags": true,
+  "search": "-path: Templates  ",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -21,10 +21,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.287084148727984,
+  "centerStrength": 0.230724070450098,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3888147034377834,
-  "close": false
+  "scale": 0.38881470343778324,
+  "close": true
 }
