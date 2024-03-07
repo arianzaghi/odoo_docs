@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[Informes XLM]]
 
 Tags: 
 Status: 
@@ -8,4 +8,22 @@ ___
 
 # Formatear fecha reporte
 
-t-options='{"widget": "date","format": "MMMM yyyy"}'/>
+```xml
+<p t-field="o.scheduled_date" t-options='{"widget": "date","format": "dd/MM/yyyy"}'/>
+```
+
+
+> [!EXAMPLE] 13/02/2024
+> ```xml
+>t-options='{"widget": "date","format": "dd/MM/yyyy"}'
+>``` 
+
+> [!EXAMPLE] 13 Feb 2024
+> ```xml
+>t-options='{"widget": "date","format": "dd MMMM yyyy"}'
+>``` 
+
+> [!EXAMPLE] 13/02/24
+> ```xml
+>t-options='{"widget": "date","format": "dd/MM/yy"}'
+>``` 

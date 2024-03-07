@@ -2,7 +2,7 @@
 
 Tags: #modelo
 Status: 
-Related: [[stock.move.lines]]
+Related: [[stock.move.line]]
 
 ___
 # stock.picking

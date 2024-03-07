@@ -8,9 +8,9 @@ ___
 
 # Actions
 
-[[Server Actions]]
-[[Window Actions]]
-[[Client Actions]]
-[[Report Actions]]
-[[URL Actions]]
-[[Automated Actions]]
+[[Server Action]]
+[[Window Action]]
+[[Client Action]]
+[[Report Action]]
+[[URL Action]]
+[[Automated Action]]

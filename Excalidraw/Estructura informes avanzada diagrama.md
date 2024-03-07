@@ -124,8 +124,8 @@ Botones de Acción ^GCEM3RGx
 			"y": -2011.9851822783187,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 1112.1321962961226,
-			"height": 187.08917946190553,
+			"width": 1112.09375,
+			"height": 187.08917946190556,
 			"seed": 1475234059,
 			"groupIds": [
 				"2SOd-IiQzHtbQecwopTOU"
@@ -145,7 +145,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "ir.actions.report",
 			"lineHeight": 1.15,
-			"baseline": 148.99999999999994
+			"baseline": 149
 		},
 		{
 			"type": "text",
@@ -163,7 +163,7 @@ Botones de Acción ^GCEM3RGx
 			"y": -2284.057574495443,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 512.346407839589,
+			"width": 512.3125,
 			"height": 147.20974255749664,
 			"seed": 1399511211,
 			"groupIds": [
@@ -184,7 +184,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<record>",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -202,7 +202,7 @@ Botones de Acción ^GCEM3RGx
 			"y": -1719.0817913981039,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 1156.1963104407382,
+			"width": 1156.189208984375,
 			"height": 199.36139040378933,
 			"seed": 798239051,
 			"groupIds": [
@@ -223,7 +223,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 157
+			"baseline": 160
 		},
 		{
 			"type": "rectangle",
@@ -277,7 +277,7 @@ Botones de Acción ^GCEM3RGx
 			"y": -1980.1741540397807,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 1083.6786186341992,
+			"width": 1083.641155975342,
 			"height": 182.302557408112,
 			"seed": 1275823499,
 			"groupIds": [
@@ -298,7 +298,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "ir.actions.report",
 			"lineHeight": 1.15,
-			"baseline": 144.99999999999997
+			"baseline": 145
 		},
 		{
 			"type": "text",
@@ -316,7 +316,7 @@ Botones de Acción ^GCEM3RGx
 			"y": -2238.068636782613,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 512.346407839589,
+			"width": 512.3125,
 			"height": 147.20974255749664,
 			"seed": 322477099,
 			"groupIds": [
@@ -337,7 +337,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<record>",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -355,7 +355,7 @@ Botones de Acción ^GCEM3RGx
 			"y": -1696.7984879525716,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 635.8233297240721,
+			"width": 635.8194580078125,
 			"height": 199.36139040378927,
 			"seed": 768204491,
 			"groupIds": [
@@ -376,7 +376,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "stock.lot",
 			"lineHeight": 1.15,
-			"baseline": 157
+			"baseline": 160
 		},
 		{
 			"type": "rectangle",
@@ -434,8 +434,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 50.83605556855082,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 658.2709958992244,
-			"height": 151.3604561548812,
+			"width": 658.496826171875,
+			"height": 151.36045615488115,
 			"seed": 2021734859,
 			"groupIds": [
 				"7HvS358fKeOSoH-J2IUXJ"
@@ -455,12 +455,12 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 120.00000000000006
+			"baseline": 121
 		},
 		{
 			"type": "text",
-			"version": 556,
-			"versionNonce": 1354117317,
+			"version": 558,
+			"versionNonce": 1265153822,
 			"isDeleted": false,
 			"id": "ZNxa1jUu",
 			"fillStyle": "solid",
@@ -473,8 +473,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 999.5859350056344,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 711.256890797954,
-			"height": 223.01346310348796,
+			"width": 711.2525597444363,
+			"height": 223.013463103488,
 			"seed": 1198377067,
 			"groupIds": [
 				"7HvS358fKeOSoH-J2IUXJ"
@@ -482,7 +482,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707472223518,
+			"updated": 1709719943223,
 			"link": null,
 			"locked": false,
 			"fontSize": 193.92475052477218,
@@ -494,7 +494,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "stock.lot",
 			"lineHeight": 1.15,
-			"baseline": 175.99999999999997
+			"baseline": 179
 		},
 		{
 			"type": "text",
@@ -512,8 +512,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 553.8597012005102,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1586.0609140269742,
-			"height": 458.76479798465215,
+			"width": 1586.784423828125,
+			"height": 458.7647979846521,
 			"seed": 451174693,
 			"groupIds": [
 				"7HvS358fKeOSoH-J2IUXJ"
@@ -533,7 +533,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<t\n    t-set=\"docs\"\n    t-value=\"docs.pnt_quality_lines()\"\n/>",
 			"lineHeight": 1.15,
-			"baseline": 434
+			"baseline": 435
 		},
 		{
 			"type": "rectangle",
@@ -591,8 +591,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 69.81746853898221,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 640.2194225698805,
-			"height": 147.20974255749664,
+			"width": 640.4390599648984,
+			"height": 147.20974255749658,
 			"seed": 1412496299,
 			"groupIds": [
 				"6hCU0-t4OAELpDeL6i-Jp"
@@ -612,7 +612,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 117.00000000000003
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -630,8 +630,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 1006.9393568732521,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1171.8004738337431,
-			"height": 202.0519955216447,
+			"width": 1171.793276535277,
+			"height": 202.05199552164467,
 			"seed": 2139770443,
 			"groupIds": [
 				"6hCU0-t4OAELpDeL6i-Jp"
@@ -651,7 +651,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 159.00000000000003
+			"baseline": 162
 		},
 		{
 			"type": "rectangle",
@@ -713,8 +713,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 2431.468205206459,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 954.4983349074857,
-			"height": 219.47390097799357,
+			"width": 954.8257906522465,
+			"height": 219.47390097799348,
 			"seed": 1809042859,
 			"groupIds": [
 				"bdOu0eDam-IT9ttsHj-hA"
@@ -734,12 +734,12 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 174.00000000000003
+			"baseline": 175
 		},
 		{
 			"type": "text",
-			"version": 804,
-			"versionNonce": 1813545451,
+			"version": 806,
+			"versionNonce": 100159938,
 			"isDeleted": false,
 			"id": "aJutXY4C",
 			"fillStyle": "solid",
@@ -752,8 +752,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 3312.914744297992,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1348.6659730169931,
-			"height": 232.54867806009003,
+			"width": 1348.6576893955441,
+			"height": 232.54867806009,
 			"seed": 2130894923,
 			"groupIds": [
 				"bdOu0eDam-IT9ttsHj-hA"
@@ -761,7 +761,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707472223519,
+			"updated": 1709719943225,
 			"link": null,
 			"locked": false,
 			"fontSize": 202.21624179138263,
@@ -773,7 +773,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 183.00000000000003
+			"baseline": 187
 		},
 		{
 			"type": "text",
@@ -791,8 +791,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 2890.1086441952702,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 1457.7176761589235,
-			"height": 281.9598100450562,
+			"width": 1457.9825439453125,
+			"height": 281.95981004505614,
 			"seed": 200711915,
 			"groupIds": [
 				"bdOu0eDam-IT9ttsHj-hA"
@@ -812,7 +812,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "if (mrp_done)",
 			"lineHeight": 1.15,
-			"baseline": 224
+			"baseline": 226
 		},
 		{
 			"type": "rectangle",
@@ -861,8 +861,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 2809.540027948091,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 640.2194225698805,
-			"height": 147.20974255749664,
+			"width": 640.4390599648984,
+			"height": 147.20974255749658,
 			"seed": 1738417541,
 			"groupIds": [
 				"uzNAKonxn2ese9C0O2s16"
@@ -882,12 +882,12 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 117.00000000000003
+			"baseline": 118
 		},
 		{
 			"type": "text",
-			"version": 990,
-			"versionNonce": 2102084395,
+			"version": 992,
+			"versionNonce": 834675550,
 			"isDeleted": false,
 			"id": "9Au4NVtY",
 			"fillStyle": "solid",
@@ -900,7 +900,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 3603.1805894046556,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 1293.6736314045156,
+			"width": 1293.66568555072,
 			"height": 223.06642181482968,
 			"seed": 573123813,
 			"groupIds": [
@@ -909,7 +909,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707472223519,
+			"updated": 1709719943225,
 			"link": null,
 			"locked": false,
 			"fontSize": 193.97080157811277,
@@ -921,7 +921,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 176.00000000000003
+			"baseline": 179
 		},
 		{
 			"type": "text",
@@ -939,8 +939,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 3159.1166910287366,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
-			"width": 1314.8962665624854,
-			"height": 256.73139696333345,
+			"width": 1315.2081298828125,
+			"height": 256.7313969633335,
 			"seed": 412895301,
 			"groupIds": [
 				"uzNAKonxn2ese9C0O2s16"
@@ -960,7 +960,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "Reporte XLM",
 			"lineHeight": 1.15,
-			"baseline": 203.99999999999994
+			"baseline": 205
 		},
 		{
 			"type": "rectangle",
@@ -1014,8 +1014,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 4879.388669682672,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 640.2194225698805,
-			"height": 147.20974255749664,
+			"width": 640.4390599648984,
+			"height": 147.20974255749658,
 			"seed": 23238443,
 			"groupIds": [
 				"Wjs4oUJ-iAX_AQwvn2GtO"
@@ -1035,7 +1035,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 117.00000000000003
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -1053,7 +1053,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 5748.8859103965715,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 853.742847906389,
+			"width": 853.7376041449921,
 			"height": 147.20974255749664,
 			"seed": 1526495691,
 			"groupIds": [
@@ -1074,7 +1074,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -1092,8 +1092,8 @@ Botones de Acción ^GCEM3RGx
 			"y": 5267.755384163202,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 639.2812951224522,
-			"height": 249.68823466525723,
+			"width": 639.5150146484375,
+			"height": 249.68823466525726,
 			"seed": 947980395,
 			"groupIds": [
 				"Wjs4oUJ-iAX_AQwvn2GtO"
@@ -1356,7 +1356,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 477.2225431474168,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffec99",
-			"width": 258.39630366089216,
+			"width": 258.4375,
 			"height": 147.20974255749664,
 			"seed": 1304206245,
 			"groupIds": [],
@@ -1375,7 +1375,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": "uVmPuC4yStqeLH9c-191L",
 			"originalText": "True",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "arrow",
@@ -1450,7 +1450,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 818.0533111285824,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#ffec99",
-			"width": 312.9508374009093,
+			"width": 313,
 			"height": 147.20974255749664,
 			"seed": 1898689995,
 			"groupIds": [],
@@ -1469,7 +1469,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": "oR0ClDKqCizwsdRHFiW8-",
 			"originalText": "False",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "arrow",
@@ -1539,7 +1539,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 300.0250220826101,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#ffec99",
-			"width": 1766.5544131719294,
+			"width": 1766.4375,
 			"height": 147.20974255749664,
 			"seed": 1090087557,
 			"groupIds": [],
@@ -1558,7 +1558,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<t t-call=\"web.html_container\">",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -1576,7 +1576,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 305.93548544595296,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#ffec99",
-			"width": 1766.5544131719294,
+			"width": 1766.4375,
 			"height": 147.20974255749664,
 			"seed": 1641712677,
 			"groupIds": [],
@@ -1595,7 +1595,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<t t-call=\"web.html_container\">",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "text",
@@ -1613,7 +1613,7 @@ Botones de Acción ^GCEM3RGx
 			"y": 2694.8678541047348,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "#ffec99",
-			"width": 1759.5539498709613,
+			"width": 1759.4375,
 			"height": 147.20974255749664,
 			"seed": 1836683531,
 			"groupIds": [],
@@ -1632,7 +1632,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<t t-call=\"web.internal_layout\">",
 			"lineHeight": 1.15,
-			"baseline": 116
+			"baseline": 118
 		},
 		{
 			"type": "rectangle",
@@ -1679,8 +1679,8 @@ Botones de Acción ^GCEM3RGx
 			"y": -3357.0643413912585,
 			"strokeColor": "#f08c00",
 			"backgroundColor": "transparent",
-			"width": 2227.5515024991296,
-			"height": 307.22033229390667,
+			"width": 2227.645263671875,
+			"height": 307.2203322939066,
 			"seed": 903051659,
 			"groupIds": [],
 			"frameId": null,
@@ -1698,7 +1698,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "Botones de Acción",
 			"lineHeight": 1.15,
-			"baseline": 245
+			"baseline": 246
 		},
 		{
 			"type": "arrow",
@@ -1816,8 +1816,8 @@ Botones de Acción ^GCEM3RGx
 		"currentItemTextAlign": "center",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 8262.034255437964,
-		"scrollY": 4688.675311476603,
+		"scrollX": 10125.9187736526,
+		"scrollY": 4638.293510440873,
 		"zoom": {
 			"value": 0.1
 		},

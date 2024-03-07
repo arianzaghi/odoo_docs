@@ -13,6 +13,21 @@ ___
 - Se imprimen desde los botones de impresión
 - Se encuentran en `report_pnt/reports`
 
-### Ejemplos
+# Estructura
+Los informes cuentan con 3 componentes principales:
+- [[Report Action]]
+- Template de invocación
+- Informe xlm
+
+## Report action
+
+
+## Template de invocación
+
+# Crear nuevo informe
+
+
+
+# Ejemplos
 - [[Mostrar datos bancarios cliente en informe]]
 - [[Imprimir informe desde varios modelos]]
