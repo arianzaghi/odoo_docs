@@ -13,6 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Notas/dev-tools MOC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "742690ab7f1af6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/dev-tools MOC.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2fa202ebee65f15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/install_development.sh.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf680de0d6ead6e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Notas/Modelo Mantenimiento.md",
                 "mode": "source",
                 "backlinks": false,
@@ -33,26 +72,8 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "03d5006fd945997d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4cfaffd9a9748115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Menu Item.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,18 +203,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9b09dbf499987ccd",
+  "active": "bf680de0d6ead6e3",
   "lastOpenFiles": [
-    "Notas/Menu Item.md",
+    "Notas/Instalar Odoo con Dockers.md",
+    "Notas/install_development.sh.md",
+    "Notas/dev-tools MOC.md",
+    "Notas/Instalar v17.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
     "Notas/Modelo Mantenimiento.md",
+    "Notas/Traducir campo del core.md",
+    "Notas/Menu Item.md",
     "Notas/stock.move.line.md",
     "Notas/Añadir stock_move_line.product_packaging_qty y product_packaging_id.md",
     "Notas/custom_pnt.md",
     "Notas/Many2one.md",
     "Notas/Odoo Modelos.md",
-    "Notas/Instalar v17.md",
     "Notas/Update ALL.md",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
     "Notas/Informes XLM.md",
     "Notas/Report Action.md",
     "Excalidraw/Estructura informes avanzada diagrama.md",
@@ -206,10 +231,6 @@
     "Notas/Campo Computed.md",
     "Notas/Packing List.md",
     "Notas/Clonar la bbdd del docker de github.md",
-    "Notas/Formatear fecha reporte.md",
-    "Notas/HS Code - Codigo SA.md",
-    "Notas/Incoterm.md",
-    "Notas/Imprimir informe con dos paperformat distintos.md",
     "Static/Pasted image 20240212130144.png",
     "Static/Pasted image 20240214152730.png",
     "Static/Pasted image 20240212135523.png",

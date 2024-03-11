@@ -1,7 +1,7 @@
 
+> [[Back]]
 
-
-ags: 
+Tags: 
 Status: 
 Related: 
 
@@ -32,10 +32,4 @@ Aquí se encuentran los scripts principales para la clonación de clientes
 - [[git_update.sh]]
 - [[git_client_mirror.sh]]
 - [[install_development.sh]]
-
-## 
-
-
-
-## 
 
