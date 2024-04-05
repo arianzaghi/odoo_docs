@@ -1,4 +1,4 @@
-[[Misc]]
+> [[Configurar y ejecutar Odoo server]]
 
 Tags:
 Links:

@@ -154,3 +154,6 @@ Botón para navegar hasta nuestro mantenimiento
 
 ### 3. Coralim - Métodos de transporte
 [Coralim_48532](https://github.com/puntsistemes/coralim_odoo/pull/40/commits/92be2de68c909020681a81c3dbf989fab7c0e40f#diff-22c9f5d4c8f4aec79903a1ab223c4a663e1a523a15025aa792c984d02aa30febR1-R19)
+
+### 4. Coralim - Dangerous goods packing group
+[Coralim_48532](https://github.com/puntsistemes/coralim_odoo/pull/40/commits/92be2de68c909020681a81c3dbf989fab7c0e40f#diff-22c9f5d4c8f4aec79903a1ab223c4a663e1a523a15025aa792c984d02aa30febR1-R19)

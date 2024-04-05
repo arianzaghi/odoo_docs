@@ -2,7 +2,7 @@
 
 Tags: #informe
 Status: 
-Related: 
+Related: [[Paperformat]]
 
 ___
 

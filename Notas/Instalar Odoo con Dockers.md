@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Repositorio dev-tools MOC]]
 
 Tags: 
 Status: 
@@ -21,7 +21,7 @@ ___
 ## Requisitos:
 
 - Script `install_development.sh` 
-	En [[dev-tools MOC]], rama `Pycharm`
+	En [[Repositorio dev-tools MOC]], rama `Pycharm`
 - SSH Key
 	ssh_key_private
 

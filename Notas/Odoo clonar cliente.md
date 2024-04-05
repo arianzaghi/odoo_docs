@@ -1,4 +1,4 @@
-> [[Workflow Punt|Back]]
+> [[Dev-tools]]
 # Pasos para la configuración del Odoo de un cliente en nuestro equipo local
 
 

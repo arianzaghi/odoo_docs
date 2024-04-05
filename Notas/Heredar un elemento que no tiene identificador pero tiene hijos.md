@@ -1,8 +1,8 @@
-1> [[Informes XLM]]
+> [[Informes XLM]]
 
 Tags: 
 Status: 
-Related: 
+Related: [[Herencia]]
 
 ___
 

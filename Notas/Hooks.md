@@ -44,4 +44,8 @@ def post_load_hook():
 StockMoveLine._patch_method("_get_aggregated_product_quantities", _get_aggregated_product_quantities)
 ````
 
+### Manifest
+Añadimos el hook al manifest
+
+
 Referencia: https://github.com/puntsistemes/cafes-minyana_odoo/blob/14.0/custom_pnt/hooks.py

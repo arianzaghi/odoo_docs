@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Herencia]]
 
 Tags: 
 Status: 
@@ -42,3 +42,6 @@ ___
   
 </template>
 ```
+
+## Ejemplos
+

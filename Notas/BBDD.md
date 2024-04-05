@@ -1,4 +1,4 @@
-> [[010 - Odoo HOME]]
+> [[Workflow Punt]]
 
 Tags: 
 Status: 
@@ -9,3 +9,4 @@ ___
 # BBDD
 
 [[Cambiar la bbdd que se usa en el docker]]
+[[docker container stop postgres]]

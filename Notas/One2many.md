@@ -18,7 +18,7 @@ field_name = fields.One2many('related.model', 'inverse_field', string='Field Lab
 ```
 
 - `field_name`: El nombre del campo en el modelo actual. (One)
-- `'related.model'`: El nombre del modelo con el que se establecerá la relación (Many)
+- `related.model`: El nombre del modelo con el que se establecerá la relación (Many)
 - [[Inverse field|inverse_field]]: The name of the inverse field in the related model.
 - `string='Field Label'`: An optional label for the field that will be displayed in the user interface.
 - [[#^f968d4|[optional_parameters]]]: Additional parameters such as `context` or `domain` for customization.
@@ -27,7 +27,18 @@ field_name = fields.One2many('related.model', 'inverse_field', string='Field Lab
 ### Ejemplo 1
 
 ```python
-class ParentModel(models.Model):     _name = 'parent.model'     name = fields.Char(string='Parent Name')  class ChildModel(models.Model):     _name = 'child.model'     parent_ids = fields.One2many('parent.model', 'inverse_field', string='Children')
+class ParentModel(models.Model):
+	_name = 'parent.model'
+	
+	name = fields.Char(string='Parent Name')
+
+class ChildModel(models.Model):     
+	_name = 'child.model'     
+	parent_ids = fields.One2many(
+	'parent.model',
+	'inverse_field',
+	string='Children'
+)
 ```
 
 In this example, the one2many relationship is established between the `parent.model` and `child.model`. Each parent can have multiple children, and the field in the child model is labeled 'Children.'
