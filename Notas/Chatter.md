@@ -24,3 +24,4 @@ ___
 
 ## Actividades con chatter
 - [[Ocultar chatter para un grupo]]
+- [[Mostrar mensaje en chatter después de un evento]]

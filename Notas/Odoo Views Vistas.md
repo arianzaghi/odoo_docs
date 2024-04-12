@@ -27,5 +27,3 @@ ___
 ### [[Herencia]]
 
 ## Otros
-[[Formatear fecha reporte]]
-[[Formatear decimales en unidades reporte]]

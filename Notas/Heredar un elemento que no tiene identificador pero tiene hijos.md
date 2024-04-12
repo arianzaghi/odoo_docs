@@ -1,4 +1,4 @@
-> [[Informes XLM]]
+> [[Herencia]]
 
 Tags: 
 Status: 

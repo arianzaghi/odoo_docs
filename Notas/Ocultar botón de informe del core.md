@@ -1,4 +1,4 @@
-> [[Informes XLM]]
+> [[Modificaciones comunes XLM]]
 
 Tags: #todo 
 Status: 

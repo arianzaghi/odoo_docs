@@ -1,4 +1,4 @@
-> [[Informes XLM|Back]]
+> [[Modificaciones comunes XLM]]
 
 Tags: #informe
 Status: 
