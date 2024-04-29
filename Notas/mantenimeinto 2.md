@@ -7,12 +7,12 @@ Related:
 ___
 
 # Modelo Mantenimiento
-Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos.
+> Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos.
 
 ![[Pasted image 20240212135445.png]]
 ![[Pasted image 20240212135523.png]]
 
-## Programación del modelo
+## Programación paso a paso
 ### Clase Mantenimiento ("Hobbies").
 
 Almacena el nombre, el partner y el color.
@@ -38,7 +38,6 @@ class PntResPartnerHobbies(models.Model):
 ```
 
 ### Campo en la clase destino
-
 ##### Many2Many
 ```python
 pnt_skills_hobbies = fields.Many2many(
@@ -51,7 +50,6 @@ pnt_skills_hobbies = fields.Many2many(
 ```python
 {{MÓDULO}}.access_{{MODELO}},access_{{MODELO}},{{MÓDULO}}.model_{{MODELO}},base.group_user,1,1,1,1
 ```
-
 **Ejemplo**
 ```python
 custom_pnt.access_pnt_res_partner_hobbies,access_pnt_res_partner_hobbies,custom_pnt.model_pnt_res_partner_hobbies,base.group_user,1,1,1,1
@@ -144,9 +142,86 @@ Botón para navegar hasta nuestro mantenimiento
 
 
 
+
+## Programación copy-paste
+
+### Vistas {{MODELO}} (copy-paste)
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    
+        <record id="{{MODELO_}}_view_tree" model="ir.ui.view">
+            <field name="name">{{MODELO.}}.view.tree</field>
+            <field name="model">{{MODELO.}}</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="{{FIELD}}"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="{{MODELO_}}_view_form" model="ir.ui.view">
+            <field name="name">{{MODELO.}}.view.form</field>
+            <field name="model">{{MODELO.}}</field>
+            <field name="arch" type="xml">
+                <form string={{TITLE}}>
+                    <group>
+                        <field name="{{FIELD}}"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="{{MODELO_}}_action" model="ir.actions.act_window">
+            <field name="name">{{TITLE}}</field>
+            <field name="res_model">{{MODELO.}}</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">No items created.</p>
+            </field>
+        </record>
+        
+        <record id="{{MODELO_}}_tree"
+                model="ir.actions.act_window.view">
+            <field eval="1" name="sequence"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="{{MODELO_}}_view_tree"/>
+            <field name="act_window_id" ref="{{MODELO_}}_action"/>
+        </record>
+        
+        <record id="{{MODELO_}}_act_view_form"
+                model="ir.actions.act_window.view">
+            <field eval="2" name="sequence"/>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="{{MODELO_}}_view_form"/>
+            <field name="act_window_id" ref="{{MODELO_}}_action"/>
+        </record>
+        
+        <record id="{{MODELO_}}_menu" model="ir.ui.menu">
+            <field name="name">{{TITLE}}</field>
+            <field name="action" ref="{{MODELO_}}_action"/>
+            <field name="parent_id" ref="{{MENUITEM_VIEW_REF}}"/>
+            <field name="sequence">13</field>
+        </record>
+    </data>
+</odoo>
+```
+
+
+### Modelo Python
+
+```python
+
+```
+### Security
+```python
+{{MÓDULO}}.access_{{MODELO}},access_{{MODELO}},{{MÓDULO}}.model_{{MODELO}},base.group_user,1,1,1,1
+```
 ## Ejemplos
 
-### 1. Mantenimiento: Hobbies y Skills - Bonagent
+### 1. Bonagent - Hobbies y Skills
 [Bonagent_47078](https://github.com/puntsistemes/bona-gent_odoo/pull/44/commits/8378d1e09d1d3c4e87bd098ae3f39e6e1860696e#diff-8b857d45237d44ffe08a8959e63446c96c803486e5256a39dd6be3b994280403)
 
 ### 2. Franja95 - Alérgenos
@@ -156,4 +231,7 @@ Botón para navegar hasta nuestro mantenimiento
 [Coralim_48532](https://github.com/puntsistemes/coralim_odoo/pull/40/commits/92be2de68c909020681a81c3dbf989fab7c0e40f#diff-22c9f5d4c8f4aec79903a1ab223c4a663e1a523a15025aa792c984d02aa30febR1-R19)
 
 ### 4. Coralim - Dangerous goods packing group
-[Coralim_48532](https://github.com/puntsistemes/coralim_odoo/pull/40/commits/92be2de68c909020681a81c3dbf989fab7c0e40f#diff-22c9f5d4c8f4aec79903a1ab223c4a663e1a523a15025aa792c984d02aa30febR1-R19)
+
+
+### 5. Bonagent - Estudios
+[Bonagent_49200](https://github.com/puntsistemes/bona-gent_odoo/pull/48/files#diff-667d96a101016350cac702a72af4c1636a202cb1b475ce7fc11022b29460ea92)

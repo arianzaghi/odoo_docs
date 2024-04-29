@@ -36,3 +36,10 @@ ___
 
 > [!DANGER] Recuerda
 > Después de instalar el módulo hay que activarlo, tanto en el docker de pruebas como en PRO
+
+
+## Adicionalmente
+
+1. Comprobamos que en nuestro local en `/opt/sources/odoo170/src/` exista el modulo que estamos instalando (`bank_payment`), y que este actualizado (`git pull`)
+2. Creamos enlace en el servidor, git log y git mirror en nuestro local
+3. añadir linea en nuestro config

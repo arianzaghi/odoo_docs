@@ -8,8 +8,14 @@ ___
 
 # Formatear fecha reporte
 
+**Desde el formulario**
 ```xml
 <p t-field="o.scheduled_date" t-options='{"widget": "date","format": "dd/MM/yyyy"}'/>
+```
+
+**Desde XPATH**
+```xml
+<attribute name="t-options">{"widget": "date","format": "dd/MM/yyyy"}</attribute>
 ```
 
 

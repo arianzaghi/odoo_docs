@@ -11,7 +11,7 @@ Esta operación consiste en actualizar todos los módulos y repositorios del pro
 Primero la hacemos en DEV, y si todo funciona bien en PRO.
 
 ## DEV
-
+ 
 - Paramos el servidor
 	`sudo su`
 	`systemctl stop odoo160dev`

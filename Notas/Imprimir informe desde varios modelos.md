@@ -1,4 +1,4 @@
-> [[Informes XLM]]
+> [[Impresion de informes]]
 
 Tags: #todo 
 Status: 

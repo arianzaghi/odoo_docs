@@ -46,6 +46,9 @@ Botones que nos permiten imprimir [[Reportes o Informes]]
     <field name="paperformat_id" ref="report_pnt.paperformat_internal_pnt"/>  
 </record>
 ```
+
+
+
 # Añadir nuevo Report Action (imprimir reporte)
 Queremos añadir un nuevo botón para imprimir un reporte como el que vemos a continuación:
 
