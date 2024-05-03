@@ -8,6 +8,11 @@ ___
 
 # Wizards
 
+## Wizard Avanzado
+
+[[Wizard Impresion Etiqueta Rellenando Campos]]
+[[Wizard impresión Etiquetas desde Albarán con Lotes]]
+
 ## Ejemplo de wizard Classic
 
 > Modelo: `stock.immediate.transfer`

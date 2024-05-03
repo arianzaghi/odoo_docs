@@ -15,3 +15,6 @@ ___
 2. Ejecutamos en terminal
 	`database_pulls som-energia_odoo_1_puntsistemes NOMBRE_BBDD`
 
+```
+database_pulls {{DOMINIO}} NOMBRE_BBDD`
+```

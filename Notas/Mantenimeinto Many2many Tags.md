@@ -1,4 +1,4 @@
-> [[Odoo Modelos]]
+> [[Modelo Mantenimiento]]
 
 Tags: 
 Status: 
@@ -6,8 +6,8 @@ Related:
 
 ___
 
-# Modelo Mantenimiento
-> Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos.
+# Mantenimeinto Many2many Tags
+> Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos usando tags Many2many
 
 ![[Pasted image 20240212135445.png]]
 ![[Pasted image 20240212135523.png]]
@@ -146,7 +146,6 @@ Botón para navegar hasta nuestro mantenimiento
 ## Programación copy-paste
 
 ### Vistas {{MODELO}} (copy-paste)
-
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
@@ -231,7 +230,6 @@ Botón para navegar hasta nuestro mantenimiento
 [Coralim_48532](https://github.com/puntsistemes/coralim_odoo/pull/40/commits/92be2de68c909020681a81c3dbf989fab7c0e40f#diff-22c9f5d4c8f4aec79903a1ab223c4a663e1a523a15025aa792c984d02aa30febR1-R19)
 
 ### 4. Coralim - Dangerous goods packing group
-
 
 ### 5. Bonagent - Estudios
 [Bonagent_49200](https://github.com/puntsistemes/bona-gent_odoo/pull/48/files#diff-667d96a101016350cac702a72af4c1636a202cb1b475ce7fc11022b29460ea92)

@@ -1,4 +1,4 @@
-> [[Informes XLM]]
+> [[Lista de informes]]
 
 Tags: 
 Status: 

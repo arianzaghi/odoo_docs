@@ -13,8 +13,8 @@ ___
 - Se imprimen desde los botones de impresión
 - Se encuentran en `report_pnt/reports`
 
-# [[Estructura informes]]
-
+## [[Estructura informes]]
+## [[Lista de informes]]
 
 ## Report action
 

@@ -8,20 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43dc12a6246c957d",
+            "id": "59098ee140014b49",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "39568a0da055cc91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+                "file": "Notas/Instalar v17.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -152,45 +155,45 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "43dc12a6246c957d",
+  "active": "59098ee140014b49",
   "lastOpenFiles": [
-    "Pasted image 20240428230428.png",
-    "Notas/Security.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Wizards.md",
-    "Notas/mantenimeinto 2.md",
-    "Pasted image 20240428211442.png",
-    "Notas/Report Action.md",
-    "Notas/Reportes o Informes.md",
-    "Notas/Estructura informes.md",
-    "Notas/Informes XLM.md",
-    "Notas/Template de Invocación.md",
-    "Notas/ORM Methods.md",
-    "Notas/Many2one.md",
-    "Notas/Lote en lineas de factura.md",
-    "Notas/Update ALL.md",
-    "Notas/Imprimir informe con dos paperformat distintos.md",
-    "Notas/Imprimir etiquetas.md",
-    "Notas/Etiquetas XML.md",
-    "Notas/Mostrar datos bancarios cliente en informe.md",
-    "Notas/Lote o Nº de serie.md",
-    "Notas/HS Code - Codigo SA.md",
-    "Notas/Instalar módulos en odoo.md",
     "Notas/Instalar v17.md",
+    "Notas/Mantenimeinto Many2many Tags.md",
     "Notas/Modelo Mantenimiento.md",
+    "Notas/Modelo mantenimiento con TREE.md",
     "Notas/Formatear decimales en unidades reporte.md",
+    "Notas/Referencia de cliente del producto campo ventas.md",
+    "Pasted image 20240503092233.png",
+    "Notas/Untitled.md",
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
+    "Pasted image 20240503085632.png",
+    "Pasted image 20240503085502.png",
+    "Notas/Wizards.md",
+    "Notas/Referencia de cliente en listado sale.order.md",
+    "Notas/Menu Item.md",
+    "Notas/Lote en lineas de factura.md",
+    "Notas/Packing List.md",
+    "Notas/Albarán Valorado.md",
+    "Notas/Lista de informes.md",
+    "Notas/Informes XLM.md",
+    "Notas/Barcode Codigo de barras.md",
+    "Ocultar / Borrar.md",
+    "Notas/().md",
+    "Notas/Configurar y ejecutar Odoo server.md",
+    "Pasted image 20240502172804.png",
+    "Notas/Albaran Valorado.md",
+    "Notas/UOM Unit Of Mesure.md",
+    "Pasted image 20240502094251.png",
     "Notas/Formatear fecha reporte.md",
-    "Notas/Ocultar campo en informe.md",
+    "Notas/Clonar la bbdd del docker de github.md",
+    "Notas/Security.md",
+    "Pasted image 20240429105553.png",
+    "Pasted image 20240428230428.png",
+    "Pasted image 20240428211442.png",
     "Pasted image 20240417165228.png",
     "Ocultar ",
     "Pasted image 20240409090209.png",
-    "Static/Pasted image 20240212130144.png",
-    "Static/Pasted image 20240214152730.png",
-    "Static/Pasted image 20240212135523.png",
-    "Static/Pasted image 20240212135445.png",
-    "Static/Pasted image 20240212134232.png",
-    "Static/Pasted image 20240212132928.png",
-    "Static/Pasted image 20240205174931.png",
     "Excalidraw",
     "Notas",
     "Static"

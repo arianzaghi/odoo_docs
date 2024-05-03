@@ -9,8 +9,13 @@ ___
 # Security
 
 > `ir.model.access.csv`
-
+> 
 ## Añadir permisos a un modelo
+
+**Primera Linea**
+```
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+```
 
 **Copy-Paste**
 ```python
@@ -23,3 +28,7 @@ ___
 ```python
 report_pnt.access_out_picking_label_wizard,access_out_picking_label_wizard,report_pnt.model_out_picking_label_wizard,base.group_user,1,1,1,1
 ```
+
+
+> [!DANGER] Importante
+> Añadir security al `manifest.py`
