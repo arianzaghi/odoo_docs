@@ -6,7 +6,7 @@ Related:
 
 ___
 # Menu Item
-Botones anidados y con jerarquía que se encuentran en el top navbar
+> Botones anidados y con jerarquía que se encuentran en el top navbar
 
 ![[Pasted image 20240205174931.png]]
 

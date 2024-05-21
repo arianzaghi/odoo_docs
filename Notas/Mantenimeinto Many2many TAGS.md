@@ -1,4 +1,4 @@
-> [[Modelo Mantenimiento]]
+n> [[Modelo Mantenimiento]]
 
 Tags: 
 Status: 
@@ -140,9 +140,6 @@ Botón para navegar hasta nuestro mantenimiento
 ![[Pasted image 20240212132928.png]]
 
 
-
-
-
 ## Programación copy-paste
 
 ### Vistas {{MODELO}} (copy-paste)
@@ -150,7 +147,6 @@ Botón para navegar hasta nuestro mantenimiento
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-    
         <record id="{{MODELO_}}_view_tree" model="ir.ui.view">
             <field name="name">{{MODELO.}}.view.tree</field>
             <field name="model">{{MODELO.}}</field>
@@ -165,7 +161,7 @@ Botón para navegar hasta nuestro mantenimiento
             <field name="name">{{MODELO.}}.view.form</field>
             <field name="model">{{MODELO.}}</field>
             <field name="arch" type="xml">
-                <form string={{TITLE}}>
+                <form string="{{TITLE}}">
                     <group>
                         <field name="{{FIELD}}"/>
                     </group>
@@ -208,7 +204,6 @@ Botón para navegar hasta nuestro mantenimiento
 </odoo>
 ```
 
-
 ### Modelo Python
 
 ```python
@@ -231,5 +226,3 @@ Botón para navegar hasta nuestro mantenimiento
 
 ### 4. Coralim - Dangerous goods packing group
 
-### 5. Bonagent - Estudios
-[Bonagent_49200](https://github.com/puntsistemes/bona-gent_odoo/pull/48/files#diff-667d96a101016350cac702a72af4c1636a202cb1b475ce7fc11022b29460ea92)

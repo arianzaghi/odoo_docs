@@ -121,3 +121,7 @@ class PntResPartnerJobRelation(models.Model):
 ```python
 custom_pnt.access_pnt_res_partner_hobbies,access_pnt_res_partner_hobbies,custom_pnt.model_pnt_res_partner_hobbies,base.group_user,1,1,1,1
 ```
+
+
+### 5. Bonagent - Estudios
+[Bonagent_49200](https://github.com/puntsistemes/bona-gent_odoo/pull/48/files#diff-667d96a101016350cac702a72af4c1636a202cb1b475ce7fc11022b29460ea92)

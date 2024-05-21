@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[res.partner]]
 
 ___
 
@@ -27,4 +27,6 @@ ___
         </field>  
     </record>  
 </odoo>
-```**
+```
+
+- Faltan 2 partes para constituir modulo comisiones

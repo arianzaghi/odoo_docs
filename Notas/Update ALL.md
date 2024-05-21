@@ -23,17 +23,12 @@ Primero la hacemos en DEV, y si todo funciona bien en PRO.
   `./git_update {{branch}}`
 	- Necesitamos usuario y token para descargar enterprise
 - Activamos venv
-	`python venv/bin/activate`
+	`source venv/bin/activate`
 - Update ALL
 	`python /opt/odoo/odoo{{version}}{{modo}}/src/core/odoo-bin -c /opt/odoo/odoo{{version}}{{modo}}/conf/odoo{{version}}{{modo}}.conf --stop-after-init --i18n-overwrite '--log level=info' --no-xmlrpc -d {{database_name}} -u all
-- Eliminamos bbdd DEV
-	`dropdb -p {{port}} DEV`
-- Creamos bbdd DEV
-	`time (createdb -p 5433 DEV) && time (pg_dump -p 5432 -Fc -Z4 -Od PRO | pg_restore -p 5433 -Od DEV)`
 
 
-
-## PROD
+## PRO
 
 Si han pasado varios dias desde el update all de dev, en vez de hacer update all en pro, copiamos el src de dev.
 

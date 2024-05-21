@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[product.product]] [[product.template]]
 
 ___
 
@@ -82,7 +82,6 @@ class ProductTemplate(models.Model):
 
 ## Recuperar referencia de un cliente
 > Con este método, asignaremos en la ficha del producto el partner_id principal, y en el pedido de venta, albarán, factura... Indicamos la dirección concreta de ese cliente.
-> 
 > Al buscar la referencia estamos por tanto buscando el `partner_id` del documento origen en los `res.partner` asignados a ese cliente como direcciones de facturación
 ```python
 def pnt_get_client_ref(self, partner_id):  

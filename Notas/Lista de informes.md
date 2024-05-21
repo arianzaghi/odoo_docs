@@ -9,5 +9,5 @@ ___
 # Lista de informes
 
 [[Albarán Valorado]]
-[[Lote en lineas de factura]]
+[[Lotes en lineas de factura]]
 [[Packing List]]

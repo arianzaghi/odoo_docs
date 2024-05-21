@@ -10,7 +10,7 @@ ___
 
 
 ## Ocultar / Borrar
-[[Ocultar campo en informe]]
+[[Ocultar campo del core en informe]]
 [[Ocultar nombre comercial direccion de entrega o datos cliente]]
 [[Ocultar botón de informe del core]]
 

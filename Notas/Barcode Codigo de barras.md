@@ -19,3 +19,7 @@ ___
 	/>  
 </div>
 ```
+
+```xml
+<div t-field="ml.product_id.barcode" t-options="{'widget': 'barcode', 'symbology': 'auto', 'width': 400, 'height': 100, 'quiet': 0, 'img_style': 'height:35px;'}"/>
+```

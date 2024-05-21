@@ -14,7 +14,7 @@ ___
 > [!IMPORTANT] Descripción
 > Cada línea representa operaciones de movimientos de unidades de stock.
 
-2
+
 ### Tareas comunes en `stock.move.line`
 
 - [[Añadir stock_move_line.product_packaging_qty y product_packaging_id]]

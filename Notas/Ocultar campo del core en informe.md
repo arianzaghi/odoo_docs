@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Ocultar campo en informe
+# Ocultar campo del core en informe
 
 Añadimos el siguiente atributo al elemento que queremos ocultar
 ```xml

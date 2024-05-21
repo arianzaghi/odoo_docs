@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Workflow Punt]]
 
 Tags: 
 Status: 
@@ -43,3 +43,14 @@ ___
 1. Comprobamos que en nuestro local en `/opt/sources/odoo170/src/` exista el modulo que estamos instalando (`bank_payment`), y que este actualizado (`git pull`)
 2. Creamos enlace en el servidor, git log y git mirror en nuestro local
 3. añadir linea en nuestro config
+
+
+Primero se debe crear el link en la carpeta OCA. En OCA hay un readme donde te dice exactamente el comando a utilizar. Solo debes cambiar el nombre por el nombre del módulo a instalar.
+
+Luego de creado el link, te armas el docker y dentro del docker te instalas el módulo. Tienes que darle a actualizar aplicaciones.
+
+Si no te aparece en la listas de aplicaciones, debes entrar al servidor del cliente, entras a odoo, src y ahí buscas la carpeta del módulo y le haces git pull. El git pull lo debes hacer en la carpeta del MODULO (por ejemplo stock) que contiene a los modelos (stock.picking, etc). Y ese git pull te actualiza el módulo completo, sería el modelo que necesitas y el que no necesitas también. Luego de hacer esto en el servidor, debes reabrir la pull requests (reopen).
+
+Con esto hay que tener cuidado porque si no hace un update_all durante mucho tiempo, tendrás el módulo instalado súper actualizado y el resto de src muy atrasado.
+
+Para pasar el módulo a tu local, debes subir el docker a producción y hacerte el client_mirror en tu local. Y así tendrías el módulo nuevo en tu local.

@@ -26,16 +26,14 @@ ___
 - **Variables**
 	`pnt_variable_nueva`
 
-## Modulos custom de punt
+## [[Modulos custom de punt]]
 
-[[report_pnt]]
-[[custom_pnt]]
 [[Modelo Mantenimiento]]
 
 ## Modulos core de odoo
 
 [[stock]]
-[[sale]]
+[[Sale]]
 [[account.move]]
 [[res.partner]]
 [[res.user]]
