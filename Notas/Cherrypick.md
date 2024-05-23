@@ -28,6 +28,9 @@ git checkout {{BRANCH}} && git pull
 
 3. Hacemos el cherry pick indicando los commits de ABAJO a arriba
 
+> [!DANGER] IMPORTANTE
+> Poner los commits de abajo a arriba
+
 ```sh
 git cherry-pick 3bd90f5 124d8e5 8febe81
 ```

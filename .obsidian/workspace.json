@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4166e3fededefb9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Vista List o Tree - Listado.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1c41f02111bf221",
+            "id": "b78edb1d018e30f4",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -29,12 +16,12 @@
             }
           },
           {
-            "id": "cb14207d16b82efe",
+            "id": "4e88358b95d5ecf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Campo opcional en vista tree.md",
+                "file": "Notas/Ver info de puertos y bbdd de servidor.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +29,12 @@
             }
           },
           {
-            "id": "b16d7900106a70ae",
+            "id": "e142a3efeec2f2cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/account.move.md",
+                "file": "Notas/Update ALL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,12 +42,12 @@
             }
           },
           {
-            "id": "acc7c68c393607c6",
+            "id": "81e9562a33e5c6f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Error al clonar cliente (Insigna).md",
+                "file": "Notas/Cherrypick.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,25 +55,12 @@
             }
           },
           {
-            "id": "613a544e358bb12d",
+            "id": "fc6935f113455197",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Campos avanzados.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b78edb1d018e30f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
+                "file": "Notas/Mostrar mensaje en chatter después de un evento.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -160,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Campo opcional en vista tree.md",
+                "file": "Notas/Update ALL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Campo opcional en vista tree.md",
+                "file": "Notas/Update ALL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Campo opcional en vista tree.md"
+                "file": "Notas/Update ALL.md"
               }
             }
           }
@@ -225,35 +199,37 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "cb14207d16b82efe",
+  "active": "e142a3efeec2f2cf",
   "lastOpenFiles": [
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/Script Educonsul.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/Programación sin docker.md",
+    "Notas/Cherrypick.md",
+    "Notas/Traducir campo del core.md",
+    "Notas/hr.employee.md",
+    "Notas/Mostrar mensaje en chatter después de un evento.md",
+    "Notas/Error login usuario or contraseña, usuario admin archivado.md",
+    "Pasted image 20240523105856.png",
+    "Notas/Chatter.md",
+    "Pasted image 20240523104011.png",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/Update ALL.md",
+    "Notas/Security.md",
+    "Notas/Limitar acceso a un campo a miembros de un grupo.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Campos avanzados.md",
+    "Notas/Error al clonar cliente (Insigna).md",
+    "Notas/Campo auxiliar como filtro para domain.md",
+    "Notas/domain.md",
     "Notas/Campo opcional en vista tree.md",
     "Notas/Menu Item.md",
     "Notas/Añadir filtro de referencia de cliente.md",
     "Notas/Vista List o Tree - Listado.md",
     "Notas/Search filter tree view.md",
     "Notas/Referencia de cliente en listado sale.order.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Cherrypick.md",
-    "Notas/Programación sin docker.md",
-    "Notas/Campos avanzados.md",
     "Notas/fields.Selection.md",
-    "Notas/Campo auxiliar como filtro para domain.md",
-    "Notas/domain.md",
-    "Notas/Sale.md",
-    "Notas/product.template.md",
-    "Notas/product.product.md",
-    "Notas/script juanma set_odoo_password() bbdd a 1.md",
-    "Notas/Error al clonar cliente (Insigna).md",
-    "Notas/account.move.md",
-    "Notas/Hooks.md",
     "Pasted image 20240520114956.png",
-    "Notas/Configurar y ejecutar Odoo server.md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/sale.order.line.md",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Update ALL.md",
-    "Notas/Ver info de puertos y bbdd de servidor.md",
     "Static/Pasted image 20240126075424.png",
     "Static/Pasted image 20240515082138.png",
     "Static/Pasted image 20240507173801.png",
@@ -261,8 +237,6 @@
     "Static/Pasted image 20240514105854.png",
     "Static/Pasted image 20240507171537.png",
     "Static/Pasted image 20240507170753.png",
-    "Static/Pasted image 20240507170606.png",
-    "Static/Pasted image 20240507170320.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",

@@ -1,30 +1,22 @@
 {
   "collapse-filter": false,
-  "search": "tree",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "file: domain",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -3,
+  "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 2.56960922787194,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.211158192090396,
-  "repelStrength": 20,
+  "centerStrength": 0,
+  "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.46536100569075184,
+  "scale": 0.0902568177745891,
   "close": false
 }
