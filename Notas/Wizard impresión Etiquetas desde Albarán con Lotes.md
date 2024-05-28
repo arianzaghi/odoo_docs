@@ -230,3 +230,7 @@ class InPickingLabelWizard(models.TransientModel):
     </record>  
 </odoo>
 ```
+
+## Ejemplos
+
+### [Usisa v17](https://github.com/puntsistemes/usisa_odoo/commit/dad934b31376aecded97ab900f81f4aa45b7b0c0)

@@ -7,6 +7,38 @@ Related:
 ___
 # Herencia
 
+## En un informe
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>  
+<odoo>  
+    <template id="pnt_{{ID}}"  
+		  inherit_id="{{MODELO}}.{{ID}}">
+		<xpath expr="" position="">  
+			...
+		</xpath>  
+	</template>
+</odoo>
+```
+
+## En una vista
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>  
+<odoo>  
+    <record id="{{ID}}" model="ir.ui.view">  
+        <field name="model">{{MODELO}}</field>  
+        <field name="inherit_id" ref="{{REF}}"/>  
+        <field name="arch" type="xml">  
+            <xpath expr="" position="">  
+                ...
+            </xpath>  
+        </field>  
+    </record>  
+</odoo>
+```
+
+# Formas de heredar
 Podemos utilizar 3 formas para heredar de una vista para modificarla:
 
 - Elemento `xpath` con atributo `expr` aplicado al template correspondiente

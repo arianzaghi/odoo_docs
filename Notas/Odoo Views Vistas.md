@@ -7,7 +7,6 @@ Related:
 ___
 
 # Odoo Views
-
 ## Interfaz 
 ### 1. [[Menu Item]]
 ### 1. [[Actions]]

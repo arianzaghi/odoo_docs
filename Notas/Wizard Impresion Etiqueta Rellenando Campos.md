@@ -1,4 +1,4 @@
-%%  %%> [[Wizards]]
+> [[Wizards]]
 
 Tags: 
 Status: 
@@ -9,15 +9,35 @@ ___
 # Wizard Impresion Etiqueta
 
 ![[Pasted image 20240428211442.png]]
+
+## Organización de carpetas
+
+![[Pasted image 20240428230428.png]]
+
+1. Creamos nuestro nuevo `modelo` llamado `wizards` donde guardamos todo lo relativo a los wizard
+2. Creamos los modelos y vistas del wizard
+	- `clase_wizard`
+	- `vista_wizard`
+		- `wizard_form_view_record`
+		- `wizard_action_record`
+3. Añadimos los ficheros py en el init
+4. Declaramos las vistas y modelos
+	- **init:** vistas de los wizard
+	- **manifest:** `modelo` nuevo
+5. Creamos la clase opcional y la declaramos en el init
+6. Creamos los security para las clases creadas
+7. IMPORTANTE: Añadimos la vista de `stock.picking` que contiene los botones del wizard en `views`
+
+
 ## Programación paso a paso
 ### Vistas
 #### Wizard
 > **Vista XML del wizard popup donde introducimos los datos y el record que lo invoca**
 ```xml
 <!-- Vista del WIZARD -->
-<record id="out_picking_label_wizard_form_view" model="ir.ui.view">  
-    <field name="name">out.picking.label.wizard.form.view</field>  
-    <field name="model">out.picking.label.wizard</field>  
+<record id="{{VISTA_}}_form_view" model="ir.ui.view">  
+    <field name="name">{{VISTA.}}.form.view</field>  
+    <field name="model">{{MODELO.}}</field>  
     <field name="arch" type="xml">  
         <form>  
             <sheet>  
@@ -43,10 +63,10 @@ ___
 <!-- Record de invocacion del wizard -->
 <record id="pnt_out_picking_label_wizard_action" model="ir.actions.act_window">  
     <field name="name">Imprimir etiquetas 50x50</field>  
-    <field name="res_model">out.picking.label.wizard</field>  
+    <field name="res_model">{{MODELO.}}</field>  
     <field name="view_mode">form</field>  
     <field name="context">{'default_picking_id': active_id}</field>  
-    <field name="view_id" ref="out_picking_label_wizard_form_view"/>  
+    <field name="view_id" ref="{{VISTA_}}_form_view"/>  
     <field name="target">new</field>  
     <field name="binding_model_id" ref="stock.model_stock_picking"/>  
     <field name="binding_view_types">form</field>  
@@ -180,20 +200,8 @@ class PntOutPickingLabel(models.TransientModel):
     delivery = fields.Char(string="Delivery")  
     transport = fields.Char(string="Transport")
 ```
-## Organización de carpetas
 
-![[Pasted image 20240428230428.png]]
 
-1. Creamos nuestro nuevo `modelo` llamado `wizards` donde guardamos todo lo relativo a los wizard
-2. Creamos los modelos y vistas del wizard
-	- `clase_wizard`
-	- `vista_wizard`
-		- `wizard_form_view_record`
-		- `wizard_action_record`
-3. Añadimos los ficheros py en el init
-4. Declaramos las vistas y modelos
-	- **init:** vistas de los wizard
-	- **manifest:** `modelo` nuevo
-5. Creamos la clase opcional y la declaramos en el init
-6. Creamos los security para las clases creadas
-7. IMPORTANTE: Añadimos la vista de `stock.picking` que contiene los botones del wizard en `views`
+## Ejemplos
+
+### [Usisa v17](https://github.com/puntsistemes/usisa_odoo/commit/dad934b31376aecded97ab900f81f4aa45b7b0c0)

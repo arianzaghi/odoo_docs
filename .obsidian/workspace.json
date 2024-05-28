@@ -11,17 +11,30 @@
             "id": "b78edb1d018e30f4",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ee0c3d5e17d3be9",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           },
           {
-            "id": "4e88358b95d5ecf9",
+            "id": "501338303cd56f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Ver info de puertos y bbdd de servidor.md",
+                "file": "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,38 +42,20 @@
             }
           },
           {
-            "id": "e142a3efeec2f2cf",
+            "id": "4a20bb803f484d4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Update ALL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "81e9562a33e5c6f1",
+            "id": "6763e6d7ac98d31f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Cherrypick.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc6935f113455197",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Mostrar mensaje en chatter después de un evento.md",
+                "file": "Notas/Ocultar campo del core en informe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -134,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Update ALL.md",
+                "file": "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Update ALL.md",
+                "file": "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Update ALL.md"
+                "file": "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md"
               }
             }
           }
@@ -199,36 +194,36 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "e142a3efeec2f2cf",
+  "active": "501338303cd56f8f",
   "lastOpenFiles": [
     "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Script Educonsul.md",
-    "Notas/Ver info de puertos y bbdd de servidor.md",
-    "Notas/Programación sin docker.md",
-    "Notas/Cherrypick.md",
-    "Notas/Traducir campo del core.md",
-    "Notas/hr.employee.md",
-    "Notas/Mostrar mensaje en chatter después de un evento.md",
-    "Notas/Error login usuario or contraseña, usuario admin archivado.md",
-    "Pasted image 20240523105856.png",
-    "Notas/Chatter.md",
-    "Pasted image 20240523104011.png",
+    "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
+    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
+    "Notas/Etiquetas XML.md",
+    "Notas/Odoo Views Vistas.md",
     "Notas/Ocultar campo del core en informe.md",
-    "Notas/Update ALL.md",
+    "Notas/Ocultar botón de informe del core.md",
+    "Notas/Pasar descripcion Pedido Venta a Albaran.md",
+    "Notas/Pasar descripcion Pedido Compra a Albaran.md",
+    "Notas/Lotes en lineas de factura.md",
+    "Notas/Heredar un elemento que no tiene identificador pero tiene hijos.md",
+    "Notas/Heredar de un template que no tiene ID.md",
+    "Notas/Herencia.md",
+    "Templates/Basic Template.md",
+    "Notas/Template de Invocación.md",
+    "Notas/Componentes estructurales xml form.md",
+    "Notas/Vista Form - Formulario.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/Plantillas para crear docker  en github cliente.md",
+    "Notas/Añadir nuevas versiones de odoo.md",
+    "Notas/Cherrypick.md",
     "Notas/Security.md",
-    "Notas/Limitar acceso a un campo a miembros de un grupo.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Campos avanzados.md",
-    "Notas/Error al clonar cliente (Insigna).md",
-    "Notas/Campo auxiliar como filtro para domain.md",
-    "Notas/domain.md",
-    "Notas/Campo opcional en vista tree.md",
-    "Notas/Menu Item.md",
-    "Notas/Añadir filtro de referencia de cliente.md",
-    "Notas/Vista List o Tree - Listado.md",
-    "Notas/Search filter tree view.md",
-    "Notas/Referencia de cliente en listado sale.order.md",
-    "Notas/fields.Selection.md",
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Update ALL.md",
+    "Notas/Script Educonsul.md",
+    "Notas/Programación sin docker.md",
+    "Pasted image 20240523105856.png",
+    "Pasted image 20240523104011.png",
     "Pasted image 20240520114956.png",
     "Static/Pasted image 20240126075424.png",
     "Static/Pasted image 20240515082138.png",
