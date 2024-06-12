@@ -15,13 +15,13 @@ ___
 from odoo import models, fields  
   
   
-class PntResPartnerJob(models.Model):  
-    _name = "pnt.res.partner.job"  
-    _description = "Jobs"  
+class Pnt{{NombreModelo}}(models.Model):  
+    _name = "{{MODELO.}}"  
+    _description = "{{DESCRIPTION}}"  
     _rec_name = "pnt_name"  
   
     pnt_name = fields.Char(string="name")  
-    pnt_description = fields.Text(string="Description", required=False)
+    pnt_description = fields.Text(string="{{DESCRIPTION}}", required=False)
 ```
 
 ## Modelo relacional, `matenimiento_tree` y clase destino

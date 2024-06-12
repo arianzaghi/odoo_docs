@@ -1,4 +1,4 @@
-> [[Back]]
+> [[product.template]]
 
 Tags: 
 Status: 

@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[Elementos de Interfaz]]
 
 Tags: 
 Status: 

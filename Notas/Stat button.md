@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[Elementos de Interfaz]]
 
 Tags: #xml #todo 
 Status: 

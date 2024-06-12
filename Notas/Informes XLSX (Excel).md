@@ -15,4 +15,4 @@ Se encuentran en `custom_pnt/models`
 
 ### Ejemplos
 
-- [[Informe de medicinas XLSX]]Back
+- [[Informe de medicinas XLSX]]

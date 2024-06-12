@@ -1,4 +1,4 @@
- > [[Odoo Views Vistas]]
+ > [[Odoo Modelos]]
 
 Tags: #todo 
 Status: 

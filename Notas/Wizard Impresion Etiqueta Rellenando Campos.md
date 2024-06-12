@@ -205,3 +205,17 @@ class PntOutPickingLabel(models.TransientModel):
 ## Ejemplos
 
 ### [Usisa v17](https://github.com/puntsistemes/usisa_odoo/commit/dad934b31376aecded97ab900f81f4aa45b7b0c0)
+### [Cardyfren v12]()
+```python
+from odoo import models, fields, _  
+  
+  
+class PntSaleLabelWizard(models.TransientModel):  
+    _name = "pnt.sale.label.wizard"  
+    
+    labels_qty = fields.Integer(string="Quantity of labels")  
+    
+    def print_labels(self):  
+        action = self.env.ref("report_pnt.pnt_sale_label_action").read()[0]  
+        return action
+```

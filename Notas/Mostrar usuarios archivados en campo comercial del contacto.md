@@ -1,8 +1,8 @@
-> [[Back]]
+> [[res.partner]]
 
 Tags: 
 Status: 
-Related: [[res.partner]]
+Related: 
 
 ___
 

@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Campo opcional en vista tree
+# Mostrar campo opcional en vista tree
 
 > Queremos añadir un campo en las lineas de la vista tree que se pueda mostrar/ocultar desde el menú (tres puntos) de la derecha
 

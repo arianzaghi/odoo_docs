@@ -1,4 +1,4 @@
-> [[Odoo Modelos|Back]]
+> [[Modulos custom de punt]]
 
 Tags: #modelo
 Status: 

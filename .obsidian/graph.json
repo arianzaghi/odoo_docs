@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "file:bbdd",
+  "collapse-filter": true,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -13,10 +13,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 9.61394448030988,
+  "centerStrength": 0.1640625,
+  "repelStrength": 14.1666666666667,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1656664596334103,
-  "close": false
+  "scale": 0.5180739820592923,
+  "close": true
 }

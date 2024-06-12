@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas|Back]]
+> [[Tipos de Vistas]]
 
 Tags: #todo
 Status: 

@@ -223,7 +223,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 158
+			"baseline": 159
 		},
 		{
 			"type": "rectangle",
@@ -263,8 +263,8 @@ Botones de Acción ^GCEM3RGx
 		},
 		{
 			"type": "text",
-			"version": 414,
-			"versionNonce": 714155859,
+			"version": 416,
+			"versionNonce": 472561731,
 			"isDeleted": false,
 			"id": "lMrqyKSO",
 			"fillStyle": "solid",
@@ -286,7 +286,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713273379290,
+			"updated": 1718017407093,
 			"link": null,
 			"locked": false,
 			"fontSize": 158.52396296357566,
@@ -376,7 +376,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "stock.lot",
 			"lineHeight": 1.15,
-			"baseline": 158
+			"baseline": 159
 		},
 		{
 			"type": "rectangle",
@@ -455,7 +455,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 121
+			"baseline": 120
 		},
 		{
 			"type": "text",
@@ -494,7 +494,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "stock.lot",
 			"lineHeight": 1.15,
-			"baseline": 177
+			"baseline": 178
 		},
 		{
 			"type": "text",
@@ -612,7 +612,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 118
+			"baseline": 117
 		},
 		{
 			"type": "text",
@@ -651,7 +651,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 160
+			"baseline": 161
 		},
 		{
 			"type": "rectangle",
@@ -699,8 +699,8 @@ Botones de Acción ^GCEM3RGx
 		},
 		{
 			"type": "text",
-			"version": 770,
-			"versionNonce": 1413117885,
+			"version": 772,
+			"versionNonce": 456008045,
 			"isDeleted": false,
 			"id": "RaCk1o59",
 			"fillStyle": "solid",
@@ -722,7 +722,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713273379291,
+			"updated": 1718017407095,
 			"link": null,
 			"locked": false,
 			"fontSize": 190.84687041564655,
@@ -734,12 +734,12 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 175
+			"baseline": 174
 		},
 		{
 			"type": "text",
-			"version": 807,
-			"versionNonce": 2090315411,
+			"version": 809,
+			"versionNonce": 256948195,
 			"isDeleted": false,
 			"id": "aJutXY4C",
 			"fillStyle": "solid",
@@ -761,7 +761,7 @@ Botones de Acción ^GCEM3RGx
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713273379291,
+			"updated": 1718017407095,
 			"link": null,
 			"locked": false,
 			"fontSize": 202.21624179138263,
@@ -773,7 +773,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 184
+			"baseline": 185
 		},
 		{
 			"type": "text",
@@ -812,7 +812,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "if (mrp_done)",
 			"lineHeight": 1.15,
-			"baseline": 225
+			"baseline": 226
 		},
 		{
 			"type": "rectangle",
@@ -882,7 +882,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 118
+			"baseline": 117
 		},
 		{
 			"type": "text",
@@ -921,7 +921,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "mrp.production",
 			"lineHeight": 1.15,
-			"baseline": 177
+			"baseline": 178
 		},
 		{
 			"type": "text",
@@ -960,7 +960,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "Reporte XLM",
 			"lineHeight": 1.15,
-			"baseline": 204
+			"baseline": 205
 		},
 		{
 			"type": "rectangle",
@@ -1035,7 +1035,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "<template>",
 			"lineHeight": 1.15,
-			"baseline": 118
+			"baseline": 117
 		},
 		{
 			"type": "text",
@@ -1698,7 +1698,7 @@ Botones de Acción ^GCEM3RGx
 			"containerId": null,
 			"originalText": "Botones de Acción",
 			"lineHeight": 1.15,
-			"baseline": 246
+			"baseline": 245
 		},
 		{
 			"type": "arrow",
@@ -1816,10 +1816,10 @@ Botones de Acción ^GCEM3RGx
 		"currentItemTextAlign": "center",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 5268.356212617444,
-		"scrollY": 6037.568412784623,
+		"scrollX": 11036.62698491562,
+		"scrollY": 4250.7096888262895,
 		"zoom": {
-			"value": 0.1
+			"value": 0.15000000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

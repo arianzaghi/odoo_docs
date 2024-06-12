@@ -38,3 +38,5 @@ Asi podemos mostrar el valor (Mayor puntuación) en lugar de la clave (pnt_highe
 
 ### [[Selection de todos los idiomas]]
 ### [[Selection de idiomas activos]]
+### [[Selection usando una función]]
+### [[Comprobar unica seleccion por elemento]]

@@ -70,3 +70,4 @@ cat odoo140dev/conf/odoo140dev.conf
 ('web.base.url', 'http://127.0.0.1:8073'),
 - URL de acceso a instalación de dev. Si es la misma, indicamos el puerto.
 - (Igual que accederríamos en internet)
+
