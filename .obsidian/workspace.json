@@ -60,7 +60,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Configurar y ejecutar Odoo server.md",
+                "file": "Notas/Restaurar BBDD de PRO a DEV.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5ec5789dd35953e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -133,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -200,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Configurar y ejecutar Odoo server.md",
+                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Configurar y ejecutar Odoo server.md",
+                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Configurar y ejecutar Odoo server.md"
+                "file": "Notas/Error attatchments. Informes sin formato (CSS).md"
               }
             }
           },
@@ -250,7 +263,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Configurar y ejecutar Odoo server.md",
+                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,7 +286,7 @@
                   "repelStrength": 15.625,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.35166987751318063,
+                  "scale": 0.051619578956272866,
                   "close": true
                 }
               }
@@ -284,7 +297,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1144.5
+    "width": 546.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,8 +312,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a153bf32b519b7e5",
+  "active": "f5ec5789dd35953e",
   "lastOpenFiles": [
+    "Pasted image 20240613162354.png",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/Error attatchments. Informes sin formato (CSS).md",
+    "Notas/Lotes en lineas de factura.md",
+    "Notas/Configurar y ejecutar Odoo server.md",
     "Notas/Instalacion modulo conciliacion bancaria OCA ns43.md",
     "Notas/OCA.md",
     "Notas/Instalación módulos Remesas OCA.md",
@@ -324,12 +342,7 @@
     "Notas/Tree view groupby.md",
     "Notas/Informes XLSX (Excel).md",
     "Notas/Informe de medicinas XLSX.md",
-    "Notas/Albaran.md",
     "Pasted image 20240610130455.png",
-    "Notas/Errores.md",
-    "Notas/Error DEBUG PyCharm.md",
-    "Notas/Error odoo 'model' has no attribute 'attr_name'.md",
-    "Notas/Back.md",
     "Pasted image 20240607105435.png",
     "Pasted image 20240529175627.png",
     "Pasted image 20240530120042.png",
