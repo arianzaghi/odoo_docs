@@ -1,8 +1,8 @@
-> [[Modificaciones comunes XLM]]
+> [[Modificaciones comunes XML]]
 
 Tags: #informe
 Status: 
-Related: 
+Related: [[account.move]]
 
 ___
 

@@ -1,4 +1,4 @@
-> [[Modificaciones comunes XLM]]
+> [[Modificaciones comunes XML]]
 
 Tags: #todo 
 Status: 

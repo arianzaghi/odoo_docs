@@ -1,4 +1,4 @@
-> [[Lista de informes]]
+> [[Informes XML]]
 
 Tags: 
 Status: 
@@ -8,6 +8,7 @@ ___
 
 # Lista de informes
 
-[[Albarán Valorado]]
-[[Lotes en lineas de factura]]
-[[Packing List]]
+## [[Albaran (AV)]]
+## [[Factura (FRA)]]
+## [[Lotes en lineas de factura]]
+## [[Packing List]]

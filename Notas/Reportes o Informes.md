@@ -9,7 +9,7 @@ ___
 # Reportes o Informes
 
 
-## [[Informes XLM]]
+## [[Informes XML]]
 ## [[Informes XLSX (Excel)]]
 
 

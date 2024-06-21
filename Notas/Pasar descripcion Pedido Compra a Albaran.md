@@ -1,8 +1,8 @@
-> [[Informes XLM]]
+> [[Informes XML]]
 
 Tags: 
 Status: 
-Related: [[Albaran]] [[Pedido de Compra]]
+Related: [[Albaran (AV)]] [[Pedido de Compra (PC)]]
 
 ___
 

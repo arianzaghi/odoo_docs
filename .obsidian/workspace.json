@@ -11,17 +11,108 @@
             "id": "388d0d4e0193e69a",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Informes XML.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cafa64d1b9867b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Albaran Valorado.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "468b7ffc4146c237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Informes XML.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e9532871aedc181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/OCA.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9f9edb9184ae05d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Cherrypick.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c6922f0cb706dd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Formatear decimales en unidades reporte.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01b9b1430c1a5266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Modificaciones comunes XML.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85d6f5eb3a0f98b8",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           },
           {
-            "id": "6085fedfbb40b78a",
+            "id": "02a2df775f9fbe37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Booleano solo activo una vez CONSTRAINT.md",
+                "file": "Notas/Aumentar limite descarga informes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,12 +120,12 @@
             }
           },
           {
-            "id": "49929bcfeb9a2920",
+            "id": "9bf0ab60cb43db7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Modelo mantenimiento con TREE.md",
+                "file": "Notas/Packing List.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -42,12 +133,12 @@
             }
           },
           {
-            "id": "0c508cbafdca12a8",
+            "id": "978fb5c2e527c16d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Instalación módulos Remesas OCA.md",
+                "file": "Notas/Lotes en lineas de factura.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -55,12 +146,12 @@
             }
           },
           {
-            "id": "a153bf32b519b7e5",
+            "id": "481d631c93a00041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Restaurar BBDD de PRO a DEV.md",
+                "file": "Notas/Albaran (AV).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,12 +159,12 @@
             }
           },
           {
-            "id": "f5ec5789dd35953e",
+            "id": "3dc5ce12bd9a7371",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
+                "file": "Notas/Albarán Valorado.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -81,12 +172,12 @@
             }
           },
           {
-            "id": "af1eaf7f2c92fb20",
+            "id": "228af8912aa7df06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Ver info de puertos y bbdd de servidor.md",
+                "file": "Notas/Lista de informes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,51 +185,12 @@
             }
           },
           {
-            "id": "88eaef8c9eb7bb7a",
+            "id": "5039207b2861aa54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Nueva pestaña en res.company.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cad75e314176d6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Modelo mantenimiento con TREE.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9646a3392bf48789",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/fields.Selection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd33c751b8bf1e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Mantenimeinto Many2many TAGS.md",
+                "file": "Notas/Informes XML.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -146,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -213,7 +265,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +281,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,56 +298,66 @@
             }
           },
           {
-            "id": "7b4848f540a79a74",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Notas/Error attatchments. Informes sin formato (CSS).md"
-              }
-            }
-          },
-          {
-            "id": "fe41849438b237c1",
+            "id": "28a4e3b51be61771",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Error attatchments. Informes sin formato (CSS).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 4,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": -1.7,
+                  "textFadeMultiplier": -2,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": false,
-                  "centerStrength": 0.0520833333333333,
-                  "repelStrength": 15.625,
+                  "centerStrength": 0.166688185926404,
+                  "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.051619578956272866,
+                  "scale": 0.5275048162697707,
                   "close": true
                 }
               }
             }
+          },
+          {
+            "id": "08bf6404fe0d8065",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/mapped().md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0baedbd415f59f24",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 546.5
+    "width": 1265.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -312,44 +372,44 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f5ec5789dd35953e",
+  "active": "85d6f5eb3a0f98b8",
   "lastOpenFiles": [
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Wizards.md",
+    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
+    "Notas/popup confirmación.md",
+    "Notas/Informes XML.md",
+    "Notas/Modificaciones comunes XML.md",
+    "Notas/Restaurar BBDD.md",
+    "Notas/Formatear decimales en unidades reporte.md",
+    "Notas/mapped().md",
+    "Notas/Acción de vista tree para ejecutar masivamente acciones de form.md",
+    "Notas/Pedido de Compra (PC).md",
+    "Notas/Cherrypick.md",
+    "Notas/Programación sin docker.md",
+    "Notas/<attributes>.md",
+    "Notas/product.template.md",
+    "Notas/Traducir campo del core.md",
+    "Notas/Formatear fecha reporte.md",
+    "Notas/Pedido de Venta.md",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/Quitar ID o Codigo de producto.md",
+    "Notas/Campo auxiliar como filtro para domain.md",
+    "Notas/Relacionar y pasar de account.move a sale.order.md",
+    "Pasted image 20240614110711.png",
+    "Pasted image 20240614110705.png",
+    "Notas/account.move.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Modulo Mass Editing.md",
     "Pasted image 20240613162354.png",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Error attatchments. Informes sin formato (CSS).md",
-    "Notas/Lotes en lineas de factura.md",
-    "Notas/Configurar y ejecutar Odoo server.md",
-    "Notas/Instalacion modulo conciliacion bancaria OCA ns43.md",
-    "Notas/OCA.md",
-    "Notas/Instalación módulos Remesas OCA.md",
-    "Notas/Booleano solo activo una vez CONSTRAINT.md",
-    "Notas/Modelo mantenimiento con TREE.md",
-    "Notas/Ver info de puertos y bbdd de servidor.md",
-    "Notas/Modelo de Sale order lines, todos los registros.md",
     "Pasted image 20240611130130.png",
-    "Notas/Comprobar unica seleccion por elemento.md",
-    "Notas/@api.constrains.md",
-    "Notas/Nueva pestaña en res.company.md",
-    "Notas/fields.Text.md",
     "Pasted image 20240610165600.png",
-    "Notas/fields.Selection.md",
-    "Notas/seleccionable.md",
-    "Notas/Selection de todos los idiomas.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Mantenimeinto Many2many TAGS.md",
-    "Notas/Error deployment Github Actions.md",
-    "Notas/Mostrar campo opcional en vista tree.md",
-    "Notas/Tree view groupby.md",
-    "Notas/Informes XLSX (Excel).md",
-    "Notas/Informe de medicinas XLSX.md",
     "Pasted image 20240610130455.png",
     "Pasted image 20240607105435.png",
     "Pasted image 20240529175627.png",
     "Pasted image 20240530120042.png",
     "Pasted image 20240523105856.png",
-    "Pasted image 20240523104011.png",
-    "Pasted image 20240520114956.png",
-    "Static/Pasted image 20240126075424.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",

@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Informes XLM
+# Informes XML
 
 - Informes generados en pdf a través de xml.
 - Tipo más común de informes

@@ -1,4 +1,4 @@
-> [[Modificaciones comunes XLM]]
+> [[Modificaciones comunes XML]]
 
 Tags: 
 Status: 
@@ -6,7 +6,7 @@ Related:
 
 ___
 # Formatear decimales en unidades reporte
-## Copy Paste `t-options`
+## Copy Paste `t-options`o
 
 > [!EXAMPLE] 1005
 > ```xml

@@ -1,4 +1,4 @@
-> [[Informes XLM]]
+> [[Informes XML]]
 
 Tags: 
 Status: 

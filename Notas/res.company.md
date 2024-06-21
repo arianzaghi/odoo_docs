@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Odoo Modelos]]
 
 Tags: 
 Status: 
@@ -6,5 +6,5 @@ Related:
 
 ___
 
-# OCA
+# res.company
 

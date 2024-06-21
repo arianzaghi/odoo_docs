@@ -1,4 +1,4 @@
-> [[Back]]
+> [[stock.picking]]
 
 Tags:
 Status:
@@ -6,7 +6,7 @@ Related:
 
 ---
 
-# Vincular con sale cuando hay entrega en 2 pasos
+# Vincular albaran con sale cuando hay entrega en 2 pasos
 
 > Cuando la venta en dos pasos está activada, al confirmar una venta, se generan albaranes de PICK y de SALIDA.
 

@@ -11,7 +11,7 @@ ___
 > Los informes de odoo PRO o DEV, no cargan los attatchemtns
 
 ![[Pasted image 20240613162354.png]]
-> Hay que configurar el campo `report.url` desde odoo web
+> Hay que configurar el campo `report.url` desde odoo web con el puerto del campo `http_port` del `conf` del cliente
 
 1. Ajustes > Técnico > Parámetros del sistema
 2. Configuramos `report.url`
