@@ -17,7 +17,7 @@ ___
 **Modificamos `docker.sh` en la rama main (16.0) y descomentamos lo siguiente**
 ```sh
 # pip
- packages=('{{pyotp}}')
+ packages=('{{pyotp}}') # AÑADIR AQUI LIBRERIAS PIP
  installed_packages=$(pip freeze)
  install=()
  for package in "${packages[@]}"; do
@@ -32,5 +32,5 @@ ___
 
 
 > [!Information] Detalles
-> - Añadimos los paquetes que hagan falta instalar en pip
+> - Añadimos los paquetes/librerias que hagan falta instalar en pip
 > - Commiteamos directamente en `main` y actualizamos la PR del docker (`update branch`)

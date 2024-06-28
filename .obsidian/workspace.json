@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "cafa64d1b9867b3e",
+            "id": "67b97c3a734ca70a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Albaran Valorado.md",
+                "file": "Notas/Ocultar campo del core en informe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "468b7ffc4146c237",
+            "id": "dc85ce9ee3e93e80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Informes XML.md",
+                "file": "Notas/Chatter.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,150 +47,12 @@
             }
           },
           {
-            "id": "4e9532871aedc181",
+            "id": "24dadccbdd373e1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/OCA.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9f9edb9184ae05d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Cherrypick.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c6922f0cb706dd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Formatear decimales en unidades reporte.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01b9b1430c1a5266",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Modificaciones comunes XML.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85d6f5eb3a0f98b8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "02a2df775f9fbe37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Aumentar limite descarga informes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bf0ab60cb43db7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Packing List.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "978fb5c2e527c16d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Lotes en lineas de factura.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "481d631c93a00041",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Albaran (AV).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dc5ce12bd9a7371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Albarán Valorado.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "228af8912aa7df06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Lista de informes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5039207b2861aa54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Informes XML.md",
+                "file": "Notas/Icon de APP con link a una web.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -198,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notas/Icon de APP con link a una web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notas/Icon de APP con link a una web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,10 +167,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notas/Icon de APP con link a una web.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 4,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -326,7 +191,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.5275048162697707,
-                  "close": true
+                  "close": false
                 }
               }
             }
@@ -349,7 +214,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notas/Icon de APP con link a una web.md"
+              }
             }
           }
         ],
@@ -357,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1265.5
+    "width": 522.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -372,36 +239,37 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "85d6f5eb3a0f98b8",
+  "active": "24dadccbdd373e1b",
   "lastOpenFiles": [
+    "Pasted image 20240628090712.png",
+    "Pasted image 20240628090642.png",
+    "Notas/Chatter.md",
+    "Notas/Icon de APP con link a una web.md",
+    "Notas/Herencia.md",
+    "Notas/Modulo OCA Barcode.md",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/fields.Text.md",
+    "Notas/heredar vista.md",
+    "Notas/Mostrar mensaje en chatter después de un evento.md",
+    "Notas/Campo auxiliar como filtro para domain.md",
+    "Notas/domain.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/Menu Item.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Security.md",
+    "Notas/Error deployment Github Actions.md",
+    "Notas/error.md",
+    "Notas/Heredar de un template que no tiene ID.md",
+    "Notas/Odoo Traducciones.md",
+    "Notas/Agrupar lineas albaran por product_id y lot_id.md",
+    "Notas/Booleano solo activo una vez CONSTRAINT.md",
+    "Notas/Pasar descripcion Pedido Venta a Albaran.md",
+    "Notas/HS Code - Codigo SA.md",
     "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
     "Notas/Wizards.md",
-    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
-    "Notas/popup confirmación.md",
-    "Notas/Informes XML.md",
-    "Notas/Modificaciones comunes XML.md",
-    "Notas/Restaurar BBDD.md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/mapped().md",
-    "Notas/Acción de vista tree para ejecutar masivamente acciones de form.md",
-    "Notas/Pedido de Compra (PC).md",
-    "Notas/Cherrypick.md",
-    "Notas/Programación sin docker.md",
-    "Notas/<attributes>.md",
-    "Notas/product.template.md",
-    "Notas/Traducir campo del core.md",
-    "Notas/Formatear fecha reporte.md",
-    "Notas/Pedido de Venta.md",
-    "Notas/Ocultar campo del core en informe.md",
-    "Notas/Quitar ID o Codigo de producto.md",
-    "Notas/Campo auxiliar como filtro para domain.md",
-    "Notas/Relacionar y pasar de account.move a sale.order.md",
     "Pasted image 20240614110711.png",
     "Pasted image 20240614110705.png",
-    "Notas/account.move.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Modulo Mass Editing.md",
     "Pasted image 20240613162354.png",
     "Pasted image 20240611130130.png",
     "Pasted image 20240610165600.png",
@@ -409,7 +277,6 @@
     "Pasted image 20240607105435.png",
     "Pasted image 20240529175627.png",
     "Pasted image 20240530120042.png",
-    "Pasted image 20240523105856.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
