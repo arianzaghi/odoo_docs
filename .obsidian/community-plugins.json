@@ -1,5 +1,5 @@
 [
-  "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "remotely-save"
+  "remotely-save",
+  "templater-obsidian"
 ]

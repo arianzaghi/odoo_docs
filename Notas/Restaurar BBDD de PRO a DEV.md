@@ -51,8 +51,8 @@ SET client_min_messages TO WARNING;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
-('report.url', 'http://127.0.0.1:8070'),
-('web.base.url', 'https://meysser-dev.odoo.puntsistemes.cloud/:8070'),
+('report.url', 'http://127.0.0.1:62001'),
+('web.base.url', 'http://odoo-dev.sek.net/:8070'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -60,6 +60,15 @@ UPDATE SET "value" = EXCLUDED."value";
 DELETE FROM ir_config_parameter WHERE key IN ('database.enterprise_code', 'odoo_ocn.project_id', 'mail_mobile.enable_ocn');
 ```
 
+```sql
+# Educonsul
+('report.url', 'http://127.0.0.1:8070'),
+('web.base.url', 'http://odoo-dev.sek.net/:8070'),
+
+#Meysser
+('report.url', 'http://127.0.0.1:8070'),
+('web.base.url', 'https://meysser-dev.odoo.puntsistemes.cloud/:8070'),
+```
 
 
 cat odoo140dev/conf/odoo140dev.conf

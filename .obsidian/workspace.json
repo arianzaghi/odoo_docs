@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3afe1dd6aa638e5b",
+        "id": "a209b3dd261e625d",
         "type": "tabs",
         "children": [
           {
-            "id": "388d0d4e0193e69a",
+            "id": "ae010d4469549ef0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Informes XML.md",
+                "file": "Notas/Modelo mantenimiento con TREE.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "67b97c3a734ca70a",
+            "id": "2d9fc0bcda9ac186",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Ocultar campo del core en informe.md",
+                "file": "Notas/Añadir ajustes para módulo odoo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "dc85ce9ee3e93e80",
+            "id": "bf2a86c4e984f802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Chatter.md",
+                "file": "Notas/Mostrar linea a linea resultados busqueda multiple.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,12 +47,25 @@
             }
           },
           {
-            "id": "24dadccbdd373e1b",
+            "id": "8f25358992425aac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Icon de APP con link a una web.md",
+                "file": "Notas/ORM Methods.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd318add4f333657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5124969482422,
-    "collapsed": true
+    "width": 421.5124969482422
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Icon de APP con link a una web.md",
+                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Icon de APP con link a una web.md",
+                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,11 +179,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Icon de APP con link a una web.md",
+                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -190,8 +202,8 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5275048162697707,
-                  "close": false
+                  "scale": 0.6487643874159387,
+                  "close": true
                 }
               }
             }
@@ -215,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Icon de APP con link a una web.md"
+                "file": "Notas/Botones en proyecto para ver documentos relacionados.md"
               }
             }
           }
@@ -224,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 522.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,49 +247,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "24dadccbdd373e1b",
+  "active": "dd318add4f333657",
   "lastOpenFiles": [
-    "Pasted image 20240628090712.png",
-    "Pasted image 20240628090642.png",
-    "Notas/Chatter.md",
-    "Notas/Icon de APP con link a una web.md",
-    "Notas/Herencia.md",
-    "Notas/Modulo OCA Barcode.md",
-    "Notas/Ocultar campo del core en informe.md",
-    "Notas/Campo horario Hora y Minutos.md",
-    "Notas/fields.Text.md",
-    "Notas/heredar vista.md",
-    "Notas/Mostrar mensaje en chatter después de un evento.md",
-    "Notas/Campo auxiliar como filtro para domain.md",
-    "Notas/domain.md",
-    "Notas/Ver info de puertos y bbdd de servidor.md",
-    "Notas/Menu Item.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/ORM Methods.md",
+    "Notas/Modificar BBDD desde debug.md",
+    "Notas/Mostrar linea a linea resultados busqueda multiple.md",
+    "Notas/Python framework.md",
+    "Notas/Limitar acceso a un modelo a miembros de un grupo.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/Restaurar BBDD.md",
+    "Notas/Cherrypick.md",
+    "Notas/Redirect App.md",
     "Notas/Security.md",
-    "Notas/Error deployment Github Actions.md",
-    "Notas/error.md",
-    "Notas/Heredar de un template que no tiene ID.md",
-    "Notas/Odoo Traducciones.md",
-    "Notas/Agrupar lineas albaran por product_id y lot_id.md",
-    "Notas/Booleano solo activo una vez CONSTRAINT.md",
-    "Notas/Pasar descripcion Pedido Venta a Albaran.md",
-    "Notas/HS Code - Codigo SA.md",
+    "Notas/Icono de APP con link a una web.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/Limitar acceso a un campo a miembros de un grupo.md",
+    "Pasted image 20240715133602.png",
+    "Pasted image 20240715133559.png",
+    "Notas/Buscar grupos de permisos.md",
+    "Notas/Grupos.md",
+    "Pasted image 20240715123746.png",
+    "Notas/Añadir ajustes para módulo odoo.md",
+    "Notas/Modelo mantenimiento con TREE.md",
+    "Pasted image 20240715110215.png",
+    "Pasted image 20240715110104.png",
+    "Pasted image 20240715110059.png",
+    "Pasted image 20240712135305.png",
+    "Notas/orde.md",
+    "Pasted image 20240610130455.png",
+    "Notas/Buscar modelo original.md",
+    "Notas/Herencia.md",
+    "Pasted image 20240520114956.png",
+    "Pasted image 20240523104011.png",
+    "Notas/Botones en proyecto para ver documentos relacionados.md",
+    "Notas/boton que llama a un metodo.md",
     "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
     "Notas/Wizards.md",
-    "Pasted image 20240614110711.png",
-    "Pasted image 20240614110705.png",
-    "Pasted image 20240613162354.png",
-    "Pasted image 20240611130130.png",
-    "Pasted image 20240610165600.png",
-    "Pasted image 20240610130455.png",
-    "Pasted image 20240607105435.png",
-    "Pasted image 20240529175627.png",
-    "Pasted image 20240530120042.png",
+    "Notas/popup confirmación.md",
+    "Notas/Search domains.md",
     "Ocultar ",
     "Excalidraw",
     "Notas",

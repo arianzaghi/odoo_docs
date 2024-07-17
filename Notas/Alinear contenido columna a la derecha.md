@@ -26,7 +26,7 @@ ___
 
 ```xml
 <t t-if="label.product_packaging_id">
-    <td class="text-end">>
+    <td class="text-end">
         <t t-esc="my_model.get_packages_qty()"/>
     </td>
 </t>

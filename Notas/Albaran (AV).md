@@ -8,6 +8,8 @@ ___
 
 # Albaran (AV)
 
+**Nombre del informe:** `report_deliveryslip_document`
+
 **Tipo de operación:** `stock_picking.picking_type_id`
 ![[Pasted image 20240610130455.png]]
 
