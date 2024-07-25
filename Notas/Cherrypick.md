@@ -38,7 +38,7 @@ git cherry-pick 3bd90f5 124d8e5 8febe81
 4. Unimos los commits en un solo commit
 
 ```sh
-git rebase -i HEAD~{{NUM_COMMITS}}
+	git rebase -i HEAD~{{NUM_COMMITS}}
 ```
 
 5. Dejamos la primera linea como está (primer commit) y al resto de commits les cambiamos `pick` por `f`

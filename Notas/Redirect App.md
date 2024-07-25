@@ -7,7 +7,8 @@ Related:
 ___
 
 # Redirect App
-
+> [Educonsul v16](https://github.com/puntsistemes/educonsul_odoo/commit/382e7f9d09a69432650681074bacca22ed5f0fe6)
+> 
 > ![[Pasted image 20240715133602.png]]
 
 - [[Icono de APP con link a una web]]

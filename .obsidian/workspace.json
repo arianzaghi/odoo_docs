@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae010d4469549ef0",
+            "id": "8500f2766f294fc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Modelo mantenimiento con TREE.md",
+                "file": "Notas/Instalación módulos Remesas OCA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "2d9fc0bcda9ac186",
+            "id": "698e46ca38b6985f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Añadir ajustes para módulo odoo.md",
+                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,38 +34,12 @@
             }
           },
           {
-            "id": "bf2a86c4e984f802",
+            "id": "cde2b1bc901e8da7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Mostrar linea a linea resultados busqueda multiple.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f25358992425aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/ORM Methods.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd318add4f333657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
+                "file": "Notas/Palacio de Congresos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5124969482422
+    "width": 421.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -139,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
+                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
+                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,11 +154,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Botones en proyecto para ver documentos relacionados.md",
+                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -202,7 +177,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6487643874159387,
+                  "scale": 1.7167459596822026,
                   "close": true
                 }
               }
@@ -227,16 +202,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Botones en proyecto para ver documentos relacionados.md"
+                "file": "Notas/Modelo mantenimiento DROPDOWN.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 649.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -252,44 +226,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd318add4f333657",
+  "active": "698e46ca38b6985f",
   "lastOpenFiles": [
-    "Notas/ORM Methods.md",
-    "Notas/Modificar BBDD desde debug.md",
-    "Notas/Mostrar linea a linea resultados busqueda multiple.md",
-    "Notas/Python framework.md",
-    "Notas/Limitar acceso a un modelo a miembros de un grupo.md",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Restaurar BBDD.md",
+    "Notas/Como agregar vista de menú inicio en Odoo community.md",
+    "Notas/Palacio de Congresos.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Pasted image 20240725095544.png",
+    "Notas/Modulo facturar albaranes de compra.md",
+    "Pasted image 20240708135056.png",
+    "Notas/Instalación módulos Remesas OCA.md",
+    "Excalidraw/Como agregar vista de menú inicio en Odoo community 2024-07-24 13.52.26.excalidraw.md",
+    "Pasted Image 20240724191155_472.png",
+    "Pasted Image 20240724190707_436.png",
+    "Pasted Image 20240724184233_320.png",
+    "Pasted Image 20240724140849_239.png",
+    "Pasted Image 20240724140819_235.png",
+    "Pasted Image 20240724140749_232.png",
+    "Pasted Image 20240724140719_229.png",
+    "Pasted Image 20240724140649_227.png",
+    "Notas/Modulos OCA.md",
     "Notas/Cherrypick.md",
-    "Notas/Redirect App.md",
-    "Notas/Security.md",
-    "Notas/Icono de APP con link a una web.md",
-    "Notas/Ver info de puertos y bbdd de servidor.md",
-    "Notas/Limitar acceso a un campo a miembros de un grupo.md",
-    "Pasted image 20240715133602.png",
-    "Pasted image 20240715133559.png",
-    "Notas/Buscar grupos de permisos.md",
-    "Notas/Grupos.md",
-    "Pasted image 20240715123746.png",
-    "Notas/Añadir ajustes para módulo odoo.md",
-    "Notas/Modelo mantenimiento con TREE.md",
-    "Pasted image 20240715110215.png",
-    "Pasted image 20240715110104.png",
-    "Pasted image 20240715110059.png",
-    "Pasted image 20240712135305.png",
-    "Notas/orde.md",
-    "Pasted image 20240610130455.png",
-    "Notas/Buscar modelo original.md",
-    "Notas/Herencia.md",
-    "Pasted image 20240520114956.png",
-    "Pasted image 20240523104011.png",
+    "Notas/Modulo OCA Barcode.md",
+    "Notas/Modulo Mass Editing.md",
+    "Notas/OCA.md",
+    "Notas/Modulos custom de punt.md",
+    "Notas/Restaurar BBDD.md",
+    "Notas/Server.md",
     "Notas/Botones en proyecto para ver documentos relacionados.md",
-    "Notas/boton que llama a un metodo.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Wizards.md",
-    "Notas/popup confirmación.md",
+    "Notas/Instalar VPN Punt.md",
+    "Notas/@api.constrains.md",
+    "Notas/ORM Methods.md",
+    "Notas/Redirect App.md",
     "Notas/Search domains.md",
+    "Notas/domain.md",
+    "Notas/Error client mirror - Repositorio oca sin actualizar.md",
+    "Notas/Mostrar linea a linea resultados busqueda multiple.md",
+    "Notas/Error en Client Mirror - Commit borrado.md",
     "Ocultar ",
     "Excalidraw",
     "Notas",
