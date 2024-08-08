@@ -9,7 +9,6 @@ ___
 # Python framework
 
 ### [[Odoo Modelos|Modelos]]
-
 ### [[Transient Model]]
 ### [[ORM Methods]]
 ### [[Environment (self.env)]]

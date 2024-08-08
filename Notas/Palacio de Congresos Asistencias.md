@@ -1,22 +1,19 @@
-> [[Back]]
+> [[Modulos custom de punt]]
 
 Tags: 
 Status: 
 Related: 
 
 ___
-> 8.30 / 10
-> 10.30 / 12
 
 # Palacio de Congresos
 
-## 1. Tabla con horarios de nocturnidad
+## 1. Tabla con horarios de nocturnidad ✅
 > Modelo mantenimiento que registra el inicio y fin del horario nocturno.
 
 > [!WARNING] Historia duplicada
 > **[HU53578]: Horas Nocturnidad** -> Hemos añadido esto mismo dentro de una pestaña en el horario de trabajo
 > Debemos de moverlo a un modelo nuevo.
-
 
 **Mantenimiento `night shift`**
 - Nombre del tramo nocturno
@@ -30,13 +27,15 @@ ___
 - Poder crear nuevo tramo (Poner fecha fin previo tramo = fecha inicio tramo actual)
 - Ponderaciones editables por el admin
 
-## 2. Tabla con ponderaciones de horas extra
+## 2. Tabla con ponderaciones de horas extra ✅
 
 > Modelo mantenimiento que registra para un periodo de tiempo, las ponderaciones de los tipos de horas
 
+![[Pasted image 20240731143012.png]]
+
 ![[Pasted image 20240725095544.png]]
 
-**Modelo mantenimiento `extra_hours_ponderations`**
+### **Modelo mantenimiento `extra_hours_coefficient`**
 - Nombre del tramo
 - Fecha inicio tramo
 - Fecha fin tramo
@@ -45,15 +44,28 @@ ___
 	- Hora festivo 1.5
 	- Hora nocturno 1.25
 
-**Requisitos**
-- Poder cambiar mediante un desplegable en `ajustes` el tramo de ponderaciones que vamos a ver
-- Poder crear nuevo tramo de ponderaciones (Poner fecha fin previo tramo = fecha inicio tramo actual)
-- Ponderaciones editables por el admin
+### **Requisitos**
+- Poder cambiar mediante un desplegable en `ajustes` el tramo de ponderaciones que queremos visualizar.
+	- Por defecto se muestra el tramo activo
+	- Desde ajustes no podemos modificar los tramos
+- Poder crear/editar nuevo tramo de ponderaciones desde `asistencia>configuracion>ponderaciones`
+- Solo permitido crear/editar al administrador
 
-## 3. Horas teóricas de calendario
+### Restricciones
+- Nuevos tramos deben ser consecutivos con los existentes
+- Las ponderaciones deben de ser ">1" en todos los casos
+- Solo puede haber un tramo activo a la vez
+
+## 3. Horas teóricas de calendario ✅
 > Cálculo del total de horas teóricas trabajables en un año en base a un calendario determinado.
 
-## 4. Calendarios 
+Para realizar el cálculo de horas trabajables en un año dentro de un calendario teniendo en cuenta los dias festivos:
+- Calculamos el número de horas de trabajo por día de la semana
+- Calculamos el total de horas trabajables en el año en curso (1/1 hasta 31/12)
+- Finalmente, por cada día festivo, descontamos del total las horas que se deberían haber trabajado según el día de la semana en que cae
+
+
+## 4. Calendarios  🚧🔨⏳
 > Asignación de calendarios festivos y cálculo de horas trabajables
 
 1. Calendario Normal de los trabajadores
@@ -67,7 +79,7 @@ ___
 	3. Cada empleado debe tener su calendario normal y calendario fin de semana asignados.
 	4. Hay un calendario de fin de semana por cada calendario normal.
 
-## 5. Fichajes (STANDBY)
+## 5. Fichajes (STANDBY) 
 > Queremos mantener información de:
 > - Fichaje de horas real
 > - Fichaje de horas sin contar las que se pasan del límite
@@ -100,6 +112,29 @@ ___
 > 7:55 --> 16:55
 > - Estableciendo 8 horas máximas y horarios: Tenemos 5 minutos de horas extra.
 > - Estos 5 minutos NO deberían contar como *nocturnas*, solo como *extra*
+
+> [!Info] Fichaje en un dia y salida en otro
+> 
+> **Planteamiento:**
+> ¿Que ocurre cuando un empleado tiene fichaje de entrada en un día y fichaje de salida en otro día diferente?
+> 
+> **Ejemplo**:
+> - Fichaje de entrada 25/07/2024 - 20:00
+> - Fichaje salida 26/07/2024 - 4:00
+> - Fichaje de entrada 26/07/2024 - 14:00
+> - Fichaje de salida 26/07/2024 - 22:00
+> 
+> Tenemos un fichaje de 8h  y otro fichaje de 8h.
+> El 25/07/2024 tenemos 4h trabajadas
+> El 26/07/2024 tenemos 12h trabajadas
+> 
+> ¿Debemos de considerar 4h como horas extra?
+> 
+> **Respuesta:**
+> Esos dos fichajes de 8h cada uno con periodo de descanso entre ellos deben ser computados como dos jornadas de trabajo independientes, aunque algunas horas de ambos turnos coincidan en el mismo día natural. 
+> 
+> Por tanto, esas 4h de exceso no deben ser computadas como extras, porque ha habido un periodo de descanso entre ambos turnos de trabajo.
+> 
 
 ## 6. Informes / Visualización de datos
 

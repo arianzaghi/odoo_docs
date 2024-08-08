@@ -10,4 +10,5 @@ ___
 
 ### [[Buscar informe por nombre]]
 ### [[Buscar modelo original]]
+### [[Buscar grupos de permisos]]
 

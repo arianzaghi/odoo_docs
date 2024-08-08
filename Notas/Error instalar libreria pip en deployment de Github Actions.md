@@ -10,11 +10,9 @@ ___
 
 > **Problema:** Falta una librería en el docker de pruebas y no se puede hacer el deployment
 
-
-
 ## Solución
 
-**Modificamos `docker.sh` en la rama main (16.0) y descomentamos lo siguiente**
+**Modificamos `docker.sh` en la raíz de la rama main (16.0) y descomentamos lo siguiente**
 ```sh
 # pip
  packages=('{{pyotp}}') # AÑADIR AQUI LIBRERIAS PIP

@@ -1,8 +1,8 @@
-> [[Back]]
+> [[Modificaciones comunes XML]]
 
 Tags: 
 Status: 
-Related: 
+Related: [[sale.order]]
 
 ___
 

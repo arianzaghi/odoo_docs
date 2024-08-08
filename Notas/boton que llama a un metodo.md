@@ -1,3 +1,13 @@
+> [[Python framework]]
+
+Tags: 
+Status: 
+Related: 
+
+___
+
+# boton que llama a un metodo
+
 > Sirve para poder llamar a un método en python desde un botón xml
 
 BOTON

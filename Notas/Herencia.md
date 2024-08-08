@@ -5,7 +5,7 @@ Status:
 Related: 
 
 ___
-# Herencia
+# Tipos de herencias
 
 ## En un informe
 

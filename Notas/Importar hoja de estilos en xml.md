@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[Modificaciones comunes XML]]
 
 Tags: 
 Status: 

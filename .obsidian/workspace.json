@@ -13,41 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Instalación módulos Remesas OCA.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "698e46ca38b6985f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cde2b1bc901e8da7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Palacio de Congresos.md",
+                "file": "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
+                "file": "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
+                "file": "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,11 +127,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md",
+                "file": "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 4,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -177,7 +150,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.7167459596822026,
+                  "scale": 0.09265074984878287,
                   "close": true
                 }
               }
@@ -202,16 +175,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Modelo mantenimiento DROPDOWN.md"
+                "file": "Notas/Reducir espacio entre cabecera y direcciones envio informe.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 649.5,
-    "collapsed": true
+    "width": 730.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,44 +199,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "698e46ca38b6985f",
+  "active": "8500f2766f294fc8",
   "lastOpenFiles": [
-    "Notas/Como agregar vista de menú inicio en Odoo community.md",
-    "Notas/Palacio de Congresos.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Campo horario Hora y Minutos.md",
-    "Pasted image 20240725095544.png",
+    "Pasted image 20240808115353.png",
+    "Pasted image 20240808115348.png",
+    "Notas/hr.employee.md",
+    "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
+    "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/Herencia.md",
+    "Notas/custom_pnt.md",
+    "Notas/Modulos custom de punt.md",
+    "Notas/Elementos de Interfaz.md",
+    "Notas/Mostrar mensaje en chatter después de un evento.md",
+    "Pasted image 20240731111247.png",
+    "Notas/account.move.line.md",
+    "Notas/Error instalar libreria pip en deployment de Github Actions.md",
+    "Notas/Chatter.md",
+    "Notas/Mostrar datos bancarios cliente en informe.md",
+    "Notas/Mostrar datos bancarios de la compañía.md",
+    "Notas/Python framework.md",
+    "Notas/Transient Model.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Main.md",
+    "Notas/mainç.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Notas/Error instalación con Domino DNS equivocado.md",
+    "Notas/Mostrar campo opcional en vista tree.md",
     "Notas/Modulo facturar albaranes de compra.md",
+    "Excalidraw/Facturar albaranes esquema.md",
+    "Notas/Eliminar borrar lineas de factura.md",
+    "Pasted image 20240806113329.png",
+    "Pasted image 20240731143012.png",
+    "Pasted image 20240725095544.png",
     "Pasted image 20240708135056.png",
-    "Notas/Instalación módulos Remesas OCA.md",
-    "Excalidraw/Como agregar vista de menú inicio en Odoo community 2024-07-24 13.52.26.excalidraw.md",
     "Pasted Image 20240724191155_472.png",
     "Pasted Image 20240724190707_436.png",
     "Pasted Image 20240724184233_320.png",
     "Pasted Image 20240724140849_239.png",
-    "Pasted Image 20240724140819_235.png",
-    "Pasted Image 20240724140749_232.png",
-    "Pasted Image 20240724140719_229.png",
-    "Pasted Image 20240724140649_227.png",
-    "Notas/Modulos OCA.md",
-    "Notas/Cherrypick.md",
-    "Notas/Modulo OCA Barcode.md",
-    "Notas/Modulo Mass Editing.md",
-    "Notas/OCA.md",
-    "Notas/Modulos custom de punt.md",
-    "Notas/Restaurar BBDD.md",
-    "Notas/Server.md",
-    "Notas/Botones en proyecto para ver documentos relacionados.md",
-    "Notas/Instalar VPN Punt.md",
-    "Notas/@api.constrains.md",
-    "Notas/ORM Methods.md",
-    "Notas/Redirect App.md",
-    "Notas/Search domains.md",
-    "Notas/domain.md",
-    "Notas/Error client mirror - Repositorio oca sin actualizar.md",
-    "Notas/Mostrar linea a linea resultados busqueda multiple.md",
-    "Notas/Error en Client Mirror - Commit borrado.md",
     "Ocultar ",
     "Excalidraw",
     "Notas",
