@@ -8,5 +8,5 @@ ___
 
 # @api.constrains
 
-## [[Booleano solo activo una vez CONSTRAINT]]
+## [[Booleano solo activo una vez]]
 ## [[Comprobar unica seleccion por elemento]]

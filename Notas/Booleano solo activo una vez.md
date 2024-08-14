@@ -6,7 +6,7 @@ Related: [[@api.constrains]]
 
 ___
 
-# Booleano solo activo una vez CONSTRAINT
+# Booleano solo activo una vez
 
 ```python
 from odoo.exceptions import ValidationError

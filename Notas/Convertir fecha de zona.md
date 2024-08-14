@@ -8,6 +8,8 @@ ___
 
 # Convertir fecha de zona
 
-> fields.Datetime.context_timestamp(self, check_in)
+> Cuando guardamos una fecha en bbdd se guarda en la zona horaria UTC por defecto. Al leer la fecha en bbdd, tenemos que convertirla a nuestra zona actual.
 
-> Salva 
+```python
+fields.Datetime.context_timestamp(self, leave.date_from)
+```

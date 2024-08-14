@@ -59,25 +59,29 @@ ___
 ## 3. Horas teóricas de calendario ✅
 > Cálculo del total de horas teóricas trabajables en un año en base a un calendario determinado.
 
+
+> [!WARNING] AVISO
+> Si los horarios de trabajo no contienen fecha inicio y fecha fin del tramo,
+> el cálculo teórico se hará sin tener en cuenta los dias festivos.
+
 Para realizar el cálculo de horas trabajables en un año dentro de un calendario teniendo en cuenta los dias festivos:
 - Calculamos el número de horas de trabajo por día de la semana
 - Calculamos el total de horas trabajables en el año en curso (1/1 hasta 31/12)
 - Finalmente, por cada día festivo, descontamos del total las horas que se deberían haber trabajado según el día de la semana en que cae
-
-
-## 4. Calendarios  🚧🔨⏳
+## 4. Calendarios  ✅ 
 > Asignación de calendarios festivos y cálculo de horas trabajables
 
-1. Calendario Normal de los trabajadores
+1. Calendario **Normal** de los trabajadores
 	1. Lo usaremos para calcular las horas teóricas trabajables del empleado (contando festivos)
 	2. Pueden haber varios calendarios según las necesidades
 	3. Deben de incluir `límite_máximo_horas_trabajables` (STANDBY)
-2. Calendario Fines de Semana
+2. Calendario **Fines de Semana**
 	1. Muestran los horarios de trabajo dentro de los fines de semana
-		- Esto lo necesitamos para poder saber si en un fin de semana han habido: horas extra, 
-	2. Se diferencian del resto mediante un booleano.
-	3. Cada empleado debe tener su calendario normal y calendario fin de semana asignados.
-	4. Hay un calendario de fin de semana por cada calendario normal.
+		- Esto lo necesitamos para poder saber si en un fin de semana han habido: horas extra, festivos....
+		- En caso de que se haya trabajado en fin de semana, miraremos este calendario para saber cómo ponderar las horas trabajadas
+	1. Se diferencian del resto mediante un booleano `pnt_is_weekend_calendar`.
+	2. Cada empleado debe tener su calendario normal y calendario fin de semana asignados.
+	3. Debe haber un calendario de fin de semana por cada calendario normal.
 
 ## 5. Fichajes (STANDBY) 
 > Queremos mantener información de:

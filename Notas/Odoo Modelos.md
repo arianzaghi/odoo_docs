@@ -28,14 +28,9 @@ ___
 
 ## [[Modulos custom de punt]]
 
-[[Modelo Mantenimiento]]
+## [[Modelo Mantenimiento]]
 
-## Modulos core de odoo
+## [[Modulos core de odoo]]
 
-[[stock]]
-[[Sale]]
-[[account.move]]
-[[res.partner]]
-[[res.user]]
 
 

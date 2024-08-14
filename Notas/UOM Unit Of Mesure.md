@@ -1,4 +1,4 @@
-> [[Product]]
+> [[product]]
 
 Tags: 
 Status: 

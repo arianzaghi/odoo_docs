@@ -6,5 +6,5 @@ Related: [[sale.order]] [[sale.order.line]]
 
 ___
 
-# Sale
+# sale
 

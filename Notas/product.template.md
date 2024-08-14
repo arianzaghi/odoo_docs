@@ -1,4 +1,4 @@
-> [[Odoo Modelos]]
+> [[Modulos core de odoo]]
 
 Tags: 
 Status: 
