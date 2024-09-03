@@ -83,7 +83,7 @@ Para realizar el cálculo de horas trabajables en un año dentro de un calendari
 	2. Cada empleado debe tener su calendario normal y calendario fin de semana asignados.
 	3. Debe haber un calendario de fin de semana por cada calendario normal.
 
-## 5. Fichajes (STANDBY) 
+## 5. [[Fichajes Palacio Congresos]] (STANDBY) 
 > Queremos mantener información de:
 > - Fichaje de horas real
 > - Fichaje de horas sin contar las que se pasan del límite
@@ -139,6 +139,13 @@ Para realizar el cálculo de horas trabajables en un año dentro de un calendari
 > 
 > Por tanto, esas 4h de exceso no deben ser computadas como extras, porque ha habido un periodo de descanso entre ambos turnos de trabajo.
 > 
+
+
+- Todos los fichajes se asignan al día que aparece en la entrada.
+	- **Requisito:** No puede haber descansos en el fichaje al cambiar de dia
+- Cuando creamos un fichaje, se corta a las 8hrs (segun el horario).
+	- El empleado solo puede ver su horario en el fichaje (no ve las horas reales)
+	- El admin puede ver las horas reales trabajadas de cada empleado
 
 ## 6. Informes / Visualización de datos
 

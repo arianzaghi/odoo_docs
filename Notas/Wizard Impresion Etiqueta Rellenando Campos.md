@@ -22,8 +22,8 @@ ___
 		- `wizard_action_record`
 3. Añadimos los ficheros py en el init
 4. Declaramos las vistas y modelos
-	- **init:** vistas de los wizard
-	- **manifest:** `modelo` nuevo
+	- **init:** `modelo` nuevo
+	- **manifest:** vistas de los wizard
 5. Creamos la clase opcional y la declaramos en el init
 6. Creamos los security para las clases creadas
 7. IMPORTANTE: Añadimos la vista de `stock.picking` que contiene los botones del wizard en `views`
@@ -61,14 +61,14 @@ ___
 </record>
 
 <!-- Record de invocacion del wizard -->
-<record id="pnt_out_picking_label_wizard_action" model="ir.actions.act_window">  
-    <field name="name">Imprimir etiquetas 50x50</field>  
+<record id="{{ACTION_NAME}}_wizard_action" model="ir.actions.act_window">  
+    <field name="name">{{TITLE}}</field>  
     <field name="res_model">{{MODELO.}}</field>  
     <field name="view_mode">form</field>  
     <field name="context">{'default_picking_id': active_id}</field>  
     <field name="view_id" ref="{{VISTA_}}_form_view"/>  
     <field name="target">new</field>  
-    <field name="binding_model_id" ref="stock.model_stock_picking"/>  
+    <field name="binding_model_id" ref="{{stock.model_stock_picking}}"/>  
     <field name="binding_view_types">form</field>  
 </record>
 ```

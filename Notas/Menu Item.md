@@ -21,6 +21,11 @@ ___
 
 # Añadir Menu Item
 
+
+> [!WARNING] Security
+> Para modelos que no sean core, debemos añadirlos al security [[Security]]
+
+
 ## 1. Identificar el `menu-item` Padre
 
 Para agregar un nuevo ítem al menú, primero debemos localizar el `ref` del `menu-item` padre en el que deseamos insertar nuestra nueva entrada.

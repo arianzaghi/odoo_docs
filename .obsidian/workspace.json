@@ -8,7 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8500f2766f294fc8",
+            "id": "c85b232cc27da0be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Activar certificado https con certbot.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80a1ad1877edc667",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,12 +34,12 @@
             }
           },
           {
-            "id": "839c11203d798476",
+            "id": "fad3ec5eab0059d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Convertir fecha de zona.md",
+                "file": "Notas/Campo horario Hora y Minutos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,123 +47,20 @@
             }
           },
           {
-            "id": "130bda4ee9061380",
+            "id": "f5f6c8b6430d5844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Modulos core de odoo.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "061d23fdf4dfd54f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/__init__.py.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "397fdd4c67e72a94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/hr.employee.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "616ff29eb24083de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/res.user.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5d0e0a8b46888b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/product.template.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4105c5127881ecbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/res.company.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ae6696d8b0a5604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/@api.constrains.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff819a08fb61977e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Python framework.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "871fa56cfdbecd92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Transient Model.md",
+                "file": "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Palacio de Congresos Asistencias.md",
+                "file": "Notas/Campo horario Hora y Minutos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Palacio de Congresos Asistencias.md",
+                "file": "Notas/Campo horario Hora y Minutos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Palacio de Congresos Asistencias.md",
+                "file": "Notas/Campo horario Hora y Minutos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -280,7 +190,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6487643874159397,
+                  "scale": 0.3988205115893923,
                   "close": true
                 }
               }
@@ -305,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Palacio de Congresos Asistencias.md"
+                "file": "Notas/Campo horario Hora y Minutos.md"
               }
             }
           }
@@ -314,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 444.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -329,44 +240,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8500f2766f294fc8",
+  "active": "fad3ec5eab0059d9",
   "lastOpenFiles": [
+    "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Security.md",
+    "Notas/Wizards.md",
+    "Notas/boton que llama a un metodo.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
+    "Notas/Menu Item.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Modelo mantenimiento con TREE.md",
+    "Notas/Inverse field.md",
+    "Notas/Activar certificado https con certbot.md",
+    "Notas/Many2one.md",
+    "Notas/Error instalación con Domino DNS equivocado.md",
+    "Notas/Heredar de clase javascript http.controller.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Pasted image 20240902171029.png",
+    "Notas/Llamar al super.md",
+    "Notas/Buscar boton javascript.md",
+    "Pasted image 20240902160244.png",
+    "Pasted image 20240902155948.png",
+    "Notas/fields.Selection.md",
+    "Notas/Comprobar unica seleccion por elemento.md",
+    "Notas/Modulo facturar albaranes de compra.md",
     "Notas/Convertir fecha de zona.md",
     "Notas/Clonar la bbdd del docker de github.md",
     "Notas/BBDD.md",
-    "Notas/Descargar bbdd con attatchments.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Python framework.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Comprobar unica seleccion por elemento.md",
-    "Notas/@api.constrains.md",
-    "Notas/Booleano solo activo una vez.md",
-    "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/product.md",
-    "Notas/res.company.md",
-    "Notas/product.template.md",
-    "Notas/res.user.md",
-    "Notas/hr.employee.md",
-    "Notas/__init__.py.md",
-    "Notas/Modulos core de odoo.md",
-    "Notas/Transient Model.md",
-    "Notas/sale.md",
-    "Notas/Cherrypick.md",
-    "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
     "Pasted image 20240808115353.png",
     "Pasted image 20240808115348.png",
-    "Notas/Herencia.md",
-    "Notas/custom_pnt.md",
     "Pasted image 20240731111247.png",
     "Pasted image 20240806113329.png",
     "Pasted image 20240731143012.png",
     "Pasted image 20240725095544.png",
     "Pasted image 20240708135056.png",
-    "Pasted Image 20240724191155_472.png",
-    "Pasted Image 20240724190707_436.png",
-    "Pasted Image 20240724184233_320.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
