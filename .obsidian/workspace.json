@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Palacio de Congresos Asistencias.md",
+                "file": "Notas/Modulos custom de punt.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Campo horario Hora y Minutos.md",
+                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3da4030a690512da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Campo horario Hora y Minutos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Campo horario Hora y Minutos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Campo horario Hora y Minutos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -190,7 +203,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3988205115893923,
+                  "scale": 0.6487643874159397,
                   "close": true
                 }
               }
@@ -215,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Campo horario Hora y Minutos.md"
+                "file": "Notas/Fichajes Palacio Congresos.md"
               }
             }
           }
@@ -224,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 444.5,
-    "collapsed": true
+    "width": 776.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,22 +252,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fad3ec5eab0059d9",
+  "active": "3da4030a690512da",
   "lastOpenFiles": [
     "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/Modulos custom de punt.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Modelo mantenimiento con TREE.md",
     "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Security.md",
+    "Notas/Contexto por botón a un record.md",
+    "Pasted image 20240903170106.png",
+    "Pasted image 20240903164131.png",
+    "Pasted image 20240903163957.png",
+    "Pasted image 20240903163846.png",
     "Notas/Wizards.md",
+    "Notas/Transient Model.md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
+    "Notas/Activar certificado https con certbot.md",
+    "Notas/custom_pnt.md",
+    "Notas/Security.md",
     "Notas/boton que llama a un metodo.md",
     "Notas/Fichajes Palacio Congresos.md",
-    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
     "Notas/Menu Item.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Modelo mantenimiento con TREE.md",
     "Notas/Inverse field.md",
-    "Notas/Activar certificado https con certbot.md",
     "Notas/Many2one.md",
     "Notas/Error instalación con Domino DNS equivocado.md",
     "Notas/Heredar de clase javascript http.controller.md",
@@ -266,18 +286,9 @@
     "Pasted image 20240902160244.png",
     "Pasted image 20240902155948.png",
     "Notas/fields.Selection.md",
-    "Notas/Comprobar unica seleccion por elemento.md",
-    "Notas/Modulo facturar albaranes de compra.md",
-    "Notas/Convertir fecha de zona.md",
-    "Notas/Clonar la bbdd del docker de github.md",
-    "Notas/BBDD.md",
     "Pasted image 20240808115353.png",
     "Pasted image 20240808115348.png",
     "Pasted image 20240731111247.png",
-    "Pasted image 20240806113329.png",
-    "Pasted image 20240731143012.png",
-    "Pasted image 20240725095544.png",
-    "Pasted image 20240708135056.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
