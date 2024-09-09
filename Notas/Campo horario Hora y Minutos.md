@@ -10,6 +10,10 @@ ___
 
 > Necesitamos un campo horario (para representar horas y minutos), y que solo permita introducir horarios en formato 24h
 
+```xml
+<field name="pnt_hour_end" widget="float_time"/>
+```
+
 ```python
 from odoo import fields, models, api, _
 from odoo.exceptions import ValidationError

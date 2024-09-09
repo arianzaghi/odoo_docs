@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Activar certificado https con certbot.md",
+                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -22,19 +22,6 @@
           },
           {
             "id": "80a1ad1877edc667",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Modulos custom de punt.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fad3ec5eab0059d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Selection usando una función.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,20 +47,19 @@
             }
           },
           {
-            "id": "f5f6c8b6430d5844",
+            "id": "3c1ff6f04744b591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
+                "file": "Notas/Search filter tree view.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -203,7 +189,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6487643874159397,
+                  "scale": 0.24517036315442592,
                   "close": true
                 }
               }
@@ -228,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md"
+                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md"
               }
             }
           }
@@ -237,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 776.5
+    "width": 575.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,43 +238,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3da4030a690512da",
+  "active": "c85b232cc27da0be",
   "lastOpenFiles": [
+    "Notas/Convertir UTC a horario empleado.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Activar certificado https con certbot.md",
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Buscar modelo original.md",
     "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/custom_pnt.md",
+    "Notas/Transient Model.md",
+    "Notas/Selection usando una función.md",
+    "Notas/Selection de todos los idiomas.md",
+    "Notas/Mostrar mensaje en chatter después de un evento.md",
+    "Notas/Chatter.md",
+    "Notas/Añadir filtro de referencia de cliente.md",
+    "Notas/Search filter tree view.md",
+    "Pasted image 20240904163131.png",
+    "Notas/Inverse field.md",
+    "Notas/Redirigir desde un modelo a otro para ver registros enlazados.md",
+    "Notas/Redirect App.md",
+    "Notas/botones colores.md",
+    "Notas/Marcar devoluciones en albarán.md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/Wizards.md",
     "Notas/Modulos custom de punt.md",
     "Notas/Modelo Mantenimiento.md",
     "Notas/Modelo mantenimiento DROPDOWN.md",
     "Notas/Modelo mantenimiento con TREE.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
     "Notas/Contexto por botón a un record.md",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
     "Pasted image 20240903163957.png",
     "Pasted image 20240903163846.png",
-    "Notas/Wizards.md",
-    "Notas/Transient Model.md",
-    "Notas/Campo horario Hora y Minutos.md",
-    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
-    "Notas/Activar certificado https con certbot.md",
-    "Notas/custom_pnt.md",
-    "Notas/Security.md",
-    "Notas/boton que llama a un metodo.md",
-    "Notas/Fichajes Palacio Congresos.md",
-    "Notas/Menu Item.md",
-    "Notas/Inverse field.md",
-    "Notas/Many2one.md",
-    "Notas/Error instalación con Domino DNS equivocado.md",
-    "Notas/Heredar de clase javascript http.controller.md",
-    "Notas/Instalar Odoo Servidor Cliente.md",
     "Pasted image 20240902171029.png",
-    "Notas/Llamar al super.md",
-    "Notas/Buscar boton javascript.md",
     "Pasted image 20240902160244.png",
     "Pasted image 20240902155948.png",
-    "Notas/fields.Selection.md",
     "Pasted image 20240808115353.png",
     "Pasted image 20240808115348.png",
-    "Pasted image 20240731111247.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",

@@ -7,7 +7,10 @@ Related:
 ___
 
 # Search filter tree view
+> Queremos añadir en nuestra vista tree filtros como los siguientes:
+![[Pasted image 20240904163131.png]]
 
+## Creamos una vista para el `search view`
 ```python
 <record id="view_helpdesk_ticker_search" model="ir.ui.view">  
     <field name="name">view.helpdesk_ticket</field>  

@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Convertir fecha de zona
+# Convertir fecha en UTC a zona horaria del usuario
 
 > Cuando guardamos una fecha en bbdd se guarda en la zona horaria UTC por defecto. Al leer la fecha en bbdd, tenemos que convertirla a nuestra zona actual.
 
