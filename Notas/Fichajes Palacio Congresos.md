@@ -22,6 +22,7 @@ ___
     - **Al Iniciar una Entrada:**
         - Se debe crear un `registro de cálculo` (uno solo por línea). ✅
         - Si ya existía un registro, se añade la asistencia al `registro de cálculo`. ✅
+        - También para registros creados MANUALMENTE
     - **Visualización de Asistencias:**
         - Solo se muestran las asistencias que encajan con el horario real.
 3. **Registro de Asistencias:**
@@ -70,3 +71,5 @@ ___
 	    - Grupo de permisos para usuarios con mayor nivel de aprobación.
 
 ---
+
+> Estamos desarrollando un sistema en odoo para solicitar horas extra mediante peticiones. Las peticiones tienen primera y segunda validacion. Cada empleado tiene asignado a un responsable de validacion de horas. Tras la aprobación de la peticion por el responsable, tenemos que esperar a la aprobacion del administrador. El modelo "calculo" almacena las asistencias de un empleado. Se crea un registro por dia de trabajo del empleado. Desde este modelo podemos crear peticiones de horas libres, que deberan ser aprobadas por nuestro aprobador y después por el administrador. Cuando entramos al modelo calculo podemos ver todos nuestros fichajes en ese dia y crear o acceder al listado de peticiones ya creadas para ese mismo dia (por ejemplo: si hemos trabajado 2 horas extra, creariamos la peticion desde este modelo y se crearia un nuevo registro en el modelo de peticiones). Las restricciones son las siguientes: - Las peticiones unicamente pueden ser vistas por: - El solicitador de la peticion - El aprobador del que solicita la peticion - El administrador, que tiene acceso a todos los registros. - Los registros del modelo calculo solo pueden ser vistos por: - El propio usuario dueño del registro - El administrador

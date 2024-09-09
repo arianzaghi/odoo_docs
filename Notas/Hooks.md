@@ -84,3 +84,7 @@ Añadimos el hook al manifest
 
 #### [Aditivos - Arian](https://github.com/puntsistemes/aditivos_odoo/pull/23/files#diff-c8299e4fab78b67992dc0abdcbb93292d43b3616dcc02aa58ddcca49b46f688e)
 #### [Minyana - Juanma](https://github.com/puntsistemes/cafes-minyana_odoo/blob/14.0/custom_pnt/hooks.py)
+
+#### EN v17
+> ![[Pasted image 20240909165318.png]]
+> Se pone la clase.método = nuevo_método

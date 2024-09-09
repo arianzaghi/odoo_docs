@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/añadir campo vista pivot.md",
+                "file": "Notas/Hooks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,14 +39,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Búsqueda eficiente de registros SQL en Python.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "755205b1d5fb14b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Hooks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,12 +106,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 421.5124969482422,
-    "collapsed": true
+    "width": 421.5124969482422
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -113,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/añadir campo vista pivot.md",
+                "file": "Notas/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/añadir campo vista pivot.md",
+                "file": "Notas/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/añadir campo vista pivot.md",
+                "file": "Notas/Hooks.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -201,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/añadir campo vista pivot.md"
+                "file": "Notas/Hooks.md"
               }
             }
           }
@@ -225,35 +239,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c85b232cc27da0be",
+  "active": "755205b1d5fb14b0",
   "lastOpenFiles": [
+    "Pasted image 20240909165318.png",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Búsqueda eficiente de registros SQL en Python.md",
+    "Notas/Hooks.md",
+    "Notas/Chatter.md",
+    "Notas/Mostrar mensaje en chatter después de un evento.md",
+    "Notas/Stat button.md",
+    "Notas/Menu Item.md",
+    "Notas/añadir campo vista pivot.md",
     "Pasted image 20240909131936.png",
     "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
-    "Notas/añadir campo vista pivot.md",
-    "Notas/Búsqueda eficiente de registros SQL en Python.md",
     "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
     "Notas/Campo horario Hora y Minutos.md",
     "Notas/Utils.md",
     "Notas/Horas.md",
     "Notas/Convertir UTC a horario empleado.md",
-    "Notas/Fichajes Palacio Congresos.md",
     "Notas/Activar certificado https con certbot.md",
     "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
     "Notas/Buscar modelo original.md",
-    "Notas/Palacio de Congresos Asistencias.md",
     "Notas/custom_pnt.md",
     "Notas/Transient Model.md",
     "Notas/Selection usando una función.md",
     "Notas/Selection de todos los idiomas.md",
-    "Notas/Mostrar mensaje en chatter después de un evento.md",
-    "Notas/Chatter.md",
     "Notas/Añadir filtro de referencia de cliente.md",
     "Notas/Search filter tree view.md",
     "Pasted image 20240904163131.png",
     "Notas/Inverse field.md",
-    "Notas/Redirigir desde un modelo a otro para ver registros enlazados.md",
-    "Notas/Redirect App.md",
-    "Notas/botones colores.md",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
     "Pasted image 20240903163957.png",
@@ -262,7 +277,6 @@
     "Pasted image 20240902160244.png",
     "Pasted image 20240902155948.png",
     "Pasted image 20240808115353.png",
-    "Pasted image 20240808115348.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
