@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+                "file": "Notas/añadir campo vista pivot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "80a1ad1877edc667",
+            "id": "d6a2820d3554a3b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+                "file": "Notas/Utils.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,25 +34,12 @@
             }
           },
           {
-            "id": "3da4030a690512da",
+            "id": "2eb56555aa12068d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Selection usando una función.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c1ff6f04744b591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Search filter tree view.md",
+                "file": "Notas/Búsqueda eficiente de registros SQL en Python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+                "file": "Notas/añadir campo vista pivot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+                "file": "Notas/añadir campo vista pivot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+                "file": "Notas/añadir campo vista pivot.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -189,7 +176,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.24517036315442592,
+                  "scale": 0.3988205115893923,
                   "close": true
                 }
               }
@@ -214,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Convertir fecha en UTC a zona horaria del usuario.md"
+                "file": "Notas/añadir campo vista pivot.md"
               }
             }
           }
@@ -223,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 575.5
+    "width": 985.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,6 +227,14 @@
   },
   "active": "c85b232cc27da0be",
   "lastOpenFiles": [
+    "Pasted image 20240909131936.png",
+    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+    "Notas/añadir campo vista pivot.md",
+    "Notas/Búsqueda eficiente de registros SQL en Python.md",
+    "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
+    "Notas/Campo horario Hora y Minutos.md",
+    "Notas/Utils.md",
+    "Notas/Horas.md",
     "Notas/Convertir UTC a horario empleado.md",
     "Notas/Fichajes Palacio Congresos.md",
     "Notas/Activar certificado https con certbot.md",
@@ -259,14 +254,6 @@
     "Notas/Redirigir desde un modelo a otro para ver registros enlazados.md",
     "Notas/Redirect App.md",
     "Notas/botones colores.md",
-    "Notas/Marcar devoluciones en albarán.md",
-    "Notas/Campo horario Hora y Minutos.md",
-    "Notas/Wizards.md",
-    "Notas/Modulos custom de punt.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Modelo mantenimiento con TREE.md",
-    "Notas/Contexto por botón a un record.md",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
     "Pasted image 20240903163957.png",
