@@ -37,6 +37,21 @@ ___
     - Guarda el total de horas trabajadas de cada tipo. ✅
 3. **Gestión de Peticiones:**
     - **Wizard para Envío de Peticiones:** Los usuarios pueden enviar peticiones directamente desde el modelo. ✅
+4. **Tipos de fichajes en un dia:**
+
+| Fichaje | Entrada | Salida | Horas Nocturnas | Contemplado |
+| :-----: | ------- | ------ | --------------- | :---------: |
+|    1    | 7:00    | 12:00  | 1+0=1           |             |
+|    2    | 18:00   | 22:00  | 0+2=2           |      ✅      |
+|    3    | 7:00    | 22:00  | 1+2=3           |      ✅      |
+|    4    | 12:00   | 18:00  | 0+0=0           |             |
+|    5    | 22:00   | 23:00  | 0+1=1           |             |
+|    6    | 5:00    | 7:00   | 2+0=2           |      ✅      |
+|    7    | 21:00   | 7:00   | 0+10=10         |             |
+|    8    | 21:00   | 10:00  | 0+11=11         |             |
+|    9    | 18:00   | 7:00   | 0+11=11         |             |
+|   10    | 18:00   | 10:00  | 0+10=10         |      ✅      |
+|   11    | 22:00   | 21:00  | 2+11=13         |             |
 
 ### **3. Modelo Solicitudes**
 1. **Creación de Solicitudes:**

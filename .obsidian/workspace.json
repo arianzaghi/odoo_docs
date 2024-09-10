@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md"
+                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md"
               }
             }
           }
@@ -255,8 +255,10 @@
   },
   "active": "34feb0b5cd70e5dc",
   "lastOpenFiles": [
-    "Notas/Palacio de Congresos Asistencias.md",
+    "Pasted image 20240910171503.png",
     "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+    "Notas/Palacio de Congresos Asistencias.md",
     "Notas/Buscar elementos.md",
     "Notas/<button> Boton.md",
     "Notas/Buscar boton javascript.md",
@@ -281,8 +283,6 @@
     "Pasted image 20240909131936.png",
     "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
     "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
-    "Notas/Campo horario Hora y Minutos.md",
-    "Notas/Utils.md",
     "Pasted image 20240904163131.png",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
