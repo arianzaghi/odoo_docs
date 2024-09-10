@@ -83,7 +83,7 @@ Para realizar el cálculo de horas trabajables en un año dentro de un calendari
 	2. Cada empleado debe tener su calendario normal y calendario fin de semana asignados.
 	3. Debe haber un calendario de fin de semana por cada calendario normal.
 
-## 5. [[Fichajes Palacio Congresos]] (STANDBY) 
+## 5. [[Fichajes Palacio Congresos]] ⏰
 > Queremos mantener información de:
 > - Fichaje de horas real
 > - Fichaje de horas sin contar las que se pasan del límite

@@ -10,6 +10,14 @@ ___
 
 La etiqueta XML `button` en Odoo proporciona desencadena acciones, llama a métodos y maneja atributos dinámicos basados en valores de registros.
 
+## Relacionado
+
+- [[botones colores]]
+- [[boton que llama a un metodo]]
+- [[Botones en proyecto para ver documentos relacionados]]
+- [[Buscar boton javascript]]
+- [[Stat button]]
+
 ## Atributos
 
 ### 1. `icon`

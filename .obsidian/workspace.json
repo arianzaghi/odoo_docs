@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/Dev-tools.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34feb0b5cd70e5dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5124969482422
+    "width": 421.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -127,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Hooks.md"
+                "file": "Notas/Fichajes Palacio Congresos.md"
               }
             }
           }
@@ -224,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 985.5
+    "width": 912.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,13 +253,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "755205b1d5fb14b0",
+  "active": "34feb0b5cd70e5dc",
   "lastOpenFiles": [
-    "Pasted image 20240909165318.png",
-    "Notas/Fichajes Palacio Congresos.md",
     "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Búsqueda eficiente de registros SQL en Python.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Buscar elementos.md",
+    "Notas/<button> Boton.md",
+    "Notas/Buscar boton javascript.md",
+    "Notas/botones colores.md",
+    "Notas/boton que llama a un metodo.md",
+    "Notas/Hacrr Campo obligatorio.md",
+    "Notas/Grupos.md",
+    "Notas/Crear nuevo grupo.md",
+    "Notas/Ocultar chatter para un grupo.md",
+    "Notas/Buscar grupos de permisos.md",
+    "Notas/Cherrypick.md",
+    "Notas/Dev-tools.md",
+    "Notas/Odoo clonar cliente.md",
     "Notas/Hooks.md",
+    "Pasted image 20240909165318.png",
+    "Notas/Búsqueda eficiente de registros SQL en Python.md",
     "Notas/Chatter.md",
     "Notas/Mostrar mensaje en chatter después de un evento.md",
     "Notas/Stat button.md",
@@ -256,19 +283,7 @@
     "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
     "Notas/Campo horario Hora y Minutos.md",
     "Notas/Utils.md",
-    "Notas/Horas.md",
-    "Notas/Convertir UTC a horario empleado.md",
-    "Notas/Activar certificado https con certbot.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Buscar modelo original.md",
-    "Notas/custom_pnt.md",
-    "Notas/Transient Model.md",
-    "Notas/Selection usando una función.md",
-    "Notas/Selection de todos los idiomas.md",
-    "Notas/Añadir filtro de referencia de cliente.md",
-    "Notas/Search filter tree view.md",
     "Pasted image 20240904163131.png",
-    "Notas/Inverse field.md",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
     "Pasted image 20240903163957.png",
@@ -276,7 +291,6 @@
     "Pasted image 20240902171029.png",
     "Pasted image 20240902160244.png",
     "Pasted image 20240902155948.png",
-    "Pasted image 20240808115353.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",

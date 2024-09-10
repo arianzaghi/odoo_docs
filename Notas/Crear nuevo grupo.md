@@ -1,4 +1,4 @@
-> [[]]
+> [[Grupos]]
 
 Tags: 
 Status: 
@@ -6,5 +6,4 @@ Related:
 
 ___
 
-# Grupos
-
+# Crear nuevo grupo

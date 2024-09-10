@@ -65,7 +65,7 @@ ___
 3. **Grupos de Permisos:**
     - **Primer Aprobador:**
         - Se asigna un aprobador a cada usuario ✅
-        - Los aprobadores solo pueden ver las peticiones de las personas que gestionan (no las suyas propias).
+        - Los aprobadores solo pueden aprobar las peticiones de las personas que gestionan (no las suyas propias) ✅
         - Tras primera aprobación, se notifica al segundo aprobador
     - **Segundo Aprobador:**
 	    - Grupo de permisos para usuarios con mayor nivel de aprobación.
