@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: [[Error instalación con Domino DNS equivocado]]
+Related: [[Error instalación con Domino DNS equivocado NGINX]]
 
 ___
 
@@ -74,5 +74,5 @@ Host coelbe
 
 > [!DANGER]
 > Si nos equivocamos con el `dominio` durante la instalación, lo podemos resolver así
-> [[Error instalación con Domino DNS equivocado]]
+> [[Error instalación con Domino DNS equivocado NGINX]]
 

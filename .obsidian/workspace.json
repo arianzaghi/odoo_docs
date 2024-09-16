@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a209b3dd261e625d",
+        "id": "aca8d37c2c9c0341",
         "type": "tabs",
         "children": [
           {
-            "id": "c85b232cc27da0be",
+            "id": "423b3b07b0ee198b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/Nginx.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "2eb56555aa12068d",
+            "id": "76207efd6b1e909a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/BBDD.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "755205b1d5fb14b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34feb0b5cd70e5dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+                "file": "Notas/Error instalación con Domino DNS equivocado NGINX.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,11 +140,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/Nginx.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -191,7 +163,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.010483082740588323,
+                  "scale": 0.8973461510761325,
                   "close": true
                 }
               }
@@ -216,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md"
+                "file": "Notas/Nginx.md"
               }
             }
           }
@@ -225,50 +197,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 611.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "755205b1d5fb14b0",
+  "active": "423b3b07b0ee198b",
   "lastOpenFiles": [
-    "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Dev-tools.md",
-    "Notas/BBDD.md",
-    "Notas/Clonar la bbdd del docker de github.md",
-    "Notas/Hooks.md",
-    "Notas/Fichajes Palacio Congresos.md",
-    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
-    "Notas/Instalar Odoo Servidor Cliente.md",
-    "Notas/Repositorio dev-tools MOC.md",
-    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
-    "Notas/Back.md",
-    "Notas/Errores.md",
-    "Notas/error.md",
-    "Notas/Configurar y ejecutar Odoo server.md",
-    "Notas/Odoo clonar cliente.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/Server.md",
-    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
-    "Notas/boton que llama a un metodo.md",
+    "Pasted image 20240916130006.png",
+    "Pasted image 20240916125821.png",
+    "Notas/Error instalación con Domino DNS equivocado NGINX.md",
+    "Notas/Nginx.md",
     "Pasted image 20240910171503.png",
-    "Notas/Buscar elementos.md",
-    "Notas/<button> Boton.md",
-    "Notas/Buscar boton javascript.md",
-    "Notas/botones colores.md",
+    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
     "Notas/Hacrr Campo obligatorio.md",
-    "Notas/Grupos.md",
     "Notas/Crear nuevo grupo.md",
+    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+    "Notas/<button> Boton.md",
+    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Notas/Heredar de un xpath en otro template.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Instalar módulos en odoo v17.md",
+    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+    "Notas/Convertir UTC a horario empleado.md",
+    "Notas/popup confirmación.md",
+    "Notas/Wizards.md",
+    "Notas/boton que llama a un metodo.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/Comprobar unica seleccion por elemento.md",
+    "Notas/@api.constrains.md",
+    "git_log.sh.md",
+    "git_client_mirror.sh.md",
+    "Back.md",
+    "2024-01-24.md",
+    "Notas/Hooks.md",
     "Pasted image 20240909165318.png",
     "Pasted image 20240909131936.png",
     "Pasted image 20240904163131.png",
@@ -277,7 +250,6 @@
     "Pasted image 20240903163957.png",
     "Pasted image 20240903163846.png",
     "Pasted image 20240902171029.png",
-    "Pasted image 20240902160244.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
