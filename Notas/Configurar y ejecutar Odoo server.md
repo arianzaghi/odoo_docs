@@ -27,6 +27,10 @@ ___
 ```
 -u MODULE_NAME
 ```
+- Install module
+```
+-i MODULE_NAME
+```
 - Force update translations
 
 ```

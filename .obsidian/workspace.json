@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "d6a2820d3554a3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Utils.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2eb56555aa12068d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/BBDD.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Dev-tools.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+                "file": "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,11 +168,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -204,7 +191,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3988205115893923,
+                  "scale": 0.010483082740588323,
                   "close": true
                 }
               }
@@ -229,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md"
+                "file": "Notas/Fichajes Palacio Congresos.md"
               }
             }
           }
@@ -238,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 912.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,36 +240,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "34feb0b5cd70e5dc",
+  "active": "755205b1d5fb14b0",
   "lastOpenFiles": [
-    "Pasted image 20240910171503.png",
-    "Notas/Fichajes Palacio Congresos.md",
-    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
     "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Dev-tools.md",
+    "Notas/BBDD.md",
+    "Notas/Clonar la bbdd del docker de github.md",
+    "Notas/Hooks.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Notas/Repositorio dev-tools MOC.md",
+    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+    "Notas/Back.md",
+    "Notas/Errores.md",
+    "Notas/error.md",
+    "Notas/Configurar y ejecutar Odoo server.md",
+    "Notas/Odoo clonar cliente.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Server.md",
+    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+    "Notas/boton que llama a un metodo.md",
+    "Pasted image 20240910171503.png",
     "Notas/Buscar elementos.md",
     "Notas/<button> Boton.md",
     "Notas/Buscar boton javascript.md",
     "Notas/botones colores.md",
-    "Notas/boton que llama a un metodo.md",
     "Notas/Hacrr Campo obligatorio.md",
     "Notas/Grupos.md",
     "Notas/Crear nuevo grupo.md",
-    "Notas/Ocultar chatter para un grupo.md",
-    "Notas/Buscar grupos de permisos.md",
-    "Notas/Cherrypick.md",
-    "Notas/Dev-tools.md",
-    "Notas/Odoo clonar cliente.md",
-    "Notas/Hooks.md",
     "Pasted image 20240909165318.png",
-    "Notas/Búsqueda eficiente de registros SQL en Python.md",
-    "Notas/Chatter.md",
-    "Notas/Mostrar mensaje en chatter después de un evento.md",
-    "Notas/Stat button.md",
-    "Notas/Menu Item.md",
-    "Notas/añadir campo vista pivot.md",
     "Pasted image 20240909131936.png",
-    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
-    "Notas/Dividir carga cuando tenemos muchos registros (200.000+).md",
     "Pasted image 20240904163131.png",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
@@ -290,7 +278,6 @@
     "Pasted image 20240903163846.png",
     "Pasted image 20240902171029.png",
     "Pasted image 20240902160244.png",
-    "Pasted image 20240902155948.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
