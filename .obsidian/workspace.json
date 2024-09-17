@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aca8d37c2c9c0341",
+        "id": "0f5c151f01ebdb0a",
         "type": "tabs",
         "children": [
           {
-            "id": "423b3b07b0ee198b",
+            "id": "6a9cb37dfdeab6fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Nginx.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76207efd6b1e909a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Error instalación con Domino DNS equivocado NGINX.md",
+                "file": "Notas/Plantillas para crear docker  en github cliente.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Nginx.md",
+                "file": "Notas/Plantillas para crear docker  en github cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Nginx.md",
+                "file": "Notas/Plantillas para crear docker  en github cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Nginx.md",
+                "file": "Notas/Plantillas para crear docker  en github cliente.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -188,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Nginx.md"
+                "file": "Notas/Plantillas para crear docker  en github cliente.md"
               }
             }
           }
@@ -212,12 +199,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "423b3b07b0ee198b",
+  "active": "6a9cb37dfdeab6fc",
   "lastOpenFiles": [
+    "Pasted image 20240917085023.png",
+    "Pasted image 20240917084940.png",
+    "Notas/Nginx.md",
+    "Notas/Error instalación con Domino DNS equivocado NGINX.md",
     "Pasted image 20240916130006.png",
     "Pasted image 20240916125821.png",
-    "Notas/Error instalación con Domino DNS equivocado NGINX.md",
-    "Notas/Nginx.md",
     "Pasted image 20240910171503.png",
     "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
     "Notas/Hacrr Campo obligatorio.md",
@@ -248,8 +237,6 @@
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
     "Pasted image 20240903163957.png",
-    "Pasted image 20240903163846.png",
-    "Pasted image 20240902171029.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
