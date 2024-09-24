@@ -8,6 +8,9 @@ ___
 
 # Fichajes Palacio Congresos
 
+- [ ] Si borramos un `calc` se borran todas las peticiones?
+- [ ] Que pasa si se borra una asistencia
+
 ### **1. Modelo Asistencias**
 #### **Funcionalidades Principales:**
 1. **Gestión de Fichajes:**

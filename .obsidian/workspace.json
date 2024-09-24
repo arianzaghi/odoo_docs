@@ -4,23 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "0f5c151f01ebdb0a",
+        "id": "a209b3dd261e625d",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9cb37dfdeab6fc",
+            "id": "c85b232cc27da0be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Plantillas para crear docker  en github cliente.md",
+                "file": "Notas/Hooks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2eb56555aa12068d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/BBDD.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "755205b1d5fb14b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Odoo Modelos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34feb0b5cd70e5dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -66,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Plantillas para crear docker  en github cliente.md",
+                "file": "Notas/Odoo Modelos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Plantillas para crear docker  en github cliente.md",
+                "file": "Notas/Odoo Modelos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,11 +168,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Plantillas para crear docker  en github cliente.md",
+                "file": "Notas/Odoo Modelos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 3,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -150,7 +191,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8973461510761325,
+                  "scale": 0.194243327434394,
                   "close": true
                 }
               }
@@ -175,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Plantillas para crear docker  en github cliente.md"
+                "file": "Notas/Odoo Modelos.md"
               }
             }
           }
@@ -184,59 +225,60 @@
       }
     ],
     "direction": "horizontal",
-    "width": 611.5
+    "width": 602.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6a9cb37dfdeab6fc",
+  "active": "28a4e3b51be61771",
   "lastOpenFiles": [
+    "Notas/redondear numero float.md",
     "Pasted image 20240917085023.png",
     "Pasted image 20240917084940.png",
+    "Notas/Modulos custom de punt.md",
+    "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
+    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Mantenimeinto Many2many TAGS.md",
+    "Notas/ORM Methods.md",
+    "Notas/Search domains.md",
+    "Notas/search_count().md",
+    "Notas/Search filter tree view.md",
     "Notas/Nginx.md",
     "Notas/Error instalación con Domino DNS equivocado NGINX.md",
-    "Pasted image 20240916130006.png",
-    "Pasted image 20240916125821.png",
-    "Pasted image 20240910171503.png",
-    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
-    "Notas/Hacrr Campo obligatorio.md",
-    "Notas/Crear nuevo grupo.md",
-    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
-    "Notas/<button> Boton.md",
-    "Notas/Añadir un nuevo dominio al nginx de una instalación de odoo.md",
-    "Notas/Instalar Odoo Servidor Cliente.md",
-    "Notas/Heredar de un xpath en otro template.md",
-    "Notas/Fichajes Palacio Congresos.md",
-    "Notas/Instalar módulos en odoo v17.md",
-    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
-    "Notas/Convertir UTC a horario empleado.md",
-    "Notas/popup confirmación.md",
-    "Notas/Wizards.md",
-    "Notas/boton que llama a un metodo.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Comprobar unica seleccion por elemento.md",
-    "Notas/@api.constrains.md",
     "git_log.sh.md",
     "git_client_mirror.sh.md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Pasted image 20240916130006.png",
+    "Pasted image 20240916125821.png",
     "Back.md",
     "2024-01-24.md",
+    "Notas/Dev-tools.md",
+    "Notas/BBDD.md",
+    "Notas/Clonar la bbdd del docker de github.md",
     "Notas/Hooks.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Notas/Repositorio dev-tools MOC.md",
+    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
+    "Pasted image 20240910171503.png",
     "Pasted image 20240909165318.png",
     "Pasted image 20240909131936.png",
     "Pasted image 20240904163131.png",
     "Pasted image 20240903170106.png",
     "Pasted image 20240903164131.png",
-    "Pasted image 20240903163957.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",

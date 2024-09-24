@@ -1,3 +1,13 @@
+> [[Back]]
+
+Tags: 
+Status: 
+Related: 
+
+___
+
+# Nginx
+
 1) Para poder modificar un nginx tienes que entrar como sudo su dentro del servidor.
    
 2) Nano para modificar o cat para leer

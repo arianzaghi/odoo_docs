@@ -1,6 +1,6 @@
 Tags: 
 Status: 
-Related: #servidor [[Instalar Odoo Servidor Cliente]]
+Related: #servidor [[Instalar Odoo Servidor Cliente]] [[Nginx]]
 
 ___
 
