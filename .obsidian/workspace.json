@@ -39,11 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "b50f5e6d4fbd482d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -128,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
+                "file": "Notas/Fichajes Palacio Congresos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -216,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Odoo Modelos.md"
+                "file": "Notas/Fichajes Palacio Congresos.md"
               }
             }
           }
@@ -240,14 +248,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "28a4e3b51be61771",
+  "active": "755205b1d5fb14b0",
   "lastOpenFiles": [
+    "Notas/Mostrar campo opcional en vista tree.md",
+    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/Odoo Modelos.md",
     "Notas/redondear numero float.md",
     "Pasted image 20240917085023.png",
     "Pasted image 20240917084940.png",
     "Notas/Modulos custom de punt.md",
-    "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Fichajes Palacio Congresos.md",
     "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
     "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
     "Notas/Modelo Mantenimiento.md",
@@ -272,7 +282,6 @@
     "Notas/Hooks.md",
     "Notas/Instalar Odoo Servidor Cliente.md",
     "Notas/Repositorio dev-tools MOC.md",
-    "Notas/Saltarse inicio de sesion en odoo usando cualquier password.md",
     "Pasted image 20240910171503.png",
     "Pasted image 20240909165318.png",
     "Pasted image 20240909131936.png",

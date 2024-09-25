@@ -10,6 +10,7 @@ ___
 
 - [ ] Si borramos un `calc` se borran todas las peticiones?
 - [ ] Que pasa si se borra una asistencia
+- [ ] Que pasa si borramos la hoja de calculo del dia (cascade? or restrain)
 
 ### **1. Modelo Asistencias**
 #### **Funcionalidades Principales:**
@@ -27,7 +28,7 @@ ___
         - Si ya existía un registro, se añade la asistencia al `registro de cálculo`. ✅
         - También para registros creados MANUALMENTE
     - **Visualización de Asistencias:**
-        - Solo se muestran las asistencias que encajan con el horario real.
+        - Solo se muestran las asistencias que encajan con el horario real. 
 3. **Registro de Asistencias:**
     - **Al Marcar una Salida:**
         - Se guardan las asistencias en el `registro de cálculo`. ✅
@@ -42,11 +43,11 @@ ___
     - **Wizard para Envío de Peticiones:** Los usuarios pueden enviar peticiones directamente desde el modelo. ✅
 4. **Para el calculo de horas**
 	1. Se pueden enviar todas las peticiones que se quieran para validar✅
-	2. Al validar la primera peticion, se hace el calculo de las horas correspondientes
+	2. Al validar la primera peticion, se hace el calculo de las horas correspondientes ✅
 	3. Las siguientes peticiones que se hagan, al ser validadas:
-		1. Se eliminan todas las horas calculadas de ese dia
-		2. Se ordenan las peticiones cronologicamente
-		3. Se procesan todas las peticiones que ya habian sido validadas + la nueva
+		1. Se eliminan todas las horas calculadas de ese dia ✅
+		2. Se ordenan las peticiones cronologicamente ✅
+		3. Se procesan todas las peticiones que ya habian sido validadas + la nueva ✅
 5. **Tipos de fichajes en un dia:**
 
 | Fichaje | Entrada | Salida | Horas Nocturnas | Contemplado | Nuevo metodo |
@@ -78,8 +79,8 @@ ___
     - **Visualización de Solicitudes:**
         - Las peticiones pueden ser vistas desde el modelo de cálculo. ✅
     - **Impacto de las Solicitudes en el Cálculo:**
-        - **Peticiones Aprobadas:** Recalculan todas las horas
-        - **Peticiones Canceladas:** Recalculan todas las horas
+        - **Peticiones Aprobadas:** Recalculan todas las horas ✅
+        - **Peticiones Canceladas:** Recalculan todas las horas ✅
 	- 
 
 ### **Funcionalidades Adicionales**
@@ -87,7 +88,7 @@ ___
     - Las peticiones enviadas notifican a los administradores.
 2. **Chatter:**
     - Implementado en todos los módulos. ✅
-    - **Funcionalidad:** Registra mensajes de modificaciones en el chatter.
+    - **Funcionalidad:** Registra mensajes de modificaciones en el chatter. ✅
 3. **Grupos de Permisos:**
     - **Primer Aprobador:**
         - Se asigna un aprobador a cada usuario ✅
@@ -163,3 +164,5 @@ El trabajador debera de tener ese dia:
 
 3 horas extra en festivo y nocturno de 8pm a 11pm
 ```
+
+> [[https://github.com/puntsistemes/palacio-congresos_odoo/pull/24/files]]
