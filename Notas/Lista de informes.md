@@ -8,7 +8,7 @@ ___
 
 # Lista de informes
 
-## [[Albaran (AV)]]
+## [[Albaran (ALB)]]
 ## [[Factura (FRA)]]
 ## [[Lotes en lineas de factura]]
 ## [[Packing List]]

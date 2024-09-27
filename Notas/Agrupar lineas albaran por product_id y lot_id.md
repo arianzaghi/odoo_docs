@@ -1,4 +1,4 @@
-> [[Albaran (AV)]]
+> [[Albaran (ALB)]]
 
 Tags: 
 Status: 

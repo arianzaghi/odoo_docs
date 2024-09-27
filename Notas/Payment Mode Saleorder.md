@@ -1,8 +1,8 @@
-> [[Modificaciones comunes XML]]
+> [[Pedido de Venta (PV)]]
 
 Tags: 
 Status: 
-Related: [[sale.order]]
+Related: 
 
 ___
 

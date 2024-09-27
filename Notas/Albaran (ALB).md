@@ -8,7 +8,10 @@ ___
 
 # Albaran (AV)
 
-**Nombre del informe:** `report_deliveryslip_document`
+**Nombre del informe original del CORE**
+```xml
+<template id="report_delivery_document">
+```
 
 **Tipo de operación:** `stock_picking.picking_type_id`
 ![[Pasted image 20240610130455.png]]
@@ -22,3 +25,5 @@ ___
 
 ## Modificaciones sobre el albarán
 ### [[Albarán Valorado]]
+
+## [[Direcciones de entrega albaran]]

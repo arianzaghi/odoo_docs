@@ -1,4 +1,4 @@
-> [[Albaran (AV)]]
+> [[Albaran (ALB)]]
 
 Tags: 
 Status: 
@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Marcar devoluciones en albarán
+# Marcar devoluciones en lineas de albarán
 
 > "Albarán de compra con devolución"
 > Historia de Urban donde se solicita poner un check en cada línea que tenga una devolución. Desde el purchase.order.line, se va a los albaranes, se filtra por los albaranes de devolución hechos y se busca la línea del purchase.order.line relacionada

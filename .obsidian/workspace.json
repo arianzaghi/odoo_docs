@@ -39,6 +39,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Notas/Mover direccion entrega informe a la izquierda.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfb242077104d7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Lista de informes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca356c0d14fa6a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Pasar descripcion Pedido Compra a Albaran.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "901e6a4e89cc11f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Notas/Fichajes Palacio Congresos.md",
                 "mode": "source",
                 "backlinks": false,
@@ -47,20 +86,38 @@
             }
           },
           {
-            "id": "b50f5e6d4fbd482d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "34feb0b5cd70e5dc",
+            "id": "6e0b813847574c83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+                "file": "Notas/Albaran (ALB).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2f9b84b3452fdfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Direcciones de entrega albaran.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a56146ff19be7d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Pedido de Venta (PV).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -68,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -180,7 +237,7 @@
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 3,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -199,7 +256,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.194243327434394,
+                  "scale": 0.31377262392283733,
                   "close": true
                 }
               }
@@ -233,7 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 602.5
+    "width": 854.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,40 +305,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "755205b1d5fb14b0",
+  "active": "901e6a4e89cc11f3",
   "lastOpenFiles": [
-    "Notas/Mostrar campo opcional en vista tree.md",
+    "Notas/magic numbers - añadir o eliminar registros.md",
     "Notas/Fichajes Palacio Congresos.md",
     "Notas/Palacio de Congresos Asistencias.md",
+    "Notas/One2many.md",
+    "Notas/Albaran (ALB).md",
+    "Notas/Pasar descripcion Pedido Venta a Albaran.md",
+    "Notas/Pasar descripcion Pedido Compra a Albaran.md",
+    "Notas/Pedido de Venta (PV).md",
+    "Notas/Payment Mode Saleorder.md",
+    "Notas/Lista de informes.md",
+    "Notas/Direcciones de entrega albaran.md",
+    "Notas/Pedido de Compra (PC).md",
+    "Notas/Mover direccion entrega informe a la izquierda.md",
+    "Notas/Booleano solo activo una vez.md",
+    "Notas/@api.constrains.md",
+    "Notas/Albaran Valorado.md",
+    "Notas/Albarán Valorado.md",
+    "Notas/Marcar devoluciones en albarán.md",
+    "Notas/Ocultar nombre comercial direccion de entrega o datos cliente.md",
+    "Notas/Informes XML.md",
+    "Notas/Search filter tree view.md",
+    "Notas/Mostrar campo opcional en vista tree.md",
     "Notas/Odoo Modelos.md",
     "Notas/redondear numero float.md",
     "Pasted image 20240917085023.png",
     "Pasted image 20240917084940.png",
     "Notas/Modulos custom de punt.md",
     "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
-    "Notas/Wizard impresión Etiquetas desde Albarán con Lotes.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/Mantenimeinto Many2many TAGS.md",
-    "Notas/ORM Methods.md",
-    "Notas/Search domains.md",
-    "Notas/search_count().md",
-    "Notas/Search filter tree view.md",
-    "Notas/Nginx.md",
-    "Notas/Error instalación con Domino DNS equivocado NGINX.md",
-    "git_log.sh.md",
-    "git_client_mirror.sh.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Pasted image 20240916130006.png",
     "Pasted image 20240916125821.png",
-    "Back.md",
-    "2024-01-24.md",
-    "Notas/Dev-tools.md",
-    "Notas/BBDD.md",
-    "Notas/Clonar la bbdd del docker de github.md",
-    "Notas/Hooks.md",
-    "Notas/Instalar Odoo Servidor Cliente.md",
-    "Notas/Repositorio dev-tools MOC.md",
     "Pasted image 20240910171503.png",
     "Pasted image 20240909165318.png",
     "Pasted image 20240909131936.png",

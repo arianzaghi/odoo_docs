@@ -29,7 +29,6 @@ field_name = fields.One2many('related.model', 'inverse_field', string='Field Lab
 ```python
 class ParentModel(models.Model):
 	_name = 'parent.model'
-	
 	name = fields.Char(string='Parent Name')
 
 class ChildModel(models.Model):     

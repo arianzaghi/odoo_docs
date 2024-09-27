@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[sale.order]]
 
 ___
 
@@ -11,3 +11,5 @@ ___
 ```xml
 <template id="report_saleorder_document">
 ```
+
+[[Payment Mode Saleorder]]

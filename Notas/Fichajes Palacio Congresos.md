@@ -8,72 +8,74 @@ ___
 
 # Fichajes Palacio Congresos
 
-- [ ] Si borramos un `calc` se borran todas las peticiones?
-- [ ] Que pasa si se borra una asistencia
-- [ ] Que pasa si borramos la hoja de calculo del dia (cascade? or restrain)
+Este documento detalla la funcionalidad de una aplicación en Odoo para la gestión de las asistencias, el registro de horas extra solicitadas por los empleados, y la revisión de dichas solicitudes por parte de los aprobadores. Cada modelo se describe con sus funcionalidades específicas y su implementación.
 
+
+**TO DO**
+- [ ] Eliminar boton create de **Petitions**
+- [ ] Traducir codigo al ingles
+- [ ] Eliminar magic night schedule
+- [ ] Cuando se elimina una peticion, comprobar si es autovalidada para sumar las horas a las restantes
+- [ ] Traducir todo a ES
+- [ ] No mostrar horas kiosco cuando se crea una peticion manual
+
+\
 ### **1. Modelo Asistencias**
-#### **Funcionalidades Principales:**
-1. **Gestión de Fichajes:**
-    - **Restricciones de Fichaje:**
-        - Los fichajes se cortan automáticamente a las 8 horas según el horario establecido.
-        - **Visibilidad:**
-            - **Empleado:** Solo puede ver su horario (sin ver las horas reales trabajadas).
-            - **Administrador:** Puede ver las horas reales trabajadas por cada empleado.
-    - **Almacenamiento de Datos:**
-        - Guarda tanto las entradas y salidas reales como las ficticias (horario planificado).
-2. **Creación de Registros de Cálculo:**
-    - **Al Iniciar una Entrada:**
-        - Se debe crear un `registro de cálculo` (uno solo por línea). ✅
-        - Si ya existía un registro, se añade la asistencia al `registro de cálculo`. ✅
-        - También para registros creados MANUALMENTE
-    - **Visualización de Asistencias:**
-        - Solo se muestran las asistencias que encajan con el horario real. 
-3. **Registro de Asistencias:**
-    - **Al Marcar una Salida:**
-        - Se guardan las asistencias en el `registro de cálculo`. ✅
+#### 1. **Permisos:**
+- Los usuarios no pueden acceder a sus asistencias
+- Los usuarios no pueden modificar sus asistencias
+- Los usuarios no pueden crear asistencias
+#### 2. **Al Crear asistencias:**
+- Se crea un `registro de cálculo` para ese `dia` y `empleado` (si no existía uno). ✅
+- Se vincula la asistencia al `registro de cálculo`. ✅
+
+- **Fichaje de odoo:**
+	- Se cortan automáticamente a las horas teóricas según el horario establecido. ✅
+	- Si el fichaje es inferior a las `horas teóricas`, se deja tal como esta ✅
+- **Fichaje Real:**
+	- Se mantienen reflejando la realidad ✅
+	- No se pueden modificar ✅
+	- Si el fichaje es manual, no hay e/s real ⏰
+- **Creación automática de peticiones:**
+	- Si la asistencia es inferior a las horas teóricas por trabajar en el dia, se crea una peticion autovalidada ✅
+	- Si la asistencia es superior a las horas teóricas por trabajar en el dia se crea una peticion autovalidada y una peticion de horas extra pendiente de enviar✅
+	- Si al crear la asistencia no quedan horas teóricas por trabajar, no se crea nada automáticamente✅
+	- Todas las peticiones creadas automáticamente se relacionan con la asistencia✅
+#### 3. **Eliminar asistencias**
+- No se puede eliminar una asistencia si tiene una solicitud de horas asociada. ✅
+- Si se borra una asistencia, se eliminan también sus calc asociadas si se quedan sin asistencias. ✅
+- Evitar que si se modifica una asistencia, se puedan generar solicitudes duplicadas. ✅
+- Al eliminar un `registro de cálculo`, debe aparecer un aviso si tiene solicitudes asociadas. ✅
 
 ### **2. Modelo de Cálculo**
+> Este modelo guarda la información de las horas de trabajo de un empleado durante un día.
+> El registro se crea cuando se añade la primera asistencia del día.
+> Desde este modelo se gestionan también las peticiones.
 1. **Relaciones del Modelo:**
     - **Relación con Empleado:** Cada registro de cálculo se relaciona con un empleado. ✅
     - **Relación con Asistencias:** Puede estar relacionado con una o más asistencias. ✅
-2. **Almacenamiento de Horas:**
     - Guarda el total de horas trabajadas de cada tipo. ✅
-3. **Gestión de Peticiones:**
+2. **Gestión de Peticiones:**
     - **Wizard para Envío de Peticiones:** Los usuarios pueden enviar peticiones directamente desde el modelo. ✅
-4. **Para el calculo de horas**
+    - Los usuarios pueden visualizar las peticiones asociadas a ese día ✅
+3. **Calculo calculo de horas**
 	1. Se pueden enviar todas las peticiones que se quieran para validar✅
-	2. Al validar la primera peticion, se hace el calculo de las horas correspondientes ✅
+	2. Al validar la primera peticion, se hace el calculo de las horas correspondientes y se añade al total ✅
 	3. Las siguientes peticiones que se hagan, al ser validadas:
 		1. Se eliminan todas las horas calculadas de ese dia ✅
 		2. Se ordenan las peticiones cronologicamente ✅
 		3. Se procesan todas las peticiones que ya habian sido validadas + la nueva ✅
-5. **Tipos de fichajes en un dia:**
-
-| Fichaje | Entrada | Salida | Horas Nocturnas | Contemplado | Nuevo metodo |
-| :-----: | ------- | ------ | --------------- | :---------: | ------------ |
-|    1    | 7:00    | 12:00  | 1+0=1           |      ✅      | ✅            |
-|    2    | 18:00   | 22:00  | 0+2=2           |      ✅      | ✅            |
-|    3    | 7:00    | 22:00  | 1+2=3           |      ✅      | ✅            |
-|    4    | 12:00   | 18:00  | 0+0=0           |      ✅      | ✅            |
-|    5    | 22:00   | 23:00  | 0+1=1           |      ✅      | ✅            |
-|    6    | 5:00    | 7:00   | 2+0=2           |      ✅      | ✅            |
-|    7    | 21:00   | 7:00   | 0+10=10         |      ✅      | ✅            |
-|    8    | 21:00   | 10:00  | 0+11=11         |      ✅      | ✅            |
-|    9    | 18:00   | 7:00   | 0+11=11         |      ✅      | ✅            |
-|   10    | 18:00   | 10:00  | 0+12=12         |      ✅      | ✅            |
-|   11    | 22:00   | 21:00  | 10+1=11         |      ✅      | ✅            |
-
-### **3. Modelo Solicitudes**
-1. **Creación de Solicitudes:**
-    - **Desde el Modelo de Cálculo:** Las solicitudes se pueden crear directamente desde el modelo de cálculo. ✅
-2. **Vistas del Menú:**
-    - **Vista FORM:**
-        - Botones para aprobar y rechazar solicitudes. ✅
-    - **Vista TREE:**
-        - **Search View:** Permite filtrar por día. ✅
-        - **Acciones Rápidas:** Aceptar o rechazar solicitudes directamente desde la vista tree. ✅
-3. **Gestión de Solicitudes:**
+#### 2. **Eliminar registros**
+- No se puede borrar calc si hay asistencias vinculadas ✅
+- Se borra el calc si se queda sin asistencias ✅
+- Si un calc sin asistencias se borra, se eliminan todas las peticiones 'libres' ✅
+### **3. Modelo Peticiones**
+#### 1. **Crear  Peticiones:**
+- Las solicitudes SOLO se pueden crear desde el modelo de cálculo. ✅
+- Botones para aprobar y rechazar solicitudes. ✅
+- **Search View:** Permite filtrar por día. ✅
+- **Acciones Rápidas:** Aceptar o rechazar solicitudes directamente desde la vista tree. ✅
+1. **Gestión de Solicitudes:**
     - **Solicitud de Horas por Empleado:**
         - Los empleados pueden solicitar horas para cualquier día, indicando el día y las horas requeridas. ✅
     - **Visualización de Solicitudes:**
@@ -81,21 +83,28 @@ ___
     - **Impacto de las Solicitudes en el Cálculo:**
         - **Peticiones Aprobadas:** Recalculan todas las horas ✅
         - **Peticiones Canceladas:** Recalculan todas las horas ✅
-	- 
+2. **Solicitudes automaticas**
+#### 2. Eliminar peticiones
+- comprobar si es autovalidada para sumar las horas a las restantes ⏰
+- ASegurarse de que el sumado de horas se realiza correctamente ⏰
 
-### **Funcionalidades Adicionales**
-1. **Notificaciones:**
-    - Las peticiones enviadas notifican a los administradores.
-2. **Chatter:**
-    - Implementado en todos los módulos. ✅
-    - **Funcionalidad:** Registra mensajes de modificaciones en el chatter. ✅
-3. **Grupos de Permisos:**
-    - **Primer Aprobador:**
-        - Se asigna un aprobador a cada usuario ✅
-        - Los aprobadores solo pueden aprobar las peticiones de las personas que gestionan (no las suyas propias) ✅
-        - Tras primera aprobación, se notifica al segundo aprobador
-    - **Segundo Aprobador:**
-	    - Grupo de permisos para usuarios con mayor nivel de aprobación.
+## Notificaciones y Comunicación
+### Notificaciones:
+- Al enviar una solicitud, se notifica automáticamente a los administradores. ⏰
+
+### Chatter (Sistema de Mensajes):
+
+- Implementado en todos los módulos. ✅
+- **Funcionalidad:** Registra automáticamente los cambios en solicitudes y cálculos dentro del chatter. ✅
+
+## Grupos de Permisos
+1. **Primer Aprobador:**
+    - Cada usuario tiene asignado un primer aprobador. ✅
+    - Los aprobadores solo pueden aprobar las solicitudes de las personas que gestionan, no las propias. ✅
+2. **Segundo Aprobador:**
+    - Existe un segundo nivel de aprobación con permisos específicos para revisar solicitudes ya aprobadas por el primer aprobador. ⏰
+
+
 
 ---
 **Administracion permisos de visualizacion**
@@ -166,3 +175,67 @@ El trabajador debera de tener ese dia:
 ```
 
 > [[https://github.com/puntsistemes/palacio-congresos_odoo/pull/24/files]]
+
+
+stock.move
+
+```  
+class StockRule(models.Model):  
+    _inherit = "stock.rule"  
+    def _get_stock_move_values(  
+            self,  
+            product_id,  
+            product_qty,  
+            product_uom,  
+            location_id,  
+            name,  
+            origin,  
+            company_id,  
+            values,  
+    ):  
+        res = super(StockRule, self)._get_stock_move_values(  
+            product_id,  
+            product_qty,  
+            product_uom,  
+            location_id,  
+            name,  
+            origin,  
+            company_id,  
+            values,  
+        )  
+        if values.get("sale_line_id", False):  
+            sale = self.env['sale.order.line'].browse(  
+                values.get('sale_line_id'))  
+            res["pnt_purchase_price"] = sale.purchase_price  
+            res["description_picking"] = sale.name
+
+        return res  
+```
+
+stock.move.line
+
+```  
+class StockMove(models.Model):  
+    _inherit = "stock.move"
+
+     def _prepare_move_line_vals(self, quantity=None, reserved_quant=None):  
+        res = super()._prepare_move_line_vals(  
+            quantity=quantity, reserved_quant=reserved_quant  
+        )  
+        if res.get("move_id", False):  
+            move = self.env["stock.move"].browse(res.get("move_id", False))  
+            if move:  
+                res.update({"pnt_description": move.description_picking})  
+        return res  
+```
+
+Para la cabecera
+
+```  
+def _get_new_picking_values(self):  
+    vals = super()._get_new_picking_values()  
+    sale_note = self.sale_line_id.order_id.picking_note  
+    if sale_note:  
+        vals['note'] = sale_note  
+    return vals  
+```
