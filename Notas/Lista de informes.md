@@ -10,5 +10,6 @@ ___
 
 ## [[Albaran (ALB)]]
 ## [[Factura (FRA)]]
-## [[Lotes en lineas de factura]]
+## [[Pedido de Compra (PC)]]
+## [[Pedido de Venta (PV)]]
 ## [[Packing List]]

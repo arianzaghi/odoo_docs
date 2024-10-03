@@ -8,6 +8,6 @@ ___
 
 # Horas
 
-- [[Campo horario Hora y Minutos]]
+- [[Campo horario, Float como Hora y Minutos]]
 - [[Convertir fecha en UTC a zona horaria del usuario]]
 - [[Convertir fecha en UTC a zona horaria del usuario]]

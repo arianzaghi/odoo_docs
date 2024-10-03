@@ -8,7 +8,7 @@ ___
 
 # Direcciones de entrega albaran
 
-> Las direcciones de entrega y envió se almacenan en dos variables
+> Las direcciones de entrega y envió se almacenana en dos variables
 > mediante un `<t t-set>` y después la estructura del informe los invoca para que se muestren
 
 

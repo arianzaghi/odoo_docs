@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Albaran (AV)
+# Albaran (ALB)
 
 **Nombre del informe original del CORE**
 ```xml
@@ -24,6 +24,8 @@ ___
 > [Coralim v16](https://github.com/puntsistemes/coralim_odoo/pull/34)
 
 ## Modificaciones sobre el albarán
-### [[Albarán Valorado]]
+### [[Albaran Valorado]]
+### [[Direcciones de entrega albaran]]
+### [[Comprobar si es ALB de devolucion]]
+### [[Cambiar de sitio direcciones del ALB]]
 
-## [[Direcciones de entrega albaran]]

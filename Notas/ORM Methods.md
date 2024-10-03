@@ -8,6 +8,8 @@ ___
 
 # ORM Methods
 
+[[python orm create]]
+
 ## Search/Read
 - `Model.browse([ids])`
 	[[model.browse()]]

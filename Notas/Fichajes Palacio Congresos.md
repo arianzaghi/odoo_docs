@@ -12,14 +12,32 @@ Este documento detalla la funcionalidad de una aplicación en Odoo para la gesti
 
 
 **TO DO**
-- [ ] Eliminar boton create de **Petitions**
-- [ ] Traducir codigo al ingles
-- [ ] Eliminar magic night schedule
-- [ ] Cuando se elimina una peticion, comprobar si es autovalidada para sumar las horas a las restantes
+- [x] Eliminar boton create de **Petitions**
+- [x] Arreglar vista de asistencias
+- [x] Eliminar magic night schedule
+- [x] Cuando se elimina una peticion, comprobar si es autovalidada para sumar las horas a las restantes
+- [x] No deja resizear peticiones
+- [x] Resetear conteo de horas cuando se borra una peticion
+- [x] No mostrar horas kiosco cuando se crea una peticion manual
+- [x] Comprobar calculo horas totales del fin de semana.
+- [x] Cuando se envia una peticion de horas extra, la descripcion no puede ser la misma que la default 
+- [x] Que el admin no pueda cambiar el empleado si tiene peticiones asociadas con la asistencia.
+- [x] cuando miramos las horas trabajables de un empleado, no estamos teniendo en cuenta las fechas en las que hay que coger su horario
 - [ ] Traducir todo a ES
-- [ ] No mostrar horas kiosco cuando se crea una peticion manual
+- [ ] Comprobar que sin calendar, las horas trabajables son 0
 
-\
+
+
+- [ ] Quitar TEMPORALMENTE la restriccion de kiosko
+**No hacer de momento**
+- [ ] Redirigir fuera al usuario cuando se borra un registro desde la vista form
+- [ ] Campo tipo de asistencia obligatorio solo desde asistencias, no kiosco
+- [ ] Miembros del grupo de aprobacion se pueden auto aprobar
+- [ ] Pivot para hoja calc
+	- [ ] Apuntar num semana dentro hoja calc
+- [ ] Notificacion cuando se te cancele una asistencia o acepte
+
+
 ### **1. Modelo Asistencias**
 #### 1. **Permisos:**
 - Los usuarios no pueden acceder a sus asistencias
@@ -61,10 +79,12 @@ Este documento detalla la funcionalidad de una aplicación en Odoo para la gesti
 3. **Calculo calculo de horas**
 	1. Se pueden enviar todas las peticiones que se quieran para validar✅
 	2. Al validar la primera peticion, se hace el calculo de las horas correspondientes y se añade al total ✅
+		1. Las peticiones de dia festivo deben hacerse por horas.
 	3. Las siguientes peticiones que se hagan, al ser validadas:
 		1. Se eliminan todas las horas calculadas de ese dia ✅
 		2. Se ordenan las peticiones cronologicamente ✅
 		3. Se procesan todas las peticiones que ya habian sido validadas + la nueva ✅
+
 #### 2. **Eliminar registros**
 - No se puede borrar calc si hay asistencias vinculadas ✅
 - Se borra el calc si se queda sin asistencias ✅
@@ -85,12 +105,12 @@ Este documento detalla la funcionalidad de una aplicación en Odoo para la gesti
         - **Peticiones Canceladas:** Recalculan todas las horas ✅
 2. **Solicitudes automaticas**
 #### 2. Eliminar peticiones
-- comprobar si es autovalidada para sumar las horas a las restantes ⏰
-- ASegurarse de que el sumado de horas se realiza correctamente ⏰
+- comprobar si es autovalidada para sumar las horas a las restantes ✅
+- Asegurarse de que el sumado de horas se realiza correctamente ✅
 
 ## Notificaciones y Comunicación
 ### Notificaciones:
-- Al enviar una solicitud, se notifica automáticamente a los administradores. ⏰
+- Al enviar una solicitud, se notifica automáticamente a los administradores. ✅
 
 ### Chatter (Sistema de Mensajes):
 
@@ -102,7 +122,7 @@ Este documento detalla la funcionalidad de una aplicación en Odoo para la gesti
     - Cada usuario tiene asignado un primer aprobador. ✅
     - Los aprobadores solo pueden aprobar las solicitudes de las personas que gestionan, no las propias. ✅
 2. **Segundo Aprobador:**
-    - Existe un segundo nivel de aprobación con permisos específicos para revisar solicitudes ya aprobadas por el primer aprobador. ⏰
+    - Existe un segundo nivel de aprobación con permisos específicos para revisar solicitudes ya aprobadas por el primer aprobador. ✅
 
 
 

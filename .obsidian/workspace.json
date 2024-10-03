@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c85b232cc27da0be",
+            "id": "9c8d7d25975e95af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Hooks.md",
+                "file": "Notas/ORM Methods.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,103 +21,12 @@
             }
           },
           {
-            "id": "2eb56555aa12068d",
+            "id": "9071ecb27197ed31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/BBDD.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "755205b1d5fb14b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Mover direccion entrega informe a la izquierda.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfb242077104d7a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Lista de informes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca356c0d14fa6a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Pasar descripcion Pedido Compra a Albaran.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "901e6a4e89cc11f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e0b813847574c83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Albaran (ALB).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2f9b84b3452fdfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Direcciones de entrega albaran.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a56146ff19be7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Pedido de Venta (PV).md",
+                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md",
+                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -256,7 +165,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.31377262392283733,
+                  "scale": 0.9404335560859226,
                   "close": true
                 }
               }
@@ -281,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Fichajes Palacio Congresos.md"
+                "file": "Notas/quitar boton de crear nuevo registro en modelo.md"
               }
             }
           }
@@ -290,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 854.5
+    "width": 1320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,36 +214,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "901e6a4e89cc11f3",
+  "active": "9071ecb27197ed31",
   "lastOpenFiles": [
-    "Notas/magic numbers - añadir o eliminar registros.md",
     "Notas/Fichajes Palacio Congresos.md",
+    "Notas/quitar boton de crear nuevo registro en modelo.md",
     "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/One2many.md",
-    "Notas/Albaran (ALB).md",
-    "Notas/Pasar descripcion Pedido Venta a Albaran.md",
-    "Notas/Pasar descripcion Pedido Compra a Albaran.md",
-    "Notas/Pedido de Venta (PV).md",
-    "Notas/Payment Mode Saleorder.md",
-    "Notas/Lista de informes.md",
-    "Notas/Direcciones de entrega albaran.md",
-    "Notas/Pedido de Compra (PC).md",
-    "Notas/Mover direccion entrega informe a la izquierda.md",
-    "Notas/Booleano solo activo una vez.md",
-    "Notas/@api.constrains.md",
-    "Notas/Albaran Valorado.md",
-    "Notas/Albarán Valorado.md",
-    "Notas/Marcar devoluciones en albarán.md",
-    "Notas/Ocultar nombre comercial direccion de entrega o datos cliente.md",
     "Notas/Informes XML.md",
-    "Notas/Search filter tree view.md",
-    "Notas/Mostrar campo opcional en vista tree.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/redondear numero float.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/Security.md",
+    "Notas/Cherrypick.md",
+    "Notas/python orm create.md",
+    "Notas/ORM Methods.md",
+    "Notas/Python framework.md",
+    "Notas/Campo Related.md",
+    "Notas/Campo horario, Float como Hora y Minutos.md",
+    "Notas/fields.Float.md",
+    "Notas/Comprobar si es ALB de devolucion.md",
+    "Notas/Activar certificado https con certbot.md",
+    "Notas/@api.constrains.md",
+    "Notas/Nginx.md",
+    "Notas/Lista de informes.md",
+    "Notas/Mostrar datos bancarios de la compañía.md",
+    "Notas/Lotes en lineas de factura.md",
+    "Notas/Albaran (ALB).md",
+    "Notas/Albarán Valorado.md",
+    "Notas/Albaran Valorado.md",
+    "Notas/Cambiar de sitio direcciones del ALB.md",
+    "Notas/Direcciones de entrega albaran.md",
+    "Notas/Heredar del boton de asistencia fichaje.md",
+    "Pasted image 20240927210917.png",
+    "Pasted image 20240927210858.png",
     "Pasted image 20240917085023.png",
     "Pasted image 20240917084940.png",
-    "Notas/Modulos custom de punt.md",
-    "Notas/Convertir fecha en UTC a zona horaria del usuario.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Pasted image 20240916130006.png",
@@ -343,8 +254,6 @@
     "Pasted image 20240909165318.png",
     "Pasted image 20240909131936.png",
     "Pasted image 20240904163131.png",
-    "Pasted image 20240903170106.png",
-    "Pasted image 20240903164131.png",
     "Ocultar ",
     "Excalidraw",
     "Notas",
