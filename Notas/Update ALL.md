@@ -15,11 +15,11 @@ Primero la hacemos en DEV, y si todo funciona bien en PRO.
 - Paramos el servidor
 	`sudo su`
 	`systemctl stop odoo160dev`
-- clonar src
+- clonar src desde home de @odoo
 	`cp -r ~/odoo160dev/src ~/odoo160dev/src_backup`
 - Hacemos copia de la BBDD por si acaso
 	`pg_dump -p {{puerto}} DEV > /tmp/DEV_{{fecha}}.dump`
-- Actualizamos
+- Actualizamos deade `odoo170dev/src/`
   `./git_update {{branch}}`
 	- Necesitamos usuario y token para descargar enterprise
 - Activamos venv

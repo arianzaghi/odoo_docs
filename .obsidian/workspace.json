@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/ORM Methods.md",
+                "file": "Notas/Instalar módulos en odoo v17.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
+                "file": "Notas/Update ALL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
+                "file": "Notas/Instalar módulos en odoo v17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
+                "file": "Notas/Instalar módulos en odoo v17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/quitar boton de crear nuevo registro en modelo.md",
+                "file": "Notas/Instalar módulos en odoo v17.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -165,7 +164,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9404335560859226,
+                  "scale": 0.37921341049782953,
                   "close": true
                 }
               }
@@ -190,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/quitar boton de crear nuevo registro en modelo.md"
+                "file": "Notas/Instalar módulos en odoo v17.md"
               }
             }
           }
@@ -199,7 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1320.5
+    "width": 1302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,17 +213,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9071ecb27197ed31",
+  "active": "9c8d7d25975e95af",
   "lastOpenFiles": [
-    "Notas/Fichajes Palacio Congresos.md",
+    "Notas/Instalar Odoo Servidor Cliente.md",
+    "Notas/Compartir carpetas entre local y servidor.md",
+    "Notas/Server.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/ORM Methods.md",
+    "Notas/Update ALL.md",
+    "Notas/añadir campo vista pivot.md",
+    "Notas/Quitar ID o Codigo de producto.md",
+    "Notas/Hooks.md",
     "Notas/quitar boton de crear nuevo registro en modelo.md",
+    "Notas/Fichajes Palacio Congresos.md",
     "Notas/Palacio de Congresos Asistencias.md",
     "Notas/Informes XML.md",
     "Notas/Ver info de puertos y bbdd de servidor.md",
     "Notas/Security.md",
     "Notas/Cherrypick.md",
     "Notas/python orm create.md",
-    "Notas/ORM Methods.md",
     "Notas/Python framework.md",
     "Notas/Campo Related.md",
     "Notas/Campo horario, Float como Hora y Minutos.md",
@@ -234,14 +241,6 @@
     "Notas/@api.constrains.md",
     "Notas/Nginx.md",
     "Notas/Lista de informes.md",
-    "Notas/Mostrar datos bancarios de la compañía.md",
-    "Notas/Lotes en lineas de factura.md",
-    "Notas/Albaran (ALB).md",
-    "Notas/Albarán Valorado.md",
-    "Notas/Albaran Valorado.md",
-    "Notas/Cambiar de sitio direcciones del ALB.md",
-    "Notas/Direcciones de entrega albaran.md",
-    "Notas/Heredar del boton de asistencia fichaje.md",
     "Pasted image 20240927210917.png",
     "Pasted image 20240927210858.png",
     "Pasted image 20240917085023.png",

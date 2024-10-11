@@ -10,6 +10,10 @@ ___
 
 Permiten sobrescribir métodos pertenecientes al core de forma que se ejecute el nuestro en lugar del original.
 
+
+> [!WARNING] Aviso
+> En v17 es distinto como se usan los hook
+
 ## Tipos de hooks:
 
 Existen 3 tipos de `hooks`
