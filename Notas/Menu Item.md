@@ -23,7 +23,7 @@ ___
 
 
 > [!WARNING] Security
-> Para modelos que no sean core, debemos añadirlos al security [[Security]]
+> Para modelos que no sean core, debemos añadirlos al security [[050 - Security]]
 
 
 ## 1. Identificar el `menu-item` Padre

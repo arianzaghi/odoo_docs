@@ -1,4 +1,4 @@
-> [[Informes XML]]
+> [[Herencias comunes]]
 
 Tags: 
 Status: 

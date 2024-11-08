@@ -56,3 +56,6 @@ ___
     />  
 </odoo>
 ```
+
+## Ejemplo
+- Rankia o Verema

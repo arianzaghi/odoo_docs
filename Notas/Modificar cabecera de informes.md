@@ -1,4 +1,4 @@
-> [[Modificaciones comunes XML]]
+> [[Mover o modificar elementos de informe]]
 
 Tags: 
 Status: 

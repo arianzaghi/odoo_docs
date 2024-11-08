@@ -47,7 +47,6 @@ python3 /opt/odoo/odoo160/src/core/odoo-bin -c /opt/odoo/odoo{{version}}{{modo}}
 ```
 - Arrancamos 
 
-
 > [!DANGER] IMPORTANTE
 > Si el cliente NO USA DOCKER, tenemos que cambiar a la rama de PRO
 

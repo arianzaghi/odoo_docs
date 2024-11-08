@@ -1,4 +1,4 @@
-> [[Modificaciones comunes XML]]
+> [[Añadir datos a informe]]
 
 Tags: #informe
 Status: 

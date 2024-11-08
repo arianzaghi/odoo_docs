@@ -1,10 +1,17 @@
-> [[Reportes o Informes]]
+> [[025 - Informes XML]]
 
-Tags: 
+Tags: #informe
 Status: 
 Related: 
 
 ___
 
 # Impresion de informes
+## Con adjuntos
+### [[Adjuntar un informe a otro]]
+### [[Adjuntar pdf a informe]]
 
+## Modos de impresión
+### [[Imprimir etiquetas]]
+### [[Imprimir informe desde varios modelos]]
+### [[Imprimir informe con dos paperformat distintos]]

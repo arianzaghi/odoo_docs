@@ -11,5 +11,6 @@ ___
 [[One2many]]
 [[Many2one]]
 [[May2many]]
+[[Campo related]]
 
 

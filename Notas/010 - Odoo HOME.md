@@ -5,29 +5,23 @@ Related:
 ___
 # HOME
 
-Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
+> Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
 
-### Lista pendientes
-
-- [x] Conectarse a VPN Punt
-- [x] Cuando actualizar `Depends`
-- [ ] Domain en `relational` fields
-- [ ] Vista pasada por contexto
-- [x] Nuevo bash aliases > ssh o ddbb clone
-- [ ] restaurar bbdd
-- [ ] Template para docker
-- [x] Cambiar bbdd del docker --> 
-
-
+---
 ## Desarrollo
-### [[Odoo Views Vistas]]
-### [[Reportes o Informes]]
-### [[Python framework]]
-### [[Security]]
-
-
+### [[030 - Odoo Views Vistas]]
+### [[020 - Tipos de Informes]]
+### [[040 - Python framework]]
+### [[050 - Security]]
+---
 ## Entorno
 ### [[Workflow Punt]]
 ### [[Server]]
 ### [[Buscar elementos]]
+---
+### Lista pendientes
+- [ ] Domain en `relational` fields
+- [ ] Vista pasada por contexto
+- [ ] restaurar bbdd
+- [ ] Template para docker
 

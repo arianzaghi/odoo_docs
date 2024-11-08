@@ -1,4 +1,4 @@
-> [[Back]]
+> [[May2many]]
 
 Tags: 
 Status: 
@@ -8,7 +8,7 @@ ___
 
 # varios many2many en un solo modelo
 
-> Cuando tenemos varios many2many apuntando a un solo modelo, odoo se puede confundir y utilizar la tabla generada por la relacion que no toca. Para evitar esto:
+> Cuando tenemos varios `many2many` apuntando a un solo modelo, odoo se puede confundir y utilizar la tabla generada por la relación que no toca. Para evitar esto:
 
 
 ```python

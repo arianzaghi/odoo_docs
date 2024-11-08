@@ -9,16 +9,13 @@ ___
 # Adjuntar pdf a informe
 
 ## Ejemplo 1
-
 > [Coralim v16 - COA y security_sheet](https://github.com/puntsistemes/coralim_odoo/pull/61)
-
 
 **Clase desde donde hacemos el attatchment**
 ```python
 class IrActionsReport(models.Model):  
     _inherit = "ir.actions.report"  
 ```
-
 
 **Procesamos cada uno de los informes que se van a imprimir**
 ```python

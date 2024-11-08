@@ -1,4 +1,4 @@
-> [[Python framework|Back]]
+> [[040 - Python framework|Back]]
 
 Tags: 
 Status: 
@@ -8,13 +8,8 @@ ___
 
 # Campos
 
-## Tipos de campos
-### [[Campos basicos]]
-### [[Campos relacionales]]
-### [[Campos avanzados]]
-
+## [[Tipos de campos]]
 
 ## Propiedades de campos
 ### [[Campo Computed]]
-### [[Campo Related]]
 

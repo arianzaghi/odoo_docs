@@ -1,4 +1,4 @@
-> [[Reportes o Informes|Back]]
+> [[020 - Tipos de Informes|Back]]
 
 Tags: 
 Status: 

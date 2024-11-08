@@ -5,12 +5,11 @@ Status:
 Related: [[@api.constrains]]
 
 ___
+# Comprobar única selección por elemento
 
-# Comprobar unica seleccion por elemento
+> Dentro de un campo seleccionable de tipo One2many queremos que solo se pueda elegir 1 de cada tipo
 
-> Dentro de un campo seleccionable ([[Modelo Mantenimiento]]) de tipo One2many queremos que solo se pueda elegir 1 de cada tipo
-
-## Metodo `_check_unique_element`
+## Método `_check_unique_element`
 ```python
 @api.constrains('{{FIELD}}', 'pnt_company_id')  
     def _check_unique_{{FIELD}}(self):  

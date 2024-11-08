@@ -1,8 +1,8 @@
-> [[Campo Related|Back]]
+> [[Campos relacionales]]
 
 Tags: 
 Status: 
-Related: [[Campo Related]]
+Related:
 
 ___
 

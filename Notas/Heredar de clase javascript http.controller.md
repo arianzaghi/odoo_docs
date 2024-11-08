@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Herencias comunes]]
 
 Tags: 
 Status: 

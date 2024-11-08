@@ -12,6 +12,6 @@ ___
 
 ## Desarrollo
 ### [[Etiquetas XML]]
-### [[Herencia]]
+### [[Herencias comunes]]
 
 ## Otros

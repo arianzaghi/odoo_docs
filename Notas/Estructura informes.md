@@ -1,6 +1,6 @@
-> [[Informes XML]]
+> [[025 - Informes XML]]
 
-Tags: 
+Tags: #informe
 Status: 
 Related: 
 
@@ -10,5 +10,5 @@ ___
 
 Los informes cuentan con 3 componentes principales:
 - [[Report Action - Botón impresión]]
-- Template de Invocación
-- Informe xlm
+- [[Template de Invocación]]
+- Record del informe xml

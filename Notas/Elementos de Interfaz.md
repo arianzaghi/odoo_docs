@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[030 - Odoo Views Vistas]]
 
 Tags: 
 Status: 
@@ -9,6 +9,6 @@ ___
 # Elementos de Interfaz
 
 ### 1. [[Menu Item]]
-### 1. [[Actions]]
+### 2. [[Actions]]
 ### 2. [[Stat button]]
 ### 3. [[Chatter]]

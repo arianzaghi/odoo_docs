@@ -15,6 +15,20 @@ ___
 1. Pegamos en el fichero `*.po` las traducciones que queremos cambiar
 
 ```po
+# Translation of Odoo Server.  
+msgid ""  
+msgstr ""  
+"Project-Id-Version: Odoo Server 16.0+e\n"  
+"Report-Msgid-Bugs-To: \n"  
+"POT-Creation-Date: 2024-02-15 10:07+0000\n"  
+"PO-Revision-Date: 2024-02-15 10:07+0000\n"  
+"Last-Translator: \n"  
+"Language-Team: \n"  
+"MIME-Version: 1.0\n"  
+"Content-Type: text/plain; charset=UTF-8\n"  
+"Content-Transfer-Encoding: \n"  
+"Plural-Forms: \n"
+
 #. module: hr  
 #: model:ir.model.fields,field_description:hr.field_hr_department__manager_id  
 #: model:ir.model.fields,field_description:hr.field_hr_employee__parent_id  

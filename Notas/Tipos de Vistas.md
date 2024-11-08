@@ -1,4 +1,4 @@
-> [[Odoo Views Vistas]]
+> [[030 - Odoo Views Vistas]]
 
 Tags: 
 Status: 
@@ -10,4 +10,4 @@ ___
 
 ### 1. [[Vista Form - Formulario]]
 ### 2. [[Vista List o Tree - Listado]]
-### 3. [[Reportes o Informes]]
+### 3. [[Vista Pivot]]

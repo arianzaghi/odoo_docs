@@ -20,14 +20,13 @@ ___
 	- `vista_wizard`
 		- `wizard_form_view_record`
 		- `wizard_action_record`
-3. Añadimos los ficheros py en el init
+3. Añadimos los ficheros `.py` en el init
 4. Declaramos las vistas y modelos
 	- **init:** `modelo` nuevo
 	- **manifest:** vistas de los wizard
 5. Creamos la clase opcional y la declaramos en el init
 6. Creamos los security para las clases creadas
 7. IMPORTANTE: Añadimos la vista de `stock.picking` que contiene los botones del wizard en `views`
-
 
 ## Programación paso a paso
 ### Vistas

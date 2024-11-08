@@ -1,4 +1,4 @@
-> [[Reportes o Informes]]
+> [[Añadir datos a informe]]
 
 Tags: 
 Status: 

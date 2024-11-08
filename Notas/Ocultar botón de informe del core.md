@@ -1,4 +1,4 @@
-> [[Modificaciones comunes XML]]
+> [[Ocultar o Borrar de informe]]
 
 Tags: #todo 
 Status: 

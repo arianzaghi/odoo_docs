@@ -1,4 +1,4 @@
-> [[Informes XML]]
+> [[Estructura informes]]
 
 Tags: 
 Status: 

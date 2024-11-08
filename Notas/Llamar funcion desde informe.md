@@ -1,4 +1,4 @@
-> [[Reportes o Informes]]
+> [[Mover o modificar elementos de informe]]
 
 Tags: 
 Status: 

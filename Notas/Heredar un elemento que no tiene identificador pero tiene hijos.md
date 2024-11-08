@@ -1,8 +1,8 @@
-> [[Herencia]]
+> [[Herencias comunes]]
 
 Tags: 
 Status: 
-Related: [[Herencia]]
+Related: [[Herencias comunes]]
 
 ___
 
