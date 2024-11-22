@@ -7,8 +7,7 @@ Related: [[Redirect App]]
 ___
 
 # Añadir ajustes para módulo odoo
-
-
+> Configuraciones dentro de Ajustes para modificar parámetros de algún módulo.
 
 ![[Pasted image 20240715110215.png]]
 

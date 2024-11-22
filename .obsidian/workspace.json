@@ -13,16 +13,102 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/010 - Odoo HOME.md",
+                "file": "Notas/fields.Date.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010 - Odoo HOME"
+              "title": "fields.Date"
+            }
+          },
+          {
+            "id": "b047c72165fc97c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Contexto por botón a un record.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contexto por botón a un record"
+            }
+          },
+          {
+            "id": "348d1ee2c0e10408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Agrupar lineas pedido de compra.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agrupar lineas pedido de compra"
+            }
+          },
+          {
+            "id": "a07681ffcebbcbf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Contexto por botón a un record.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contexto por botón a un record"
+            }
+          },
+          {
+            "id": "6ea16c5db0d98495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Pasar contexto a un metodo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pasar contexto a un metodo"
+            }
+          },
+          {
+            "id": "b15fdaefa9a82477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Agrupar lineas pedido de compra.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agrupar lineas pedido de compra"
+            }
+          },
+          {
+            "id": "313c5065d3655c52",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 421.5124969482422,
-    "collapsed": true
+    "width": 421.5124969482422
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -142,6 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -164,12 +250,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3846101653070328,
+                  "scale": 0.4329724867022619,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Accion de vista tree para ejecutar masivamente acciones de form"
             }
           },
           {
@@ -192,17 +278,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notas/Agrupar lineas pedido de compra.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Agrupar lineas pedido de compra"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 1024.5
+    "width": 769.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,69 +305,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "floating": {
-    "id": "9abf62226c6e47de",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3b4d8e9914116cb6",
-        "type": "window",
-        "children": [
-          {
-            "id": "646d821544ed3d2d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f4bb265855c8789d",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 801,
-        "y": 109,
-        "width": 754,
-        "height": 801,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "f4bb265855c8789d",
+  "active": "348d1ee2c0e10408",
   "lastOpenFiles": [
-    "Notas/010 - Odoo HOME.md",
+    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+    "Pasted image 20241121165149.png",
+    "Notas/Contextos.md",
+    "Notas/Agrupar lineas pedido de compra.md",
+    "Notas/Generar pedidos de compra automaticamente a través de una venta.md",
+    "Back.md",
+    "Notas/sale_purchase.md",
+    "Notas/Contexto por botón a un record.md",
+    "Notas/fields.Date.md",
+    "Notas/Llamar un método con contexto.md",
+    "Notas/Pasar contexto a un metodo.md",
+    "Notas/<button> Boton.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Ver info de puertos y bbdd de servidor.md",
+    "Notas/redondear numero float.md",
+    "Notas/Mantenimeinto Many2many TAGS.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Modelo mantenimiento con TREE.md",
+    "Notas/Icono de APP con link a una web.md",
     "Notas/050 - Security.md",
-    "Notas/040 - Python framework.md",
-    "Notas/030 - Odoo Views Vistas.md",
-    "Notas/020 - Tipos de Informes.md",
-    "Notas/025 - Informes XML.md",
-    "Notas/Modelo de Sale order line con todos los registros.md",
-    "Notas/Mover o modificar elementos de informe.md",
-    "Notas/Ocultar o Borrar de informe.md",
-    "Notas/Añadir datos a informe.md",
-    "Notas/Errores en informes.md",
-    "Notas/Modificaciones comunes Informes XML.md",
-    "Notas/Lista de informes XLM.md",
-    "Notas/Estructura informes.md",
-    "Notas/Impresion de informes.md",
-    "Notas/Adjuntar pdf a informe.md",
-    "Notas/Template de Invocación.md",
-    "Notas/Adjuntar un informe a otro.md",
-    "Notas/Albaran (ALB).md",
-    "Notas/Modificar cabecera de informes.md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/Importar hoja de estilos en xml.md",
-    "Notas/Llamar funcion desde informe.md",
-    "Notas/Formatear fecha reporte.md",
-    "Notas/Alinear contenido columna a la derecha.md",
-    "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
+    "Notas/Herencias comunes.md",
+    "Notas/Heredar.md",
+    "Notas/Crear una rama nueva a partir de una plantila sin historial.md",
+    "Notas/Plantillas para crear docker  en github cliente.md",
+    "Notas/Many2one.md",
+    "Notas/heredar vista.md",
+    "Notas/varios many2many en un solo modelo.md",
+    "Pasted image 20241115085058.png",
     "Pasted image 20241107090604.png",
     "Pasted image 20241107081037.png",
     "Pasted image 20241105133638.png",
@@ -288,8 +343,6 @@
     "Pasted image 20241023095410.png",
     "Pasted image 20241022162350.png",
     "Pasted image 20241022162335.png",
-    "Pasted image 20241022162319.png",
-    "Pasted image 20241022160326.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

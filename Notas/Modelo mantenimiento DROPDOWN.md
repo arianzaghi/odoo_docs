@@ -24,6 +24,7 @@ class Pnt{{NombreModelo}}(models.Model):
 ```
 
 ### Modelo de la clase destino
+> Modelo en el que vamos a relacionar nuestra clase nueva para que el usuario pueda elegir un registro (`dropdown`)
 ```python
 from odoo import models, fields  
   
@@ -36,7 +37,21 @@ class SaleOrderLine(models.Model):
     )
 ```
 
-### Vistas del modelo `mantenimiento_tree.xml`
+### Vistas del modelo
+> Vistas tree y form por defecto para nuestros modelos.
+
+> [!Help] Ayuda
+> Sustituimos por los campos del modelo
+> ```
+> {{MODELO_}} = nombre_del_modelo
+> {{MODELO.}} = nombre.del.modelo
+> {{FIELD}} = campo_del_modelo
+> {{TITLE}} = titulo_del_modelo
+> {{MENUITEM_VIEW_REF}} = id_del_menuitem_padre
+> {{SEQUENCE}} = sequence_id
+> ```
+
+`mantenimiento_views.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>

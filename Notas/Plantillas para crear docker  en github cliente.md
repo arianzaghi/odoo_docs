@@ -12,6 +12,7 @@ Las podemos encontrar dentro de github con el nombre:
 
 > `template-16.0_odoo`
 
+[[Crear una rama nueva a partir de una plantila sin historial]]
 
 Una vez que encuentras las plantilla le das a crear nuevo repositorio
 

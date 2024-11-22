@@ -2,14 +2,12 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[Contextos]]
 
 ___
 
 # Contexto por botón a un record
-
 > Queremos abrir un wizard del `modelo 2` desde el `modelo 1`, pasando campos por defecto.
-
 ## `Modelo 1`
 ![[Pasted image 20240903163957.png]]
 - Creamos el botón
