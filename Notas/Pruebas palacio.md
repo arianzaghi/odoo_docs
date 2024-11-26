@@ -18,3 +18,4 @@ Con 1 peticion aceptada, error en el calculo de horas. En lugar de 4 nocturnas, 
 ![[Pasted image 20241022162319.png]]
 ![[Pasted image 20241022162335.png]]
 ![[Pasted image 20241022162350.png]]
+

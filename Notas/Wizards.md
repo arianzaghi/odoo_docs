@@ -5,44 +5,28 @@ Status:
 Related: 
 
 ___
-
 # Wizards
+![[Pasted image 20240428211442.png]]
+## Organización de carpetas
+![[Pasted image 20240428230428.png]]
 
+1. Creamos nuestro nuevo `modelo` llamado `wizards` donde guardamos todo lo relativo a los wizard. Vistas y modelos
+2. Creamos los modelos y vistas del wizard
+	- `clase_wizard`
+	- `vista_wizard`
+		- `wizard_form_view_record`
+		- `wizard_action_record`
+3. Añadimos los ficheros `.py` en el init
+4. Declaramos las vistas y modelos
+	- **init:** `modelo` nuevo
+	- **manifest:** vistas de los wizard
+5. Creamos la clase opcional y la declaramos en el init
+6. Creamos los security para las clases creadas
+## Wizard Sencillo
+[[Popup confirmación]]
 ## Wizard Avanzado
-
 [[Wizard Impresion Etiqueta Rellenando Campos]]
 [[Wizard impresión Etiquetas desde Albarán con Lotes]]
-
+## Ejemplos concretos de Wizards
+### [[Palacio_HU59928 - Wizard Actualizar IPC en tarifas]]
 ## Ejemplo de wizard Classic
-
-> Modelo: `stock.immediate.transfer`
-> Ref externa: `stock.view_immediate_transfer`
-> path: `src/core/addons/stock/wizard`
-
-```python
-<?xml version="1.0" encoding="UTF-8"?>  
-<odoo>  
-    <record id="view_immediate_transfer" model="ir.ui.view">  
-        <field name="name">stock.immediate.transfer.view.form</field>  
-        <field name="model">stock.immediate.transfer</field>  
-        <field name="arch" type="xml">  
-            <form string="Immediate transfer?">  
-                <group>  
-                    <p>  
-                        You have not recorded <i>done</i> quantities yet, by clicking on <i>apply</i>  
-                        Odoo will process all the <i>reserved</i> quantities.  
-                    </p>  
-                </group>  
-                <footer>  
-                    <button name="process" string="_Apply" type="object" class="btn-primary"/>  
-                    <button string="Cancel" class="btn-secondary" special="cancel" />  
-                </footer>  
-            </form>  
-        </field>  
-    </record>  
-</odoo>
-```
-
-## Wizard Sencillo
-- [[popup confirmación]]
-

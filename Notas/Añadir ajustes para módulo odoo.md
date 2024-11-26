@@ -1,4 +1,4 @@
-> [[]]
+> [[Ajustes de odoo]]
 
 Tags: 
 Status: 
@@ -7,13 +7,13 @@ Related: [[Redirect App]]
 ___
 
 # Añadir ajustes para módulo odoo
-> Configuraciones dentro de Ajustes para modificar parámetros de algún módulo.
+> Configuraciones dentro de Ajustes para el modulo `Redirect App`
 
 ![[Pasted image 20240715110215.png]]
 
-## Programación
+## Esquema de ficheros
 ![[Pasted image 20240715110104.png]]
-### Vistas
+## Vistas
 #### `res_config_settings_views.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -64,8 +64,8 @@ ___
     </data>  
 </odoo>
 ```
-##### Desglose
-**Vista principal**
+### Desglose
+#### **Vista principal**
 ```xml
 <record id="res_config_settings_view_form" model="ir.ui.view">  
 	<field name="name">res.config.settings.view.redirect.app</field>  
@@ -94,7 +94,7 @@ ___
 	</field>  
 </record>  
 ```
-**Menu item**
+#### **Menu item**
 ```xml
 <menuitem id="pnt_redirect_app_settings"  
           name="Redirect App Settings"  
@@ -103,7 +103,7 @@ ___
           action="pnt_redirect_app_settings_action"  
           groups="base.group_system"/>
 ```
-**Action**
+#### **Action**
 ```xml
 <record id="pnt_redirect_app_settings_action" model="ir.actions.act_window">  
     <field name="name">Redirect app settings</field>  
@@ -114,10 +114,8 @@ ___
     <field name="context">{'module' : 'redirect_app', 'bin_size': False}</field>  
 </record>
 ```
-
-****
-
-**Herencia de `res.config.settings`**
+## Python
+### `res_config_settings.py`
 ```python
 from odoo import fields, models  
   
@@ -125,23 +123,10 @@ from odoo import fields, models
 class ResConfigSettings(models.TransientModel):  
     _inherit = 'res.config.settings'  
 
-	# Creamos los campos que necesitamos monstrar en ajustes
+	# Creamos los campos que necesitamos mostrar en ajustes
     pnt_report_url = fields.Char(string="Url")
 ```
-
-
-### Python
-#### `res_config_settings.py`
-```python
-from odoo import fields, models  
-  
-  
-class ResConfigSettings(models.TransientModel):  
-    _inherit = 'res.config.settings'  
-  
-    pnt_report_url = fields.Char(string="Url")
-```
-#### `__manifest__.py`
+### `__manifest__.py`
 ```python
 {  
     'name': 'Redirect App',  

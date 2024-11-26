@@ -1,20 +1,17 @@
 > [[Wizards]]
 
-Tags: 
+Tags: #wizard
 Status: 
 Related: 
 
 ___
-
 # Wizard Impresion Etiqueta
 
 ![[Pasted image 20240428211442.png]]
-
 ## Organización de carpetas
-
 ![[Pasted image 20240428230428.png]]
 
-1. Creamos nuestro nuevo `modelo` llamado `wizards` donde guardamos todo lo relativo a los wizard
+1. Creamos nuestro nuevo `modelo` llamado `wizards` donde guardamos todo lo relativo a los wizard. Vistas y modelos
 2. Creamos los modelos y vistas del wizard
 	- `clase_wizard`
 	- `vista_wizard`
@@ -34,22 +31,18 @@ ___
 > **Vista XML del wizard popup donde introducimos los datos y el record que lo invoca**
 ```xml
 <!-- Vista del WIZARD -->
-<record id="{{VISTA_}}_form_view" model="ir.ui.view">  
-    <field name="name">{{VISTA.}}.form.view</field>  
-    <field name="model">{{MODELO.}}</field>  
+<record id="{{MODEL_}}_form_view" model="ir.ui.view">  
+    <field name="name">{{MODEL.}}.form.view</field>  
+    <field name="model">{{MODEL.}}</field>  
     <field name="arch" type="xml">  
         <form>  
             <sheet>  
                 <group>  
                     <field name="qty"/>  
                     <field name="weight"/>  
-                    <field name="pallet"/>  
-                    <field name="agency"/>  
-                    <field name="delivery"/>  
-                    <field name="transport"/>  
                 </group>  
                 <footer>  
-                    <button name="print_labels" type="object" string="Print"  
+                    <button name="{{method_to_call}}" type="object" string="{{Button_string}}"  
                             class="oe_highlight"/>  
                     <button special="cancel" string="Cancel" type="object"  
                             class="btn btn-default oe_inline"/>  
@@ -60,9 +53,9 @@ ___
 </record>
 
 <!-- Record de invocacion del wizard -->
-<record id="{{ACTION_NAME}}_wizard_action" model="ir.actions.act_window">  
+<record id="{{MODEL_}}_wizard_action" model="ir.actions.act_window">  
     <field name="name">{{TITLE}}</field>  
-    <field name="res_model">{{MODELO.}}</field>  
+    <field name="res_model">{{MODEL.}}</field>  
     <field name="view_mode">form</field>  
     <field name="context">{'default_picking_id': active_id}</field>  
     <field name="view_id" ref="{{VISTA_}}_form_view"/>  
@@ -71,7 +64,7 @@ ___
     <field name="binding_view_types">form</field>  
 </record>
 ```
-### Etiqueta
+#### Etiqueta
 > **XLM del informe (etiqueta) y su record de invocacion**
 ```xml
 <!-- ETIQUETA -->
@@ -106,8 +99,7 @@ ___
     <field name="paperformat_id" ref="report_pnt.paperformat_pnt_label"/>  
 </record>
 ```
-
-### Botón Activación Wizard
+#### Botón Activación Wizard
 > **Añadimos los botones en `stock.picking`**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
@@ -125,7 +117,6 @@ ___
     </record>  
 </odoo>
 ```
-
 ### Modelos
 #### Clase del Wizard
 > **Clase tipo `TransientModel` sobre la que creamos el wizard**
@@ -167,16 +158,13 @@ class OutPickingLabelWizard(models.TransientModel):
         )  
         return report.report_action(self)
 ```
-
 ### Security
-
 **Copy-Paste**
 ```python
 {{MODULO}}.access_{{MODELO}},access_{{MODELO}},{{MODULO}}.model_{{MODELO}},base.group_user,1,1,1,1
 ```
 - Reemplazamos `{{MODULO}}` por `module_name` (`custom_pnt`)
 - Reemplazamos `{{MODELO}}` por `model_name` (`pnt_test_class`)
-
 **Ejemplo**
 ```python
 report_pnt.access_out_picking_label_wizard,access_out_picking_label_wizard,report_pnt.model_out_picking_label_wizard,base.group_user,1,1,1,1
@@ -199,22 +187,6 @@ class PntOutPickingLabel(models.TransientModel):
     delivery = fields.Char(string="Delivery")  
     transport = fields.Char(string="Transport")
 ```
-
-
 ## Ejemplos
-
-### [Usisa v17](https://github.com/puntsistemes/usisa_odoo/commit/dad934b31376aecded97ab900f81f4aa45b7b0c0)
-### [Cardyfren v12]()
-```python
-from odoo import models, fields, _  
-  
-  
-class PntSaleLabelWizard(models.TransientModel):  
-    _name = "pnt.sale.label.wizard"  
-    
-    labels_qty = fields.Integer(string="Quantity of labels")  
-    
-    def print_labels(self):  
-        action = self.env.ref("report_pnt.pnt_sale_label_action").read()[0]  
-        return action
-```
+### [Usisa_HU51029 v17 - Wizard Etiquetas](https://github.com/puntsistemes/usisa_odoo/commit/dad934b31376aecded97ab900f81f4aa45b7b0c0)
+### [Cardyfren_HU52380 v12 - Wizard Etiquetas venta](https://github.com/puntsistemes/cardyfren_odoo/commit/8f2fffb1b9eec66ce648b3d7fa525d39141514a8)

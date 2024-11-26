@@ -7,7 +7,6 @@ Related:
 ___
 
 # Icon de APP con link a una web
-
 > Módulo (icono de app en menu principal) que al hacerle click nos redirige a una web externa
 
 ![[Pasted image 20240628090712.png]]

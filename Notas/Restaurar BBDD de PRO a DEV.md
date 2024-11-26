@@ -51,8 +51,8 @@ SET client_min_messages TO WARNING;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
-('report.url', 'http://0.0.0.0:62001'),
-('web.base.url', 'https://odoo-dev.puntsistemes.com/:62001'),
+('report.url', 'http://127.0.0.1:62001'),
+('web.base.url', 'https://coelbe-dev.puntsistemes.cloud/:62001'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -73,6 +73,14 @@ Esto lo encontramos en el conf del servidor.
 #Punt dev
 ('report.url', 'http://0.0.0.1:62001'),
 ('web.base.url', 'https://odoo-dev.puntsistemes.com/:62001'),
+
+#Redit
+('report.url', 'http://127.0.0.1:62000'),
+('web.base.url', 'https://redit-dev.puntsistemes.cloud/:62001'),
+
+#Coelbe
+('report.url', 'http://127.0.0.1:62001'),
+('web.base.url', 'https://coelbe-dev.puntsistemes.cloud/:62001'),
 ```
 
 

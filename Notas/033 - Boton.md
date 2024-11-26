@@ -47,7 +47,7 @@ La etiqueta XML `button` en Odoo proporciona desencadena acciones, llama a méto
 ## 8. `confirm`
 ^882255
 - Wizard o mensaje popup de confirmación (aceptar o cancelar) antes de que se realize la acción del botón
-- [[popup confirmación]]
+- [[Popup confirmación]]
 ## 9. `special`
 - Para formularios abiertos en diálogos
 - `save` para guardar y cerrar. `cancel` para cerrar y descartar.

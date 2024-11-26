@@ -7,15 +7,13 @@ Related:
 ___
 
 # Redirect App
-> [Educonsul v16](https://github.com/puntsistemes/educonsul_odoo/commit/382e7f9d09a69432650681074bacca22ed5f0fe6)
+> [Educonsul v16 - Redirect App](https://github.com/puntsistemes/educonsul_odoo/commit/382e7f9d09a69432650681074bacca22ed5f0fe6)
 > 
 > ![[Pasted image 20240715133602.png]]
 
 - [[Icono de APP con link a una web]]
 - [[Añadir ajustes para módulo odoo]]
 - [[Limitar acceso a un modelo a miembros de un grupo]]
-
-
 ## V1
 > Nuestro modelo no contiene el dato, lo recoje del parametro que se configura desde ajustes.
 
@@ -124,7 +122,6 @@ class ResConfigSettings(models.TransientModel):
 ```
 
 ## V2
-
 > Nuestro modelo contiene el dato, y se actualiza cuando lo cambiamos desde ajustes. El icono lee el dato del modelo.
 
 ### Python
@@ -204,7 +201,6 @@ class ResConfigSettings(models.TransientModel):
     'application': True,  
 }
 ```
-
 ### Vistas
 #### `redirect_app_views.xml`
 ```xml
