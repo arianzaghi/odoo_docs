@@ -1,4 +1,4 @@
-> [[030 - Odoo Views Vistas]]
+> [[030 - Vistas]]
 
 Tags: 
 Status: 

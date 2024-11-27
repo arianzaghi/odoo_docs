@@ -8,6 +8,8 @@ ___
 
 # Vista Pivot
 
-[[pivot ausencias]]
+
 [[Añadir vista pivot]]
 [[añadir campo vista pivot]]
+
+[[Modelo intermedio para pivot, pasar columnas no relacionales a filas]]

@@ -8,5 +8,6 @@ ___
 
 # Vista List o Tree - Listado
 
-[[Referencia de cliente en listado sale.order]]
-[[Search filter tree view]]
+## [[Añadir referencia de cliente en tree sale.order]]
+## [[Search filter tree view]]
+## [[Groupby vista tree]]

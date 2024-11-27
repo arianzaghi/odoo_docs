@@ -1,4 +1,4 @@
-> [[020 - Tipos de Informes]]
+> [[020 - Informes]]
 
 Tags: #informe 
 Status: 
@@ -15,4 +15,4 @@ ___
 ### [[Lista de informes XLM]]
 ### [[Modificaciones comunes Informes XML]]
 ### [[Errores en informes]]
-## Crear informe de 0
+## [[Crear informe de 0]]

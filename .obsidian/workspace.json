@@ -8,112 +8,88 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3df9964c5c711f3c",
+            "id": "d02eba686741560c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Llamar un método con contexto.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wizards"
+              "title": "Llamar un método con contexto"
             }
           },
           {
-            "id": "57dc351788297221",
+            "id": "ccdd4fefe51adc85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Palacio_HU53580 - Modelo ponderacion horas extra con ajustes.md",
+                "file": "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Palacio_HU53580 - Modelo ponderacion horas extra con ajustes"
+              "title": "Modelo intermedio para pivot, pasar columnas no relacionales a filas"
             }
           },
           {
-            "id": "86940a800c8575c3",
+            "id": "af947187d584fc3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Pivot intermedia.md"
               },
-              "icon": "lucide-file",
-              "title": "Odoo Modelos"
+              "icon": "excalidraw-icon",
+              "title": "Pivot intermedia"
             }
           },
           {
-            "id": "d56aded7a3cc6606",
+            "id": "948b1ab723083e96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notas/Palacio_HU53580 - Modelo ponderacion horas extra con ajustes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Pivot intermedia.md"
               },
-              "icon": "lucide-file",
-              "title": "Palacio_HU53580 - Modelo ponderacion horas extra con ajustes"
+              "icon": "excalidraw-icon",
+              "title": "Pivot intermedia"
             }
           },
           {
-            "id": "4900cf32223e16d3",
+            "id": "46600e6236fb32c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Diagrama imprimir informe desde dos modelos.md"
               },
-              "icon": "lucide-file",
-              "title": "Palacio_HU59928 - Wizard Actualizar IPC en tarifas"
+              "icon": "excalidraw-icon",
+              "title": "Diagrama imprimir informe desde dos modelos"
             }
           },
           {
-            "id": "1a087cf69963eb5c",
+            "id": "4bdfe004d9dcc41e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Pasar registros por contexto a un wizard.md",
+                "file": "Notas/059 - Configuracion y Estructura.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pasar registros por contexto a un wizard"
-            }
-          },
-          {
-            "id": "af02a6ee6f1c14f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Boton en cabecera de un tree.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Boton en cabecera de un tree"
+              "title": "059 - Configuracion y Estructura"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,11 +209,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Odoo Modelos.md",
+                "file": "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 5,
+                  "localJumps": 4,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -256,12 +232,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4329724867022621,
+                  "scale": 0.17290350608005514,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Odoo Modelos"
+              "title": "Graph of Modelo intermedio para pivot, pasar columnas no relacionales a filas"
             }
           },
           {
@@ -285,10 +261,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Odoo Modelos.md"
+                "file": "Notas/Ver info de puertos y bbdd de servidor.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Odoo Modelos"
+              "title": "Outline of Ver info de puertos y bbdd de servidor"
             }
           }
         ],
@@ -296,7 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 918.5
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,44 +287,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "28a4e3b51be61771",
+  "active": "ccdd4fefe51adc85",
   "lastOpenFiles": [
+    "Pasted image 20241127133243.png",
+    "Pasted image 20241127132737.png",
+    "Excalidraw/Pivot intermedia.md",
+    "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
+    "Notas/Vista Pivot.md",
+    "Notas/pivot ausencias.md",
+    "Excalidraw/Diagrama imprimir informe desde dos modelos.md",
+    "Notas/Untitled.md",
+    "Notas/Untitled 1.md",
+    "Notas/Lista de informes XLM.md",
+    "Notas/Albaran (ALB).md",
+    "Notas/Cambiar de sitio direcciones del ALB.md",
+    "Notas/Sacar fecha de texto de agrupacion por albaran.md",
+    "Notas/Llamar un método con contexto.md",
+    "2024-01-24.md",
+    "Notas/secutiry.md",
+    "Notas/orde.md",
+    "Notas/Accion de vista tree para ejecutar masivamente acciones de form.md",
+    "Notas/Pasar contexto a un metodo.md",
+    "Notas/Contexto por botón a un record.md",
     "Notas/033 - Boton.md",
-    "Notas/Ajustes de odoo.md",
-    "Notas/Palacio_HU53580 - Modelo ponderacion horas extra con ajustes.md",
-    "Back.md",
-    "Notas/Ajustes basicos para modulo de odoo.md",
+    "Notas/boton que llama a un metodo.md",
+    "Notas/025 - Informes XML.md",
+    "Notas/Estructura informes.md",
+    "Notas/020 - Informes.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/059 - Configuracion y Estructura.md",
     "Pasted image 20241126114706.png",
     "Pasted image 20241126114625.png",
-    "Notas/Boton en cabecera de un tree.md",
-    "Notas/Pasar registros por contexto a un wizard.md",
-    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-    "Notas/Añadir ajustes para módulo odoo.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Wizards.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Popup confirmación.md",
-    "Notas/Wizard en vista tree con seleccionables en contexto.md",
-    "Notas/fields.Date.md",
-    "Notas/Contexto por botón a un record.md",
     "Pasted image 20241126105410.png",
     "Pasted image 20241126105408.png",
     "Pasted image 20241126105342.png",
-    "Notas/Historias sin clasificar.md",
-    "Notas/Limitar acceso a un modelo a miembros de un grupo.md",
-    "Notas/Redirect App.md",
-    "Notas/Icono de APP con link a una web.md",
     "Pasted image 20241126091813.png",
-    "Notas/Mantenimeinto Many2many TAGS.md",
-    "Notas/Modelo Mantenimiento.md",
-    "Notas/050 - Security.md",
-    "Notas/secutiry.md",
-    "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Modulos custom de punt.md",
     "Pasted image 20241121165149.png",
     "Pasted image 20241115085058.png",
     "Pasted image 20241107090604.png",
-    "Pasted image 20241107081037.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

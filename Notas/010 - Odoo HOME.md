@@ -9,10 +9,12 @@ ___
 
 ---
 ## Desarrollo
-### [[030 - Odoo Views Vistas]]
-### [[020 - Tipos de Informes]]
+### [[020 - Informes]]
+### [[030 - Vistas]]
 ### [[040 - Python framework]]
 ### [[050 - Security]]
+### [[059 - Configuracion y Estructura]]
+### [[060 - Clientes e Historias]]
 ---
 ## Entorno
 ### [[Workflow Punt]]

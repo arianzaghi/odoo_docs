@@ -11,7 +11,7 @@ ___
 > [!Origen] Aditivos: [Github](https://github.com/puntsistemes/aditivos_odoo/commit/602d3ddd178404c9187e115ccd611c4c6238ae4c#diff-865186ab374f3b8e0727cf49615374e266a316fd5848eb2924fdd313e1420e0a)
 > El formato de impresión de `stock.picking` también será necesario poder sacarlo desde `mrp.production` y `stock.lot`:
 
-![[Estructura informes avanzada diagrama]]
+![[Diagrama imprimir informe desde dos modelos]]
 
 ## Botones de acción
 
