@@ -28,64 +28,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
+                "file": "Notas/Vista Pivot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo intermedio para pivot, pasar columnas no relacionales a filas"
+              "title": "Vista Pivot"
             }
           },
           {
-            "id": "af947187d584fc3a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Pivot intermedia.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Pivot intermedia"
-            }
-          },
-          {
-            "id": "948b1ab723083e96",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Pivot intermedia.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Pivot intermedia"
-            }
-          },
-          {
-            "id": "46600e6236fb32c3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Diagrama imprimir informe desde dos modelos.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Diagrama imprimir informe desde dos modelos"
-            }
-          },
-          {
-            "id": "4bdfe004d9dcc41e",
+            "id": "962ccaf6f2fd02f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/059 - Configuracion y Estructura.md",
+                "file": "Notas/Modelo intermedio para ver medidas como filas en pivot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "059 - Configuracion y Estructura"
+              "title": "Modelo intermedio para ver medidas como filas en pivot"
+            }
+          },
+          {
+            "id": "4bffad35187b2a2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Añadir campo vista pivot.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Añadir campo vista pivot"
             }
           }
         ],
@@ -209,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
+                "file": "Notas/Vista Pivot.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -232,12 +211,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.17290350608005514,
+                  "scale": 0.737799349045282,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Modelo intermedio para pivot, pasar columnas no relacionales a filas"
+              "title": "Graph of Vista Pivot"
             }
           },
           {
@@ -272,7 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 1103.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,11 +268,18 @@
   },
   "active": "ccdd4fefe51adc85",
   "lastOpenFiles": [
+    "Notas/Modelo intermedio para ver medidas como filas en pivot.md",
+    "Notas/Vista Pivot.md",
+    "Notas/Añadir campo vista pivot.md",
+    "Pasted image 20241127163851.png",
+    "Notas/Search filter tree view.md",
+    "Notas/Añadir filtro de referencia de cliente vista form.md",
+    "Notas/Aditivos.md",
+    "Notas/Llamar un método con contexto.md",
+    "Notas/060 - Clientes e Historias.md",
     "Pasted image 20241127133243.png",
     "Pasted image 20241127132737.png",
     "Excalidraw/Pivot intermedia.md",
-    "Notas/Modelo intermedio para pivot, pasar columnas no relacionales a filas.md",
-    "Notas/Vista Pivot.md",
     "Notas/pivot ausencias.md",
     "Excalidraw/Diagrama imprimir informe desde dos modelos.md",
     "Notas/Untitled.md",
@@ -302,7 +288,6 @@
     "Notas/Albaran (ALB).md",
     "Notas/Cambiar de sitio direcciones del ALB.md",
     "Notas/Sacar fecha de texto de agrupacion por albaran.md",
-    "Notas/Llamar un método con contexto.md",
     "2024-01-24.md",
     "Notas/secutiry.md",
     "Notas/orde.md",
@@ -312,10 +297,6 @@
     "Notas/033 - Boton.md",
     "Notas/boton que llama a un metodo.md",
     "Notas/025 - Informes XML.md",
-    "Notas/Estructura informes.md",
-    "Notas/020 - Informes.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/059 - Configuracion y Estructura.md",
     "Pasted image 20241126114706.png",
     "Pasted image 20241126114625.png",
     "Pasted image 20241126105410.png",
@@ -323,8 +304,6 @@
     "Pasted image 20241126105342.png",
     "Pasted image 20241126091813.png",
     "Pasted image 20241121165149.png",
-    "Pasted image 20241115085058.png",
-    "Pasted image 20241107090604.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

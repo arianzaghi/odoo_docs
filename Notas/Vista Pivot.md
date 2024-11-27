@@ -8,8 +8,20 @@ ___
 
 # Vista Pivot
 
+1. **Medidas:** Son datos NO agrupables (`int`, `float,` `char`...) Es el dato que queremos visualizar
+2. **Columnas:** Utilizamos datos por los que sí se puede agrupar (`Many2one`, `Date`, `Selection`...) No se puede usar `One2many`
+3. **Filas:** Igual que las columnas.
 
-[[Añadir vista pivot]]
-[[añadir campo vista pivot]]
+> [!WARNING] El orden de los campos en la vista importa
+> Según el orden en que pongamos los campos en `xml`, veremos la vista pivot por default.
+> Utilizaremos:
+> 
+> 	1. Medidas
+> 	2. Columnas
+> 	3. Filas
 
-[[Modelo intermedio para pivot, pasar columnas no relacionales a filas]]
+![[Pasted image 20241127163851.png]]
+
+### [[Añadir vista pivot]]
+### [[Añadir campo vista pivot]]
+### [[Modelo intermedio para ver medidas como filas en pivot]]

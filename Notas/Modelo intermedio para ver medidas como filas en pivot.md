@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Modelo intermedio para pivot, pasar columnas no relacionales a filas
+# Modelo intermedio para ver medidas como filas en pivot
 
 > El objetivo es crear un modelo relacional a `Hoja de calculo` que permita almacenar datos numéricos específicos. Hacemos esto para poder visualizar luego la tabla `pivot` de `Hoja de calculo` viendo como filas los datos numéricos (como si fueran un row).
 
