@@ -1,8 +1,8 @@
-> [[Modulos custom de punt]]
+> [[Palacio de Congresos 17.0]]
 
 Tags: 
 Status: 
-Related: 
+Related: [[Modulos custom de punt]]
 
 ___
 

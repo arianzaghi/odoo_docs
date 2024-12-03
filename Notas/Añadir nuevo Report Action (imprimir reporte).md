@@ -44,3 +44,30 @@ ___
 </record>
 ```
 
+## Ejemplo 3
+
+> Boton para imprimir `Pedido Venta` desde `sale order`
+
+`report_sale_order.xml`
+```xml
+<template id="pnt_grouped_tens">  
+    <t t-call="web.html_container">  
+        <t t-set="doc" t-value="docs[0]"/>  
+        <t t-set="doc_ids" t-value="docs"/>  
+  
+        <t t-call="sale.report_saleorder_document"  
+           t-lang="doc.partner_id.lang"/>  
+    </t>  
+</template>  
+  
+<record id="pnt_grouped_sale_order_ids" model="ir.actions.report">  
+    <field name="name">GSO</field>  
+    <field name="model">sale.order</field>  
+    <field name="report_type">qweb-pdf</field>  
+    <field name="report_name">reports_pcv.pnt_grouped_tens</field>  
+    <field name="report_file">reports_pcv.pnt_grouped_tens</field>  
+    <field name="print_report_name">'TALYTAL'</field>  
+    <field name="binding_model_id" ref="sale.model_sale_order"/>  
+    <field name="binding_type">report</field>  
+</record>
+```

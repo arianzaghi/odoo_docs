@@ -10,6 +10,7 @@ ___
 
 ## Info
 [[Ver info de puertos y bbdd de servidor]]
+[[PgAdmin - Lector BBDD]]
 
 ## Servidor
 [[Restaurar BBDD de PRO a DEV]]

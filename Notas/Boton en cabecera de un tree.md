@@ -5,7 +5,6 @@ Status:
 Related: 
 
 ___
-
 # Boton en cabecera de un tree
 
 > Queremos añadir el botón `IPC Wizard` en la vista tree de un modelo.

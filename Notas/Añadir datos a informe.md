@@ -16,5 +16,4 @@ ___
 [[Barcode Codigo de barras]]
 [[Mostrar datos bancarios de la compañía]]
 [[Imagen en informe]]
-
-
+[[Pasar contexto a informe]]

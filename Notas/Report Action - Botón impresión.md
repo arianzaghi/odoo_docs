@@ -8,6 +8,8 @@ ___
 # Report Actions
 > Botones que nos permiten imprimir Informes
 
+# [[Añadir nuevo Report Action (imprimir reporte)]]
+
 > [!MODELO] 
 > `ir.actions.report`
 
@@ -45,5 +47,3 @@ ___
     <field name="paperformat_id" ref="report_pnt.paperformat_internal_pnt"/>  
 </record>
 ```
-
-# [[Añadir nuevo Report Action (imprimir reporte)]]

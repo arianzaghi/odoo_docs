@@ -11,7 +11,7 @@ ___
 ## 16.0
 ### [[Aditivos]]
 ## 17.0
-### [[Palacio de Congresos]]
+### [[Palacio de Congresos 17.0]]
 ### Redit
 
 ### JM_Distech

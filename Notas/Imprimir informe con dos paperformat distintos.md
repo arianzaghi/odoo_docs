@@ -8,6 +8,8 @@ ___
 
 # Imprimir informe con dos paperformat distintos
 
+> CORALIM
+
 - Contamos con 2 `paperformat`, el por defecto (A4) y un nuevo `paperformat` en horizontal (A4_Horizontal)
 - Queremos imprimir un mismo informe desde 2 botones, y que cada botón tenga su propio `paperformat`
 

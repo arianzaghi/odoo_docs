@@ -8,6 +8,8 @@ ___
 # Menu Item
 > Botones anidados y con jerarquía que se encuentran en el top navbar
 
+[[Root menu item]]
+
 ![[Pasted image 20240205174931.png]]
 
 ```python
