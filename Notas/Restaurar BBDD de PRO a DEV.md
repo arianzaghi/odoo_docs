@@ -52,7 +52,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
 ('report.url', 'http://127.0.0.1:62001'),
-('web.base.url', 'https://coelbe-dev.puntsistemes.cloud/:62001'),
+('web.base.url', 'https://odoo-dev.palcongres-vlc.com/:62001'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -81,6 +81,10 @@ Esto lo encontramos en el conf del servidor.
 #Coelbe
 ('report.url', 'http://127.0.0.1:62001'),
 ('web.base.url', 'https://coelbe-dev.puntsistemes.cloud/:62001'),
+
+#Palacio
+('report.url', 'http://127.0.0.1:62001'),
+('web.base.url', 'https://odoo-dev.palcongres-vlc.com/:62001'),
 ```
 
 

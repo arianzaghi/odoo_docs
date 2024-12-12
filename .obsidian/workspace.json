@@ -8,37 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c8a8ed4cda615c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera"
-            }
-          },
-          {
-            "id": "5f9af70fec662d1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Palacio de Congresos 17.0.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Palacio de Congresos 17.0"
-            }
-          },
-          {
             "id": "b1cf12036d1b88e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/default get.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "default get"
+            }
+          },
+          {
+            "id": "e1867fead106e47a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/default get.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "default get"
+            }
+          },
+          {
+            "id": "71f3d6542cfabd55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/default get.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "default get"
+            }
+          },
+          {
+            "id": "fa2813c2be65efb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/default get.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "default get"
+            }
+          },
+          {
+            "id": "1a3e0ceb120291d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,39 +81,8 @@
               "icon": "lucide-file",
               "title": "Pedido de Venta (PV)"
             }
-          },
-          {
-            "id": "b9562023e623a761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera"
-            }
-          },
-          {
-            "id": "d76115f59b8eb266",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/PV Tabla totales.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PV Tabla totales"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5110321044922,
-    "collapsed": true
+    "width": 206.5110321044922
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -203,11 +201,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
+                "file": "Notas/default get.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 4,
+                  "localJumps": 2,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -226,12 +224,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.40189647017987906,
+                  "scale": 0.5246300730678282,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera"
+              "title": "Graph of default get"
             }
           },
           {
@@ -266,7 +264,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 894.5
+    "width": 693.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,44 +279,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b9562023e623a761",
+  "active": "b1cf12036d1b88e1",
   "lastOpenFiles": [
-    "Pasted image 20241203174101.png",
+    "Notas/Valores por defecto para lineas nuevas en tree con contexto.md",
+    "Notas/default get.md",
+    "Back.md",
+    "Pasted image 20241212125930.png",
+    "Pasted image 20241212125928.png",
+    "Pasted image 20241212125629.png",
+    "Notas/Metodo para validar multiples campos al mismo tiempo.md",
     "Notas/Pedido de Venta (PV).md",
-    "Notas/Ocultar campo del core en informe.md",
-    "Notas/PV Tabla totales.md",
-    "Notas/025 - Informes XML.md",
-    "Notas/Impresion de informes.md",
-    "Notas/PV y INV - tax_totals.md",
-    "Pasted image 20241203163813.png",
-    "Notas/Palacio de Congresos 17.0.md",
-    "Notas/Palacio_HU60336 - Wizard para llamar a un cron.md",
-    "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
-    "Notas/Palacio de Congresos Asistencias.md",
-    "Notas/Palacio link a ventas.md",
-    "Notas/060 - Clientes e Historias.md",
-    "Notas/Cambiar coleccion que itera el foreach de PV.md",
     "Notas/Payment Mode Saleorder.md",
+    "Notas/PV Tabla totales.md",
+    "Notas/Impedir cambios manuales de distribucion analitica.md",
+    "Notas/Distribución analítica.md",
+    "Notas/Distribucion analitica.md",
+    "Notas/Grupos.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/Vista Form - Formulario.md",
+    "Notas/Tipos de Vistas.md",
+    "Notas/Vista List o Tree - Listado.md",
+    "Notas/Groupby vista tree.md",
+    "Notas/Vista Pivot.md",
+    "Notas/030 - Vistas.md",
+    "Notas/Campo horario, Float como Hora y Minutos.md",
+    "Notas/Componentes estructurales xml form.md",
+    "Notas/Horas.md",
+    "Notas/get client db.md",
+    "Notas/Back.md",
     "Notas/Report Action - Botón impresión.md",
-    "Notas/Imprimir informe desde un metodo o funcion python.md",
-    "Excalidraw/Diagrama imprimir informe desde dos modelos.md",
-    "Notas/Lista de informes XLM.md",
-    "Notas/Llamar funcion desde informe.md",
-    "Notas/Añadir nuevo Report Action (imprimir reporte).md",
     "Notas/Estructura informes.md",
-    "Notas/Boton en cabecera de un tree.md",
-    "Notas/boton que llama a un metodo.md",
-    "Notas/Añadir datos a informe.md",
-    "Notas/Buscar boton javascript.md",
+    "Pasted image 20241203174101.png",
+    "Pasted image 20241203163813.png",
     "Pasted image 20241130164106.png",
     "Pasted image 20241128085133.png",
     "Pasted image 20241128084858.png",
     "Pasted image 20241128084832.png",
     "Pasted image 20241128084743.png",
-    "Pasted image 20241127163851.png",
-    "Pasted image 20241127133243.png",
-    "Pasted image 20241127132737.png",
-    "Pasted image 20241126114706.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

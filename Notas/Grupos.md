@@ -17,7 +17,7 @@ ___
         <field name="sequence">10</field>  
     </record>  
   
-    <record id="group_product_price_block_pnt" model="res.groups">  
+    <record id="group_product_price_block_changes_pnt" model="res.groups">  
         <field name="name">Product Price Blocker</field>  
         <field name="category_id" ref="base.module_category_human_resources_employees"/>  
         <field name="implied_ids" eval="[(6, 0, [ref('base.group_user')])]"/>  
@@ -28,5 +28,23 @@ ___
 </odoo>
 ```
 
+```python
+if self.env.user.has_group('custom_pcv.group_product_price_block_changes_pnt')
+```
+
 ## Ejemplos
+```python
+@api.onchange('pnt_blocked_price')  
+def _onchange_category_id(self):  
+    if self.env.user.has_group('custom_pcv.group_product_price_block_changes_pnt') and self.:  
+        original_value = self._origin.pnt_blocked_price  
+        self.pnt_blocked_price = original_value  
+        return {  
+            'warning': {  
+                'title': _('Access Denied'),  
+                'message': _('Only members of "Block Sale Price" group can modify this field.'),  
+            }  
+        }
+```
+
 ### [Palacio v17 attendance_pnt/security]()

@@ -1,4 +1,4 @@
-> [[PV Tabla totales]]
+> [[Pedido de Venta (PV)]]
 
 Tags: 
 Status: 
