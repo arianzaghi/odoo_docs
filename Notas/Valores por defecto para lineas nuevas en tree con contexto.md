@@ -14,7 +14,7 @@ ___
 
 1. Utilizamos el `default_get` en el modelo destino para ver de donde se esta llamando
 
-![[default get#^1cd9f9]]
+![[Default get#^1cd9f9]]
 
 2. Desde el `params` podemos ver el modelo y el id desde donde hemos creado la linea nueva
 3. Añadimos al `res` los valores nuevos que necesitamos, y se cargaran por defecto

@@ -8,81 +8,142 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1cf12036d1b88e1",
+            "id": "872d6dc540ee59be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/default get.md",
+                "file": "Notas/Search View.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default get"
+              "title": "Search View"
             }
           },
           {
-            "id": "e1867fead106e47a",
+            "id": "9155bdf617d5d19f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/default get.md",
+                "file": "Notas/032 - Tipos de Vistas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default get"
+              "title": "032 - Tipos de Vistas"
             }
           },
           {
-            "id": "71f3d6542cfabd55",
+            "id": "fc82010cfa604c4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/default get.md",
+                "file": "Notas/010 - Odoo HOME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default get"
+              "title": "010 - Odoo HOME"
             }
           },
           {
-            "id": "fa2813c2be65efb6",
+            "id": "091d7ab0ce8f7731",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/default get.md",
+                "file": "Notas/Odoo Modelos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "default get"
+              "title": "Odoo Modelos"
             }
           },
           {
-            "id": "1a3e0ceb120291d1",
+            "id": "da3d932dc516d6a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Pedido de Venta (PV).md",
+                "file": "Notas/Modelo Mantenimiento.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pedido de Venta (PV)"
+              "title": "Modelo Mantenimiento"
+            }
+          },
+          {
+            "id": "936c4cdc415982d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Mantenimeinto con Many2many TAGS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mantenimeinto con Many2many TAGS"
+            }
+          },
+          {
+            "id": "ff91c2cfb468e82f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Odoo Modelos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Odoo Modelos"
+            }
+          },
+          {
+            "id": "8d7b0934b9ba9d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Vista List o Tree - Listado.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vista List o Tree - Listado"
+            }
+          },
+          {
+            "id": "0c05bbd10c749826",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Search View.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Search View"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,12 +195,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 206.5110321044922
+    "width": 206.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -201,7 +262,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/default get.md",
+                "file": "Notas/Mantenimeinto con Many2many TAGS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -224,12 +285,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5246300730678282,
+                  "scale": 0.21936203342196525,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of default get"
+              "title": "Graph of Mantenimeinto con Many2many TAGS"
             }
           },
           {
@@ -264,7 +325,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 693.5
+    "width": 618.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,43 +340,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1cf12036d1b88e1",
+  "active": "936c4cdc415982d6",
   "lastOpenFiles": [
-    "Notas/Valores por defecto para lineas nuevas en tree con contexto.md",
-    "Notas/default get.md",
-    "Back.md",
-    "Pasted image 20241212125930.png",
-    "Pasted image 20241212125928.png",
-    "Pasted image 20241212125629.png",
-    "Notas/Metodo para validar multiples campos al mismo tiempo.md",
-    "Notas/Pedido de Venta (PV).md",
-    "Notas/Payment Mode Saleorder.md",
-    "Notas/PV Tabla totales.md",
-    "Notas/Impedir cambios manuales de distribucion analitica.md",
-    "Notas/Distribución analítica.md",
-    "Notas/Distribucion analitica.md",
-    "Notas/Grupos.md",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Vista Form - Formulario.md",
-    "Notas/Tipos de Vistas.md",
-    "Notas/Vista List o Tree - Listado.md",
-    "Notas/Groupby vista tree.md",
-    "Notas/Vista Pivot.md",
+    "Notas/Modelo Mantenimiento.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/040 - Python framework.md",
+    "Notas/Transient Model.md",
+    "Notas/010 - Odoo HOME.md",
     "Notas/030 - Vistas.md",
-    "Notas/Campo horario, Float como Hora y Minutos.md",
+    "Notas/032 - Tipos de Vistas.md",
+    "Notas/Vista Pivot.md",
+    "Notas/Vista List o Tree - Listado.md",
+    "Notas/Añadir vista pivot.md",
+    "Notas/Vista Form - Formulario.md",
     "Notas/Componentes estructurales xml form.md",
-    "Notas/Horas.md",
-    "Notas/get client db.md",
-    "Notas/Back.md",
-    "Notas/Report Action - Botón impresión.md",
-    "Notas/Estructura informes.md",
-    "Pasted image 20241203174101.png",
-    "Pasted image 20241203163813.png",
-    "Pasted image 20241130164106.png",
-    "Pasted image 20241128085133.png",
-    "Pasted image 20241128084858.png",
-    "Pasted image 20241128084832.png",
-    "Pasted image 20241128084743.png",
+    "Notas/031 - Elementos de Interfaz.md",
+    "Notas/Search View.md",
+    "Notas/Group By Search View.md",
+    "Notas/Filtros dinámicos Search View.md",
+    "Notas/Search filter tree view.md",
+    "Notas/Filtros estaticos Search View.md",
+    "Notas/Groupby vista tree.md",
+    "Notas/Añadir referencia de cliente en tree sale.order.md",
+    "Notas/Añadir filtro de referencia de cliente vista form.md",
+    "Back.md",
+    "Notas/Contextos.md",
+    "Notas/Filtrar por campo dinamico.md",
+    "Pasted image 20241218083102.png",
+    "Static/Pasted image 20241212171239.png",
+    "Notas/Formatear fecha reporte.md",
+    "Notas/Comando sudo.md",
+    "Static/Pasted image 20240520114956.png",
+    "Static/Pasted image 20241212172845.png",
+    "Static/Pasted image 20241212172759.png",
+    "Static/Pasted image 20241212172719.png",
+    "Static/Pasted image 20241212172356.png",
+    "Static/Pasted image 20241212171645.png",
+    "Static/Pasted image 20241212171510.png",
+    "Static/Pasted image 20241212135235.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

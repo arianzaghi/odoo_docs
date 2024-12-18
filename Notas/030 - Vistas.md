@@ -1,4 +1,4 @@
-[[010 - Odoo HOME|Back]]
+[[010 - Odoo HOME]]
 
 Tags: #xml
 Status: 
@@ -7,8 +7,8 @@ Related:
 ___
 
 # Odoo Views
-## [[Elementos de Interfaz ]]
-## [[Tipos de Vistas]]
+## [[031 - Elementos de Interfaz]]
+## [[032 - Tipos de Vistas]]
 
 ## Desarrollo
 ### [[Etiquetas XML]]

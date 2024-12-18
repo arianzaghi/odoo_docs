@@ -1,4 +1,4 @@
-> [[Tipos de Vistas]]
+> [[032 - Tipos de Vistas]]
 
 Tags: #todo
 Status: 
@@ -8,6 +8,6 @@ ___
 
 # Vista List o Tree - Listado
 
+![[Pasted image 20241212172845.png]] ^3db956
+
 ## [[Añadir referencia de cliente en tree sale.order]]
-## [[Search filter tree view]]
-## [[Groupby vista tree]]

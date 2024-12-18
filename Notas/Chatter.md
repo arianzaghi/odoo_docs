@@ -1,4 +1,4 @@
-> [[Elementos de Interfaz]]
+> [[031 - Elementos de Interfaz]]
 
 Tags: 
 Status: 
@@ -7,6 +7,8 @@ Related:
 ___
 
 # Chatter
+
+![[Pasted image 20241212171645.png]] ^9aa17f
 
 ```python
 <div class="oe_chatter">

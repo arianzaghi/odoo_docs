@@ -11,7 +11,7 @@ ___
 
 ![[Pasted image 20240212135523.png]]
 
-## [[Mantenimeinto Many2many TAGS]]
+## [[Mantenimeinto con Many2many TAGS]]
 ## [[Modelo mantenimiento con TREE]]
 ## [[Modelo mantenimiento DROPDOWN]]
 

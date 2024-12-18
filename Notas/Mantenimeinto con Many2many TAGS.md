@@ -1,11 +1,10 @@
-n> [[Modelo Mantenimiento]]
+> [[Modelo Mantenimiento]]
 
 Tags: 
 Status: 
 Related: 
 
 ___
-
 # Mantenimeinto Many2many Tags
 > Modelo nuevo que permite a los usuarios crear nuevos registros para asignárselos a otros modelos usando tags Many2many
 

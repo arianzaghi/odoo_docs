@@ -1,4 +1,4 @@
-> [[Tipos de Vistas]]
+> [[032 - Tipos de Vistas]]
 
 Tags: 
 Status: 
@@ -7,6 +7,8 @@ Related:
 ___
 
 # Vista Pivot
+
+
 
 1. **Medidas:** Son datos NO agrupables (`int`, `float,` `char`...) Es el dato que queremos visualizar
 2. **Columnas:** Utilizamos datos por los que sí se puede agrupar (`Many2one`, `Date`, `Selection`...) No se puede usar `One2many`

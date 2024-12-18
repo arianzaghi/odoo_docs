@@ -20,5 +20,14 @@ name = fields.Char(required=True, tracking=3)
 ```
 
 ## Tracking avanzado
+
+```python
+@api.model
+def pnt_register_chatter_message(self, vals):
+	if "active" in vals and vals['active'] != self.active:
+		action = _("archived") if not vals['active'] else _("unarchived")
+		self._register_chatter_message(_("Product {}").format(action))
+```
+
 [Signes](https://github.com/puntsistemes/ajsignes_odoo/pull/19)
 [Coralim](https://github.com/puntsistemes/coralim_odoo/commit/fabb972a7251d12ca21a704a4914ce97e0fb8796)

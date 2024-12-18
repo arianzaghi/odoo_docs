@@ -1,4 +1,4 @@
-> [[Tipos de Vistas]]
+> [[032 - Tipos de Vistas]]
 
 Tags: 
 Status: 
@@ -23,7 +23,7 @@ ___
 4. Creamos un nuevo action igual que el de ejemplo
 
 
-## `custom_pnt>views>hr_leave.xml`
+## `custom_pnt/views/hr_leave.xml`
 ```xml
 <record id="pnt_hr_holidays_view_pivot" model="ir.ui.view">  
     <field name="name">hr.holidays.view.pivot</field>  

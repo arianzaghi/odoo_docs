@@ -9,7 +9,6 @@ ___
 # Odoo Models
 
 ## Nomenclaturas
-
 - **Ficheros**
 	Aplica tanto para vistas como clases
 	- Ficheros de herencia de clases existentes

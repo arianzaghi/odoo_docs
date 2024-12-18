@@ -1,16 +1,13 @@
-> [[Tipos de Vistas]]
+> [[032 - Tipos de Vistas]]
 
 Tags: #todo
 Status: 
 Related: 
 
 ___
-
 # Vista Form - Formulario
 
-## [[Componentes estructurales xml form]]
-
-
+![[Pasted image 20241212172759.png]] ^606814
 ```xml
 <record id="{{NAME}}_view_form" model="ir.ui.view">  
     <field name="name">{{MODULE.}}.view.form</field>  
@@ -36,3 +33,8 @@ ___
     </field>  
 </record>
 ```
+
+## Ejemplos Herencias
+
+### Sale Order Form
+### Purchase Order Form

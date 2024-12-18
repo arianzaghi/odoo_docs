@@ -10,10 +10,9 @@ ___
 
 [[python orm create]]
 
-## Search/Read
-- `Model.browse([ids])`
-	[[model.browse()]]
-- [[Search domains]]
+## [[Contextos]]
+## [[Search or Read]]
+
 
 - [[self.ensure_one()]]
 - [[mapped()]]

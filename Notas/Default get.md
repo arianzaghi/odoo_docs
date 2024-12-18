@@ -24,7 +24,6 @@ def default_get(self, fields_list):
 	    res['name'] = self.env['crm.lead'].browse(origin_id).name
     return res
 ```
-
 ^1cd9f9
 
 Los contextos estan en `self.env.context` y en `self.env.context.params`

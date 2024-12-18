@@ -9,5 +9,7 @@ ___
 # Tipos de Vistas
 
 ### 1. [[Vista Form - Formulario]]
+![[Vista Form - Formulario#^606814]]
 ### 2. [[Vista List o Tree - Listado]]
+![[Vista List o Tree - Listado#^3db956]]
 ### 3. [[Vista Pivot]]
