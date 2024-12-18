@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Search View.md",
+                "file": "Notas/Group By Search View.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Search View"
+              "title": "Group By Search View"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/010 - Odoo HOME.md",
+                "file": "Notas/031 - Elementos de Interfaz.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "010 - Odoo HOME"
+              "title": "031 - Elementos de Interfaz"
             }
           },
           {
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,7 +262,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Mantenimeinto con Many2many TAGS.md",
+                "file": "Notas/032 - Tipos de Vistas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -285,12 +285,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.21936203342196525,
+                  "scale": 0.4935645751994218,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Mantenimeinto con Many2many TAGS"
+              "title": "Graph of 032 - Tipos de Vistas"
             }
           },
           {
@@ -340,23 +340,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "936c4cdc415982d6",
+  "active": "9155bdf617d5d19f",
   "lastOpenFiles": [
+    "Notas/Group by - Agrupar por.md",
+    "Notas/Group By Search View.md",
+    "Notas/Search View.md",
+    "Notas/032 - Tipos de Vistas.md",
+    "Notas/031 - Elementos de Interfaz.md",
+    "Notas/030 - Vistas.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Mantenimeinto con Many2many TAGS.md",
     "Notas/Modelo Mantenimiento.md",
     "Notas/Odoo Modelos.md",
     "Notas/040 - Python framework.md",
     "Notas/Transient Model.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/030 - Vistas.md",
-    "Notas/032 - Tipos de Vistas.md",
     "Notas/Vista Pivot.md",
     "Notas/Vista List o Tree - Listado.md",
     "Notas/Añadir vista pivot.md",
     "Notas/Vista Form - Formulario.md",
     "Notas/Componentes estructurales xml form.md",
-    "Notas/031 - Elementos de Interfaz.md",
-    "Notas/Search View.md",
-    "Notas/Group By Search View.md",
     "Notas/Filtros dinámicos Search View.md",
     "Notas/Search filter tree view.md",
     "Notas/Filtros estaticos Search View.md",
@@ -368,8 +370,6 @@
     "Notas/Filtrar por campo dinamico.md",
     "Pasted image 20241218083102.png",
     "Static/Pasted image 20241212171239.png",
-    "Notas/Formatear fecha reporte.md",
-    "Notas/Comando sudo.md",
     "Static/Pasted image 20240520114956.png",
     "Static/Pasted image 20241212172845.png",
     "Static/Pasted image 20241212172759.png",
