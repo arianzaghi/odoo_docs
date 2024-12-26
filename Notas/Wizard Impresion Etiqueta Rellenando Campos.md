@@ -84,7 +84,7 @@ ___
                 </p>  
             </div>  
         </div>  
-    </t>  
+    </t>
 </template>
 
 <!-- Record de invocacion de etiqueta -->

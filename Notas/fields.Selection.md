@@ -40,3 +40,4 @@ Asi podemos mostrar el valor (Mayor puntuación) en lugar de la clave (pnt_highe
 ### [[Selection de idiomas activos]]
 ### [[Selection usando una función]]
 ### [[Comprobar unica seleccion por elemento]]
+## [[Selection de los meses y años de los registros de odoo]]

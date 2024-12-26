@@ -5,10 +5,8 @@ Status:
 Related: 
 
 ___
-
 # Vista Pivot
-
-
+![[Pasted image 20241218090614.png]] ^88f40e
 
 1. **Medidas:** Son datos NO agrupables (`int`, `float,` `char`...) Es el dato que queremos visualizar
 2. **Columnas:** Utilizamos datos por los que sí se puede agrupar (`Many2one`, `Date`, `Selection`...) No se puede usar `One2many`

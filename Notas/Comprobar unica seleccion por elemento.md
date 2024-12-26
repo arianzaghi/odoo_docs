@@ -11,12 +11,11 @@ ___
 
 ## Método `_check_unique_element`
 ```python
-@api.constrains('{{FIELD}}', 'pnt_company_id')  
+@api.constrains('{{FIELD}}')  
     def _check_unique_{{FIELD}}(self):  
         for record in self:  
             existing_registry = self.search([  
-                ('{{FIELD}}', '=', record.{{FIELD}}.id),  
-                ('pnt_company_id', '=', record.pnt_company.id),  
+                ('{{FIELD}}', '=', record.{{FIELD}}.id),
                 ('id', '!=', record.id)  
             ])  
             if existing_registry:  

@@ -1,4 +1,4 @@
-> [[Grupos]]
+> [[Grupos de permisos]]
 
 Tags: 
 Status: 

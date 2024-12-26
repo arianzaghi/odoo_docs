@@ -27,6 +27,7 @@ ___
 ## Wizard Avanzado
 [[Wizard Impresion Etiqueta Rellenando Campos]]
 [[Wizard impresión Etiquetas desde Albarán con Lotes]]
+[[Wizard impresion timesheet informe empleados]]
 ## Ejemplos concretos de Wizards
 ### [[Palacio_HU59928 - Wizard Actualizar IPC en tarifas]]
 ## Ejemplo de wizard Classic

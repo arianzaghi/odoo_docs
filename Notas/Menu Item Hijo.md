@@ -40,6 +40,7 @@ Para agregar un nuevo ítem al menú, primero debemos localizar el `ref` del `me
 	B: `id` de la acción de menú
 	C: `ref` del `menu-item` padre 
 
+**Forma antigua**
 ```python
 <record id="A(pnt_new_sale_menu)" model="ir.ui.menu">
     <field name="name">PNT NEW BUTTON</field>
@@ -47,6 +48,16 @@ Para agregar un nuevo ítem al menú, primero debemos localizar el `ref` del `me
     <field name="parent_id" ref="C(sale.sale_order_menu)"/>
     <field name="sequence">22</field>
 </record>
+```
+
+**Forma nueva**
+```python
+<menuitem  
+    id="pnt_employee_timeshift_wizard_menuitem"  
+    name="Timesheet report wizard"  
+    parent="hr_timesheet.menu_timesheets_reports"  
+    action="pnt_employee_timeshift_wizard_action"  
+    sequence="10"/>
 ```
 
 ## 3. Verificación

@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[Vista List o Tree - Listado]]
 
 ___
 # Boton en cabecera de un tree

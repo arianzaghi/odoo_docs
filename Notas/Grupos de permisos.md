@@ -6,7 +6,6 @@ Related:
 
 ___
 # Grupos
-[[Buscar grupos de permisos]]
 ## Crear nuevo grupo
 `security/`
 ```xml
@@ -32,6 +31,7 @@ ___
 if self.env.user.has_group('custom_pcv.group_product_price_block_changes_pnt')
 ```
 
+## [[Buscar grupos de permisos]]
 ## Ejemplos
 ```python
 @api.onchange('pnt_blocked_price')  

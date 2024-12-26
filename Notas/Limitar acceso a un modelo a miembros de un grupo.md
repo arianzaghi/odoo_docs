@@ -1,4 +1,4 @@
-> [[050 - Security]]
+> [[Configuraciones de permisos]]
 
 Tags: 
 Status: 

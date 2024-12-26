@@ -15,6 +15,8 @@ ___
 ### [[050 - Security]]
 ### [[059 - Configuracion y Estructura]]
 ### [[060 - Clientes e Historias]]
+### [[070 - Testing]]
+
 ---
 ## Entorno
 ### [[Workflow Punt]]
