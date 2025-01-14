@@ -8,107 +8,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "872d6dc540ee59be",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "e08e41cbb4ae32a3",
+            "id": "219940d9471d35e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/050 - Security.md",
+                "file": "Notas/Filtros estaticos Search View.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "050 - Security"
+              "title": "Filtros estaticos Search View"
             }
           },
           {
-            "id": "2819e57031a099be",
+            "id": "8d174697d3b01abc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Grupos de permisos.md",
+                "file": "Notas/Vista Pivot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grupos de permisos"
+              "title": "Vista Pivot"
             }
           },
           {
-            "id": "5f76a32523dc1c8a",
+            "id": "f2d64a18e2ee6505",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Crear codigo de secuencia.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wizards"
-            }
-          },
-          {
-            "id": "fb99a449af776cde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Tarifa Product pricelist para productos sin descuento sale order.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tarifa Product pricelist para productos sin descuento sale order"
-            }
-          },
-          {
-            "id": "6e4682ae1489a4bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Mostrar usuarios archivados en campo comercial del contacto.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mostrar usuarios archivados en campo comercial del contacto"
-            }
-          },
-          {
-            "id": "8d77aa1a645c2744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Palacio_HU59928 - Wizard Actualizar IPC en tarifas"
+              "title": "Crear codigo de secuencia"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Tarifa Product pricelist para productos sin descuento sale order.md",
+                "file": "Notas/Crear codigo de secuencia.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -250,12 +195,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1434181738778237,
+                  "scale": 0.8017969252114554,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Tarifa Product pricelist para productos sin descuento sale order"
+              "title": "Graph of Crear codigo de secuencia"
             }
           },
           {
@@ -279,18 +224,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Tarifa Product pricelist para productos sin descuento sale order.md"
+                "file": "Notas/Crear codigo de secuencia.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tarifa Product pricelist para productos sin descuento sale order"
+              "title": "Outline of Crear codigo de secuencia"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 1093.5
+    "width": 871.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,34 +250,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fb99a449af776cde",
+  "active": "0baedbd415f59f24",
   "lastOpenFiles": [
-    "Back.md",
-    "Notas/Calcular precio sale order line usando tarifa especial.md",
-    "Notas/Wizards.md",
-    "Notas/Wizard impresion timesheet informe empleados.md",
-    "Notas/Selection usando una función.md",
-    "Notas/fields.Selection.md",
-    "Notas/Añadir datos a informe.md",
-    "Notas/Mostrar datos bancarios cliente en informe.md",
-    "Notas/Reducir espacio entre cabecera y direcciones envio informe.md",
-    "Notas/Booleano solo activo una vez.md",
-    "Notas/050 - Security.md",
-    "Notas/Grupos de permisos.md",
-    "Notas/Mostrar usuarios archivados en campo comercial del contacto.md",
-    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-    "Notas/Archivar un registro.md",
-    "Notas/Compartir carpetas entre local y servidor.md",
-    "Notas/Tarifa Product pricelist para productos sin descuento sale order.md",
-    "Notas/025 - Informes XML.md",
-    "Notas/Mover o modificar elementos de informe.md",
-    "Notas/Modificaciones comunes Informes XML.md",
-    "Notas/Ocultar o Borrar de informe.md",
-    "Notas/Modificar cabecera de informes.md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/redondear numero float.md",
-    "Notas/Poner invisible linea de factura cuando usamos parent.md",
-    "Notas/Factura (FRA).md",
+    "Pasted image 20250114124130.png",
+    "Notas/Search View.md",
+    "Notas/Crear codigo de secuencia.md",
+    "Notas/Filtros estaticos Search View.md",
+    "Notas/Establecer filtro por defecto en la acción.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Vista List o Tree - Listado.md",
+    "Notas/032 - Tipos de Vistas.md",
+    "Notas/030 - Vistas.md",
+    "Notas/031 - Elementos de Interfaz.md",
+    "Notas/Vista Pivot.md",
+    "Notas/Añadir campo vista pivot.md",
+    "Notas/Buscar boton javascript.md",
+    "Notas/Group By Search View.md",
+    "Notas/Menu Item.md",
+    "Notas/Menu Item Padre.md",
+    "Notas/Buscar elementos.md",
+    "Notas/Modelo de Sale order line con todos los registros.md",
+    "Notas/Separator.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Icono de APP con link a una web.md",
+    "Notas/fields.Monetary.md",
+    "Notas/Añadir vista pivot.md",
+    "Excalidraw/Pivot intermedia.md",
+    "Notas/Filtros dinámicos Search View.md",
+    "Notas/Ver opciones de nuestro selection.md",
+    "Pasted image 20250103133127.png",
     "Pasted image 20241218111011.png",
     "Pasted image 20241218103246.png",
     "Pasted image 20241218103244.png",
@@ -342,7 +288,6 @@
     "Static/Pasted image 20240520114956.png",
     "Static/Pasted image 20241212172845.png",
     "Static/Pasted image 20241212172759.png",
-    "Static/Pasted image 20241212172719.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

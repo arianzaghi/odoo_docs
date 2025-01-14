@@ -1,4 +1,4 @@
-> [[Instalar módulos en odoo v17]]
+> [[Instalar módulos OCA en odoo v17]]
 
 Tags: 
 Status: 
