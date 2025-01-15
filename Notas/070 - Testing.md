@@ -26,3 +26,6 @@ ___
 - No comparar con variables, comparar siempre con valores directamente.
 - Definir métodos para llamarlos en los tests, por ejemplo, creación de pedidos.
 - Cuidado con definir defaults en los contextos de los tests.
+
+## [[Ejemplo Tests]]
+

@@ -28,32 +28,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Vista Pivot.md",
+                "file": "Notas/Contextos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vista Pivot"
+              "title": "Contextos"
             }
           },
           {
-            "id": "f2d64a18e2ee6505",
+            "id": "bc99036920f12f32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Crear codigo de secuencia.md",
+                "file": "Notas/Selection de los meses y años de los registros de odoo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crear codigo de secuencia"
+              "title": "Selection de los meses y años de los registros de odoo"
+            }
+          },
+          {
+            "id": "c055127bfb557bec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/logs de odoo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "logs de odoo"
+            }
+          },
+          {
+            "id": "c7c6623674bcefb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Wizards.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wizards"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -172,7 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Crear codigo de secuencia.md",
+                "file": "Notas/logs de odoo.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -195,12 +225,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8017969252114554,
+                  "scale": 0.44719090652833465,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Crear codigo de secuencia"
+              "title": "Graph of logs de odoo"
             }
           },
           {
@@ -224,14 +254,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Crear codigo de secuencia.md"
+                "file": "Notas/Sticky note  mensaje popup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Crear codigo de secuencia"
+              "title": "Outline of Sticky note  mensaje popup"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -250,34 +280,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0baedbd415f59f24",
+  "active": "c055127bfb557bec",
   "lastOpenFiles": [
-    "Pasted image 20250114124130.png",
-    "Notas/Search View.md",
-    "Notas/Crear codigo de secuencia.md",
-    "Notas/Filtros estaticos Search View.md",
-    "Notas/Establecer filtro por defecto en la acción.md",
-    "Notas/Modelo mantenimiento DROPDOWN.md",
-    "Notas/Vista List o Tree - Listado.md",
-    "Notas/032 - Tipos de Vistas.md",
-    "Notas/030 - Vistas.md",
-    "Notas/031 - Elementos de Interfaz.md",
-    "Notas/Vista Pivot.md",
-    "Notas/Añadir campo vista pivot.md",
-    "Notas/Buscar boton javascript.md",
-    "Notas/Group By Search View.md",
-    "Notas/Menu Item.md",
-    "Notas/Menu Item Padre.md",
-    "Notas/Buscar elementos.md",
-    "Notas/Modelo de Sale order line con todos los registros.md",
-    "Notas/Separator.md",
+    "Notas/Selection de los meses y años de los registros de odoo.md",
+    "Notas/logs de odoo.md",
+    "Notas/Convertir hora usuario en UTC.md",
+    "Notas/Default get.md",
+    "Notas/Contextos.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/Ejemplo Tests.md",
+    "Notas/Sticky note  mensaje popup.md",
     "Notas/010 - Odoo HOME.md",
-    "Notas/Icono de APP con link a una web.md",
-    "Notas/fields.Monetary.md",
-    "Notas/Añadir vista pivot.md",
-    "Excalidraw/Pivot intermedia.md",
-    "Notas/Filtros dinámicos Search View.md",
-    "Notas/Ver opciones de nuestro selection.md",
+    "Notas/070 - Testing.md",
+    "Notas/Modelo mantenimiento DROPDOWN.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/Crear codigo de secuencia.md",
+    "Notas/Desactivar envios de correo.md",
+    "Notas/Comprobar tipo de dato en informe - str o int.md",
+    "Notas/Generar pedidos de compra automaticamente a través de una venta.md",
+    "Notas/sale_purchase.md",
+    "Notas/Logging logs.md",
+    "Notas/Archivar un registro.md",
+    "Notas/Coger valor de un campo despues de haberlo cambiado.md",
+    "Notas/Calcular precio sale order line usando tarifa especial.md",
+    "Notas/Back.md",
+    "Notas/Wizards.md",
+    "Notas/Popup confirmación.md",
+    "Notas/Vista Pivot.md",
+    "Notas/Tarifa Product pricelist para productos sin descuento sale order.md",
+    "Pasted image 20250114124130.png",
     "Pasted image 20250103133127.png",
     "Pasted image 20241218111011.png",
     "Pasted image 20241218103246.png",
@@ -287,7 +318,6 @@
     "Static/Pasted image 20241212171239.png",
     "Static/Pasted image 20240520114956.png",
     "Static/Pasted image 20241212172845.png",
-    "Static/Pasted image 20241212172759.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

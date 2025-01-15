@@ -1,4 +1,4 @@
-> [[Back]]
+> [[sale.order]]
 
 Tags: 
 Status: 
@@ -6,8 +6,9 @@ Related: [[sale_purchase]]
 
 ___
 
-# Generar pedidos de compra authenticate a través de una venta
+# Generar pedidos de compra automaticamente a través de una venta
 
+> El modelo [[sale_purchase]] es el encargado de esto. Al validar, podemos hacer que se genere un PC.
 
 ✅ PV debe tener asignada una cuenta analítica antes de generar el pedido de compra
 ✅ cada producto en el pedido debe tener un proveedor asignado antes de generar un pedido de compra

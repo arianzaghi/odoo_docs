@@ -24,6 +24,7 @@ ___
 6. Creamos los security para las clases creadas
 ## Wizard Sencillo
 [[Popup confirmación]]
+[[Sticky note  mensaje popup]]
 ## Wizard Avanzado
 [[Wizard Impresion Etiqueta Rellenando Campos]]
 [[Wizard impresión Etiquetas desde Albarán con Lotes]]

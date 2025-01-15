@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Wizards]]
 
 Tags: 
 Status: 
