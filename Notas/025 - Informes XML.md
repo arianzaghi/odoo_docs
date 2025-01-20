@@ -12,10 +12,9 @@ ___
 - Se encuentran en `report_pnt/reports`
 ### [[Impresion de informes]]
 ### [[Estructura informes]]
-### [[Lista de informes XLM]]
+### [[Lista de informes XML]]
 ### [[Modificaciones comunes Informes XML]]
 ### [[Errores en informes]]
 ## [[Crear informe de 0]]
 
 ## Otros
-### [[PV Tabla totales]]

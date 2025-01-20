@@ -7,7 +7,7 @@ ___
 # Modificaciones comunes
 
 > [!INFO] Información
-> Las modificaciones de informes específicos se encuentran en cada informe de [[Lista de informes XLM]]
+> Las modificaciones de informes específicos se encuentran en cada informe de [[Lista de informes XML]]
 
 ## 🆕[[Añadir datos a informe]]
 ## ✍🏼[[Mover o modificar elementos de informe]]

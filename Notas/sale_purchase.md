@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Modulos core de odoo]]
 
 Tags: #modulo #oca
 Status: 

@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[Tabla totales - tax_totals (PV y INV)]]
 
 ___
 

@@ -1,4 +1,4 @@
-> [[Back]]
+> [[025 - Informes XML]]
 
 Tags: 
 Status: 
@@ -9,3 +9,4 @@ ___
 # Paperformat
 
 ## [[Paperformat horizontal]]
+## [[Imprimir informe con dos paperformat distintos]]
