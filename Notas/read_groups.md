@@ -48,3 +48,13 @@ self.env["account.analytic.line"].read_group(
             lazy=False,  
         )
 ```
+
+## Extraer fecha del `read_groups`
+> Por defecto, la fecha sale en formato string (`25 Jan 2024`) pero queremos verla en formato Date.
+
+![[Pasted image 20250127132120.png]]
+Así que lo cogeremos del diccionario dentro de `range`
+
+```python
+group.get('__range').get('pnt_date:day').get('from')
+```

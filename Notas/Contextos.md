@@ -21,3 +21,4 @@ ___
 [[Pasar contexto a un metodo]]
 [[Llamar un método con contexto]]
 [[Rellenar campos de un modelo con datos de un registro pasado por contexto]]
+[[Leer contexto desde una vista pasado a traves de una accion]]

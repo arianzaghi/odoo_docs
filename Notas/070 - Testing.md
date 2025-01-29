@@ -29,3 +29,7 @@ ___
 
 ## [[Ejemplo Tests]]
 
+## Flujo Generacion de Test
+
+1. Seleccionamos la clase entera que queremos testear y le pedimos a copilot que genere el SetUp() para esa clase
+2. 
