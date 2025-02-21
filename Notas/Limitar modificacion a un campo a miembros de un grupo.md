@@ -5,7 +5,7 @@ Status:
 Related: 
 
 ___
-# Limitar acceso a un campo a miembros de un grupo
+# Limitar modificacion a un campo a miembros de un grupo
 
 > Tenemos un campo en un modelo que queremos que solo pueda ser modificado por miembros de un grupo
 

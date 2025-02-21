@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: [[BBDD]]
+Related: [[BBDD Local]]
 Back
 ___
 

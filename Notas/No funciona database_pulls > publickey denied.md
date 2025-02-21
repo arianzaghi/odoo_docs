@@ -1,4 +1,4 @@
-> [[Clonar la bbdd del docker de github]]
+> [[Clonar o descargar la bbdd del docker de github]]
 
 Tags: 
 Status: 
@@ -8,8 +8,12 @@ ___
 
 # No funciona database_pulls
 
-> Al intentar descargar la bbdd de un docker, tenemos `public key denied`
+> Al intentar descargar la bbdd de un docker, nos salta el error `public key denied`
 
-en la carpeta `~/.ssh`
-`ln -sf ../sources/dev-tools/ssh_keys/github_actions_dockers .`
-`ln -sf ../sources/dev-tools/ssh_keys/github_actions_dockers.pub .`
+**Solución:**
+
+Ejecutamos en la carpeta `~/.ssh`:
+```sh
+ln -sf ../sources/dev-tools/ssh_keys/github_actions_dockers .
+ln -sf ../sources/dev-tools/ssh_keys/github_actions_dockers.pub .
+```

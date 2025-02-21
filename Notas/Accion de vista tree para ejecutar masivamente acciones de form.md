@@ -63,3 +63,31 @@ def action_generate_purchase_order(self):
     for order in self:  
     # ... code ....
 ```
+
+## Accion en `account.move`
+
+> https://github.com/puntsistemes/fluidthermal_odoo/pull/13/commits/db2a571d16142925a1d87071087658daed10a0a4
+
+`account_move_views.xml`
+```xml
+<record id="pnt_action_reset_all_to_draft" model="ir.actions.server">  
+    <field name="name">Restore to draft</field>  
+    <field name="model_id" ref="account.model_account_move"/>  
+    <field name="binding_model_id" ref="sale.model_account_move"/>  
+    <field name="binding_view_types">list</field>  
+    <field name="state">code</field>  
+    <field name="code">action = records.pnt_massive_button_draft()</field>  
+</record>
+```
+
+`account_move.py`
+```python
+from odoo import models, fields, api  
+  
+class PntAccountMove(models.Model):  
+    _inherit = 'account.move'  
+  
+    def pnt_massive_button_draft(self):  
+        for move in self:  
+            move.button_draft()
+```

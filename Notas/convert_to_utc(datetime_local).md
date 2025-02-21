@@ -9,6 +9,7 @@ ___
 # Convert to UTC (datetime_local)
 > Cuando guardamos una fecha en bbdd se guarda en la zona horaria UTC por defecto. Al leer la fecha en bbdd, tenemos que convertirla a nuestra zona actual.
 
+Metodo default de odoo para cambiar la zona
 ```python
 fields.Datetime.context_timestamp(self, leave.date_from)
 ```

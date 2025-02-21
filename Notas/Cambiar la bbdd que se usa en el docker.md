@@ -1,4 +1,4 @@
-> [[BBDD|Back]]
+> [[080 - BBDD|Back]]
 
 Tags: 
 Status: 
@@ -8,7 +8,18 @@ ___
 
 # Cambiar la bbdd que se usa en el docker
 
-Modificamos `github_repo_cliente > github_actions.config > ODOO_DB_DOCKER y ODOO_DB_DOCKER_PORT`
+## Nuevo Sistema
+
+> Entramos en el modulo `Github` de nuestro odoo y configuramos la bbdd que queremos usar en docker. 
+
+> [!WARNING] AVISO
+> Para que aplique efecto, tendremos que actualizar nuestra PR, cerrarla y volverla a abrir.
+
+![[Pasted image 20250205111424.png]]
+
+## {DEPRECATED}
+
+> Modificamos `github_repo_cliente > github_actions.config > ODOO_DB_DOCKER y ODOO_DB_DOCKER_PORT`
 
 ```python
 ACTIONS_GIT_PATH='/opt/odoo/github_actions'  

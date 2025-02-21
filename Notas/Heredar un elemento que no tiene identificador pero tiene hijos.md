@@ -7,7 +7,7 @@ Related: [[Herencias comunes]]
 ___
 
 # Heredar un elemento que no tiene identificador pero tiene hijos
-Hay veces en las que queremos trabajar sobre un elemento de nuestro xml pero que no lo podemos identificar, como es este caso:
+> Hay veces en las que queremos trabajar sobre un elemento de nuestro xml pero que no lo podemos identificar, como es este caso:
 
 ```xml
 <td>  

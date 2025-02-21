@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Redirigir desde un modelo a otro para ver registros enlazados
+# Metodo para abrir listado de elementos en campo one2many
 
 ```python
 from odoo import models, fields, api

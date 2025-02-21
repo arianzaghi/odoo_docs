@@ -1,4 +1,4 @@
-> [[Server]]
+> [[090  - Servidor gestion]]
 
 Tags: 
 Status: 
@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Eliminar odoo
+# Eliminar instalacion de odoo
 
 > Proceso para eliminar instalaciones de odoo que ya no están en uso.
 
@@ -110,8 +110,7 @@ rm -rf odoo170MIG
 > Eliminamos los backups de esa instalación
 ```sh
 ls /opt/backups/odoo/
-
-rm -rf /opt/backups/odoo/*odoo170MIG*.log`
+rm -rf /opt/backups/odoo/*odoo170MIG*.log
 ```
 
 > [!INFO] INFO

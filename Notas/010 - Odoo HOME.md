@@ -5,7 +5,7 @@ Related:
 ___
 # HOME
 
-> Punto de partida del Vault. Desde aquí podemos navegar por toda la guía.
+> Punto de partida del Vault. Desde aquí podemos navegar por toda   la guía.
 
 ---
 ## Desarrollo
@@ -16,11 +16,13 @@ ___
 ### [[059 - Configuracion y Estructura]]
 ### [[060 - Clientes e Historias]]
 ### [[070 - Testing]]
+### [[080 - BBDD]]
+## [[090  - Servidor gestion]]
 
 ---
 ## Entorno
 ### [[Workflow Punt]]
-### [[Server]]
+### [[090  - Servidor gestion]]
 ### [[Buscar elementos]]
 ---
 ### Lista pendientes

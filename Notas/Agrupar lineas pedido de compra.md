@@ -6,6 +6,7 @@ Related:
 
 ___
 # Agrupar lineas pedido de compra
+
 > Método para agrupar todas las lineas de un pedido de compra por producto.
 
 ```python

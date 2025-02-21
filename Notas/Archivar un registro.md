@@ -46,5 +46,5 @@ def toggle_active(self):
 	if self.{{FIELD_A}}:  
 		self.{{FIELD_A}}.sudo().write({'active': self.active})  
 	if self.{{FIELD_B}}:  
-		self.{{FIEFIELD_BLD_A}}.sudo().write({'active': self.active})
+		self.{{FIELD_B}}.sudo().write({'active': self.active})
 ```

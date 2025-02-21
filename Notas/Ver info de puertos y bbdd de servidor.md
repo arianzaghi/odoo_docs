@@ -1,8 +1,8 @@
-> [[Server]]
+> [[080 - BBDD]]
 
 Tags: 
 Status: 
-Related: [[BBDD]]
+Related: [[090  - Servidor gestion]]
 
 ___
 

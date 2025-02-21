@@ -1,4 +1,4 @@
-> [[BBDD]]
+> [[BBDD Servidor]]
 
 Tags: 
 Status: 
@@ -6,10 +6,10 @@ Related:
 
 ___
 
-# Restaurar BBDD
+# Restaurar backup de BBDD
 
 ```
-sudo su  
+sudo su
 pg_createcluster --locale=C.UTF-8 16 copia_temporal --start
 
 sudo su postgres  

@@ -2,7 +2,7 @@
 
 Tags: 
 Status: 
-Related: [[Server]]
+Related: [[090  - Servidor gestion]]
 
 ___
 

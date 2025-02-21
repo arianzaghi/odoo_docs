@@ -17,3 +17,5 @@ Usando PoEdit o manualmente, añadimos las traducciones que faltan
 1. Cambiar po viejo por po nuevo, o copiar>pegar para evitar hacer git add .
 
 2. [[Configurar y ejecutar Odoo server#^b8e9b7|Force update translations]] ^757c4c
+
+## Lazy Translation (lt)
