@@ -12,3 +12,4 @@ ___
 [[Error al clonar cliente (Insigna)]]
 [[Error en Client Mirror - Commit borrado]]
 [[Error attatchments. Informes sin formato (CSS)]]
+[[Error arrancar FluidThermal FTM]]

@@ -1,4 +1,4 @@
-> [[BBDD Servidor]]
+o> [[BBDD Servidor]]
 
 Tags: 
 Status: 

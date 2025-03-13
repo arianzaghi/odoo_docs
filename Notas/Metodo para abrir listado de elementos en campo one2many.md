@@ -8,6 +8,8 @@ ___
 
 # Metodo para abrir listado de elementos en campo one2many
 
+> Tenemos un campo One2many y queremos abrir en una vista los elementos asociados.
+
 ```python
 from odoo import models, fields, api
 

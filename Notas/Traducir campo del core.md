@@ -12,7 +12,7 @@ ___
 
 ![[Pasted image 20240523104011.png]]
 
-1. Pegamos en el fichero `*.po` las traducciones que queremos cambiar
+1. Pegamos en el fichero `*.po` las traducciones del modulo original que queremos sobreescribir
 
 ```po
 # Translation of Odoo Server.  

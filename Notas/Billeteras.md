@@ -8,137 +8,94 @@ ___
 
 # Billeteras
 
-# Docum
+## **Módulo Billeteras**
 
-## **Descripción General del Sistema**
+### **Descripción General del Sistema**
 
-El módulo de Odoo permitirá gestionar múltiples billeteras de compra-venta de criptomonedas. Cada billetera contendrá diferentes "assets", uno por cada tipo de moneda, que registrarán tanto la cantidad total disponible como el precio medio de compra de cada asset. El sistema permitirá registrar transacciones de diferentes tipos: **compra**, **venta** y **transferencia** de assets entre billeteras.
+El módulo de Odoo permitirá gestionar múltiples billeteras de compra-venta de criptomonedas (**pt.wallet**), con transacciones y activos asociados.
 
-Este documento describe en detalle la estructura del sistema y la lógica para manejar transacciones, en especial el flujo de transferencias entre billeteras, que se registrarán en ambas billeteras para asegurar la máxima trazabilidad.
+Cada billetera puede tener múltiples transacciones (**pt.transaction**), las cuales registran:
 
----
-
-## **1. Entidades Principales del Sistema**
-
-### **1.1 Billetera (Wallet)**
-
-- Identificador único (ID)
-- Nombre de la billetera
-- Usuario propietario
-- Relación uno-a-muchos con **Asset**
-- Relación uno-a-muchos con **Transaction**
-
-### **1.2 Asset** (Moneda en la billetera)
-
-- Identificador único (ID)
-- Tipo de moneda (BTC, ETH, USDT, etc.)
-- Cantidad total disponible
-- Precio medio de compra
-- Relación muchos-a-uno con **Wallet**
-
-### **1.3 Transaction** (Transacción)
-
-- Identificador único (ID)
-- Tipo de transacción: **Compra**, **Venta**, **Transferencia - Salida**, **Transferencia - Entrada**
-- Moneda (BTC, ETH, etc.)
+- Precio de compra
 - Cantidad
-- Precio unitario (en caso de compra o venta)
-- Fecha de la transacción
-- Relación muchos-a-uno con **Wallet de origen**
-- Relación muchos-a-uno con **Wallet de destino** (solo para transferencias)
+- Fecha
+- Valor y moneda
+- Estado (borrador o confirmada)
+- Tipo (compra o venta)
 
----
-## **2. Tipos de Transacciones y su Lógica**
+Para cada grupo de transacciones en estado confirmado de una misma moneda, se crea un registro de tipo **asset** que guarda los totales de esa moneda (**pt.asset**). Cada asset registra:
 
-### **2.1 Compra**
+- Cantidad
+- Precio medio de compra
+- Valor total
+- Indicador booleano: **Es USDT**
 
-- **Descripción:** Aumenta el saldo del asset en la billetera correspondiente.
-- **Acciones:**
-    - Sumar la cantidad comprada al saldo existente.
-    - Recalcular el precio medio de compra utilizando el precio de la nueva transacción.
+El asset USDT es de carácter especial y representa la cantidad de moneda estable disponible en la billetera (**liquidez**). Su funcionamiento es el siguiente:
 
-### **2.2 Venta**
+- Cuando se compra cualquier tipo de moneda, el valor de la transacción se resta del asset USDT.
+- Cuando se vende cualquier tipo de moneda, la ganancia de la transacción se acumula en el asset USDT.
+- Todas las operaciones de compra de USDT representan un ingreso de liquidez en la billetera.
 
-- **Descripción:** Reduce el saldo del asset en la billetera.
-- **Acciones:**
-    - Restar la cantidad vendida del saldo existente.
-    - No afecta el precio medio de compra.
+### **Estructura del Sistema**
 
-### **2.3 Transferencia**
+#### **Billeteras (pt.wallet)**
 
-- **Descripción:** Mueve una cantidad específica de un asset de una billetera a otra. Se registra en ambas billeteras para asegurar la trazabilidad.
-- **Acciones:**
-    1. Validación:
-        - Verificar que la billetera de origen tenga saldo suficiente del asset.
-        - Asegurar que las billeteras de origen y destino sean distintas.
-    2. Registrar la transferencia en ambas billeteras:
-        - **En la billetera de origen:** Crear una transacción de tipo **Transferencia - Salida**. Restar la cantidad del asset.
-        - **En la billetera de destino:** Crear una transacción de tipo **Transferencia - Entrada**. Sumar la cantidad al asset.
-    3. Mantener el historial de transacciones sincronizado entre ambas billeteras.        
+Cada billetera gestiona su propio balance de criptomonedas.
 
----
+#### **Transacciones (pt.transaction)**
 
-## **3. Cálculo del Precio Medio de Compra**
+Las transacciones representan operaciones de compra o venta de criptomonedas e incluyen:
 
-El precio medio de compra se recalcula en cada operación de **compra** o al recibir una **transferencia - entrada**. La fórmula es la siguiente:
+- Precio de compra
+- Cantidad
+- Fecha
+- Valor
+- Moneda
+- Estado (borrador/confirmada)
+- Tipo (compra/venta)
 
-```
-Nuevo precio medio = (Cantidad existente × Precio medio actual + Nueva cantidad × Precio de la transacción) / (Cantidad existente + Nueva cantidad)
-```
+#### **Activos (pt.asset)**
 
-Nota: En las transferencias, el precio medio de la billetera de origen no se modifica.
+Cada billetera tiene un asset por cada moneda, calculando:
 
----
+- Cantidad
+- Precio medio de compra
+- Valor total
 
-## **4. Flujo de Transferencias: Ejemplo Práctico**
+Los assets **no tienen relación directa con las transacciones mediante campos**, sino que se recalculan dinámicamente. Este recalculado se ejecuta automáticamente al crear, modificar o eliminar transacciones.
 
-### **Escenario:**
+### **Funcionamiento**
 
-- Moneda: BTC
-- **Billetera A:** 2 BTC con precio medio de 30,000 USD.
-- **Billetera B:** 1 BTC con precio medio de 40,000 USD.
-- Se transfiere 0.5 BTC de la Billetera A a la Billetera B.
+#### **Compras/Ventas**
 
-### **Antes de la Transferencia:**
+- Todas las operaciones se realizan exclusivamente contra USDT. No existen conversiones directas entre criptomonedas.
 
-- **Billetera A:** 2 BTC, precio medio 30,000 USD.
-- **Billetera B:** 1 BTC, precio medio 40,000 USD.
+#### **Validación de Saldo**
 
-### **Después de la Transferencia:**
+- Si no hay suficiente USDT para una compra o saldo suficiente de una criptomoneda para una venta, la transacción queda en borrador.
+- No se permite confirmar compras sin liquidez en USDT.
+- Las compras de USDT no descuentan saldo de ningún asset.
 
-- **Billetera A:** 1.5 BTC, precio medio 30,000 USD.
-- **Billetera B:** 1.5 BTC, precio medio ajustado:
+#### **Recalculado de Assets**
 
-```
-Nuevo precio medio = [(1 × 40,000) + (0.5 × 30,000)] / (1 + 0.5) = 36,666.67 USD
-```
+- Cada billetera tiene un único asset por moneda, calculando el precio medio de compra y la cantidad disponible.
+- El recalculado de assets se ejecuta automáticamente al crear, modificar o eliminar transacciones.
+- Cuando se crea una nueva transacción de compra, se debe comprobar que existe balance suficiente en USDT para comprar la moneda.
+- Cuando se crea una nueva transacción de venta, se debe comprobar que existe balance suficiente de esa moneda para venderla.
+- Si se modifican transacciones y hay un incremento del valor de compra/venta, debe existir saldo suficiente de USDT/moneda. Si no lo hay, la transacción se mantendrá en estado **borrador**.
 
----
+### **Datos Clave**
 
-## **5. Diagrama de Flujo del Proceso de Transferencia**
+- Liquidez representada por el asset **USDT** en cada billetera.
+- Ganancas/Perdidas Calculadas en base al precio medio de compra del asset.
+- EL ROI Se obtiene comparando el precio medio de compra con el precio actual del mercado.
 
----
+### **Funcionalidades de la Aplicación**
 
-## **6. Validaciones y Consideraciones Adicionales**
+La aplicación permitirá:
 
-### **6.1 Validaciones:**
+- Ver en tiempo real el saldo de USDT y del resto de monedas.
+- Ver el precio medio de compra de todas las monedas.
+- Ver el total invertido, el total de ganancias (o pérdidas) y las ganancias netas.
 
-- Asegurar que la cantidad transferida no exceda el saldo disponible.
-- Verificar que las billeteras de origen y destino sean distintas.
-
-### **6.2 Manejo de Errores:**
-
-- Si ocurre un error durante la transferencia, se debe revertir cualquier cambio parcial para evitar inconsistencias.
-
-### **6.3 Sincronización y Performance:**
-
-- Garantizar que el sistema maneje transacciones simultáneas de forma consistente utilizando bloqueos o colas de procesamiento.
-    
-
----
-
-## **7. Conclusión**
-
-Este módulo proporciona una gestión completa y trazable de activos de criptomonedas en múltiples billeteras, asegurando que todas las transacciones, especialmente las transferencias, estén registradas de manera coherente y auditables. Registrar las transferencias en ambas billeteras ofrece la máxima trazabilidad y facilita la gestión de los fondos de manera precisa.
-
-¿Próximo paso? Implementar la lógica de este sistema en código y definir la interfaz para los usuarios finales en Odoo. 😊
+Este sistema proporcionará una visión clara y actualizada del saldo de cada billetera, permitiendo tomar decisiones estratégicas sobre la compra y venta de criptomonedas.

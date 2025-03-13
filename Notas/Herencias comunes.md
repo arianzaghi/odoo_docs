@@ -12,7 +12,7 @@ ___
 [[Heredar del boton de asistencia fichaje]]
 [[Heredar de un template que no tiene ID]]
 [[Heredar de clase javascript http.controller]]
-[[Heredar un elemento que no tiene identificador pero tiene hijos]]
+[[Heredar xpath un elemento que no tiene identificador pero tiene hijos]]
 [[Heredar de un template de invocación de informe]]
 
 ## En un informe

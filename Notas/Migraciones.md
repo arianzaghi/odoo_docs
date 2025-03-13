@@ -8,8 +8,6 @@ ___
 
 # Migraciones
 
-
-
 > [!Info] Versiones para migrar
 > Solo se pueden migrar las versiones enterprise
 > Solo se pueden migrar las 3 ultimas versiones
@@ -73,7 +71,9 @@ python3 <(curl -s https://upgrade.odoo.com/upgrade) [tipo_de_migracion] -j $(npr
 python3 <(curl -s https://upgrade.odoo.com/upgrade) test -j $(nproc) -d DILESA_PRO -t 14.0
 ```
 
-## Dilesa
+## Dilesa 13 a 15
+> M21120333632356
+
 ## Pruebas con singularu
 
 1. Hacer `update all` de la version que vamos a migrar
@@ -92,4 +92,66 @@ python3 <(curl -s https://upgrade.odoo.com/upgrade) test -j $(nproc) -d DILESA_P
 ```sh
 apt update &&
 apt install 'y ''no'install'recommends ''no'install 
+```
+
+
+
+```sh
+('account_menu_invoice_refund.menu_action_invoice_out_tree', 271, 'Accounting > Customers > Invoices / Credit Notes', 415):  
+Traceback (most recent call last):  
+  File "/tmp/tmp4vez2lfo/migrations/base/tests/test_mock_crawl.py", line 259, in crawl_menu  
+   self.mock_action(action_vals)  
+  File "/tmp/tmp4vez2lfo/migrations/base/tests/test_mock_crawl.py", line 272, in mock_action  
+   return self.mock_act_window(action)  
+  File "/tmp/tmp4vez2lfo/migrations/base/tests/test_mock_crawl.py", line 356, in mock_act_window  
+   views = get_views(  
+  File "/home/odoo/src/odoo/15.0/odoo/models.py", line 1640, in load_views  
+   result['fields_views'] = {  
+  File "/home/odoo/src/odoo/15.0/odoo/models.py", line 1641, in <dictcomp>  
+   v_type: self.fields_view_get(v_id, v_type if v_type != 'list' else 'tree',  
+  File "/home/odoo/src/odoo/15.0/addons/web/models/models.py", line 249, in fields_view_get  
+   r = super().fields_view_get(view_id, view_type, toolbar, submenu)  
+  File "/home/odoo/src/odoo/15.0/odoo/models.py", line 1724, in fields_view_get  
+   result = self._fields_view_get(view_id=view_id, view_type=view_type, toolbar=toolbar, submenu=submenu)  
+  File "/home/odoo/src/odoo/15.0/odoo/models.py", line 1686, in _fields_view_get  
+   result['arch'] = view.get_combined_arch()  
+  File "/home/odoo/src/odoo/15.0/odoo/addons/base/models/ir_ui_view.py", line 963, in get_combined_arch  
+   return etree.tostring(self._get_combined_arch(), encoding='unicode')  
+  File "/home/odoo/src/odoo/15.0/addons/website/models/ir_ui_view.py", line 549, in _get_combined_arch  
+   root = super()._get_combined_arch()  
+  File "/home/odoo/src/odoo/15.0/odoo/addons/base/models/ir_ui_view.py", line 993, in _get_combined_arch  
+   arch = root.with_prefetch(tree_views._prefetch_ids)._combine(hierarchy)  
+  File "/home/odoo/src/odoo/15.0/odoo/addons/base/models/ir_ui_view.py", line 934, in _combine  
+   combined_arch = view.apply_inheritance_specs(combined_arch, arch)  
+  File "/home/odoo/src/odoo/15.0/odoo/addons/base/models/ir_ui_view.py", line 871, in apply_inheritance_specs  
+   self._raise_view_error(str(e), specs_tree)  
+  File "/home/odoo/src/odoo/15.0/odoo/addons/base/models/ir_ui_view.py", line 748, in _raise_view_error  
+   raise err from from_exception  
+ValueError: Element '<field name="amount_untaxed">' cannot be located in parent view  
+  
+  
+  
+2025-02-20 15:13:58,631 6138 INFO db_2586734 odoo.upgrade.testing: Starting IntegrityCase.test_check ...   
+2025-02-20 15:13:58,632 6138 INFO db_2586734 odoo.upgrade.testing: skipped IntegrityCase.test_check   
+2025-02-20 15:13:58,632 6138 INFO db_2586734 odoo.upgrade.base.tests.test_module_state: Starting TestModuleState.test_check ...   
+2025-02-20 15:13:58,633 6138 INFO db_2586734 odoo.upgrade.testing: Calling TestModuleState.check   
+2025-02-20 15:13:58,634 6138 INFO db_2586734 odoo.upgrade.testing: Starting IntegrityCase.test_check ...   
+2025-02-20 15:13:58,635 6138 INFO db_2586734 odoo.upgrade.testing: skipped IntegrityCase.test_check   
+2025-02-20 15:13:58,635 6138 INFO db_2586734 odoo.upgrade.base.tests.test_ensure_has_pk: Starting TestTablesHavePK.test_check ...   
+2025-02-20 15:13:58,636 6138 INFO db_2586734 odoo.upgrade.testing: Calling TestTablesHavePK.check   
+2025-02-20 15:13:58,643 6138 INFO db_2586734 odoo.upgrade.testing: Starting IntegrityCase.test_check ...   
+2025-02-20 15:13:58,644 6138 INFO db_2586734 odoo.upgrade.testing: skipped IntegrityCase.test_check   
+2025-02-20 15:13:58,644 6138 INFO db_2586734 odoo.upgrade.stock.tests.test_uom_consistency: Starting TestUoMConsistencyChanges.test_check ...   
+2025-02-20 15:13:58,645 6138 INFO db_2586734 odoo.upgrade.testing: Calling TestUoMConsistencyChanges.check   
+2025-02-20 15:13:58,684 6138 INFO db_2586734 odoo.upgrade.testing: Starting IntegrityCase.test_check ...   
+2025-02-20 15:13:58,685 6138 INFO db_2586734 odoo.upgrade.testing: skipped IntegrityCase.test_check   
+2025-02-20 15:13:58,685 6138 INFO db_2586734 odoo.upgrade.stock.tests.test_on_hand_quantity: Starting TestOnHandQuantityUnchanged.test_check ...   
+2025-02-20 15:13:58,686 6138 INFO db_2586734 odoo.upgrade.testing: Calling TestOnHandQuantityUnchanged.check   
+2025-02-20 15:13:58,917 6138 INFO db_2586734 odoo.service.server: 15 post-tests in 34.01s, 25057 queries   
+2025-02-20 15:13:58,918 6138 ERROR db_2586734 odoo.tests.runner: 1 failed, 0 error(s) of 15 tests when loading database 'db_2586734'   
+2025-02-20 15:13:58,918 6138 INFO db_2586734 odoo.service.server: Initiating shutdown   
+2025-02-20 15:13:58,918 6138 INFO db_2586734 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.   
+2025-02-20 15:13:59,321 6138 INFO db_2586734 odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections   
+[ERROR]::Error during the upgrade: command execution has failed with the error code 1  
+2025-02-20 03:14:42 ERROR: The upgrade request has failed
 ```

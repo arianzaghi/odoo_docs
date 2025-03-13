@@ -17,4 +17,4 @@ limit_memory_soft = 13221225472
 ```
 
 1. Cambiamos valores del `.conf` en `DEV` y en `PRO`
-2. Reiniciamos serviores
+2. Reiniciamos servidores

@@ -24,8 +24,6 @@ class TestCrmPnt(TransactionCase):
     def pnt_init_sequence(self, xmlid):  
         sequence = self.env.ref(xmlid)  
         sequence.number_next_actual = 1  # Reset the sequence
-        
-        
 ```
 
 ## `palacio/crm_pnt/tests/test_crm_lead.py`
