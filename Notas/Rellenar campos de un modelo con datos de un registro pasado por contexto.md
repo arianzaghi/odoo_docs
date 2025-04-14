@@ -10,7 +10,6 @@ ___
 
 > Historia de juanma. Se esta creando una venta, se le pasa una oportunidad por contexto, y queremos rellenar los campos de la venta usando campos del registro que hemos pasado por contexto
 
-
 > En la accion se pasa la oportunidad por contexto, y en el record se asignan default.
 ```python
   <record id="sale_action_quotations_new" model="ir.actions.act_window">  

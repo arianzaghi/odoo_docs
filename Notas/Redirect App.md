@@ -271,3 +271,5 @@ class ResConfigSettings(models.TransientModel):
                   groups="base.group_system"/>  
     </data>  
 </odoo>
+```
+

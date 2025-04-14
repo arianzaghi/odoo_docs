@@ -56,6 +56,7 @@ from odoo.addons.MODULO.models.MODELO import NombreDeLaClase
 
 #Ejemplo con stock:
 from odoo.addons.stock.models.stock_move_line import StockMoveLine
+from odoo.addons.account.models.account_move import AccountMove
 ````
 
 #### 2. Creamos el método del tipo de [[Hooks#Existen 3 tipos de hooks|hooks]] que vamos a usar

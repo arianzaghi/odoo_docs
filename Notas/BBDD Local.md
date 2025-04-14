@@ -11,3 +11,4 @@ ___
 [[Añadir nuevo bash alias para clonar bbdd]]
 [[Descargar bbdd con attatchments]]
 [[PgAdmin - Lector BBDD]]
+[[Restaurar bbdd desde zip .sql]]

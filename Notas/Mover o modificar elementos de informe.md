@@ -8,7 +8,7 @@ ___
 
 # Mover elementos de informe
 
-[[Mover direccion entrega informe a la izquierda]]
+[[Mover direccion cliente o entrega del informe a la izquierda]]
 [[Reducir espacio entre cabecera y direcciones envio informe]]
 [[Alinear contenido columna a la derecha]]
 [[Formatear fecha reporte]]

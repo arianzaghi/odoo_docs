@@ -6,7 +6,7 @@ Related:
 
 ___
 
-# Mover direccion entrega informe a la izquierda
+# Mover direccion cliente o entrega del informe a la izquierda
 
 ## ALBARAN
 
@@ -62,6 +62,6 @@ ___
 <xpath expr="//t[@t-set='address']" position="attributes">  
     <attribute name="t-if" add="False" separator=" and "/>  
 </xpath>
-
-
 ```
+
+## FACTURA

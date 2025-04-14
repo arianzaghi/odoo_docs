@@ -11,7 +11,6 @@ ___
 - **date="pnt_date"**: Filtro fecha por defecto
 ## [[Separator]]
 
-
 ## Ejemplo plantilla
 ```xml
 <record id="pnt_view_daily_extra_hour_detail_search" model="ir.ui.view">  

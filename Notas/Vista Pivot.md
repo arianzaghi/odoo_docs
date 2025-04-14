@@ -24,4 +24,6 @@ ___
 
 ### [[Añadir vista pivot]]
 ### [[Añadir campo vista pivot]]
+
+### [[Informe SQL Para vista pivot o tree (como sale_report)]] (mejor que modelo intermedio)
 ### [[Modelo intermedio para ver medidas como filas en pivot]]

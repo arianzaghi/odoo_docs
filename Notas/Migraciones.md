@@ -66,14 +66,103 @@ mkdir 14_15
 1. Lanzamos comando para actualizar la bbdd
 ```sh
 python3 <(curl -s https://upgrade.odoo.com/upgrade) [tipo_de_migracion] -j $(nproc) -d [base_de_datos_a_migrar] -t [version_destino]
-
+DILESA_PRO_test_15.0_2025_03_24_08_58
 #Ejemplo
 python3 <(curl -s https://upgrade.odoo.com/upgrade) test -j $(nproc) -d DILESA_PRO -t 14.0
 ```
 
-## Dilesa 13 a 15
+## Dilesa v13 a v15
 > M21120333632356
 
+1. **Comando de 13 a 15**
+	Nos da error, abrimos ticket a soporte y nos devuelven la bbdd en zip (sql) corregida
+2. **Restauramos bbdd corregida**
+	1. Restauramos el zip en el equipo
+	2. Volvemos a lanzar el script y nos devuelve DILESA_PRO_test_15.0_2025_03_24_08_58
+3. Arrancamos v15 para buscar errores
+	1. Creamos conf y comentamos addons path custom
+```sh
+addons_path =  
+;     /opt/sources/odoo150/src/addons-custom/dilesa,  
+;     /opt/sources/odoo150/src/addons-standard,  
+;     /opt/sources/odoo150/src/addons-external,
+```
+	2. Lanzamos odoo con `-u all`
+	3. web_responsive no es compatible con web_enterprise
+	4. De 13 a 15 errores:
+		`invoice_warn_message_type`
+		1. # 'core/addons/base_vat/views/res_config_settings_views.xml'
+		2. /opt/sources/odoo150/src/enterprise/currency_rate_live/views/res_config_settings_views.xml
+		3. /opt/sources/odoo150/src/core/addons/hr_expense/views/res_config_settings_views.xml
+		4. /opt/sources/odoo150/src/account-financial-reporting/partner_statement/views/res_config_settings_views.xml
+		5. /opt/sources/odoo150/src/core/addons/product_expiry/views/
+		6. /opt/sources/odoo150/src/enterprise/project_enterprise/views/r
+		7. /opt/sources/odoo150/src/core/addons/snailmail_account/views/res_config_settings_views.xml:3
+		8. /opt/sources/odoo150/src/enterprise/social_push_notifications/views/
+		9. /opt/sources/odoo150/src/core/addons/stock_account/views
+		10. /opt/sources/odoo150/src/stock-logistics-warehouse/stock_available/views/
+		11. /opt/sources/odoo150/src/enterprise/stock_barcode/views/
+		12. /opt/sources/odoo150/src/stock-logistics-workflow/stock_picking_import_serial_number/views
+		13. /opt/sources/odoo150/src/website/website_google_tag_manager/views/
+		14. /opt/sources/odoo150/src/core/addons/website_jitsi/views
+		15. /opt/sources/odoo150/src/enterprise/account_reports/views/
+		16. /opt/sources/odoo150/src/core/addons/crm_iap_enrich/views/
+		17. /opt/sources/odoo150/src/core/addons/project_timesheet_holidays/views/
+		18. /opt/sources/odoo150/src/core/addons/purchase_stock/views/
+		19. /opt/sources/odoo150/src/core/addons/sale/views/
+		20. /opt/sources/odoo150/src/enterprise/timesheet_grid/views/
+		21. /opt/sources/odoo150/src/core/addons/website_event/views/
+		22. /opt/sources/odoo150/src/enterprise/hr_expense_extract/views
+		23. /opt/sources/odoo150/src/purchase-workflow/purchase_discount/views/
+		24. /opt/sources/odoo150/src/multi-company/purchase_sale_inter_company/views/
+		25. /opt/sources/odoo150/src/core/addons/sale_coupon/views/
+		26. /opt/sources/odoo150/src/sale-workflow/sale_delivery_state/views/
+		27. /opt/sources/odoo150/src/core/addons/sale_management/views/
+		28. /opt/sources/odoo150/src/core/addons/sale_management/views/sale_management_views.xml
+		29. /opt/sources/odoo150/src/core/addons/sale_stock/views/
+		30. /opt/sources/odoo150/src/core/addons/stock_landed_costs/views/
+		31. /opt/sources/odoo150/src/core/addons/website_event_track/views/
+		32. /opt/sources/odoo150/src/core/addons/website_sale/views/
+		33. /opt/sources/odoo150/src/core/addons/sale_stock/views/
+		34. /opt/sources/odoo150/src/core/addons/website_sale_coupon/views/
+		35. /opt/sources/odoo150/src/enterprise/website_sale_dashboard/views/
+		36. /opt/sources/odoo150/src/e-commerce/website_sale_google_tag_manager/views/
+		37. /opt/sources/odoo150/src/bank-payment/account_banking_sepa_direct_debit/views/
+		38. /opt/sources/odoo150/src/core/addons/sale_timesheet/views/
+		39. /opt/sources/odoo150/src/enterprise/sale_timesheet_enterprise/views/
+
+2. Quitar `commission` del conf
+3. Hacer update all
+	1. update all conseguido
+4. Arrancar con -i instalar `account_comission`
+	1. Error
+5. Descomentamos commission del manifest
+
+
+## Dilesa v15 a v16
+
+1. metodo zip() no acepta parametros
+2. openupgrade lib -> try catch pass y continua
+3. Comentar `/opt/sources/odoo160/src/sale-workflow/sale_delivery_state/views/sale_order_views.xml`
+4. `/opt/sources/odoo160/src/sale-workflow/sale_force_invoiced/view/sale_order.xml'`
+5. `/opt/sources/odoo160/src/core/addons/sale_loyalty/views/sale_order_views.xml`
+6. `/opt/sources/odoo160/src/core/addons/sale_management/views/sale_order_views.xml`
+7. `/opt/sources/odoo160/src/core/addons/sale_product_configurator/views/sale_order_views.xml'`
+8.  /opt/sources/odoo160/src/core/addons/sale_purchase/views/sale_order_views.xml
+9.  /opt/sources/odoo160/src/core/addons/sale_stock/views/sale_order_views.xml
+10. /opt/sources/odoo160/src/core/addons/website_sale/views/sale_order_views.xml
+11. /opt/sources/odoo160/src/core/addons/sale_stock/views/sale_order_views.xml
+12. /opt/sources/odoo160/src/core/addons/sale_margin/views/sale_order_views.xml
+13. /opt/sources/odoo160/src/core/addons/sale_project/views/sale_order_views.xml
+14. /opt/sources/odoo160/src/core/addons/sale_timesheet/views/sale_order_views.xml
+15. /opt/sources/odoo160/src/margin-analysis/sale_margin_security/views/sale_margin_security_view.xml
+16. /opt/sources/odoo160/src/core/addons/website_sale_loyalty/views/loyalty_program_views.xml
+
+**Error en commission**
+```sh
+psycopg2.errors.ForeignKeyViolation: insert or update on table "res_partner" violates foreign key constraint "res_partner_commission_id_fkey"
+DETAIL:  Key (commission_id)=(1) is not present in table "commission".
+```
 ## Pruebas con singularu
 
 1. Hacer `update all` de la version que vamos a migrar
