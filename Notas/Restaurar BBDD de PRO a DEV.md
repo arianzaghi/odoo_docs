@@ -1,4 +1,4 @@
-o> [[BBDD Servidor]]
+> [[BBDD Servidor]]
 
 Tags: 
 Status: 
@@ -51,8 +51,8 @@ SET client_min_messages TO WARNING;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
-('report.url', 'http://127.0.0.1:62001'),
-('web.base.url', 'https://odoo-dev.palcongres-vlc.com/:62001'),
+('report.url', 'http://127.0.0.1:8070'),
+('web.base.url', 'https://meysser-dev.odoo.puntsistemes.cloud/:8070'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -85,6 +85,10 @@ Esto lo encontramos en el conf del servidor.
 #Palacio
 ('report.url', 'http://127.0.0.1:62001'),
 ('web.base.url', 'https://odoo-dev.palcongres-vlc.com/:62001'),
+
+#Som Energia
+('report.url', 'http://127.0.0.1:62001'),
+('web.base.url', 'https://odoocifdev.somenergia.coop/:62001'),
 ```
 
 

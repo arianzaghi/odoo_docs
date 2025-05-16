@@ -78,6 +78,12 @@ def _get_aggregated_product_quantities(self, **kwargs):
 StockMoveLine._patch_method("_get_aggregated_product_quantities", _get_aggregated_product_quantities)
 ````
 
+> [!WARNING] AVISO
+> En v17, ya no existe patch_method. Tenemos que usar:
+> ```
+>     SaleOrderLine._compute_discount =_compute_discount
+> ```
+
 
 
 ### Manifest
@@ -89,6 +95,27 @@ Añadimos el hook al manifest
 
 #### [Aditivos - Arian](https://github.com/puntsistemes/aditivos_odoo/pull/23/files#diff-c8299e4fab78b67992dc0abdcbb93292d43b3616dcc02aa58ddcca49b46f688e)
 #### [Minyana - Juanma](https://github.com/puntsistemes/cafes-minyana_odoo/blob/14.0/custom_pnt/hooks.py)
+#### Argui - Arian
+> El core calcula un descuento en base a la lista de precios, y el modulo OCA sale_product_pack lo pisa en base al precio establecido en producto > packs > descuento.
+> 
+> Queremos modificar el metodo de OCA para que si ya viene la linea con descuento, no la modifique.
+
+```python
+from odoo import api  
+from odoo.addons.sale_product_pack.models.sale_order_line import SaleOrderLine  
+  
+  
+def post_load_hook():  
+    @api.depends("product_id", "product_uom", "product_uom_qty")  
+    def _compute_discount(self):  
+        res = super(SaleOrderLine, self)._compute_discount()  
+        for pack_line in self.filtered("pack_parent_line_id"):  
+            if not pack_line.discount:  
+                pack_line.discount = pack_line._get_pack_line_discount()  
+        return res  
+  
+    SaleOrderLine._compute_discount =_compute_discount
+```
 
 #### EN v17
 > ![[Pasted image 20240909165318.png]]

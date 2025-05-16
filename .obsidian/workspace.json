@@ -8,66 +8,62 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12feb80b14425f8f",
+            "id": "5a5d4148d959f2b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Heredar de un xpath en otro template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Heredar de un xpath en otro template"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "05f8fc919a3d6576",
+            "id": "7393e5dbb63dc031",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Mover direccion cliente o entrega del informe a la izquierda.md",
+                "file": "Notas/Dev-tools.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Mover direccion cliente o entrega del informe a la izquierda"
+              "title": "Dev-tools"
             }
           },
           {
-            "id": "122242207356bd5d",
+            "id": "11f69cbed0b5a26a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Instalar módulos OCA en odoo v17.md",
+                "file": "Notas/Adjuntar pdf a informe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Instalar módulos OCA en odoo v17"
+              "title": "Adjuntar pdf a informe"
             }
           },
           {
-            "id": "6128b516ac252a38",
+            "id": "f58946e759586844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Modulos OCA.md",
+                "file": "Notas/Heredar formulario registro odoo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Modulos OCA"
+              "title": "Heredar formulario registro odoo"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.5124969482422
+    "width": 531.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -186,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Heredar de un xpath en otro template.md",
+                "file": "Notas/Adjuntar pdf a informe.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,12 +206,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1933057561989833,
+                  "scale": 0.8085448422543987,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Heredar de un xpath en otro template"
+              "title": "Graph of Adjuntar pdf a informe"
             }
           },
           {
@@ -252,7 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 671.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,44 +264,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "12feb80b14425f8f",
+  "active": "11f69cbed0b5a26a",
   "lastOpenFiles": [
-    "Notas/Albaran (ALB).md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/ver informe sin imprimir.md",
-    "Notas/Ocultar campo del core en informe.md",
-    "Notas/Ocultar o Borrar de informe.md",
     "Notas/Pedido de Venta (PV).md",
-    "Notas/sale.order.md",
-    "Notas/Activar crones en local.md",
-    "Notas/abrir shell de odoo.md",
+    "Notas/Lista de informes XML.md",
+    "Notas/025 - Informes XML.md",
+    "Notas/Estructura informes.md",
+    "Notas/Template de Invocación.md",
+    "Notas/Report Action - Botón impresión.md",
+    "Notas/Limitar visualizacion a un campo a miembros de un  grupo.md",
+    "Notas/Grupos de permisos.md",
     "Notas/Buscar grupos de permisos.md",
-    "Notas/<attributes>.md",
-    "Notas/Pedido de Compra (PC).md",
-    "Notas/Mover direccion cliente o entrega del informe a la izquierda.md",
-    "Notas/Factura (FRA).md",
-    "Notas/Mover o modificar elementos de informe.md",
     "Notas/Modificaciones comunes Informes XML.md",
-    "Notas/Redirect App.md",
-    "Notas/Añadir ajustes para módulo odoo.md",
+    "Notas/020 - Informes.md",
+    "Notas/010 - Odoo HOME.md",
     "Notas/050 - Security.md",
     "Notas/Fichero Security Access CSV.md",
-    "Notas/Icono de APP con link a una web.md",
-    "Notas/Informe Telemira BORRAR.md",
-    "Notas/025 - Informes XML.md",
-    "Notas/Paperformat.md",
-    "Notas/Modificar cabecera de informes.md",
-    "Notas/Descargar bbdd con attatchments.md",
+    "Notas/PV Tabla totales.md",
+    "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
+    "Notas/Cambiar coleccion que itera el foreach de PV.md",
+    "Notas/Escapar comillas dentro de un xpath.md",
+    "Pasted image 20250513092131.png",
+    "Pasted image 20250513092124.png",
+    "Notas/Campo horario, Float como Hora y Minutos.md",
+    "Notas/Heredar xpath un elemento que no tiene identificador pero tiene hijos.md",
+    "Notas/Pycharm.md",
+    "Notas/Ruff en lugar de Black.md",
+    "Notas/Dev-tools.md",
+    "Notas/abrir linea de listado tree one2many.md",
+    "Notas/Heredar formulario registro odoo.md",
+    "Notas/Downgradear copilot volver version anterior.md",
+    "Pasted image 20250512122805.png",
+    "Pasted image 20250508125251.png",
+    "Pasted image 20250429112616.png",
+    "Pasted image 20250416151938.png",
     "Pasted image 20250129153000.png",
     "Pasted image 20250127090142.png",
     "Pasted image 20250127090133.png",
     "Pasted image 20250103133127.png",
-    "Static/Pasted image 20240205174931.png",
-    "Pasted image 20250310083144.png",
-    "Pasted image 20250310082909.png",
-    "Pasted image 20250228124947.png",
-    "Pasted image 20250224105628.png",
-    "Pasted image 20250224105601.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

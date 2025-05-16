@@ -26,6 +26,7 @@ ___
 	<field name="report_file">report_pnt.pnt_report_mrp_quality_control</field>
 	# Nombre del reporte que se imprime
 	<field name="print_report_name">'Picking Quality - %s' % (object.display_name)</field>
+	# Coneta el informe al modelo en el que queremos que salga
 	<field name="binding_model_id" ref="mrp.model_mrp_production"/>
 	<field name="binding_type">report</field>
 	# Referencia del paperformat que se aplica

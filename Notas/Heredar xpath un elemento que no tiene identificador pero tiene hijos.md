@@ -23,7 +23,7 @@ ___
 ## Solución
 ```xml
 <xpath expr="//td[span[@t-field='move.product_id']]" position="attributes">
-    <attribute name="invisible">1</attribute>
+	<attribute name="t-if">False</attribute>
 </xpath>
 ```
 

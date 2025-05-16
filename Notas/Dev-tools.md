@@ -15,3 +15,4 @@ ___
 - [[Error en Client Mirror - Commit borrado]]
 - [[Odoo clonar cliente]]
 - [[Configurar y ejecutar Odoo server]]
+- [[Pycharm]]

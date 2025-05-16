@@ -27,6 +27,14 @@ def _render_qweb_pdf(self, report_ref, res_ids=None, data=None):
 		"report_pnt.pnt_report_deliveryslip",  
 		"report_pnt.repnt_packing_list"  
 	]  
+
+	try:
+		if isinstance(report_ref, type(self.env["ir.actions.report"])):
+			report_name = report_ref.report_name
+		elif isinstance(report_ref, str):
+			report_name = report_ref
+		else:
+			report_name = ""
 	
 	if report_ref in coralim_coa and res_ids:  
 		pickings = self.env["stock.picking"].browse(res_ids)  
@@ -39,6 +47,20 @@ def _render_qweb_pdf(self, report_ref, res_ids=None, data=None):
 
 	return res  
 ```
+
+**El siguiente codigo viene de un ticket resuelto por Miquel**
+> https://odoo.puntsistemes.com/web#id=106640&menu_id=323&cids=1&action=492&model=helpdesk.ticket&view_type=form
+> Y evita que nos de error al enviar por correo el informe, ya que en vez de venir el nombre como string, viene como objeto action report
+```python
+try:
+	if isinstance(report_ref, type(self.env["ir.actions.report"])):
+		report_name = report_ref.report_name
+	elif isinstance(report_ref, str):
+		report_name = report_ref
+	else:
+		report_name = ""
+```
+
 
 > [!Note] Nota
 > En la lista de informes `coralim_coa` guardamos el nombre del [[Template de Invocación]] de nuestro informe

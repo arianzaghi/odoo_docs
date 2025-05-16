@@ -8,7 +8,7 @@ ___
 # Tipos de herencias
 
 [[heredar vista]]
-[[Heredar de un xpath en otro template]]
+[[Heredar de un xpath con un xpath desde otro template]]
 [[Heredar del boton de asistencia fichaje]]
 [[Heredar de un template que no tiene ID]]
 [[Heredar de clase javascript http.controller]]

@@ -16,3 +16,10 @@ Para cambiar la cabecera de los informes, heredamos de la plantilla `external_la
 ![[Pasted image 20240214152730.png]]
 
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+ <odoo>
+     <template id="pnt_external_layout_bold_header" inherit_id="web.external_layout_bold">
+     </template>
+ </odoo>
+```

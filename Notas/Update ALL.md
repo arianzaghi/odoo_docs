@@ -29,7 +29,7 @@ ___
 
 2. Clonamos el src de `DEV`
 ```sh
-	cp -r /opt/odoo/odoo{{branch}}dev/src /opt/odoo/odoo{{branch}}dev/src_backup
+cp -r /opt/odoo/odoo{{branch}}dev/src /opt/odoo/odoo{{branch}}dev/src_backup
 ```
 
 3. Hacemos copia de la BBDD por si acaso
@@ -64,11 +64,15 @@ systemctl stop odoo{{version}}dev
 ```
 2. Hacemos una copia del src de pro por si acaso
 ```sh
-	cp -r /opt/odoo/odoo160/src /opt/odoo/odoo160/src_backup
+mv /opt/odoo/odoo160/src /opt/odoo/odoo160/src_backup
 ```
 3. Ponemos el `src` de DEV en PRO
 ```sh
-	cp -r /opt/odoo/odoo160dev/src /opt/odoo/odoo160/
+cp -r /opt/odoo/odoo160dev/src /opt/odoo/odoo160/
+```
+4. Activamos el venv
+```sh
+source venv/bin/activate
 ```
 4. Actualizamos la BBDD de PRO con Update ALL
 ```sh

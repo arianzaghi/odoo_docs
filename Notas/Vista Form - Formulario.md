@@ -35,6 +35,24 @@ ___
 ```
 
 ## Ejemplos Herencias
+### Res Partner Contacto
+
+#### Campo debajo de direccion entrega
+![[Pasted image 20250508125251.png]]
+
+```xml
+<xpath expr="//group[//field[@name='vat']]" position="before">  
+    <group>  
+        <field name="pnt_christmas_review"  
+               invisible="company_type != 'company'"/>  
+        <field name="pnt_christmas_shipping"  
+               invisible="not pnt_christmas_review"/>  
+        <field name="pnt_christmas_shipping_type"  
+               invisible="type != 'christmas'"  
+               required="type == 'christmas'"/>  
+    </group>  
+</xpath>
+```
 
 ### Sale Order Form
 ### Purchase Order Form
