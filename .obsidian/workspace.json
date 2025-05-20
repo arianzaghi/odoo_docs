@@ -23,13 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Dev-tools.md",
+                "file": "Notas/Wizards.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dev-tools"
+              "title": "Wizards"
             }
           },
           {
@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Adjuntar pdf a informe.md",
+                "file": "Notas/Menu Item Hijo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Adjuntar pdf a informe"
+              "title": "Menu Item Hijo"
             }
           },
           {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Adjuntar pdf a informe.md",
+                "file": "Notas/Wizards.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,12 +206,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8085448422543987,
+                  "scale": 0.33258870651083056,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Adjuntar pdf a informe"
+              "title": "Graph of Wizards"
             }
           },
           {
@@ -249,7 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 671.5
+    "width": 664.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,8 +264,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11f69cbed0b5a26a",
+  "active": "28a4e3b51be61771",
   "lastOpenFiles": [
+    "Notas/Wizard impresion timesheet informe empleados.md",
+    "Notas/Wizards.md",
+    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
+    "Notas/Odoo Modelos.md",
+    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
+    "Notas/Dev-tools.md",
+    "Notas/Menu Item Hijo.md",
+    "Notas/Menu Item.md",
+    "Notas/031 - Elementos de Interfaz.md",
+    "Notas/030 - Vistas.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/050 - Security.md",
+    "Notas/Fichero Security Access CSV.md",
+    "Notas/ver informe sin imprimir.md",
+    "Notas/Adjuntar pdf a informe.md",
     "Notas/Pedido de Venta (PV).md",
     "Notas/Lista de informes XML.md",
     "Notas/025 - Informes XML.md",
@@ -277,23 +292,8 @@
     "Notas/Buscar grupos de permisos.md",
     "Notas/Modificaciones comunes Informes XML.md",
     "Notas/020 - Informes.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/050 - Security.md",
-    "Notas/Fichero Security Access CSV.md",
-    "Notas/PV Tabla totales.md",
-    "Notas/Palacio_HU_HU60709 - Imprimir varios PV en un solo informe con una cabecera.md",
-    "Notas/Cambiar coleccion que itera el foreach de PV.md",
-    "Notas/Escapar comillas dentro de un xpath.md",
     "Pasted image 20250513092131.png",
     "Pasted image 20250513092124.png",
-    "Notas/Campo horario, Float como Hora y Minutos.md",
-    "Notas/Heredar xpath un elemento que no tiene identificador pero tiene hijos.md",
-    "Notas/Pycharm.md",
-    "Notas/Ruff en lugar de Black.md",
-    "Notas/Dev-tools.md",
-    "Notas/abrir linea de listado tree one2many.md",
-    "Notas/Heredar formulario registro odoo.md",
-    "Notas/Downgradear copilot volver version anterior.md",
     "Pasted image 20250512122805.png",
     "Pasted image 20250508125251.png",
     "Pasted image 20250429112616.png",
