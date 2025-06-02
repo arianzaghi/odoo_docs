@@ -23,13 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Lotes en lineas de factura.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Wizards"
+              "title": "Lotes en lineas de factura"
             }
           },
           {
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Wizards.md",
+                "file": "Notas/Lotes en lineas de factura.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,12 +206,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.33258870651083056,
+                  "scale": 0.051491389424364015,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Wizards"
+              "title": "Graph of Lotes en lineas de factura"
             }
           },
           {
@@ -249,7 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 664.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,10 +264,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "28a4e3b51be61771",
+  "active": "7393e5dbb63dc031",
   "lastOpenFiles": [
-    "Notas/Wizard impresion timesheet informe empleados.md",
+    "Notas/Mostrar datos bancarios de la compañía.md",
+    "Notas/Lotes en lineas de factura.md",
+    "Pasted image 20250602130513.png",
+    "Notas/Factura (FRA).md",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/Pedido de Compra (PC).md",
+    "Notas/ver informe sin imprimir.md",
+    "Notas/Albaran (ALB).md",
+    "Notas/Lista de informes XML.md",
+    "Notas/025 - Informes XML.md",
+    "Notas/020 - Informes.md",
+    "Notas/stock.picking.md",
+    "Notas/Informe Telemira BORRAR.md",
+    "Notas/product.product.md",
+    "Notas/product.md",
+    "Notas/Informe SQL Para vista pivot o tree (como sale_report).md",
+    "Notas/Fichero Security Access CSV.md",
+    "Notas/050 - Security.md",
     "Notas/Wizards.md",
+    "Notas/Wizard impresion timesheet informe empleados.md",
     "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
     "Notas/Odoo Modelos.md",
     "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
@@ -275,23 +293,6 @@
     "Notas/Menu Item Hijo.md",
     "Notas/Menu Item.md",
     "Notas/031 - Elementos de Interfaz.md",
-    "Notas/030 - Vistas.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/050 - Security.md",
-    "Notas/Fichero Security Access CSV.md",
-    "Notas/ver informe sin imprimir.md",
-    "Notas/Adjuntar pdf a informe.md",
-    "Notas/Pedido de Venta (PV).md",
-    "Notas/Lista de informes XML.md",
-    "Notas/025 - Informes XML.md",
-    "Notas/Estructura informes.md",
-    "Notas/Template de Invocación.md",
-    "Notas/Report Action - Botón impresión.md",
-    "Notas/Limitar visualizacion a un campo a miembros de un  grupo.md",
-    "Notas/Grupos de permisos.md",
-    "Notas/Buscar grupos de permisos.md",
-    "Notas/Modificaciones comunes Informes XML.md",
-    "Notas/020 - Informes.md",
     "Pasted image 20250513092131.png",
     "Pasted image 20250513092124.png",
     "Pasted image 20250512122805.png",
@@ -301,7 +302,6 @@
     "Pasted image 20250129153000.png",
     "Pasted image 20250127090142.png",
     "Pasted image 20250127090133.png",
-    "Pasted image 20250103133127.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

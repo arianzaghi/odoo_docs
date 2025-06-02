@@ -9,12 +9,16 @@ ___
 # Factura (FRA)
 
 > `/opt/sources/odoo170/src/core/addons/account/views/report_invoice.xml`
+
+```xml
+<template id="report_invoice_document">
+```
 ## `report_invoice.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <odoo>  
-    <template id="pnt_report_invoice_document"  
-              inherit_id="account.report_invoice_document">
+    <template id="pnt_report_invoice_document"
+		  inherit_id="account.report_invoice_document">
     </template>
 </odoo>
 ```
