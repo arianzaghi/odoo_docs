@@ -3,7 +3,7 @@
 
 Tags: 
 Status: 
-Related: 
+Related: [[Pedido de Venta (PV)]]
 
 ___
 
@@ -35,25 +35,24 @@ class ResCompany(models.Model):
 ```
 
 ```xml
-    <xpath expr="//div[p[@id='fiscal_position_remark']]" position="after">  
-        <div name="first_row"  
-             style="font-size: 10pt"  
-             class="text-justify float-start">  
-            <div>  
-                OUR BANK DATA FOR TRANSFER PAYMENT  
-            </div>  
-            <div class="row">  
-                <div class="col-12">  
-                    <strong>ENTITY:</strong>  
-                    <span t-esc="doc.company_id.get_bank_info()"/>  
-                    <strong t-translation="off">IBAN:</strong>  
-                    <span t-esc="doc.company_id.get_bank_iban()"/>  
-                    <strong>-</strong>  
-                    <strong>SWIFT/CODE:</strong>  
-                    <span t-esc="doc.company_id.get_bank_swift()"/>  
-                </div>  
-            </div>  
-        </div>  
-    </xpath>  
-</template>
+<xpath expr="//div[p[@id='fiscal_position_remark']]" position="after">  
+	<div name="first_row"  
+		 style="font-size: 10pt"  
+		 class="text-justify float-start">  
+		<div>  
+			OUR BANK DATA FOR TRANSFER PAYMENT  
+		</div>  
+		<div class="row">  
+			<div class="col-12">  
+				<strong>ENTITY:</strong>  
+				<span t-esc="doc.company_id.get_bank_info()"/>  
+				<strong t-translation="off">IBAN:</strong>  
+				<span t-esc="doc.company_id.get_bank_iban()"/>  
+				<strong>-</strong>  
+				<strong>SWIFT/CODE:</strong>  
+				<span t-esc="doc.company_id.get_bank_swift()"/>  
+			</div>  
+		</div>  
+	</div>  
+</xpath>  
 ```

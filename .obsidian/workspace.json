@@ -23,13 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Lotes en lineas de factura.md",
+                "file": "Notas/Hooks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lotes en lineas de factura"
+              "title": "Hooks"
             }
           },
           {
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.5124969482422,
-    "collapsed": true
+    "width": 531.5124969482422
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -183,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Lotes en lineas de factura.md",
+                "file": "Notas/Ocultar campo del core en informe.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,12 +205,12 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.051491389424364015,
+                  "scale": 0.8797786614928444,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Lotes en lineas de factura"
+              "title": "Graph of Ocultar campo del core en informe"
             }
           },
           {
@@ -249,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,11 +266,20 @@
   },
   "active": "7393e5dbb63dc031",
   "lastOpenFiles": [
+    "Notas/Quitar ID o Codigo de producto en factura.md",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/Heredar de un xpath con un xpath desde otro template.md",
+    "Notas/HS Code - Codigo SA.md",
+    "Notas/Vista Form - Formulario.md",
+    "Notas/product.template.md",
+    "Notas/Tipos de campos.md",
+    "Notas/Campos.md",
+    "Notas/Factura (FRA).md",
     "Notas/Mostrar datos bancarios de la compañía.md",
+    "Notas/Pedido de Venta (PV).md",
+    "Notas/Traducir campo del core.md",
     "Notas/Lotes en lineas de factura.md",
     "Pasted image 20250602130513.png",
-    "Notas/Factura (FRA).md",
-    "Notas/Ocultar campo del core en informe.md",
     "Notas/Pedido de Compra (PC).md",
     "Notas/ver informe sin imprimir.md",
     "Notas/Albaran (ALB).md",
@@ -284,15 +293,6 @@
     "Notas/Informe SQL Para vista pivot o tree (como sale_report).md",
     "Notas/Fichero Security Access CSV.md",
     "Notas/050 - Security.md",
-    "Notas/Wizards.md",
-    "Notas/Wizard impresion timesheet informe empleados.md",
-    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Dev-tools.md",
-    "Notas/Menu Item Hijo.md",
-    "Notas/Menu Item.md",
-    "Notas/031 - Elementos de Interfaz.md",
     "Pasted image 20250513092131.png",
     "Pasted image 20250513092124.png",
     "Pasted image 20250512122805.png",
