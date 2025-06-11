@@ -83,3 +83,9 @@ python3 /opt/odoo/odoo160/src/core/odoo-bin -c /opt/odoo/odoo{{version}}{{modo}}
 > [!DANGER] IMPORTANTE
 > Si el cliente NO USA DOCKER, tenemos que cambiar a la rama de PRO
 > `src>addons_custom>git checkout 16.0 (main)`
+
+
+
+Al realizar un update all tuve un problema con una traducción de la OCA y lo tuve que solucionar lanzando:
+
+pip install --upgrade openupgradelib

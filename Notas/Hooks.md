@@ -120,3 +120,22 @@ def post_load_hook():
 #### EN v17
 > ![[Pasted image 20240909165318.png]]
 > Se pone la clase.método = nuevo_método
+> 
+> 
+> 
+> Hook para reemplazar método de la OCA. Se aplica a varios clientes
+> 
+> [[https://github.com/puntsistemes/towerdigital_odoo/pull/35]]
+> 
+> Se importa el módulo de la OCA (account_invoice_report_grouped_by_picking) y el modelo afectado (account_move)
+> 
+> ![[Pasted image 20250611124238.png]]
+
+
+Luego construyes todo el código que necesitas y luego al final llamas al método nuevamente:
+
+![[Pasted image 20250611124255.png]]
+
+Con respecto a la estructura el manifest depende del módulo de la OCA afectado (account_invoice_report_grouped_by_picking) y el hooks.py se coloca sobre el mismo módulo (no va dentro de models ni nada)
+
+![[Pasted image 20250611124453.png]]
