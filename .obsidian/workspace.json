@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Update ALL.md",
+                "file": "Notas/070 - Testing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Update ALL"
+              "title": "070 - Testing"
+            }
+          },
+          {
+            "id": "09e4a86c0e865bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Test V18.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Test V18"
             }
           }
         ]
@@ -141,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Update ALL.md",
+                "file": "Notas/070 - Testing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -169,7 +184,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Update ALL"
+              "title": "Gráfico de 070 - Testing"
             }
           },
           {
@@ -224,13 +239,15 @@
   },
   "active": "0a11e862790aaa36",
   "lastOpenFiles": [
+    "Notas/Test V18.md",
+    "Notas/070 - Testing.md",
+    "Notas/Update ALL.md",
     "Notas/Hooks.md",
     "Pasted image 20250611124453.png",
     "Pasted image 20250611124255.png",
     "Pasted image 20250611124238.png",
     "Pasted image 20250602130513.png",
     "Notas/Informe Telemira BORRAR.md",
-    "Notas/Update ALL.md",
     "Notas/Escapar comillas dentro de un xpath.md",
     "Notas/Heredar xpath un elemento que no tiene identificador pero tiene hijos.md",
     "Notas/Menu Item Hijo.md",
@@ -258,7 +275,6 @@
     "Notas/Pedido de Venta (PV).md",
     "Notas/Lista de informes XML.md",
     "Notas/025 - Informes XML.md",
-    "Notas/Estructura informes.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",
