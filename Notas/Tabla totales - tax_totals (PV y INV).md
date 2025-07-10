@@ -16,6 +16,10 @@ ___
 > - Es un diccionario de valores
 > - Este es un campo de tipo compute que llama a `_prepare_tax_totals` en `account.tax`
 
+### `Tabla totales`
+```xml
+<template id="stock_account_report_invoice_document" inherit_id="account.report_invoice_document">
+```
 ### `sale.order`
 ```python
 @api.depends_context('lang')  
@@ -59,4 +63,19 @@ def _get_grouped_tax_totals(self, orders):
         <t t-set="tax_totals" t-value="doc.tax_totals"/>  
     </t>
 </xpath>
+```
+
+### Modificar decimales en Cantidad
+
+![[Pasted image 20250613084307.png]]
+
+```xml
+<!-- Poner a 0 decimales de la tabla de lotes y numeros de serie -->  
+<template id="pnt_stock_account_report_invoice_document" inherit_id="account.report_invoice_document">  
+    <t t-esc="snln_line['quantity']" position="attributes">
+	    <!-- Quitamos , y pasamos a float -->  
+        <attribute name="t-esc">float(snln_line['quantity'].replace(',', '.'))</attribute>  
+        <attribute name="t-options">{'widget': 'float', 'precision': 0}</attribute>  
+    </t>  
+</template>
 ```

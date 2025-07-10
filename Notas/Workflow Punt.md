@@ -8,6 +8,4 @@ ___
 
 # Workflow Punt
 
-## [[Dev-tools]]
-## [[080 - BBDD]]
 ## [[Git-flow]]

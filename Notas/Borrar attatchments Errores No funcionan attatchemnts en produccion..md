@@ -15,6 +15,20 @@ ___
 3. Ejecutamos el la siguiente orden en la bbdd que nos falla
 
 
+## Desde Odoo Shell
+
+```sh
+self.env['ir.attachment'].search([('url','ilike','%.js')])
+self.env['ir.attachment'].search([('url','ilike','%.js')]).unlink()
+
+self.env['ir.attachment'].search([('url','ilike','%.cs')])
+self.env['ir.attachment'].search([('url','ilike','%.cs')]).unlink()
+
+self.env.cr.commit()
+exit()
+```
+## Desde SQL
+
 `psql -p 5433 DEV`
 ```sh
 DELETE FROM ir_attachment  

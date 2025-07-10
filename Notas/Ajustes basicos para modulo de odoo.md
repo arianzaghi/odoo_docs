@@ -1,4 +1,4 @@
-> [[Ajustes de odoo]]
+> [[Añadir ajustes para módulo odoo]]
 
 Tags: 
 Status: 

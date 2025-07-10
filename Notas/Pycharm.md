@@ -1,4 +1,4 @@
-> [[Dev-tools]]
+> [[100 - Dev-tools]]
 
 Tags: 
 Status: 
@@ -9,3 +9,4 @@ ___
 # Pycharm
 
 [[Ruff en lugar de Black]]
+[[Downgradear copilot volver version anterior]]

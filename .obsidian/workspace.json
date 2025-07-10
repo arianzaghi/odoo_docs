@@ -4,40 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "7062938cc212201b",
+        "id": "9324e9dfaa88c61f",
         "type": "tabs",
         "children": [
           {
-            "id": "0a11e862790aaa36",
+            "id": "bcd363cac05d6620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/070 - Testing.md",
+                "file": "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "070 - Testing"
-            }
-          },
-          {
-            "id": "09e4a86c0e865bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Test V18.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Test V18"
+              "title": "Borrar attatchments Errores No funcionan attatchemnts en produccion."
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -60,7 +46,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -69,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "show_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,11 +76,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 531.5124969482422
+    "width": 531.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "881456f7e6e23634",
@@ -156,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/070 - Testing.md",
+                "file": "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -171,20 +159,35 @@
                   "colorGroups": [],
                   "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": -2.2,
+                  "textFadeMultiplier": -1.8,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": false,
-                  "centerStrength": 0.483858998144712,
-                  "repelStrength": 20,
+                  "centerStrength": 0,
+                  "repelStrength": 10.4657651856622,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.33258870651083056,
+                  "scale": 0.7478571855741428,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de 070 - Testing"
+              "title": "Graph of Borrar attatchments Errores No funcionan attatchemnts en produccion."
+            }
+          },
+          {
+            "id": "13245a91c7766399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/Cardyfren v12.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cardyfren v12"
             }
           },
           {
@@ -208,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas/Pedido de Compra (PC).md",
+                "file": "Notas/Migraciones.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pedido de Compra (PC)"
+              "title": "Outline of Migraciones"
             }
           }
         ],
@@ -222,59 +225,62 @@
       }
     ],
     "direction": "horizontal",
-    "width": 664.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "remotely-save:Remotely Save": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0a11e862790aaa36",
+  "active": "bcd363cac05d6620",
   "lastOpenFiles": [
-    "Notas/Test V18.md",
-    "Notas/070 - Testing.md",
-    "Notas/Update ALL.md",
-    "Notas/Hooks.md",
+    "Notas/abrir shell de odoo.md",
+    "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
+    "Notas/Error attatchments. Informes sin formato (CSS).md",
+    "Notas/Cardyfren v12.md",
+    "Notas/Migraciones.md",
+    "Notas/Restaurar BBDD de PRO a DEV.md",
+    "Notas/010 - Odoo HOME.md",
+    "Notas/Workflow Punt.md",
+    "Notas/100 - Dev-tools.md",
+    "Notas/git_update.sh.md",
+    "Notas/Repositorio dev-tools MOC.md",
+    "Notas/Pycharm.md",
+    "Notas/Downgradear copilot volver version anterior.md",
+    "Notas/059 - Configuracion y Estructura.md",
+    "Notas/Añadir ajustes para módulo odoo.md",
+    "Notas/Ajustes de odoo.md",
+    "Notas/Ajustes basicos para modulo de odoo.md",
+    "Notas/mapped().md",
+    "Notas/045 - Miscelaneo.md",
+    "Notas/Inicio de sesion odoo.md",
+    "Notas/Git-flow.md",
+    "Back.md",
+    "Notas/Base imponible - traducciones.md",
+    "Notas/Ver peticiones que se mandan a odoo desde el navegador.md",
+    "Notas/Ajustar peticiones.md",
+    "Notas/Error arrancar FluidThermal FTM.md",
+    "Pasted image 20250709141443.png",
     "Pasted image 20250611124453.png",
     "Pasted image 20250611124255.png",
     "Pasted image 20250611124238.png",
-    "Pasted image 20250602130513.png",
-    "Notas/Informe Telemira BORRAR.md",
-    "Notas/Escapar comillas dentro de un xpath.md",
-    "Notas/Heredar xpath un elemento que no tiene identificador pero tiene hijos.md",
-    "Notas/Menu Item Hijo.md",
-    "Pasted image 20250611123353.png",
-    "Pasted image 20250611123220.png",
-    "Pasted image 20250611123136.png",
-    "Pasted image 20250611123121.png",
-    "Pasted image 20250611123115.png",
-    "Pasted image 20250611123055.png",
-    "Notas/Heredar formulario registro odoo.md",
-    "Notas/Wizards.md",
-    "Notas/Wizard impresion timesheet informe empleados.md",
-    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-    "Notas/Odoo Modelos.md",
-    "Notas/Wizard Impresion Etiqueta Rellenando Campos.md",
-    "Notas/Dev-tools.md",
-    "Notas/Menu Item.md",
-    "Notas/031 - Elementos de Interfaz.md",
-    "Notas/030 - Vistas.md",
-    "Notas/010 - Odoo HOME.md",
-    "Notas/050 - Security.md",
-    "Notas/Fichero Security Access CSV.md",
-    "Notas/ver informe sin imprimir.md",
-    "Notas/Adjuntar pdf a informe.md",
-    "Notas/Pedido de Venta (PV).md",
-    "Notas/Lista de informes XML.md",
-    "Notas/025 - Informes XML.md",
+    "Pasted image 20250613084307.png",
+    "Pasted image 20250612104930.png",
+    "Pasted image 20250612104918.png",
+    "Pasted image 20250612104823.png",
+    "Pasted image 20250612104539.png",
+    "Pasted image 20250612104506.png",
+    "web/image/737500-5b5c367d",
+    "web/image",
+    "web",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ocultar ",

@@ -13,6 +13,7 @@ localhost:8069/report/pdf/{{report_file}}/{{id}}
 
 # Compra
 localhost:8069/report/pdf/report_pnt.pnt_report_purchase_order/18,17,16
+http://localhost:8069/es/report/pdf/purchase.report_purchaseorder/1
 # Venta
 http://localhost:8069/report/pdf/sale.report_saleorder/8
 # Albaran

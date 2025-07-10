@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Informe SQL Para vista pivot o tree (como sale_report)]]
 
 Tags: 
 Status: 

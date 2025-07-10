@@ -17,3 +17,5 @@ ___
 [[Mostrar datos bancarios de la compañía]]
 [[Imagen en informe]]
 [[Pasar contexto a informe]]
+[[Modos pago, metodos pago, datos bancarios]]
+[[Plazo pago, modo pago, datos bancarios informes]]

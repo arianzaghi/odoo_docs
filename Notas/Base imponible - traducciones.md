@@ -1,4 +1,4 @@
-> [[Back]]
+> [[Odoo Traducciones]]
 
 Tags: 
 Status: 

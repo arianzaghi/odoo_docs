@@ -30,6 +30,9 @@ time (createdb -p {{puerto_dev}} {{BBDD_DEV}}) && time (pg_dump -p {{puerto_pro}
 time (createdb -p 5433 DEV) && time (pg_dump -p 5432 -Fc -Z4 -Od PRO | pg_restore -p 5433 -Od DEV)
 ```
 
+```sh
+docker container exec -i odoo170dev_postgres pg_dump -U odoo -Fc -Z3 -O -d DEV > /opt/odoo/odoo180dev/DEV.dump
+```
 ## Configurar Nueva BBDD Dev
 Después de clonar la bbdd de pro a dev, necesitamos ejecutar en `DEV` lo siguiente
 
@@ -51,8 +54,8 @@ SET client_min_messages TO WARNING;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
-('report.url', 'http://127.0.0.1:8070'),
-('web.base.url', 'https://meysser-dev.odoo.puntsistemes.cloud/:8070'),
+('report.url', 'http://nginx:50001'),
+('web.base.url', 'http://localhost:8069'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -89,6 +92,10 @@ Esto lo encontramos en el conf del servidor.
 #Som Energia
 ('report.url', 'http://127.0.0.1:62001'),
 ('web.base.url', 'https://odoocifdev.somenergia.coop/:62001'),
+
+#Ezedichi
+('report.url', 'https://ezedichi-dev.puntsistemes.cloud/'),
+('web.base.url', 'https://ezedichi-dev.puntsistemes.cloud/'),
 ```
 
 

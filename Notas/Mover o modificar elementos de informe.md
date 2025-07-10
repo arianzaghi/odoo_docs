@@ -16,3 +16,4 @@ ___
 [[Importar hoja de estilos en xml]]
 [[Formatear decimales en unidades reporte]]
 [[Modificar cabecera de informes]]
+[[Mostrar solo descripcion producto, no nombre]]

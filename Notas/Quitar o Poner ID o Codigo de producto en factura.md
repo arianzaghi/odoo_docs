@@ -22,3 +22,5 @@ product_id.name
 ```xml
 name
 ```
+
+https://github.com/puntsistemes/labotronic_odoo/pull/13

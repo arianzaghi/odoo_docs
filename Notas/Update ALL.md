@@ -17,6 +17,7 @@ ___
 > **PRO TIP:** Cuando `DEV` esté ok, clonamos el `src` en `PRO` para tener exactamente el mismo commit de git
 > y evitamos que si ha pasado mucho tiempo entre los dos update all, no haya commits entre medio.
 
+## [[Update ALL en Docker]]
 ## Update ALL en DEV
 
 > Como usuario `odoo`

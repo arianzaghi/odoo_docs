@@ -1,14 +1,15 @@
-> [[Ajustes de odoo]]
+> [[Back]]
 
 Tags: 
 Status: 
-Related: [[Redirect App]]
+Related: [[Redirect App]], [[Ajustes basicos para modulo de odoo]]
 
 ___
 
 # Añadir ajustes para módulo odoo
-> Configuraciones dentro de Ajustes para el modulo `Redirect App`
+> Los ajustes de odoo nos permiten añadir configuraciones y parametrizaciones desde los apartados de cada modelo de odoo.
 
+![[Pasted image 20241126114706.png]]
 ![[Pasted image 20240715110215.png]]
 
 ## Esquema de ficheros

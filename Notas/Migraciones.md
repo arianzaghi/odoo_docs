@@ -1,4 +1,4 @@
-> [[Back]]
+> [[010 - Odoo HOME]]
 
 Tags: 
 Status: 
@@ -34,7 +34,7 @@ cd && sources .bash_aliases
 	6. Clonamos `bbdd` de `PRO`
 	7. Arrancamos odoo haciendo `update all`
 ```sh
--c /opt/sources/odoo130/conf/dilesa.conf -d DILESA_PRO -u all --i18n-overwrite --no-xmlrpc -stop-after-init
+-c /opt/sources/odoo130/conf/dilesa.conf -d DILESA_PRO -u all --i18n-overwrite --no-xmlrpc --stop-after-init
 ```
 
 ### 3. Hacemos un listado de los modulos que no son de odoo
@@ -71,6 +71,7 @@ DILESA_PRO_test_15.0_2025_03_24_08_58
 python3 <(curl -s https://upgrade.odoo.com/upgrade) test -j $(nproc) -d DILESA_PRO -t 14.0
 ```
 
+## [[Cardyfren v12]]
 ## Dilesa v13 a v15
 > M21120333632356
 

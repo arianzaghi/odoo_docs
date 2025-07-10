@@ -10,6 +10,8 @@ ___
 
 Este documento detalla la funcionalidad de una aplicación en Odoo para la gestión de las asistencias, el registro de horas extra solicitadas por los empleados, y la revisión de dichas solicitudes por parte de los aprobadores. Cada modelo se describe con sus funcionalidades específicas y su implementación.
 
+[[Descripción de Campos en PntExtraHourCalc]]
+[[Descripción de Campos en PntExtraHourCalc con formula]]
 
 **TO DO**
 - [x] Eliminar boton create de **Petitions**
