@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
+                "file": "Notas/Restaurar BBDD de PRO a DEV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Borrar attatchments Errores No funcionan attatchemnts en produccion."
+              "title": "Restaurar BBDD de PRO a DEV"
             }
           }
         ],
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
+                "file": "Notas/Restaurar BBDD de PRO a DEV.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Borrar attatchments Errores No funcionan attatchemnts en produccion."
+              "title": "Graph of Restaurar BBDD de PRO a DEV"
             }
           },
           {
@@ -225,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 964.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,7 +242,19 @@
   },
   "active": "bcd363cac05d6620",
   "lastOpenFiles": [
+    "Notas/regenerar js en odoo.md",
     "Notas/abrir shell de odoo.md",
+    "Notas/Informe SQL Para vista pivot o tree (como sale_report).md",
+    "Notas/Añadir campo vista pivot.md",
+    "Notas/Modelo intermedio para ver medidas como filas en pivot.md",
+    "Notas/Añadir vista pivot.md",
+    "Notas/Crear una pivot desde python a traves de consultas SQL.md",
+    "Excalidraw/Pivot intermedia.md",
+    "Notas/Inicio de sesion odoo.md",
+    "Notas/Pedido de Compra (PC).md",
+    "Notas/Filtros dinámicos Search View.md",
+    "Notas/Search View.md",
+    "Notas/Group By Search View.md",
     "Notas/Borrar attatchments Errores No funcionan attatchemnts en produccion..md",
     "Notas/Error attatchments. Informes sin formato (CSS).md",
     "Notas/Cardyfren v12.md",
@@ -256,18 +268,6 @@
     "Notas/Pycharm.md",
     "Notas/Downgradear copilot volver version anterior.md",
     "Notas/059 - Configuracion y Estructura.md",
-    "Notas/Añadir ajustes para módulo odoo.md",
-    "Notas/Ajustes de odoo.md",
-    "Notas/Ajustes basicos para modulo de odoo.md",
-    "Notas/mapped().md",
-    "Notas/045 - Miscelaneo.md",
-    "Notas/Inicio de sesion odoo.md",
-    "Notas/Git-flow.md",
-    "Back.md",
-    "Notas/Base imponible - traducciones.md",
-    "Notas/Ver peticiones que se mandan a odoo desde el navegador.md",
-    "Notas/Ajustar peticiones.md",
-    "Notas/Error arrancar FluidThermal FTM.md",
     "Pasted image 20250709141443.png",
     "Pasted image 20250611124453.png",
     "Pasted image 20250611124255.png",
