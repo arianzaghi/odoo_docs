@@ -6,7 +6,31 @@ Related:
 
 ___
 
-# Restaurar BBDD PRO a DEV
+# Con Docker
+
+1. Extraer BBDD de PRO
+```sh
+docker container exec -i odoo180_postgres pg_dump -U odoo -Fc -Z3 -O -d PRO > /opt/odoo/odoo180/PRO.dump
+```
+2. Borrar bbdd DEV
+```sh
+docker container exec -i odoo180dev_postgres dropdb -U odoo DEV
+```
+3. Crear bbdd vacia en DEV
+```sh
+docker container exec -i odoo180dev_postgres createdb -U odoo DEV
+```
+3. Restaurar BBDD de PRO a DEV
+```sh
+docker container exec -i odoo180dev_postgres pg_restore -U odoo -O -d DEV < /opt/odoo/odoo180/PRO.dump
+```
+4. Attatchments
+```sh
+docker exec -it odoo180dev_postgres /bin/bash
+psql -U odoo -d DEV
+# Modificaciones psql
+```
+# Sin Docker - PRO a DEV
 
 ## Clonar Pro en Dev
 
@@ -29,10 +53,6 @@ time (createdb -p {{puerto_dev}} {{BBDD_DEV}}) && time (pg_dump -p {{puerto_pro}
 ```bash
 time (createdb -p 5433 DEV) && time (pg_dump -p 5432 -Fc -Z4 -Od PRO | pg_restore -p 5433 -Od DEV)
 ```
-
-```sh
-docker container exec -i odoo170dev_postgres pg_dump -U odoo -Fc -Z3 -O -d DEV > /opt/odoo/odoo180dev/DEV.dump
-```
 ## Configurar Nueva BBDD Dev
 Después de clonar la bbdd de pro a dev, necesitamos ejecutar en `DEV` lo siguiente
 
@@ -54,8 +74,8 @@ SET client_min_messages TO WARNING;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 INSERT INTO "ir_config_parameter" ("key", "value")
 VALUES
-('report.url', 'http://nginx:50001'),
-('web.base.url', 'http://localhost:8069'),
+('report.url', 'https://ezedichi-dev.puntsistemes.cloud/'),
+('web.base.url', 'https://ezedichi-dev.puntsistemes.cloud/'),
 ('database.uuid', uuid_generate_v1()),
 ('database.secret', uuid_generate_v4())
 ON CONFLICT ("key") DO
@@ -65,6 +85,10 @@ DELETE FROM ir_config_parameter WHERE key IN ('database.enterprise_code', 'odoo_
 
 Esto lo encontramos en el conf del servidor.
 ```sql
+# General
+('report.url', 'http://nginx:50001'),
+('web.base.url', 'http://localhost:8069'),
+
 # Educonsul
 ('report.url', 'http://127.0.0.1:8070'),
 ('web.base.url', 'http://odoo-dev.sek.net/:8070'),

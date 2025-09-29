@@ -33,7 +33,3 @@ ___
 ### [[Palacio_HU59928 - Wizard Actualizar IPC en tarifas]]
 ## Ejemplo de wizard Classic
 
-
-```python
-a = 3
-```

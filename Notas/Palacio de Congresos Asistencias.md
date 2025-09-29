@@ -9,6 +9,7 @@ ___
 # Palacio de Congresos
 
 > [[Ajustar peticiones]]
+> [[Imagenes Palacio]]
 
 ## 1. Tabla con horarios de nocturnidad ✅
 > Modelo mantenimiento que registra el inicio y fin del horario nocturno.

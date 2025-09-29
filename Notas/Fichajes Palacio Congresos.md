@@ -13,6 +13,8 @@ Este documento detalla la funcionalidad de una aplicación en Odoo para la gesti
 [[Descripción de Campos en PntExtraHourCalc]]
 [[Descripción de Campos en PntExtraHourCalc con formula]]
 
+[[Documentacion Completa Palacio]]
+
 **TO DO**
 - [x] Eliminar boton create de **Petitions**
 - [x] Arreglar vista de asistencias

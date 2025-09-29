@@ -7,6 +7,7 @@ Related:
 ___
 
 # read_groups
+## [[Campos % porcentaje en agrupaciones de pivot y list modificando read_group]]
 
 https://github.com/puntsistemes/wasterent_odoo/blob/14.0/report_pnt/models/account_move.py
 
