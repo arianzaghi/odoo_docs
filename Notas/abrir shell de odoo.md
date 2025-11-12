@@ -1,4 +1,4 @@
-> [[090  - Servidor gestion]]
+an be > [[090  - Servidor gestion]]
 
 Tags: 
 Status: 
@@ -10,6 +10,8 @@ ___
 
 ## En producción
 ```bash
+# Palacio
+/opt/odoo/odoo170/src/core/odoo-bin shell -c /opt/odoo/odoo170/conf/palacio.conf -d PRO --xmlrpc-port 9090
 # Rankia
 /opt/odoo/odoo170/src/core/odoo-bin shell -c /opt/odoo/odoo170/conf/rankia.conf -d PRO --xmlrpc-port 9090
 # Meysser

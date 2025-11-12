@@ -37,6 +37,17 @@ ___
 </template>
 ```
 
+## Eliminar columna impuestos
+
+```xml
+<!-- Eliminar columna Impuestos -->  
+<th name="th_taxes" position="attributes">  
+    <attribute name="t-if" add="False" separator=" and "/>  
+</th>  
+<td name="td_taxes" position="attributes">  
+    <attribute name="t-if" add="False" separator=" and "/>  
+</td>
+```
 ## Modo Pago, Plazo Pago y datos bancarios
 
 ```xml

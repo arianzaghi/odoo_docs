@@ -6,8 +6,19 @@ Related:
 
 ___
 
-# No funcionan attatchemnts en produccion
+> [!WARNING] AVISO
+> A veces hay que borrar ir.asset tambien
+> ```
+DELETE FROM ir_asset  
+WHERE (path LIKE '%.js%' OR path LIKE '%.%css%' OR path LIKE '%.xml%')  
+  AND id NOT IN (  
+      SELECT res_id  
+      FROM ir_model_data  
+      WHERE model = 'ir.asset'  
+  );
+> ```
 
+# No funcionan attatchemnts en produccion
 > No cargan los attatchments en producción. Después de revisar los logs vemos que no funcionan.
 
 1. Hemos restaurado PRO a DEV

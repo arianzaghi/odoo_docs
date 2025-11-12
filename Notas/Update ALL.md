@@ -54,6 +54,11 @@ source venv/bin/activate
 ```sh
 python3 /opt/odoo/odoo{{version}}{{modo}}/src/core/odoo-bin -c /opt/odoo/odoo{{version}}{{modo}}/conf/odoo{{version}}{{modo}}.conf --stop-after-init --i18n-overwrite '--log level=info' --no-xmlrpc -d {{database_name}} -u all
 ```
+
+```
+python3 /opt/odoo/odoo{{version}}{{modo}}/src/core/odoo-bin -c /opt/odoo/odoo{{version}}{{modo}}/conf/odoo{{version}}{{modo}}.conf --stop-after-init --i18n-overwrite '--log level=info' --no-xmlrpc -d {{database_name}} -u all
+```
+
 ## Update ALL en PRO
 
 > **Recuerda:** Si han pasado varios dias desde el update all de dev, en vez de hacer update all en pro, copiamos el src de dev, ya que puede que hayan habido actualizaciones en ese periodo, entonces si hacemos UPDATE ALL en PRO, no quedarían igual.

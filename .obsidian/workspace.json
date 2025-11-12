@@ -8,37 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29f8451ba594ec32",
+            "id": "4bf73ca40ce0af9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Comprobar unica seleccion por elemento.md",
+                "file": "Notas/Ruff en lugar de Black.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Comprobar unica seleccion por elemento"
-            }
-          },
-          {
-            "id": "de12080b029ef3f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas/Check Bool Unico por elemento muchos campos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Check Bool Unico por elemento muchos campos"
+              "title": "Ruff en lugar de Black"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -159,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notas/Check Bool Unico por elemento muchos campos.md",
+                "file": "Notas/Wizards.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -182,12 +166,12 @@
                   "repelStrength": 10.4657651856622,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.39812061839378415,
+                  "scale": 0.6279425417239644,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Check Bool Unico por elemento muchos campos"
+              "title": "Graph of Wizards"
             }
           },
           {
@@ -240,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 613.5
+    "width": 487.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,14 +241,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "de12080b029ef3f7",
+  "active": "4bf73ca40ce0af9b",
   "lastOpenFiles": [
-    "Notas/Check Bool Unico por elemento muchos campos.md",
-    "Notas/Comprobar unica seleccion por elemento.md",
-    "Notas/Forma.md",
-    "Notas/Campos % porcentaje en agrupaciones de pivot y list modificando read_group.md",
-    "Notas/read_groups.md",
-    "Notas/Debug attendance_pnt Palacio.md",
+    "Notas/Update ALL.md",
+    "Notas/Ruff en lugar de Black.md",
+    "Notas/Palacio HU86494 INFORME ERROR.md",
+    "Notas/Imprimir informe desde varios modelos.md",
+    "Pasted image 20251111142451.png",
+    "Notas/Ocultar campo del core en informe.md",
+    "Notas/ver informe sin imprimir.md",
+    "Notas/Ocultar o Borrar de informe.md",
+    "Notas/Ejemplo Tests.md",
+    "Notas/070 - Testing.md",
+    "Notas/Test V18.md",
+    "Notas/Wizards.md",
+    "Notas/Boton enlace link en lineas tree list para abrir form en pantalla completa.md",
+    "Notas/Fichero Security Access CSV.md",
+    "Notas/050 - Security.md",
+    "Notas/Paperformat.md",
+    "Notas/Formatear fecha reporte.md",
+    "Notas/Pedido de Venta (PV).md",
+    "Notas/sale.order.md",
+    "Notas/Añadir nuevo Report Action (imprimir reporte).md",
+    "Notas/Error attatchments. Informes sin formato (CSS).md",
+    "Notas/Errores.md",
+    "Notas/Impresion de informes.md",
+    "Notas/Errores en informes.md",
+    "Notas/No funciona database_pulls > publickey denied.md",
+    "Notas/abrir shell de odoo.md",
+    "Notas/Ocultar campo producto.md",
+    "Pasted image 20251006130742.png",
+    "Pasted image 20251006130615.png",
     "Pasted image 20250924085458.png",
     "Pasted image 20250924085121.png",
     "Pasted image 20250923172112.png",
@@ -271,29 +279,6 @@
     "Pasted image 20250923171339.png",
     "Pasted image 20250923171110.png",
     "Pasted image 20250923165946.png",
-    "Notas/abrir shell de odoo.md",
-    "Notas/Formatear decimales en unidades reporte.md",
-    "Notas/Modos pago, metodos pago, datos bancarios.md",
-    "Notas/PV Tabla totales.md",
-    "Notas/Tabla totales - tax_totals (PV y INV).md",
-    "Notas/ver informe sin imprimir.md",
-    "Notas/Restaurar BBDD de PRO a DEV.md",
-    "Notas/Formatear fecha reporte.md",
-    "Notas/Ocultar campo del core en informe.md",
-    "Notas/Cambiar de sitio direcciones del ALB.md",
-    "Notas/Paperformat horizontal.md",
-    "Notas/Paperformat.md",
-    "Notas/Ruff en lugar de Black.md",
-    "Notas/Palacio_HU59928 - Wizard Actualizar IPC en tarifas.md",
-    "Notas/Wizards.md",
-    "Notas/050 - Security.md",
-    "Notas/Fichero Security Access CSV.md",
-    "Notas/Boton en cabecera de un tree.md",
-    "Notas/Migraciones.md",
-    "Notas/Cardyfren v12.md",
-    "Pasted image 20250804131734.png",
-    "Pasted image 20250709141443.png",
-    "Pasted image 20250611124453.png",
     "web/image/737500-5b5c367d",
     "web/image",
     "web",

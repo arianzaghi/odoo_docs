@@ -26,7 +26,7 @@ ___
 
 ### bien
 ```xml
-<xpath expr="//div[@t-if='o.picking_type_id.code == &quot;outgoing&quot; and o.carrier_id']/div[@t-if]" position="attributes">  
+<xpath expr="//div[@t-if=&quot;o.picking_type_id.code == 'outgoing' and o.carrier_id&quot;]/div[@t-if]" position="attributes">  
     <attribute name="t-if">o.picking_type_id.code == 'outgoing' or o.carrier_id</attribute>  
 </xpath>
 ```

@@ -263,3 +263,10 @@ def _get_new_picking_values(self):
         vals['note'] = sale_note  
     return vals  
 ```
+
+
+
+### PETICIONES EXTRA FALTANTES
+
+![[Pasted image 20251006130615.png]]
+![[Pasted image 20251006130742.png]]
